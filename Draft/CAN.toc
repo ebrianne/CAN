@@ -12,20 +12,20 @@
 \contentsline {subsection}{\numberline {4.1}Muon Selection}{7}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Electron Selection}{8}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Slope calibration}{8}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Reconstruction of the hit time}{9}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}Reconstruction of the hit time}{10}{subsection.4.4}
 \contentsline {subsection}{\numberline {4.5}Corrections applied to data}{11}{subsection.4.5}
 \contentsline {subsubsection}{\numberline {4.5.1}Ramp linearity correction}{11}{subsubsection.4.5.1}
-\contentsline {subsubsection}{\numberline {4.5.2}Time Walk correction}{11}{subsubsection.4.5.2}
-\contentsline {subsection}{\numberline {4.6}Validation of the calibration}{12}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}Pedestal shift effect}{14}{subsection.4.7}
-\contentsline {subsection}{\numberline {4.8}Comparison with Simulation}{15}{subsection.4.8}
-\contentsline {section}{\numberline {5}Runs \& Event Selection}{16}{section.5}
-\contentsline {subsection}{\numberline {5.1}Pion Selection}{16}{subsection.5.1}
-\contentsline {section}{\numberline {6}Results}{16}{section.6}
-\contentsline {section}{\numberline {7}Summary}{17}{section.7}
-\contentsline {section}{Bibliography}{18}{section.7}
-\contentsline {section}{Appendix}{19}{section.7}
+\contentsline {subsubsection}{\numberline {4.5.2}Time Walk correction}{13}{subsubsection.4.5.2}
+\contentsline {subsection}{\numberline {4.6}Validation of the calibration}{14}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Influence of the number of triggered channels}{15}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Comparison with Simulation}{16}{subsection.4.8}
+\contentsline {section}{\numberline {5}Runs \& Event Selection}{18}{section.5}
+\contentsline {subsection}{\numberline {5.1}Pion Selection}{18}{subsection.5.1}
+\contentsline {section}{\numberline {6}Results}{18}{section.6}
+\contentsline {section}{\numberline {7}Summary}{18}{section.7}
+\contentsline {section}{Bibliography}{19}{section.7}
+\contentsline {section}{Appendix}{20}{section.7}
 \setcounter {tocdepth}{0}
-\contentsline {section}{\numberline {A}Error Estimation of the TDC calibration.}{19}{appendix.A}
-\contentsline {section}{\numberline {B}Pedestal shift study and parametrisation in Monte-Carlo.}{21}{appendix.B}
-\contentsline {section}{\numberline {C}Study of noise on timing.}{22}{appendix.C}
+\contentsline {section}{\numberline {A}Error Estimation of the TDC calibration.}{20}{appendix.A}
+\contentsline {section}{\numberline {B}Pedestal shift study and parametrisation in Monte-Carlo.}{22}{appendix.B}
+\contentsline {section}{\numberline {C}Study of noise on timing.}{23}{appendix.C}

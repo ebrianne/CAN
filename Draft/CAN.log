@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.10)  13 FEB 2017 18:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.10)  13 FEB 2017 19:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1147,10 +1147,13 @@ File: fig/Muons_noCorrections/ResolutionPerModule.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/Muons_noCorrections/ResolutionPerModule.pdf used o
 n input line 281.
 (pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [11 <./fig/T0s/T0_Resolution_6.pdf, page is rotated 90 degrees> <./fig/Extract
 edOffsets.pdf, page is rotated 90 degrees> <./fig/CorrelationOffsets_BXID.pdf, 
 page is rotated 90 degrees>]
-<fig/LinearityCorrection_Module09_Chip146_BXID0.pdf, id=417, 569.12625pt x 409.
+<fig/LinearityCorrection_Module09_Chip146_BXID0.pdf, id=416, 569.12625pt x 409.
 53pt>
 File: fig/LinearityCorrection_Module09_Chip146_BXID0.pdf Graphic file (type pdf
 )
@@ -1159,7 +1162,7 @@ Package pdftex.def Info: fig/LinearityCorrection_Module09_Chip146_BXID0.pdf use
 d on input line 293.
 (pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
-<fig/LinearityCorrection_Module09_Chip146_BXID0_Corrected.pdf, id=418, 569.1262
+<fig/LinearityCorrection_Module09_Chip146_BXID0_Corrected.pdf, id=417, 569.1262
 5pt x 409.53pt>
 File: fig/LinearityCorrection_Module09_Chip146_BXID0_Corrected.pdf Graphic file
  (type pdf)
@@ -1169,14 +1172,14 @@ Package pdftex.def Info: fig/LinearityCorrection_Module09_Chip146_BXID0_Correct
 ed.pdf used on input line 294.
 (pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
-<fig/TimeWalkProfile.pdf, id=420, 569.12625pt x 417.56pt>
+<fig/TimeWalkProfile.pdf, id=419, 569.12625pt x 417.56pt>
 File: fig/TimeWalkProfile.pdf Graphic file (type pdf)
 
 <use fig/TimeWalkProfile.pdf>
 Package pdftex.def Info: fig/TimeWalkProfile.pdf used on input line 305.
 (pdftex.def)             Requested size: 216.24112pt x 158.65532pt.
 
-<fig/TimeWalkProfile_Correction.pdf, id=421, 569.12625pt x 406.51875pt>
+<fig/TimeWalkProfile_Correction.pdf, id=420, 569.12625pt x 406.51875pt>
 File: fig/TimeWalkProfile_Correction.pdf Graphic file (type pdf)
 
 <use fig/TimeWalkProfile_Correction.pdf>
@@ -1184,7 +1187,7 @@ Package pdftex.def Info: fig/TimeWalkProfile_Correction.pdf used on input line
 306.
 (pdftex.def)             Requested size: 216.24112pt x 154.46011pt.
 
-<fig/Muons_AllCorrections/ResolutionPerModule_All.pdf, id=424, 569.12625pt x 32
+<fig/Muons_AllCorrections/ResolutionPerModule_All.pdf, id=423, 569.12625pt x 32
 7.2225pt>
 File: fig/Muons_AllCorrections/ResolutionPerModule_All.pdf Graphic file (type p
 df)
@@ -1193,12 +1196,15 @@ Package pdftex.def Info: fig/Muons_AllCorrections/ResolutionPerModule_All.pdf u
 sed on input line 311.
 (pdftex.def)             Requested size: 216.24112pt x 124.33086pt.
 
-<fig/Timing_Muons.pdf, id=425, 569.12625pt x 327.2225pt>
+<fig/Timing_Muons.pdf, id=424, 569.12625pt x 327.2225pt>
 File: fig/Timing_Muons.pdf Graphic file (type pdf)
 
 <use fig/Timing_Muons.pdf>
 Package pdftex.def Info: fig/Timing_Muons.pdf used on input line 312.
 (pdftex.def)             Requested size: 216.24112pt x 124.33086pt.
+
+Underfull \vbox (badness 1337) has occurred while \output is active []
+
  [12 <./fig/Muons_noCorrections/TimeDistribution_Module3.pdf, page is rotated 9
 0 degrees> <./fig/Muons_noCorrections/ResolutionPerModule.pdf, page is rotated 
 90 degrees>] [13 <./fig/LinearityCorrection_Module09_Chip146_BXID0.pdf, page is
@@ -1247,9 +1253,12 @@ Package pdftex.def Info: fig/Electrons_Full/ComparisonAll_ElectronsSingleHit.pd
 f used on input line 346.
 (pdftex.def)             Requested size: 216.24112pt x 155.22289pt.
 
-[15 <./fig/Electrons_MuonCalib/Timing_AllLayers.pdf, page is rotated 90 degrees
->]
-<fig/Simulation_Muons/Comparison_SimData_Muons.pdf, id=863, 569.12625pt x 386.4
+Underfull \vbox (badness 4217) has occurred while \output is active []
+
+ [15 <./fig/Electrons_MuonCalib/Timing_AllLayers.pdf, page is rotated 90 degree
+s>] [16 <./fig/NumberHits_Dependance.pdf, page is rotated 90 degrees> <./fig/Pa
+rametrisationPedestalShift.pdf, page is rotated 90 degrees>]
+<fig/Simulation_Muons/Comparison_SimData_Muons.pdf, id=959, 569.12625pt x 386.4
 4376pt>
 File: fig/Simulation_Muons/Comparison_SimData_Muons.pdf Graphic file (type pdf)
 
@@ -1258,7 +1267,7 @@ Package pdftex.def Info: fig/Simulation_Muons/Comparison_SimData_Muons.pdf used
  on input line 387.
 (pdftex.def)             Requested size: 216.24112pt x 146.83246pt.
 
-<fig/Simulation_Muons/Comparison_SimData_Muons_zoom.pdf, id=864, 569.12625pt x 
+<fig/Simulation_Muons/Comparison_SimData_Muons_zoom.pdf, id=960, 569.12625pt x 
 386.44376pt>
 File: fig/Simulation_Muons/Comparison_SimData_Muons_zoom.pdf Graphic file (type
  pdf)
@@ -1268,7 +1277,7 @@ Package pdftex.def Info: fig/Simulation_Muons/Comparison_SimData_Muons_zoom.pdf
 (pdftex.def)             Requested size: 216.24112pt x 146.83246pt.
 
 <fig/Simulation_Electrons/Comparison_SimData_Electrons_AfterCorrection.pdf, id=
-868, 569.12625pt x 386.44376pt>
+964, 569.12625pt x 386.44376pt>
 File: fig/Simulation_Electrons/Comparison_SimData_Electrons_AfterCorrection.pdf
  Graphic file (type pdf)
 
@@ -1278,7 +1287,7 @@ AfterCorrection.pdf used on input line 395.
 (pdftex.def)             Requested size: 216.24112pt x 146.83246pt.
 
 <fig/Simulation_Electrons/Comparison_SimData_Electrons_AfterCorrection_zoom.pdf
-, id=869, 569.12625pt x 386.44376pt>
+, id=965, 569.12625pt x 386.44376pt>
 File: fig/Simulation_Electrons/Comparison_SimData_Electrons_AfterCorrection_zoo
 m.pdf Graphic file (type pdf)
 
@@ -1288,7 +1297,7 @@ Package pdftex.def Info: fig/Simulation_Electrons/Comparison_SimData_Electrons_
 AfterCorrection_zoom.pdf used on input line 396.
 (pdftex.def)             Requested size: 216.24112pt x 146.83246pt.
 
-<fig/Electrons_BeamProfile/Run24487_nHits_AHCAL_20GeV_Comparison.pdf, id=871, 5
+<fig/Electrons_BeamProfile/Run24487_nHits_AHCAL_20GeV_Comparison.pdf, id=967, 5
 69.12625pt x 363.3575pt>
 File: fig/Electrons_BeamProfile/Run24487_nHits_AHCAL_20GeV_Comparison.pdf Graph
 ic file (type pdf)
@@ -1298,17 +1307,14 @@ Package pdftex.def Info: fig/Electrons_BeamProfile/Run24487_nHits_AHCAL_20GeV_C
 omparison.pdf used on input line 403.
 (pdftex.def)             Requested size: 259.49197pt x 165.6772pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16 <./fig/NumberHits_Dependance.pdf, page is rotated 90 degrees> <./fig/Param
-etrisationPedestalShift.pdf, page is rotated 90 degrees>] [17 <./fig/Electrons_
-Full/Timing_AllLayers.pdf, page is rotated 90 degrees> <./fig/Electrons_Full/Co
-mparisonAll_ElectronsSingleHit.pdf, page is rotated 90 degrees>] [18 <./fig/Sim
-ulation_Muons/Comparison_SimData_Muons.pdf, page is rotated 90 degrees> <./fig/
-Simulation_Muons/Comparison_SimData_Muons_zoom.pdf, page is rotated 90 degrees>
- <./fig/Simulation_Electrons/Comparison_SimData_Electrons_AfterCorrection.pdf, 
-page is rotated 90 degrees> <./fig/Simulation_Electrons/Comparison_SimData_Elec
-trons_AfterCorrection_zoom.pdf, page is rotated 90 degrees>]
+[17 <./fig/Electrons_Full/Timing_AllLayers.pdf, page is rotated 90 degrees> <./
+fig/Electrons_Full/ComparisonAll_ElectronsSingleHit.pdf, page is rotated 90 deg
+rees>] [18 <./fig/Simulation_Muons/Comparison_SimData_Muons.pdf, page is rotate
+d 90 degrees> <./fig/Simulation_Muons/Comparison_SimData_Muons_zoom.pdf, page i
+s rotated 90 degrees> <./fig/Simulation_Electrons/Comparison_SimData_Electrons_
+AfterCorrection.pdf, page is rotated 90 degrees> <./fig/Simulation_Electrons/Co
+mparison_SimData_Electrons_AfterCorrection_zoom.pdf, page is rotated 90 degrees
+>]
 
 LaTeX Warning: Reference `' on page 19 undefined on input line 413.
 
@@ -1391,11 +1397,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 542.
 Here is how much of TeX's memory you used:
  24589 strings out of 493013
  456300 string characters out of 6133343
- 567364 words of memory out of 5000000
+ 565384 words of memory out of 5000000
  27544 multiletter control sequences out of 15000+600000
  70317 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,19n,88p,1483b,857s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,19n,86p,1483b,857s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1418,7 +1424,7 @@ lic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
 tex-gyre/qhvb.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-sup
 er/sfss0800.pfb>
-Output written on CAN.pdf (25 pages, 4483034 bytes).
+Output written on CAN.pdf (25 pages, 4482904 bytes).
 PDF statistics:
  1688 PDF objects out of 1728 (max. 8388607)
  876 compressed objects within 9 object streams

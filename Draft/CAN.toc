@@ -6,29 +6,30 @@
 \contentsline {subsection}{\numberline {2.2}Testbeam Setup}{4}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}The SPIROC2b chip}{4}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Trigger Signals}{6}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Dataset}{6}{subsection.2.5}
-\contentsline {section}{\numberline {3}Simulation}{6}{section.3}
-\contentsline {subsection}{\numberline {3.1}AHCAL Simulation Model \& Digitisation}{6}{subsection.3.1}
-\contentsline {section}{\numberline {4}Timing Calibration}{8}{section.4}
-\contentsline {subsection}{\numberline {4.1}Muon Selection}{8}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Slope calibration}{9}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Calibration of the reference time}{10}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Time reference}{10}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Time of the first hit distribution}{12}{subsubsection.4.3.2}
-\contentsline {subsection}{\numberline {4.4}Corrections applied to data}{12}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Ramp non-linearity correction}{12}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Time Walk correction}{13}{subsubsection.4.4.2}
-\contentsline {subsection}{\numberline {4.5}Electron Selection}{13}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Cross-check of the calibration with electrons}{15}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}Influence of the number of triggered channels}{16}{subsection.4.7}
-\contentsline {subsection}{\numberline {4.8}Comparison with Simulation}{17}{subsection.4.8}
-\contentsline {section}{\numberline {5}Runs \& Event Selection}{19}{section.5}
-\contentsline {subsection}{\numberline {5.1}Pion Selection}{19}{subsection.5.1}
-\contentsline {section}{\numberline {6}Results}{19}{section.6}
-\contentsline {section}{\numberline {7}Summary}{19}{section.7}
-\contentsline {section}{Bibliography}{20}{section.7}
-\contentsline {section}{Appendix}{22}{section.7}
+\contentsline {section}{\numberline {3}Runs \& Event Selection}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Dataset}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Muon Selection}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Electron Selection}{8}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Pion Selection}{8}{subsection.3.4}
+\contentsline {section}{\numberline {4}Simulation}{9}{section.4}
+\contentsline {subsection}{\numberline {4.1}AHCAL Simulation Model \& Digitisation}{9}{subsection.4.1}
+\contentsline {section}{\numberline {5}Timing Calibration}{10}{section.5}
+\contentsline {subsection}{\numberline {5.1}Slope calibration}{10}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Determination of the time of first hit}{11}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Time reference}{11}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Time of the first hit distribution}{13}{subsubsection.5.2.2}
+\contentsline {subsection}{\numberline {5.3}Corrections applied to data}{13}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Ramp non-linearity correction}{13}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Time Walk correction}{15}{subsubsection.5.3.2}
+\contentsline {subsection}{\numberline {5.4}Cross-check of the calibration with electrons}{15}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Influence of the number of triggered channels}{17}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Influence of the detector inhomogeneity}{19}{subsection.5.6}
+\contentsline {section}{\numberline {6}Comparison with simulation for muons and electrons}{20}{section.6}
+\contentsline {section}{\numberline {7}Results}{21}{section.7}
+\contentsline {section}{\numberline {8}Summary}{24}{section.8}
+\contentsline {section}{Bibliography}{25}{section.8}
+\contentsline {section}{Appendix}{27}{section.8}
 \setcounter {tocdepth}{0}
-\contentsline {section}{\numberline {A}Error Estimation of the TDC calibration.}{22}{appendix.A}
-\contentsline {section}{\numberline {B}Influence of the number of triggered channels and parametrisation in Monte-Carlo.}{24}{appendix.B}
-\contentsline {section}{\numberline {C}Study of noise on timing.}{25}{appendix.C}
+\contentsline {section}{\numberline {A}Error Estimation of the TDC calibration.}{27}{appendix.A}
+\contentsline {section}{\numberline {B}Influence of the number of triggered channels and parametrisation in Monte-Carlo.}{29}{appendix.B}
+\contentsline {section}{\numberline {C}Noise extraction and effect in timing.}{31}{appendix.C}

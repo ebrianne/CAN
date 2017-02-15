@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.10)  13 FEB 2017 19:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.10)  15 FEB 2017 10:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -779,6 +779,16 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+\TX@col@width=\dimen185
+\TX@old@table=\dimen186
+\TX@old@col=\dimen187
+\TX@target=\dimen188
+\TX@delta=\dimen189
+\TX@cols=\count145
+\TX@ftn=\toks38
+)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
@@ -786,33 +796,33 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen185
+\arrowsize=\dimen190
 )) (/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count145
-\Gm@cntv=\count146
-\c@Gm@tempcnt=\count147
-\Gm@bindingoffset=\dimen186
-\Gm@wd@mp=\dimen187
-\Gm@odd@mp=\dimen188
-\Gm@even@mp=\dimen189
-\Gm@layoutwidth=\dimen190
-\Gm@layoutheight=\dimen191
-\Gm@layouthoffset=\dimen192
-\Gm@layoutvoffset=\dimen193
-\Gm@dimlist=\toks38
+\Gm@cnth=\count146
+\Gm@cntv=\count147
+\c@Gm@tempcnt=\count148
+\Gm@bindingoffset=\dimen191
+\Gm@wd@mp=\dimen192
+\Gm@odd@mp=\dimen193
+\Gm@even@mp=\dimen194
+\Gm@layoutwidth=\dimen195
+\Gm@layoutheight=\dimen196
+\Gm@layouthoffset=\dimen197
+\Gm@layoutvoffset=\dimen198
+\Gm@dimlist=\toks39
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/xwatermark/xwatermark.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/catoptions/catoptions.sty
-\m@one=\count148
-\z@pt=\dimen194
+\m@one=\count149
+\z@pt=\dimen199
 Package: catoptions 2014/08/29 v0.2.7h Securing catcodes and parsing options (A
 M)
-\cpt@csvdepth=\count149
-\cpt@optdepth=\count150
-\cpt@cnta=\count151
-\indrisdepth=\count152
-\cpt@foreachdepth=\count153
-\cpt@exprcnt=\count154
+\cpt@csvdepth=\count150
+\cpt@optdepth=\count151
+\cpt@cnta=\count152
+\indrisdepth=\count153
+\cpt@foreachdepth=\count154
+\cpt@exprcnt=\count155
 )
 Package: xwatermark 2012/10/23 v1.5.2d A dynamic watermarking scheme (Ahmed Mus
 a)
@@ -843,21 +853,21 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ltxkeys/ltxkeys.sty
 Package: ltxkeys 2012/11/17 v0.0.3c A robust key-value parser (AM) (Ahmed Musa)
 
-\ltxkeys@csvdepth=\count155
-\ltxkeys@keydepth=\count156
+\ltxkeys@csvdepth=\count156
+\ltxkeys@keydepth=\count157
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip69
-\fb@frw=\dimen195
-\fb@frh=\dimen196
-\FrameRule=\dimen197
-\FrameSep=\dimen198
+\fb@frw=\dimen256
+\fb@frh=\dimen257
+\FrameRule=\dimen258
+\FrameSep=\dimen259
 )
 \AtBeginShipoutBox=\box41
 \xwm@boxa=\box42
 \xwm@boxb=\box43
-\xwm@cnta=\count157
+\xwm@cnta=\count158
 \xwm@wrt=\write4
  (./CAN.xwm)
 \openout4 = `CAN.xwm'.
@@ -868,12 +878,12 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box44
 \beforetitleunit=\skip70
 \aftertitleunit=\skip71
-\ttl@plus=\dimen199
-\ttl@minus=\dimen256
-\ttl@toksa=\toks39
-\titlewidth=\dimen257
-\titlewidthlast=\dimen258
-\titlewidthfirst=\dimen259
+\ttl@plus=\dimen260
+\ttl@minus=\dimen261
+\ttl@toksa=\toks40
+\titlewidth=\dimen262
+\titlewidthlast=\dimen263
+\titlewidthfirst=\dimen264
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
@@ -941,17 +951,17 @@ File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count158
-\scratchdimen=\dimen260
+\scratchcounter=\count159
+\scratchdimen=\dimen265
 \scratchbox=\box45
-\nofMPsegments=\count159
-\nofMParguments=\count160
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count161
-\MPscratchDim=\dimen261
-\MPnumerator=\count162
-\makeMPintoPDFobject=\count163
-\everyMPtoPDFconversion=\toks41
+\nofMPsegments=\count160
+\nofMParguments=\count161
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count162
+\MPscratchDim=\dimen266
+\MPnumerator=\count163
+\makeMPintoPDFobject=\count164
+\everyMPtoPDFconversion=\toks42
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
@@ -964,7 +974,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count164
+\c@section@level=\count165
 )
 LaTeX Info: Redefining \ref on input line 66.
 LaTeX Info: Redefining \pageref on input line 66.
@@ -1045,361 +1055,513 @@ File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-<fig/steel_stack_ps.png, id=82, 918.43124pt x 1114.1625pt>
-File: fig/steel_stack_ps.png Graphic file (type png)
+<fig/Others/steel_stack_ps.png, id=84, 918.43124pt x 1114.1625pt>
+File: fig/Others/steel_stack_ps.png Graphic file (type png)
 
-<use fig/steel_stack_ps.png>
-Package pdftex.def Info: fig/steel_stack_ps.png used on input line 112.
+<use fig/Others/steel_stack_ps.png>
+Package pdftex.def Info: fig/Others/steel_stack_ps.png used on input line 112.
 (pdftex.def)             Requested size: 151.37141pt x 183.62486pt.
 
-<fig/Detector_layout.png, id=84, 823.878pt x 474.3321pt>
-File: fig/Detector_layout.png Graphic file (type png)
+<fig/Others/Detector_layout.png, id=86, 844.8363pt x 597.432pt>
+File: fig/Others/Detector_layout.png Graphic file (type png)
 
-<use fig/Detector_layout.png>
-Package pdftex.def Info: fig/Detector_layout.png used on input line 114.
-(pdftex.def)             Requested size: 259.49197pt x 149.39369pt.
+<use fig/Others/Detector_layout.png>
+Package pdftex.def Info: fig/Others/Detector_layout.png used on input line 114.
+
+(pdftex.def)             Requested size: 259.49197pt x 183.4973pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/Spiroc_layout.png, id=88, 707.64375pt x 440.64626pt>
-File: fig/Spiroc_layout.png Graphic file (type png)
+<fig/Others/Spiroc_layout.png, id=90, 707.64375pt x 440.64626pt>
+File: fig/Others/Spiroc_layout.png Graphic file (type png)
 
-<use fig/Spiroc_layout.png>
-Package pdftex.def Info: fig/Spiroc_layout.png used on input line 148.
-(pdftex.def)             Requested size: 259.49197pt x 161.58423pt.
- [4 <./fig/steel_stack_ps.png> <./fig/Detector_layout.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use fig/Others/Spiroc_layout.png>
+Package pdftex.def Info: fig/Others/Spiroc_layout.png used on input line 148.
+(pdftex.def)             Requested size: 302.73624pt x 188.5127pt.
+ [4 <./fig/Others/steel_stack_ps.png> <./fig/Others/Detector_layout.png>] [5 <.
+/fig/Others/Spiroc_layout.png>] [6]
+Underfull \vbox (badness 3525) has occurred while \output is active []
 
- [5 <./fig/Spiroc_layout.png>]
-Overfull \hbox (4.61758pt too wide) in paragraph at lines 203--208
+ [7]
+Overfull \hbox (4.61758pt too wide) in paragraph at lines 262--269
 \T1/bch/m/n/10.95 Pion show-ers are sim-u-lated us-ing QGSP_BERT, QGSP_BERT_HP 
 and FTFP_BERT_HP physics
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--208
+Underfull \vbox (badness 7504) has occurred while \output is active []
+
+ [8]
+[9] <fig/Muons/ExampleTDCSpectra.pdf, id=157, 569.12625pt x 409.53pt>
+File: fig/Muons/ExampleTDCSpectra.pdf Graphic file (type pdf)
+
+<use fig/Muons/ExampleTDCSpectra.pdf>
+Package pdftex.def Info: fig/Muons/ExampleTDCSpectra.pdf used on input line 306
+.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Muons/SlopesTDC.pdf, id=158, 569.12625pt x 409.53pt>
+File: fig/Muons/SlopesTDC.pdf Graphic file (type pdf)
+
+<use fig/Muons/SlopesTDC.pdf>
+Package pdftex.def Info: fig/Muons/SlopesTDC.pdf used on input line 307.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+ [10]
+<fig/T0s/T0_Resolution_5.pdf, id=174, 569.12625pt x 408.52625pt>
+File: fig/T0s/T0_Resolution_5.pdf Graphic file (type pdf)
+
+<use fig/T0s/T0_Resolution_5.pdf>
+Package pdftex.def Info: fig/T0s/T0_Resolution_5.pdf used on input line 319.
+(pdftex.def)             Requested size: 302.73624pt x 217.31578pt.
+ [11 <./fig/Muons/ExampleTDCSpectra.pdf, page is rotated 90 degrees> <./fig/Muo
+ns/SlopesTDC.pdf, page is rotated 90 degrees>] <fig/Muons/ExtractedOffsets.pdf,
+ id=235, 569.12625pt x 409.53pt>
+File: fig/Muons/ExtractedOffsets.pdf Graphic file (type pdf)
+
+<use fig/Muons/ExtractedOffsets.pdf>
+Package pdftex.def Info: fig/Muons/ExtractedOffsets.pdf used on input line 333.
+
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Muons/CorrelationOffsets_BXID.pdf, id=236, 569.12625pt x 409.53pt>
+File: fig/Muons/CorrelationOffsets_BXID.pdf Graphic file (type pdf)
+
+<use fig/Muons/CorrelationOffsets_BXID.pdf>
+Package pdftex.def Info: fig/Muons/CorrelationOffsets_BXID.pdf used on input li
+ne 334.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+ [12 <./fig/T0s/T0_Resolution_5.pdf, page is rotated 90 degrees>]
+<fig/Muons/Timing_AHCAL_noCorrections.pdf, id=270, 569.12625pt x 409.53pt>
+File: fig/Muons/Timing_AHCAL_noCorrections.pdf Graphic file (type pdf)
+
+<use fig/Muons/Timing_AHCAL_noCorrections.pdf>
+Package pdftex.def Info: fig/Muons/Timing_AHCAL_noCorrections.pdf used on input
+ line 341.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Muons/ResolutionPerModule_noCorrections.pdf, id=271, 569.12625pt x 409.53p
+t>
+File: fig/Muons/ResolutionPerModule_noCorrections.pdf Graphic file (type pdf)
+ <use fig/Muons/ResolutionPerModule_noCorrections.pdf>
+Package pdftex.def Info: fig/Muons/ResolutionPerModule_noCorrections.pdf used o
+n input line 342.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Muons/LinearityCorrection_Module09_Chip146_BXID0.pdf, id=279, 569.12625pt 
+x 409.53pt>
+File: fig/Muons/LinearityCorrection_Module09_Chip146_BXID0.pdf Graphic file (ty
+pe pdf)
+ <use fig/Muons/LinearityCorrection_Module09_Chip146_BXID0.pdf>
+Package pdftex.def Info: fig/Muons/LinearityCorrection_Module09_Chip146_BXID0.p
+df used on input line 354.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Muons/LinearityCorrection_Module09_Chip146_BXID0_Corrected.pdf, id=280, 56
+9.12625pt x 409.53pt>
+File: fig/Muons/LinearityCorrection_Module09_Chip146_BXID0_Corrected.pdf Graphi
+c file (type pdf)
+
+<use fig/Muons/LinearityCorrection_Module09_Chip146_BXID0_Corrected.pdf>
+Package pdftex.def Info: fig/Muons/LinearityCorrection_Module09_Chip146_BXID0_C
+orrected.pdf used on input line 355.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Muons/Timing_AHCAL_LinCorrection.pdf, id=282, 569.12625pt x 409.53pt>
+File: fig/Muons/Timing_AHCAL_LinCorrection.pdf Graphic file (type pdf)
+
+<use fig/Muons/Timing_AHCAL_LinCorrection.pdf>
+Package pdftex.def Info: fig/Muons/Timing_AHCAL_LinCorrection.pdf used on input
+ line 360.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Muons/ResolutionPerModule_LinCorrection.pdf, id=283, 569.12625pt x 409.53p
+t>
+File: fig/Muons/ResolutionPerModule_LinCorrection.pdf Graphic file (type pdf)
+ <use fig/Muons/ResolutionPerModule_LinCorrection.pdf>
+Package pdftex.def Info: fig/Muons/ResolutionPerModule_LinCorrection.pdf used o
+n input line 361.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+ [13 <./fig/Muons/ExtractedOffsets.pdf, page is rotated 90 degrees> <./fig/Muon
+s/CorrelationOffsets_BXID.pdf, page is rotated 90 degrees>]
+<fig/Muons/TimeWalkProfile.pdf, id=343, 569.12625pt x 409.53pt>
+File: fig/Muons/TimeWalkProfile.pdf Graphic file (type pdf)
+
+<use fig/Muons/TimeWalkProfile.pdf>
+Package pdftex.def Info: fig/Muons/TimeWalkProfile.pdf used on input line 371.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Muons/TimeWalkProfile_Correction.pdf, id=344, 569.12625pt x 409.53pt>
+File: fig/Muons/TimeWalkProfile_Correction.pdf Graphic file (type pdf)
+
+<use fig/Muons/TimeWalkProfile_Correction.pdf>
+Package pdftex.def Info: fig/Muons/TimeWalkProfile_Correction.pdf used on input
+ line 372.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Muons/Timing_AllLayers.pdf, id=347, 569.12625pt x 409.53pt>
+File: fig/Muons/Timing_AllLayers.pdf Graphic file (type pdf)
+
+<use fig/Muons/Timing_AllLayers.pdf>
+Package pdftex.def Info: fig/Muons/Timing_AllLayers.pdf used on input line 377.
+
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Muons/ResolutionPerModule_AllCorrection.pdf, id=348, 569.12625pt x 409.53p
+t>
+File: fig/Muons/ResolutionPerModule_AllCorrection.pdf Graphic file (type pdf)
+ <use fig/Muons/ResolutionPerModule_AllCorrection.pdf>
+Package pdftex.def Info: fig/Muons/ResolutionPerModule_AllCorrection.pdf used o
+n input line 378.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+Overfull \hbox (2.31044pt too wide) in paragraph at lines 377--379
+[][] [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./fig/Muons/Timing_AHCAL_noCorrections.pdf, page is rotated 90 degrees> <
+./fig/Muons/ResolutionPerModule_noCorrections.pdf, page is rotated 90 degrees> 
+<./fig/Muons/LinearityCorrection_Module09_Chip146_BXID0.pdf, page is rotated 90
+ degrees> <./fig/Muons/LinearityCorrection_Module09_Chip146_BXID0_Corrected.pdf
+, page is rotated 90 degrees>]
+<fig/Electrons/Timing_AllLayers_AfterMuons.pdf, id=455, 569.12625pt x 409.53pt>
+File: fig/Electrons/Timing_AllLayers_AfterMuons.pdf Graphic file (type pdf)
+<use fig/Electrons/Timing_AllLayers_AfterMuons.pdf>
+Package pdftex.def Info: fig/Electrons/Timing_AllLayers_AfterMuons.pdf used on 
+input line 388.
+(pdftex.def)             Requested size: 302.73624pt x 217.84972pt.
+ [15 <./fig/Muons/Timing_AHCAL_LinCorrection.pdf, page is rotated 90 degrees> <
+./fig/Muons/ResolutionPerModule_LinCorrection.pdf, page is rotated 90 degrees>]
+ [16 <./fig/Muons/TimeWalkProfile.pdf, page is rotated 90 degrees> <./fig/Muons
+/TimeWalkProfile_Correction.pdf, page is rotated 90 degrees> <./fig/Muons/Timin
+g_AllLayers.pdf, page is rotated 90 degrees> <./fig/Muons/ResolutionPerModule_A
+llCorrection.pdf, page is rotated 90 degrees>]
+<fig/Electrons/NumberHits_Dependance.pdf, id=619, 569.12625pt x 409.53pt>
+File: fig/Electrons/NumberHits_Dependance.pdf Graphic file (type pdf)
+
+<use fig/Electrons/NumberHits_Dependance.pdf>
+Package pdftex.def Info: fig/Electrons/NumberHits_Dependance.pdf used on input 
+line 400.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Electrons/ParametrisationPedestalShift_20GeV.pdf, id=620, 569.12625pt x 40
+9.53pt>
+File: fig/Electrons/ParametrisationPedestalShift_20GeV.pdf Graphic file (type p
+df)
+ <use fig/Electrons/ParametrisationPedestalShift_20GeV.pdf>
+Package pdftex.def Info: fig/Electrons/ParametrisationPedestalShift_20GeV.pdf u
+sed on input line 401.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Electrons/Timing_AllLayers_20GeV.pdf, id=622, 569.12625pt x 409.53pt>
+File: fig/Electrons/Timing_AllLayers_20GeV.pdf Graphic file (type pdf)
+
+<use fig/Electrons/Timing_AllLayers_20GeV.pdf>
+Package pdftex.def Info: fig/Electrons/Timing_AllLayers_20GeV.pdf used on input
+ line 406.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Electrons/ComparisonAll_ElectronsSingleHit.pdf, id=623, 569.12625pt x 409.
+53pt>
+File: fig/Electrons/ComparisonAll_ElectronsSingleHit.pdf Graphic file (type pdf
+)
+ <use fig/Electrons/ComparisonAll_ElectronsSingleHit.pdf>
+Package pdftex.def Info: fig/Electrons/ComparisonAll_ElectronsSingleHit.pdf use
+d on input line 407.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Electrons/ComparisonDataEnergies.pdf, id=627, 569.12625pt x 409.53pt>
+File: fig/Electrons/ComparisonDataEnergies.pdf Graphic file (type pdf)
+
+<use fig/Electrons/ComparisonDataEnergies.pdf>
+Package pdftex.def Info: fig/Electrons/ComparisonDataEnergies.pdf used on input
+ line 415.
+(pdftex.def)             Requested size: 302.73624pt x 217.84972pt.
+ [17 <./fig/Electrons/Timing_AllLayers_AfterMuons.pdf, page is rotated 90 degre
+es>] [18 <./fig/Electrons/NumberHits_Dependance.pdf, page is rotated 90 degrees
+> <./fig/Electrons/ParametrisationPedestalShift_20GeV.pdf, page is rotated 90 d
+egrees> <./fig/Electrons/Timing_AllLayers_20GeV.pdf, page is rotated 90 degrees
+> <./fig/Electrons/ComparisonAll_ElectronsSingleHit.pdf, page is rotated 90 deg
+rees>]
+<fig/Electrons/Systematic_Inhomogeneity_10GeV.pdf, id=765, 569.12625pt x 409.53
+pt>
+File: fig/Electrons/Systematic_Inhomogeneity_10GeV.pdf Graphic file (type pdf)
+ <use fig/Electrons/Systematic_Inhomogeneity_10GeV.pdf>
+Package pdftex.def Info: fig/Electrons/Systematic_Inhomogeneity_10GeV.pdf used 
+on input line 427.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Electrons/Systematic_Inhomogeneity_50GeV.pdf, id=766, 569.12625pt x 409.53
+pt>
+File: fig/Electrons/Systematic_Inhomogeneity_50GeV.pdf Graphic file (type pdf)
+ <use fig/Electrons/Systematic_Inhomogeneity_50GeV.pdf>
+Package pdftex.def Info: fig/Electrons/Systematic_Inhomogeneity_50GeV.pdf used 
+on input line 428.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+ [19 <./fig/Electrons/ComparisonDataEnergies.pdf, page is rotated 90 degrees>]
+<fig/Muons/Comparison_MokkaDD4hepData_Muons.pdf, id=803, 569.12625pt x 409.53pt
+>
+File: fig/Muons/Comparison_MokkaDD4hepData_Muons.pdf Graphic file (type pdf)
+ <use fig/Muons/Comparison_MokkaDD4hepData_Muons.pdf>
+Package pdftex.def Info: fig/Muons/Comparison_MokkaDD4hepData_Muons.pdf used on
+ input line 451.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Muons/Comparison_MokkaDD4hepData_Muons_zoom.pdf, id=804, 569.12625pt x 409
+.53pt>
+File: fig/Muons/Comparison_MokkaDD4hepData_Muons_zoom.pdf Graphic file (type pd
+f)
+ <use fig/Muons/Comparison_MokkaDD4hepData_Muons_zoom.pdf>
+Package pdftex.def Info: fig/Muons/Comparison_MokkaDD4hepData_Muons_zoom.pdf us
+ed on input line 452.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--457
 
  []
 
-[6]
 
-LaTeX Warning: Reference `' on page 7 undefined on input line 209.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-[8] <fig/ExampleTDCSpectra.pdf, id=148, 569.12625pt x 358.33875pt>
-File: fig/ExampleTDCSpectra.pdf Graphic file (type pdf)
-
-<use fig/ExampleTDCSpectra.pdf>
-Package pdftex.def Info: fig/ExampleTDCSpectra.pdf used on input line 245.
-(pdftex.def)             Requested size: 216.24112pt x 136.15373pt.
-
-<fig/SlopesTDC.pdf, id=149, 569.12625pt x 409.53pt>
-File: fig/SlopesTDC.pdf Graphic file (type pdf)
- <use fig/SlopesTDC.pdf>
-Package pdftex.def Info: fig/SlopesTDC.pdf used on input line 246.
+<fig/Electrons/Comparison_SimData_Electrons10GeV.pdf, id=807, 569.12625pt x 409
+.53pt>
+File: fig/Electrons/Comparison_SimData_Electrons10GeV.pdf Graphic file (type pd
+f)
+ <use fig/Electrons/Comparison_SimData_Electrons10GeV.pdf>
+Package pdftex.def Info: fig/Electrons/Comparison_SimData_Electrons10GeV.pdf us
+ed on input line 460.
 (pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
-
-LaTeX Warning: Reference `fig:TDC_Spectrum_Layer11' on page 9 undefined on inpu
-t line 249.
-
-[9 <./fig/ExampleTDCSpectra.pdf, page is rotated 90 degrees> <./fig/SlopesTDC.p
-df, page is rotated 90 degrees>]
-<fig/T0s/T0_Resolution_6.pdf, id=251, 569.12625pt x 408.52625pt>
-File: fig/T0s/T0_Resolution_6.pdf Graphic file (type pdf)
-
-<use fig/T0s/T0_Resolution_6.pdf>
-Package pdftex.def Info: fig/T0s/T0_Resolution_6.pdf used on input line 258.
-(pdftex.def)             Requested size: 259.49197pt x 186.27245pt.
-
-<fig/ExtractedOffsets.pdf, id=256, 569.12625pt x 338.26375pt>
-File: fig/ExtractedOffsets.pdf Graphic file (type pdf)
-
-<use fig/ExtractedOffsets.pdf>
-Package pdftex.def Info: fig/ExtractedOffsets.pdf used on input line 272.
-(pdftex.def)             Requested size: 216.24112pt x 128.52606pt.
-
-<fig/CorrelationOffsets_BXID.pdf, id=257, 569.12625pt x 338.26375pt>
-File: fig/CorrelationOffsets_BXID.pdf Graphic file (type pdf)
-
-<use fig/CorrelationOffsets_BXID.pdf>
-Package pdftex.def Info: fig/CorrelationOffsets_BXID.pdf used on input line 273
-.
-(pdftex.def)             Requested size: 216.24112pt x 128.52606pt.
- [10]
-<fig/Muons_noCorrections/TimeDistribution_Module3.pdf, id=268, 569.12625pt x 40
-9.53pt>
-File: fig/Muons_noCorrections/TimeDistribution_Module3.pdf Graphic file (type p
-df)
- <use fig/Muons_noCorrections/TimeDistribution_Module3.pdf>
-Package pdftex.def Info: fig/Muons_noCorrections/TimeDistribution_Module3.pdf u
-sed on input line 280.
+<fig/Electrons/Comparison_SimData_Electrons15GeV.pdf, id=808, 569.12625pt x 409
+.53pt>
+File: fig/Electrons/Comparison_SimData_Electrons15GeV.pdf Graphic file (type pd
+f)
+ <use fig/Electrons/Comparison_SimData_Electrons15GeV.pdf>
+Package pdftex.def Info: fig/Electrons/Comparison_SimData_Electrons15GeV.pdf us
+ed on input line 461.
 (pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
-<fig/Muons_noCorrections/ResolutionPerModule.pdf, id=269, 569.12625pt x 409.53p
-t>
-File: fig/Muons_noCorrections/ResolutionPerModule.pdf Graphic file (type pdf)
- <use fig/Muons_noCorrections/ResolutionPerModule.pdf>
-Package pdftex.def Info: fig/Muons_noCorrections/ResolutionPerModule.pdf used o
-n input line 281.
+<fig/Electrons/Comparison_SimData_Electrons20GeV.pdf, id=809, 569.12625pt x 409
+.53pt>
+File: fig/Electrons/Comparison_SimData_Electrons20GeV.pdf Graphic file (type pd
+f)
+ <use fig/Electrons/Comparison_SimData_Electrons20GeV.pdf>
+Package pdftex.def Info: fig/Electrons/Comparison_SimData_Electrons20GeV.pdf us
+ed on input line 462.
 (pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11 <./fig/T0s/T0_Resolution_6.pdf, page is rotated 90 degrees> <./fig/Extract
-edOffsets.pdf, page is rotated 90 degrees> <./fig/CorrelationOffsets_BXID.pdf, 
-page is rotated 90 degrees>]
-<fig/LinearityCorrection_Module09_Chip146_BXID0.pdf, id=416, 569.12625pt x 409.
-53pt>
-File: fig/LinearityCorrection_Module09_Chip146_BXID0.pdf Graphic file (type pdf
-)
- <use fig/LinearityCorrection_Module09_Chip146_BXID0.pdf>
-Package pdftex.def Info: fig/LinearityCorrection_Module09_Chip146_BXID0.pdf use
-d on input line 293.
+<fig/Electrons/Comparison_SimData_Electrons30GeV.pdf, id=810, 569.12625pt x 409
+.53pt>
+File: fig/Electrons/Comparison_SimData_Electrons30GeV.pdf Graphic file (type pd
+f)
+ <use fig/Electrons/Comparison_SimData_Electrons30GeV.pdf>
+Package pdftex.def Info: fig/Electrons/Comparison_SimData_Electrons30GeV.pdf us
+ed on input line 463.
 (pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
-<fig/LinearityCorrection_Module09_Chip146_BXID0_Corrected.pdf, id=417, 569.1262
-5pt x 409.53pt>
-File: fig/LinearityCorrection_Module09_Chip146_BXID0_Corrected.pdf Graphic file
- (type pdf)
-
-<use fig/LinearityCorrection_Module09_Chip146_BXID0_Corrected.pdf>
-Package pdftex.def Info: fig/LinearityCorrection_Module09_Chip146_BXID0_Correct
-ed.pdf used on input line 294.
+<fig/Electrons/Comparison_SimData_Electrons40GeV.pdf, id=811, 569.12625pt x 409
+.53pt>
+File: fig/Electrons/Comparison_SimData_Electrons40GeV.pdf Graphic file (type pd
+f)
+ <use fig/Electrons/Comparison_SimData_Electrons40GeV.pdf>
+Package pdftex.def Info: fig/Electrons/Comparison_SimData_Electrons40GeV.pdf us
+ed on input line 464.
 (pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
-<fig/TimeWalkProfile.pdf, id=419, 569.12625pt x 417.56pt>
-File: fig/TimeWalkProfile.pdf Graphic file (type pdf)
-
-<use fig/TimeWalkProfile.pdf>
-Package pdftex.def Info: fig/TimeWalkProfile.pdf used on input line 305.
-(pdftex.def)             Requested size: 216.24112pt x 158.65532pt.
-
-<fig/TimeWalkProfile_Correction.pdf, id=420, 569.12625pt x 406.51875pt>
-File: fig/TimeWalkProfile_Correction.pdf Graphic file (type pdf)
-
-<use fig/TimeWalkProfile_Correction.pdf>
-Package pdftex.def Info: fig/TimeWalkProfile_Correction.pdf used on input line 
-306.
-(pdftex.def)             Requested size: 216.24112pt x 154.46011pt.
-
-<fig/Muons_AllCorrections/ResolutionPerModule_All.pdf, id=423, 569.12625pt x 32
-7.2225pt>
-File: fig/Muons_AllCorrections/ResolutionPerModule_All.pdf Graphic file (type p
-df)
- <use fig/Muons_AllCorrections/ResolutionPerModule_All.pdf>
-Package pdftex.def Info: fig/Muons_AllCorrections/ResolutionPerModule_All.pdf u
-sed on input line 311.
-(pdftex.def)             Requested size: 216.24112pt x 124.33086pt.
-
-<fig/Timing_Muons.pdf, id=424, 569.12625pt x 327.2225pt>
-File: fig/Timing_Muons.pdf Graphic file (type pdf)
-
-<use fig/Timing_Muons.pdf>
-Package pdftex.def Info: fig/Timing_Muons.pdf used on input line 312.
-(pdftex.def)             Requested size: 216.24112pt x 124.33086pt.
-
-Underfull \vbox (badness 1337) has occurred while \output is active []
-
- [12 <./fig/Muons_noCorrections/TimeDistribution_Module3.pdf, page is rotated 9
-0 degrees> <./fig/Muons_noCorrections/ResolutionPerModule.pdf, page is rotated 
-90 degrees>] [13 <./fig/LinearityCorrection_Module09_Chip146_BXID0.pdf, page is
- rotated 90 degrees> <./fig/LinearityCorrection_Module09_Chip146_BXID0_Correcte
-d.pdf, page is rotated 90 degrees>] [14 <./fig/TimeWalkProfile.pdf, page is rot
-ated 90 degrees> <./fig/TimeWalkProfile_Correction.pdf, page is rotated 90 degr
-ees> <./fig/Muons_AllCorrections/ResolutionPerModule_All.pdf, page is rotated 9
-0 degrees> <./fig/Timing_Muons.pdf, page is rotated 90 degrees>]
-<fig/Electrons_MuonCalib/Timing_AllLayers.pdf, id=800, 569.12625pt x 409.53pt>
-File: fig/Electrons_MuonCalib/Timing_AllLayers.pdf Graphic file (type pdf)
-
-<use fig/Electrons_MuonCalib/Timing_AllLayers.pdf>
-Package pdftex.def Info: fig/Electrons_MuonCalib/Timing_AllLayers.pdf used on i
-nput line 327.
-(pdftex.def)             Requested size: 259.49197pt x 186.73012pt.
-
-<fig/NumberHits_Dependance.pdf, id=804, 569.12625pt x 409.53pt>
-File: fig/NumberHits_Dependance.pdf Graphic file (type pdf)
-
-<use fig/NumberHits_Dependance.pdf>
-Package pdftex.def Info: fig/NumberHits_Dependance.pdf used on input line 339.
+<fig/Electrons/Comparison_SimData_Electrons50GeV.pdf, id=812, 569.12625pt x 409
+.53pt>
+File: fig/Electrons/Comparison_SimData_Electrons50GeV.pdf Graphic file (type pd
+f)
+ <use fig/Electrons/Comparison_SimData_Electrons50GeV.pdf>
+Package pdftex.def Info: fig/Electrons/Comparison_SimData_Electrons50GeV.pdf us
+ed on input line 465.
 (pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
-<fig/ParametrisationPedestalShift.pdf, id=805, 569.12625pt x 409.53pt>
-File: fig/ParametrisationPedestalShift.pdf Graphic file (type pdf)
-
-<use fig/ParametrisationPedestalShift.pdf>
-Package pdftex.def Info: fig/ParametrisationPedestalShift.pdf used on input lin
-e 340.
+<fig/Electrons/Comparison_SimData_Electrons_nHits_10GeV.pdf, id=814, 569.12625p
+t x 409.53pt>
+File: fig/Electrons/Comparison_SimData_Electrons_nHits_10GeV.pdf Graphic file (
+type pdf)
+ <use fig/Electrons/Comparison_SimData_Electrons_nHits_10GeV.pdf>
+Package pdftex.def Info: fig/Electrons/Comparison_SimData_Electrons_nHits_10GeV
+.pdf used on input line 471.
 (pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
-<fig/Electrons_Full/Timing_AllLayers.pdf, id=807, 569.12625pt x 408.52625pt>
-File: fig/Electrons_Full/Timing_AllLayers.pdf Graphic file (type pdf)
+<fig/Electrons/Comparison_SimData_Electrons_nHits_15GeV.pdf, id=815, 569.12625p
+t x 409.53pt>
+File: fig/Electrons/Comparison_SimData_Electrons_nHits_15GeV.pdf Graphic file (
+type pdf)
+ <use fig/Electrons/Comparison_SimData_Electrons_nHits_15GeV.pdf>
+Package pdftex.def Info: fig/Electrons/Comparison_SimData_Electrons_nHits_15GeV
+.pdf used on input line 472.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
-<use fig/Electrons_Full/Timing_AllLayers.pdf>
-Package pdftex.def Info: fig/Electrons_Full/Timing_AllLayers.pdf used on input 
-line 345.
-(pdftex.def)             Requested size: 216.24112pt x 155.22289pt.
+<fig/Electrons/Comparison_SimData_Electrons_nHits_20GeV.pdf, id=816, 569.12625p
+t x 409.53pt>
+File: fig/Electrons/Comparison_SimData_Electrons_nHits_20GeV.pdf Graphic file (
+type pdf)
+ <use fig/Electrons/Comparison_SimData_Electrons_nHits_20GeV.pdf>
+Package pdftex.def Info: fig/Electrons/Comparison_SimData_Electrons_nHits_20GeV
+.pdf used on input line 473.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
-<fig/Electrons_Full/ComparisonAll_ElectronsSingleHit.pdf, id=808, 569.12625pt x
- 408.52625pt>
-File: fig/Electrons_Full/ComparisonAll_ElectronsSingleHit.pdf Graphic file (typ
-e pdf)
- <use fig/Electrons_Full/ComparisonAll_ElectronsSingleHit.pdf>
-Package pdftex.def Info: fig/Electrons_Full/ComparisonAll_ElectronsSingleHit.pd
-f used on input line 346.
-(pdftex.def)             Requested size: 216.24112pt x 155.22289pt.
+<fig/Electrons/Comparison_SimData_Electrons_nHits_30GeV.pdf, id=817, 569.12625p
+t x 409.53pt>
+File: fig/Electrons/Comparison_SimData_Electrons_nHits_30GeV.pdf Graphic file (
+type pdf)
+ <use fig/Electrons/Comparison_SimData_Electrons_nHits_30GeV.pdf>
+Package pdftex.def Info: fig/Electrons/Comparison_SimData_Electrons_nHits_30GeV
+.pdf used on input line 474.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
-Underfull \vbox (badness 4217) has occurred while \output is active []
+<fig/Electrons/Comparison_SimData_Electrons_nHits_40GeV.pdf, id=818, 569.12625p
+t x 409.53pt>
+File: fig/Electrons/Comparison_SimData_Electrons_nHits_40GeV.pdf Graphic file (
+type pdf)
+ <use fig/Electrons/Comparison_SimData_Electrons_nHits_40GeV.pdf>
+Package pdftex.def Info: fig/Electrons/Comparison_SimData_Electrons_nHits_40GeV
+.pdf used on input line 475.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
- [15 <./fig/Electrons_MuonCalib/Timing_AllLayers.pdf, page is rotated 90 degree
-s>] [16 <./fig/NumberHits_Dependance.pdf, page is rotated 90 degrees> <./fig/Pa
-rametrisationPedestalShift.pdf, page is rotated 90 degrees>]
-<fig/Simulation_Muons/Comparison_SimData_Muons.pdf, id=959, 569.12625pt x 386.4
-4376pt>
-File: fig/Simulation_Muons/Comparison_SimData_Muons.pdf Graphic file (type pdf)
+<fig/Electrons/Comparison_SimData_Electrons_nHits_50GeV.pdf, id=819, 569.12625p
+t x 409.53pt>
+File: fig/Electrons/Comparison_SimData_Electrons_nHits_50GeV.pdf Graphic file (
+type pdf)
+ <use fig/Electrons/Comparison_SimData_Electrons_nHits_50GeV.pdf>
+Package pdftex.def Info: fig/Electrons/Comparison_SimData_Electrons_nHits_50GeV
+.pdf used on input line 476.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
- <use fig/Simulation_Muons/Comparison_SimData_Muons.pdf>
-Package pdftex.def Info: fig/Simulation_Muons/Comparison_SimData_Muons.pdf used
- on input line 387.
-(pdftex.def)             Requested size: 216.24112pt x 146.83246pt.
+[20 <./fig/Electrons/Systematic_Inhomogeneity_10GeV.pdf, page is rotated 90 deg
+rees> <./fig/Electrons/Systematic_Inhomogeneity_50GeV.pdf, page is rotated 90 d
+egrees>]
+Underfull \hbox (badness 10000) in alignment at lines 497--497
+[][][][][][] 
+ []
 
-<fig/Simulation_Muons/Comparison_SimData_Muons_zoom.pdf, id=960, 569.12625pt x 
-386.44376pt>
-File: fig/Simulation_Muons/Comparison_SimData_Muons_zoom.pdf Graphic file (type
- pdf)
- <use fig/Simulation_Muons/Comparison_SimData_Muons_zoom.pdf>
-Package pdftex.def Info: fig/Simulation_Muons/Comparison_SimData_Muons_zoom.pdf
- used on input line 388.
-(pdftex.def)             Requested size: 216.24112pt x 146.83246pt.
 
-<fig/Simulation_Electrons/Comparison_SimData_Electrons_AfterCorrection.pdf, id=
-964, 569.12625pt x 386.44376pt>
-File: fig/Simulation_Electrons/Comparison_SimData_Electrons_AfterCorrection.pdf
- Graphic file (type pdf)
+Underfull \vbox (badness 4467) has occurred while \output is active []
 
-<use fig/Simulation_Electrons/Comparison_SimData_Electrons_AfterCorrection.pdf>
-Package pdftex.def Info: fig/Simulation_Electrons/Comparison_SimData_Electrons_
-AfterCorrection.pdf used on input line 395.
-(pdftex.def)             Requested size: 216.24112pt x 146.83246pt.
-
-<fig/Simulation_Electrons/Comparison_SimData_Electrons_AfterCorrection_zoom.pdf
-, id=965, 569.12625pt x 386.44376pt>
-File: fig/Simulation_Electrons/Comparison_SimData_Electrons_AfterCorrection_zoo
-m.pdf Graphic file (type pdf)
-
-<use fig/Simulation_Electrons/Comparison_SimData_Electrons_AfterCorrection_zoom
-.pdf>
-Package pdftex.def Info: fig/Simulation_Electrons/Comparison_SimData_Electrons_
-AfterCorrection_zoom.pdf used on input line 396.
-(pdftex.def)             Requested size: 216.24112pt x 146.83246pt.
-
-<fig/Electrons_BeamProfile/Run24487_nHits_AHCAL_20GeV_Comparison.pdf, id=967, 5
-69.12625pt x 363.3575pt>
-File: fig/Electrons_BeamProfile/Run24487_nHits_AHCAL_20GeV_Comparison.pdf Graph
-ic file (type pdf)
-
-<use fig/Electrons_BeamProfile/Run24487_nHits_AHCAL_20GeV_Comparison.pdf>
-Package pdftex.def Info: fig/Electrons_BeamProfile/Run24487_nHits_AHCAL_20GeV_C
-omparison.pdf used on input line 403.
-(pdftex.def)             Requested size: 259.49197pt x 165.6772pt.
-
-[17 <./fig/Electrons_Full/Timing_AllLayers.pdf, page is rotated 90 degrees> <./
-fig/Electrons_Full/ComparisonAll_ElectronsSingleHit.pdf, page is rotated 90 deg
-rees>] [18 <./fig/Simulation_Muons/Comparison_SimData_Muons.pdf, page is rotate
-d 90 degrees> <./fig/Simulation_Muons/Comparison_SimData_Muons_zoom.pdf, page i
-s rotated 90 degrees> <./fig/Simulation_Electrons/Comparison_SimData_Electrons_
-AfterCorrection.pdf, page is rotated 90 degrees> <./fig/Simulation_Electrons/Co
-mparison_SimData_Electrons_AfterCorrection_zoom.pdf, page is rotated 90 degrees
->]
-
-LaTeX Warning: Reference `' on page 19 undefined on input line 413.
-
-[19 <./fig/Electrons_BeamProfile/Run24487_nHits_AHCAL_20GeV_Comparison.pdf, pag
-e is rotated 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 445--447
+ [21 <./fig/Muons/Comparison_MokkaDD4hepData_Muons.pdf, page is rotated 90 degr
+ees> <./fig/Muons/Comparison_MokkaDD4hepData_Muons_zoom.pdf, page is rotated 90
+ degrees>]
+[22 <./fig/Electrons/Comparison_SimData_Electrons10GeV.pdf, page is rotated 90 
+degrees> <./fig/Electrons/Comparison_SimData_Electrons15GeV.pdf, page is rotate
+d 90 degrees> <./fig/Electrons/Comparison_SimData_Electrons20GeV.pdf, page is r
+otated 90 degrees> <./fig/Electrons/Comparison_SimData_Electrons30GeV.pdf, page
+ is rotated 90 degrees> <./fig/Electrons/Comparison_SimData_Electrons40GeV.pdf,
+ page is rotated 90 degrees> <./fig/Electrons/Comparison_SimData_Electrons50GeV
+.pdf, page is rotated 90 degrees>] [23 <./fig/Electrons/Comparison_SimData_Elec
+trons_nHits_10GeV.pdf, page is rotated 90 degrees> <./fig/Electrons/Comparison_
+SimData_Electrons_nHits_15GeV.pdf, page is rotated 90 degrees> <./fig/Electrons
+/Comparison_SimData_Electrons_nHits_20GeV.pdf, page is rotated 90 degrees> <./f
+ig/Electrons/Comparison_SimData_Electrons_nHits_30GeV.pdf, page is rotated 90 d
+egrees> <./fig/Electrons/Comparison_SimData_Electrons_nHits_40GeV.pdf, page is 
+rotated 90 degrees> <./fig/Electrons/Comparison_SimData_Electrons_nHits_50GeV.p
+df, page is rotated 90 degrees>] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 525--527
 []\T1/bch/m/n/10.95 http://omega.in2p3.fr/index.php/download-center/doc_view/16
 5-spiroc2-
  []
 
-[20
+[25
 
-] [21]
-<fig/PedestalErrorDistribution_AHCAL.pdf, id=1306, 569.12625pt x 409.53pt>
-File: fig/PedestalErrorDistribution_AHCAL.pdf Graphic file (type pdf)
-
-<use fig/PedestalErrorDistribution_AHCAL.pdf>
-Package pdftex.def Info: fig/PedestalErrorDistribution_AHCAL.pdf used on input 
-line 499.
+] [26]
+<fig/Muons/PedestalErrorDistribution_AHCAL.pdf, id=1263, 569.12625pt x 409.53pt
+>
+File: fig/Muons/PedestalErrorDistribution_AHCAL.pdf Graphic file (type pdf)
+ <use fig/Muons/PedestalErrorDistribution_AHCAL.pdf>
+Package pdftex.def Info: fig/Muons/PedestalErrorDistribution_AHCAL.pdf used on 
+input line 579.
 (pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
-<fig/MaxErrorDistribution_AHCAL.pdf, id=1307, 569.12625pt x 409.53pt>
-File: fig/MaxErrorDistribution_AHCAL.pdf Graphic file (type pdf)
+<fig/Muons/MaxErrorDistribution_AHCAL.pdf, id=1264, 569.12625pt x 409.53pt>
+File: fig/Muons/MaxErrorDistribution_AHCAL.pdf Graphic file (type pdf)
 
-<use fig/MaxErrorDistribution_AHCAL.pdf>
-Package pdftex.def Info: fig/MaxErrorDistribution_AHCAL.pdf used on input line 
-500.
+<use fig/Muons/MaxErrorDistribution_AHCAL.pdf>
+Package pdftex.def Info: fig/Muons/MaxErrorDistribution_AHCAL.pdf used on input
+ line 580.
 (pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
-<fig/TimeErrorEstimation_Layer3.pdf, id=1311, 569.12625pt x 408.52625pt>
-File: fig/TimeErrorEstimation_Layer3.pdf Graphic file (type pdf)
+<fig/Muons/TimeErrorEstimation_Layer3.pdf, id=1268, 569.12625pt x 408.52625pt>
+File: fig/Muons/TimeErrorEstimation_Layer3.pdf Graphic file (type pdf)
 
-<use fig/TimeErrorEstimation_Layer3.pdf>
-Package pdftex.def Info: fig/TimeErrorEstimation_Layer3.pdf used on input line 
-506.
+<use fig/Muons/TimeErrorEstimation_Layer3.pdf>
+Package pdftex.def Info: fig/Muons/TimeErrorEstimation_Layer3.pdf used on input
+ line 586.
 (pdftex.def)             Requested size: 216.24112pt x 155.22289pt.
 
-<fig/TimeErrorEstimation_Layer5.pdf, id=1312, 569.12625pt x 408.52625pt>
-File: fig/TimeErrorEstimation_Layer5.pdf Graphic file (type pdf)
+<fig/Muons/TimeErrorEstimation_Layer5.pdf, id=1269, 569.12625pt x 408.52625pt>
+File: fig/Muons/TimeErrorEstimation_Layer5.pdf Graphic file (type pdf)
 
-<use fig/TimeErrorEstimation_Layer5.pdf>
-Package pdftex.def Info: fig/TimeErrorEstimation_Layer5.pdf used on input line 
-507.
+<use fig/Muons/TimeErrorEstimation_Layer5.pdf>
+Package pdftex.def Info: fig/Muons/TimeErrorEstimation_Layer5.pdf used on input
+ line 587.
 (pdftex.def)             Requested size: 216.24112pt x 155.22289pt.
- [22
+ [27
 
-] [23 <./fig/PedestalErrorDistribution_AHCAL.pdf, page is rotated 90 degrees> <
-./fig/MaxErrorDistribution_AHCAL.pdf, page is rotated 90 degrees> <./fig/TimeEr
-rorEstimation_Layer3.pdf, page is rotated 90 degrees> <./fig/TimeErrorEstimatio
-n_Layer5.pdf, page is rotated 90 degrees>] <fig/TimingHitsBins.pdf, id=1506, 56
-9.12625pt x 409.53pt>
-File: fig/TimingHitsBins.pdf Graphic file (type pdf)
+] [28 <./fig/Muons/PedestalErrorDistribution_AHCAL.pdf, page is rotated 90 degr
+ees> <./fig/Muons/MaxErrorDistribution_AHCAL.pdf, page is rotated 90 degrees> <
+./fig/Muons/TimeErrorEstimation_Layer3.pdf, page is rotated 90 degrees> <./fig/
+Muons/TimeErrorEstimation_Layer5.pdf, page is rotated 90 degrees>]
+<fig/Electrons/TimingHitsBins_20GeV.pdf, id=1391, 569.12625pt x 409.53pt>
+File: fig/Electrons/TimingHitsBins_20GeV.pdf Graphic file (type pdf)
 
-<use fig/TimingHitsBins.pdf>
-Package pdftex.def Info: fig/TimingHitsBins.pdf used on input line 530.
+<use fig/Electrons/TimingHitsBins_20GeV.pdf>
+Package pdftex.def Info: fig/Electrons/TimingHitsBins_20GeV.pdf used on input l
+ine 608.
 (pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
 
-<fig/ParametrisationPedestalShift_only.pdf, id=1507, 569.12625pt x 409.53pt>
-File: fig/ParametrisationPedestalShift_only.pdf Graphic file (type pdf)
+<fig/Electrons/MeanParametrisation.pdf, id=1392, 569.12625pt x 409.53pt>
+File: fig/Electrons/MeanParametrisation.pdf Graphic file (type pdf)
 
-<use fig/ParametrisationPedestalShift_only.pdf>
-Package pdftex.def Info: fig/ParametrisationPedestalShift_only.pdf used on inpu
-t line 531.
+<use fig/Electrons/MeanParametrisation.pdf>
+Package pdftex.def Info: fig/Electrons/MeanParametrisation.pdf used on input li
+ne 609.
 (pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
- [24 <./fig/TimingHitsBins.pdf, page is rotated 90 degrees> <./fig/Parametrisat
-ionPedestalShift_only.pdf, page is rotated 90 degrees>] [25]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 542.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 542.
- (./CAN.xwm) (./CAN.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 542.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 542.
+
+<fig/Electrons/MeanParametrisationWithSystErrors.pdf, id=1394, 569.12625pt x 40
+9.53pt>
+File: fig/Electrons/MeanParametrisationWithSystErrors.pdf Graphic file (type pd
+f)
+ <use fig/Electrons/MeanParametrisationWithSystErrors.pdf>
+Package pdftex.def Info: fig/Electrons/MeanParametrisationWithSystErrors.pdf us
+ed on input line 616.
+(pdftex.def)             Requested size: 302.73624pt x 217.84972pt.
+ [29 <./fig/Electrons/TimingHitsBins_20GeV.pdf, page is rotated 90 degrees> <./
+fig/Electrons/MeanParametrisation.pdf, page is rotated 90 degrees>] [30 <./fig/
+Electrons/MeanParametrisationWithSystErrors.pdf, page is rotated 90 degrees>]
+<fig/Muons/Noise_Energy.pdf, id=1484, 569.12625pt x 409.53pt>
+File: fig/Muons/Noise_Energy.pdf Graphic file (type pdf)
+
+<use fig/Muons/Noise_Energy.pdf>
+Package pdftex.def Info: fig/Muons/Noise_Energy.pdf used on input line 647.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+
+<fig/Muons/Noise_Time.pdf, id=1485, 569.12625pt x 409.53pt>
+File: fig/Muons/Noise_Time.pdf Graphic file (type pdf)
+
+<use fig/Muons/Noise_Time.pdf>
+Package pdftex.def Info: fig/Muons/Noise_Time.pdf used on input line 648.
+(pdftex.def)             Requested size: 216.24112pt x 155.60426pt.
+ [31 <./fig/Muons/Noise_Energy.pdf, page is rotated 90 degrees> <./fig/Muons/No
+ise_Time.pdf, page is rotated 90 degrees>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 654.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 654.
+
+(./CAN.xwm) (./CAN.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 654.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 654.
 Package rerunfilecheck Info: File `CAN.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 542.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 654.
  ) 
 Here is how much of TeX's memory you used:
- 24589 strings out of 493013
- 456300 string characters out of 6133343
- 565384 words of memory out of 5000000
- 27544 multiletter control sequences out of 15000+600000
- 70317 words of font info for 92 fonts, out of 8000000 for 9000
+ 24792 strings out of 493013
+ 462755 string characters out of 6133343
+ 570460 words of memory out of 5000000
+ 27698 multiletter control sequences out of 15000+600000
+ 68632 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,19n,86p,1483b,857s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
@@ -1420,14 +1582,15 @@ type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
-tex-gyre/qhvb.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-sup
-er/sfss0800.pfb>
-Output written on CAN.pdf (25 pages, 4482904 bytes).
+lic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/te
+x-gyre/qhvb.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super
+/sfss0800.pfb>
+Output written on CAN.pdf (31 pages, 5024057 bytes).
 PDF statistics:
- 1688 PDF objects out of 1728 (max. 8388607)
- 876 compressed objects within 9 object streams
- 124 named destinations out of 1000 (max. 500000)
- 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1635 PDF objects out of 1728 (max. 8388607)
+ 1290 compressed objects within 13 object streams
+ 157 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

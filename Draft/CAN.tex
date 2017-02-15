@@ -67,14 +67,14 @@
 \selectlanguage{english}
 \begin{titlepage}
 \begin{flushright}
-CALICE Analysis Note CAN-057\\
+CALICE Analysis Note CAN-0XX\\
 v1.0\\
-October 7, 2016 \\
+\today\\
 \end{flushright}
 
 \begin{center}
 \vspace*{\fill}
-\begin{LARGE} \textbf{Timing Resolution in Testbeam of the CALICE Analog Hadronic Calorimeter} \end{LARGE} \\ [10ex]
+\begin{LARGE} \textbf{Timing Measurement in Testbeam of the CALICE Analog Hadronic Calorimeter} \end{LARGE} \\ [10ex]
 \begin{Large} The CALICE Collaboration \footnote{Corresponding authors: \\ Eldwan Brianne; eldwan.brianne@desy.de; Katja Krueger; katja.krueger@desy.de}\\ [10ex]
 \end{Large}
 
@@ -97,7 +97,7 @@ This note contains preliminary CALICE results, and is for the use of members of 
 
 The International Large Detector (ILD) \cite{ILC_TDR} considers a highly granular hadronic calorimeter using iron absorbers to achieve a compact detector with the best jet energy resolution around 3-4\% at 250 GeV satisfying the space constrain imposed by the solenoid magnet. Timing measurements in a calorimeter can be used to reject pile-up events like at the LHC or CLIC due to the bunch-to-bunch spacing of 25 and 0.5 ns respectively. Also the high level of $\gamma\gamma \rightarrow$ hadrons could be rejected by using timing information of the calorimeter in order to limit the impact of the background on physics measurements. Novel techniques of using time information to improve energy reconstruction could be used \cite{IEEE_timing}.\\
 In the hadronic calorimeter, the timing precision is highly influenced by the time structure of the shower itself. A hadronic shower possesses several timing components related to different processes happening in the shower. A fast component related to instantaneous highly energetic deposits from high-energy hadrons and electromagnetic sub-showers. A slow component due to neutron scattering, nuclear-recoil and photons from nuclear processes, this component can last up to several milliseconds. Apart from physics processes, the measured hit time is influenced by the active medium used as well as the electronics. Time constants in the active medium such as scintillation decay time can affect the measurement.\\
-The performance of the ILD relies on simulation studies based on \geant, it is important to study how well the simulation performs to reproduce the time structure of hadronic showers observed in data. The CALICE Analog Hadronic Calorimeter (AHCAL) technological prototype has been installed in the SPS CERN facilities in July and August 2015 in order to provide measurements using plastic scintillators. The goal of this study is to improve our knowledge about hadronic showers especially about its time evolution and time correlation within the calorimeter. This note will describe the timing calibration procedure of the AHCAL first, the comparison with simulation for muons and electrons and finally a comparison with pion data.
+The performance of the ILD relies on simulation studies based on \geant, it is important to study how well the simulation performs to reproduce the time structure of hadronic showers observed in data. The CALICE Analog Hadronic Calorimeter (AHCAL) technological prototype has been installed in the SPS CERN facilities in July and August 2015 in order to provide measurements using plastic scintillators. The goal of this study is to improve our knowledge about hadronic showers especially about its time evolution and time correlations of layers within the calorimeter. This note will describe the timing calibration procedure of the AHCAL first, the comparison with simulation for muons and electrons and finally a comparison with pion data.
 
 \section{The CERN 2015 Testbeam Setup}
 
@@ -105,7 +105,7 @@ The datasets used in this note were collected during the testbeam campaign at CE
 
 \subsection{The CALICE AHCAL technological prototype}
 
-In the July 2015 testbeam period, the CALICE AHCAL technological prototype setup consisted of 38 steel absorber plates, 19 mm thick corresponding to a depth of approximately 40 $X_0$ ($\sim$ 4.5 nuclear interaction length $\lambda_{n}$). The active layers consisted of a iron cassette, 1 mm thick, a HCAL Base Unit (HBU) of an area of $36\times36$ cm$^2$, hosting the integrated readout electronics and a $30\times30\times3$ mm$^3$ plastic scintillator tile wrapped in a reflective foil. Each plastic tile is read out individually by a SiPM. The layers consisted of either 1 or 4 HBUs as illustrated in figure \ref{fig:detector_layout}. 
+In the July 2015 testbeam period, the CALICE AHCAL technological prototype setup consisted of 38 steel absorber plates, 17.2 mm thick, corresponding to a depth of approximately 40 $X_0$ ($\sim$ 4.5 nuclear interaction length $\lambda_{n}$). The active layers consisted of a iron cassette, 1 mm thick, a HCAL Base Unit (HBU) of an area of $36\times36$ cm$^2$, hosting the integrated readout electronics and a $30\times30\times3$ mm$^3$ plastic scintillator tile wrapped in a reflective foil. Each plastic tile is read out individually by a SiPM. The layers consisted of either 1 or 4 HBUs as illustrated in figure \ref{fig:detector_layout}. 
 
 \begin{figure}[htbp]
 	\subfigure[%Picture of the AHCAL steel stack during the CERN testbeam.
@@ -142,7 +142,7 @@ The two first layers consisted of ECAL Base Unit (EBU) with 144 scintillator str
 
 \subsection{The SPIROC2b chip}
 
-The SiPMs are read out by a SPIROC2b chip which features 36 channels measuring ADC amplitudes (energy) and TDC amplitudes (time) and can store up to 16 events. The collected charge from the SiPM is stored in a capacitor (memory-cell) waiting to be digitised with a 12 bit range. The chip can be configured in 2 different modes. External trigger mode is used for gain calibration via an integrated LED Calibration System and monitoring of the SiPM. Auto-trigger mode is used to collect physics data. A threshold between 0.2-0.5 MIP is set for each chip in the setup. The amplitude signal amplified by a pre-amplifier with two different gains (High Gain and Low Gain) and then is measured via a slow shaper (50 ns shaping time) before being stored into a memory cell. The time is measured via a fast shaper (15 ns shaping time) when the signal passes the threshold and is digitised by a voltage ramp. Each chip possesses two voltage ramps that are multiplexed when a new Bunch Crossing (BXID) occurs. The length of a BXID is defined by the slow clock of the chip. In testbeam, the clock used is of 250 kHz which would correspond to a BXID length of 4 $\mu$s but due to the ramp multiplexer a dead time of around 2\% has to be taken into account. Thus the ramp length is 3.92 $\mu$s \cite{EldwanSSP}. For testbeam operation, a validation signal coming from scintillator beam triggers can be provided to the chip in order to suppress noise hits \cite{DAQ}.\\
+The SiPMs are read out by a SPIROC2b chip which features 36 channels measuring ADC amplitudes (energy) and TDC amplitudes (time) and can store up to 16 events. The collected charge from the SiPM is stored in a capacitor (memory-cell) waiting to be digitised with a 12 bit range. The chip can be configured in 2 different modes. External trigger mode is used for gain calibration via an integrated LED Calibration System and monitoring of the SiPM gain. Auto-trigger mode is used to collect physics data. A threshold between 0.2-0.5 MIP is set for each chip in the setup. The SiPM signal is amplified by a pre-amplifier with two different gains (High Gain and Low Gain) and then is integrated by a slow shaper (50 ns shaping time) before being stored into a memory cell. The time is measured via a fast shaper (15 ns shaping time) integrating the signal. When the signal passes the threshold and it is measured by a voltage ramp (TDC ramp). Each chip possesses two voltage ramps that are multiplexed when a new Bunch Crossing (BXID) occurs. The length of a BXID is defined by the slow clock of the chip. In testbeam, the clock used is of 250 kHz which would correspond to a BXID length of 4 $\mu$s but due to the ramp multiplexer a dead time of around 2\% has to be taken into account. Thus the ramp length is 3.92 $\mu$s \cite{EldwanSSP}. For testbeam operation, a validation signal coming from scintillator beam triggers can be provided to the chip in order to suppress noise hits \cite{DAQ}.\\
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=0.7\textwidth]{fig/Others/Spiroc_layout.png}

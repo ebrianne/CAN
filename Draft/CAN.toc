@@ -15,16 +15,16 @@
 \contentsline {subsection}{\numberline {4.1}AHCAL Simulation Model \& Digitisation}{9}{subsection.4.1}
 \contentsline {section}{\numberline {5}Timing Calibration}{10}{section.5}
 \contentsline {subsection}{\numberline {5.1}Slope calibration}{10}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Determination of the time of first hit}{11}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Time reference}{11}{subsubsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2}Determination of the time of first hit}{12}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Time reference}{12}{subsubsection.5.2.1}
 \contentsline {subsubsection}{\numberline {5.2.2}Time of the first hit distribution}{13}{subsubsection.5.2.2}
-\contentsline {subsection}{\numberline {5.3}Corrections applied to data}{13}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Ramp non-linearity correction}{13}{subsubsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.2}Time Walk correction}{15}{subsubsection.5.3.2}
-\contentsline {subsubsection}{\numberline {5.3.3}Time of first hit for muons}{15}{subsubsection.5.3.3}
-\contentsline {subsection}{\numberline {5.4}Cross-check of the calibration with electrons}{17}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.3}Corrections applied to data}{14}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Ramp non-linearity correction}{14}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Time Walk correction}{14}{subsubsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.3}Time of first hit for muons}{16}{subsubsection.5.3.3}
+\contentsline {subsection}{\numberline {5.4}Cross-check of the calibration with electrons}{16}{subsection.5.4}
 \contentsline {subsection}{\numberline {5.5}Influence of the number of triggered channels}{17}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Time of the first hit for electrons}{19}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.6}Time of the first hit for electrons}{18}{subsection.5.6}
 \contentsline {subsection}{\numberline {5.7}Influence of the detector inhomogeneity}{19}{subsection.5.7}
 \contentsline {section}{\numberline {6}Comparison with simulation for muons and electrons}{20}{section.6}
 \contentsline {section}{\numberline {7}Results}{24}{section.7}

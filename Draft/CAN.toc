@@ -24,10 +24,10 @@
 \contentsline {subsubsection}{\numberline {5.3.3}Time of first hit for muons}{15}{subsubsection.5.3.3}
 \contentsline {subsection}{\numberline {5.4}Cross-check of the calibration with electrons}{17}{subsection.5.4}
 \contentsline {subsection}{\numberline {5.5}Influence of the number of triggered channels}{17}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Time of the first hit for electrons}{18}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.6}Time of the first hit for electrons}{19}{subsection.5.6}
 \contentsline {subsection}{\numberline {5.7}Influence of the detector inhomogeneity}{19}{subsection.5.7}
 \contentsline {section}{\numberline {6}Comparison with simulation for muons and electrons}{20}{section.6}
-\contentsline {section}{\numberline {7}Results}{21}{section.7}
+\contentsline {section}{\numberline {7}Results}{24}{section.7}
 \contentsline {section}{\numberline {8}Summary}{24}{section.8}
 \contentsline {section}{Bibliography}{25}{section.8}
 \contentsline {section}{Appendix}{27}{section.8}
@@ -35,3 +35,4 @@
 \contentsline {section}{\numberline {A}Error Estimation of the TDC calibration.}{27}{appendix.A}
 \contentsline {section}{\numberline {B}Influence of the number of triggered channels and parametrisation in Monte-Carlo.}{29}{appendix.B}
 \contentsline {section}{\numberline {C}Noise extraction and effect in timing.}{31}{appendix.C}
+\contentsline {section}{\numberline {D}Tables of rejected chips.}{32}{appendix.D}

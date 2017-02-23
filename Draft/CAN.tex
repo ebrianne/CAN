@@ -330,7 +330,7 @@ In a next step, to reduce the uncertainty made on the time of the trigger, the t
 \text{T}_{ref} = \frac{\text{T}_{12} + \text{T}_{13} + \text{T}_{14}}{3}
 \end{equation}
 \begin{equation} \label{eq:tref_err}
-\sigma_{ref} = \frac{ (\text{T}_{12} - \text{T}_{ref})^2 + (\text{T}_{13} - \text{T}_{ref})^2  + (\text{T}_{14} - \text{T}_{ref})^2 }{6}
+\sigma_{ref}^2 = \frac{ (\text{T}_{12} - \text{T}_{ref})^2 + (\text{T}_{13} - \text{T}_{ref})^2  + (\text{T}_{14} - \text{T}_{ref})^2 }{6}
 \end{equation}
 
 Since the absolute time between the passage of a muon and the trigger of a channel is not known due to cabling and the trigger electronics, the time offset relative to the trigger is determined from data. Muons are quasi-instantaneous particles thus the time of the first hit distribution for each channel, memory cells and BXID has to be shifted to \textit{t=0}. This shifting procedure takes into account the delay time of the trigger due to cabling and the NIM-logic as well as mis-calibrations in pedestals. Only memory-cells containing more than 100 events are considered. This offset is determined by iteration requiring at least 4 prompt hits i.e hits in the range from -20 to 20 ns of the event. In this way, 18338 individual offsets are extracted from data. A distribution of the extracted offsets using muon data can be seen in figure \ref{fig:offset_trigger_distribution}. The figure \ref{fig:BXID_offset} shows that individual offsets have to be extracted for each BXID as the correlation is chip-dependent and not the same for odd and even BXIDs.

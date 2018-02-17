@@ -1,0 +1,63 @@
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb}
+\usepackage[font=footnotesize, singlelinecheck=false, labelfont=bf]{caption}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{verbatim}
+\usepackage{epstopdf}
+\usepackage{textcomp}
+\usepackage{nicefrac}
+\usepackage{xspace}
+\usepackage{lineno}
+\usepackage[footnotesize, bf, hang, raggedright]{subfigure}
+\usepackage{charter}
+\usepackage[expert]{mathdesign}
+\usepackage[bottom]{footmisc}
+\usepackage[english]{babel}
+\usepackage{tikz}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usetikzlibrary{arrows}
+
+\onehalfspacing
+\usepackage[left=2.9cm,right=2.9cm,top=3cm,bottom=4.5cm]{geometry}
+
+\newcommand{\subfigureautorefname}{\figurename}
+\newcommand\geant{\textsc{Geant\,4}\xspace}
+\newcommand\mokka{\textsc{Mokka}\xspace}
+\newcommand\ddhep{\textsc{DD4hep}\xspace}
+
+\usepackage{xcolor}
+\usepackage[printwatermark]{xwatermark}
+\newwatermark[allpages,color=gray!30,angle=45,scale=3,xpos=-10,ypos=0]{Draft}
+
+\usepackage{titlesec}
+\titleformat{\section}[hang]{
+\usefont{T1}{qhv}{b}{n}\selectfont} % "qhv" - TeX Gyre Heros, "b" - bold
+{}
+{0em}
+{\hspace{-0.4pt}\Large \thesection\hspace{0.6em}}
+
+\usepackage[subfigure]{tocloft} % subfigure option only if using subfigure package
+\renewcommand{\cfttoctitlefont} % ToC title
+             {\usefont{T1}{qhv}{b}{n}\selectfont\huge}
+\renewcommand{\cftsecfont} % section titles
+             {\usefont{T1}{bch}{b}{n}\selectfont}
+\renewcommand{\cftsubsecfont} % subsection titles
+             {\usefont{T1}{bch}{m}{n}\selectfont}
+\renewcommand{\cftsecpagefont} % section page numbers
+             {\cftsecfont}
+\renewcommand{\cftsubsecpagefont} % subsection page numbers
+             {\cftsubsecfont}
+
+\renewcommand{\arraystretch}{1.25}% Spread rows out...
+
+\linenumbers
+\setcounter{tocdepth}{2}

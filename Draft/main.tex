@@ -59,9 +59,35 @@ The beam instrumentation consists of two $10\times10$ cm$^2$ scintillator plates
 	\end{tabular}
 \end{table}
 
-\section{Event Selection}
+\section{Simulation}
 
-The data is reconstructed using the current CALICE software based on the Marlin framework \cite{}. A cut at 0.5 MIP is applied to individual channels to remove noise hits.
+\subsection{Geometry implementation}
+
+The simulation of the testbeam prototype is based on the \mokka \cite{MoradeFreitas:2002kj} framework v08-05-01 and the new \ddhep \cite{Frank:2014zya} framework v00-16, which both provide a full \geant v10.1 based simulation of the detector with detailed geometry and material descriptions. A right-handed coordinate system is used such that the Z-axis points in the beam direction and that the Y-axis is directed upwards. No beamline instrumentation is simulated except scintillator triggers in front of and behind the detector. An additional layer of 5.6 mm of lead (corresponds to 1 $X_0$) is added in front of the calorimeter in order to account for missing upstream material. This additional material was determined using the electron data and matching the simulation with the center of gravity distribution in the z-direction.
+
+This analysis uses the sub-detector \mokka models \textit{TBecal4d} for the ScECAL (Scintillator strips with EBUs) and \textit{TBhcal4d} for the AHCAL. The distance between the sub-detectors is set to 0 mm. The absorber structure is square-shaped in simulation, on contrary wedge-shape in reality, but it is not expected to have any influence. The placement of the active layers are the following: 2 single EBU boards, 8 single HBU boards and 4 $2\times2$ HBU boards (in slots 11, 13, 21, 31 of the absorber structure).
+
+The simulation includes also saturation effects in the scintillator known as the Birk's Law. The saturation appears a high ionization densities due to shielding effects of the scintillator material. The implementation of the Birk's Law in \geant is used. A check was performed with \mokka and \ddhep models with muons and electrons to ensure that the material description in both models is better than 20\%.
+
+The beam gun is placed 1 m in front of the calorimeter face for the simulations in this analysis. It is configured to generate single beam particles with a 2\% momentum spread, according to the beamline, and the beam profile for electrons and pions is extracted from data and applied to simulation. For muon runs, a flat beam covering the full AHCAL is simulated as this is not expected to have an influence on the MIP and time response of the detector. All electron simulations are simulated with \geant v10.1 using the QGSP\_BERT\_HP physics list.
+
+Pion showers are simulated using QGSP\_BERT, QGSP\_BERT\_HP and QBBC physics lists. The package \textit{high precision} (\_HP) is used in order to understand the differences induced in timing with a precise treatment of the neutrons.
+
+\subsection{Digitization}
+
+The digitization of simulated hits is very similar to the one used in the ScECAL and AHCAL physics prototypes \cite{2011_JINST_6_P04003}. First, the energy deposited in a cell is converted in MIP. This is done in order to have the simulation on the same energy scale as the testbeam data once converted. The conversion unit named \textit{MIPtoGeV} is extracted from simulation by projecting 8 GeV muons onto the AHCAL detector and fitting the resulting spectrum of the deposited energy. Motivated by physics, ideally for a thin active material, the energy deposited follows a Landau distribution. The most probable value (MPV) of this distribution is used as the \textit{MIPtoGeV} factor. For this thesis, a value of 470 keV is used for the AHCAL and 309 keV for the ScECAL.
+
+If available, individual calibration factors obtained from data are used to extract the light yield which is needed to model the statistical fluctuations of photons hitting a SiPM \cite{Hartbrich:2016bbz}. Saturation effects are also included using the number of pixels available on each SiPM type. Most of the tiles used are wrapped with a reflective foil such that crosstalk effects between channels can be neglected. For layers with no wrapping, a default value of 15\% cross-talk is applied.
+
+Additionally, noise needs to be taken into account for the engineering AHCAL prototype. It is important to note that noise is much lower than in the physics prototype but it is important to be taken into account for this thesis as timing is very sensitive to low statistics late tails. Noise is added using muon runs by removing found tracks and keeping remaining hits.
+
+The timing is modeled in the same way as in the SPIROC, the energy from sub-hits in a cell is integrated over a sliding time window of 15 ns, if the energy sum passes the threshold, the time of the simulated sub-hit is used as the time of the hit. In order to simulate detector resolution effects, the time of a hit is smeared with a double Gaussian function with slightly different means and sigmas convoluted with a Gaussian of fixed mean and variable sigma.
+
+After digitization, simulated hits have the same format as raw data hits and are then reconstructed using the same software chain as is used for data. To suppress noise, only hits above 0.5 MIP are considered in this analysis in both simulation and data.
+
+\subsection{Model Validation}
+
+\section{Event Selection}
 
 \subsection{Muon selection}
 
@@ -109,16 +135,14 @@ To reconstruct the time in a channel, the TDC value measured needs to be convert
 \end{equation}
 where $s$ is the TDC ramp slope, $a$ is the endpoint of the TDC ramp and $b$ is the start point of the TDC ramp that is referred in the following as the pedestal. The total length of the ramp is 3920 ns instead of the expected value of 4000 ns due to a deadtime of around 2\% \cite{Brianne2012} induced by the multiplexer that switches between the two ramps.
 
-At a first order, the slope of the TDC ramp is assumed to be linear. The parameters $a$ and $b$ are extracted from the TDC spectrum of a channel per chip and BXID parity using only the first memory-cell as shown in figure \ref{fig:TDC_Spectrum}. The TDC ramp slope does not depend on the memory-cell as the memory-cell only introduce an offset on the parameters $a$ and $b$. A total of 208 slopes have to be extracted for the testbeam setup.
-
 \begin{figure}[htbp!]
-	\begin{subfigure}[t]{0.5\textwidth}
+	\begin{subfigure}[t]{0.49\textwidth}
 		\centering
 		\includegraphics[width=1\linewidth]{fig/ExampleTDCSpectra.pdf}
 		\caption{} \label{fig:TDC_Spectrum}
 	\end{subfigure}
 	\hfill
-	\begin{subfigure}[t]{0.5\textwidth}
+	\begin{subfigure}[t]{0.49\textwidth}
 		\centering
 		\includegraphics[width=1\linewidth]{fig/SlopesTDC.pdf}
 		\caption{} \label{fig:slopes}
@@ -126,19 +150,21 @@ At a first order, the slope of the TDC ramp is assumed to be linear. The paramet
 	\caption{\subref{fig:TDC_Spectrum}) TDC spectrum of a typical chip. The black lines indicate the fitted Max and Pedestal parameters for this chip. The yellow bands represent the uncertainty on the extraction of the parameter $a$ and $b$. The extracted parameters are $s$ = 1.47 $\pm$ 0.01 ns/TDC, $b$ = 888 $\pm$ 5 TDC and $a$ = 3613 $\pm$ 8 TDC. \subref{fig:slopes}) Distribution of the fitted slopes for even and odd bunch-crossing IDs. $\mu_{odd}$ = 1.564 ns/TDC, RMS$_{odd}$ = 0.121, $\mu_{even}$ = 1.556 ns/TDC, RMS$_{even}$ = 0.113. In total, 208 TDC slopes were extracted.}
 \end{figure}
 
+At a first order, the slope of the TDC ramp is assumed to be linear. The parameters $a$ and $b$ are extracted from the TDC spectrum of a channel per chip and BXID parity using only the first memory-cell as shown in figure \ref{fig:TDC_Spectrum}. The TDC ramp slope does not depend on the memory-cell as the memory-cell only introduce an offset on the parameters $a$ and $b$. A total of 208 slopes have to be extracted for the testbeam setup.
+
 The extracted values for the slopes are shown in figure \ref{fig:slopes}. They are in the expected range of 1.6 ns per TDC bin due to the limited dynamic range provided by the chip, around 2500 TDC bins for 4 $\mu$s.
 
 \subsection{Time delay correction}
 
 The time reference of the trigger is delayed compared to the muon passing through the detector because the length of cables and the trigger electronics logic. Therefore, the time offset of the time reference is determined from data. Muons are instantaneous particles thus the time of the first hit distribution for each channel, memory cell and BXID should peak at 0 ns.
 
-A shifting procedure of the time of the hit relative to the time reference for each channel, memory-cell and BXID parity is performed. This is done to take into account the delay time of the trigger due to cabling and the trigger electronics as well as possible differences in channel pedestals. Only memory-cells containing more than 100 events are considered. The histogram range of the time of the hit relative to the time reference is reduced iteratively until the RMS of the distribution is under 10 ns. This value was chosen because it corresponds to more than 3 sigma of the time reference uncertainty. The mean of the histogram is then used as the time offset value. An example of a single channel is shown in figure \ref{fig:TimeChnwithOffset}.
-
 \begin{figure}[htbp!]
 	\centering
 	\includegraphics[width=0.6\textwidth]{fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf}
 	\caption{Time of first hit distribution for a single channel (Chip 236, Chn 21, Mem 01, BXID 1). An offset of -165.2 ns is determined for this channel.}\label{fig:TimeChnwithOffset}
 \end{figure}
+
+A shifting procedure of the time of the hit relative to the time reference for each channel, memory-cell and BXID parity is performed. This is done to take into account the delay time of the trigger due to cabling and the trigger electronics as well as possible differences in channel pedestals. Only memory-cells containing more than 100 events are considered. The histogram range of the time of the hit relative to the time reference is reduced iteratively until the RMS of the distribution is under 10 ns. This value was chosen because it corresponds to more than 3 sigma of the time reference uncertainty. The mean of the histogram is then used as the time offset value. An example of a single channel is shown in figure \ref{fig:TimeChnwithOffset}.
 
 In total, 21040 individual offsets are extracted from data. The mean value of the time offset is around -150 ns which is around the expected value considering the cabling length and the trigger logic delay.
 
@@ -150,13 +176,27 @@ The time calibration relies on the linearity of the TDC voltage ramp in the \tex
 
 The time-walk effect is due to the presence of an energy threshold that induces a time shift between a small amplitude signal and a high amplitude signal. Small amplitude signals will systematically trigger at a later time than high amplitude signals for a shaper that makes the signals peak at the same time. A time correction is determined by looking at the time of the first hit as a function of the amplitude of the hit. This may be particularly relevant for late energy depositions in hadron showers that comes generally from neutrons depositing little energy in the calorimeter. An improvement of around 3\% is achieved on the time resolution of the AHCAL.
 
+\begin{figure}[htbp!]
+	\centering
+	\includegraphics[width=0.6\textwidth]{fig/TimeWalkProfile.pdf}
+	\caption{Time of first hit as a function of the hit energy. A difference up to 6 ns is seen between small and large amplitudes. Time-walk correction extracted from data. The fit function is of the form $\text{A} \times e^{-\lambda{}x} + \text{B}$.}\label{fig:time_walk}
+\end{figure}
+
 \subsection{Number of triggered channel in a chip correction}
 
 The mean time of first hit as a function of the number of triggered channels over 0.5 MIP in a chip is shown in figure \ref{fig:nhits_profile}. A time shift up to 20-40 ns can be seen depending on the number of triggered channels in a chip. The cause of the observed effect is most likely due to an element in the chip called a \textit{delay box} that gets unstable with a high charge going through the chip. This chip element is responsible for the hold signal of the TDC ramp in the chip. The hold signal is delayed, and thus a higher TDC ramp value than the one expected is sampled.
 
+\begin{figure}[htbp!]
+	\centering
+	\includegraphics[width=0.6\textwidth]{fig/NumberHits_Dependance_AllEnergies.pdf}
+	\caption{Mean time of the first hit as a function of the number of triggered channels above 0.5 MIP in a chip. The mean time shift upwards with the increase of triggers leading to large tails in the time distribution. A second order polynomial fit is done for the time correction shown by the red dashed line.}\label{fig:nhits_profile}
+\end{figure}
+
 In order to determine a reliable time correction, the time correction parameters are determined combining all the electron data. This effect may be chip-dependent and the parameters for the correction may differ from chip to chip. However, the limited amount of data does not allow to determine a correction function for each chip. Therefore, a global function is used to correct the time in the data.
 
 \section{Results}
+
+\subsection{Systematic uncertainties}
 
 \subsection{Timing of muon and electron beams}
 

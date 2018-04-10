@@ -1,19 +1,24 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Testbeam Setup}{}% 2
-\BOOKMARK [1][-]{section.3}{Event Selection}{}% 3
-\BOOKMARK [2][-]{subsection.3.1}{Muon selection}{section.3}% 4
-\BOOKMARK [2][-]{subsection.3.2}{Electron selection}{section.3}% 5
-\BOOKMARK [2][-]{subsection.3.3}{Pion selection}{section.3}% 6
-\BOOKMARK [1][-]{section.4}{Timing calibration of the AHCAL}{}% 7
-\BOOKMARK [2][-]{subsection.4.1}{Time recording in the SPIROC2b}{section.4}% 8
-\BOOKMARK [2][-]{subsection.4.2}{Timing calibration procedure}{section.4}% 9
-\BOOKMARK [2][-]{subsection.4.3}{Slope and Pedestal extraction}{section.4}% 10
-\BOOKMARK [2][-]{subsection.4.4}{Time delay correction}{section.4}% 11
-\BOOKMARK [2][-]{subsection.4.5}{Non-linearity correction}{section.4}% 12
-\BOOKMARK [2][-]{subsection.4.6}{Time-walk correction}{section.4}% 13
-\BOOKMARK [2][-]{subsection.4.7}{Number of triggered channel in a chip correction}{section.4}% 14
-\BOOKMARK [1][-]{section.5}{Results}{}% 15
-\BOOKMARK [2][-]{subsection.5.1}{Timing of muon and electron beams}{section.5}% 16
-\BOOKMARK [2][-]{subsection.5.2}{Timing of pion showers}{section.5}% 17
-\BOOKMARK [1][-]{section.6}{Conclusion}{}% 18
-\BOOKMARK [1][-]{section.7}{Additional figures}{}% 19
+\BOOKMARK [1][-]{section.3}{Simulation}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Geometry implementation}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Digitization}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Model Validation}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Event Selection}{}% 7
+\BOOKMARK [2][-]{subsection.4.1}{Muon selection}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.2}{Electron selection}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.3}{Pion selection}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{Timing calibration of the AHCAL}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{Time recording in the SPIROC2b}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.2}{Timing calibration procedure}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.3}{Slope and Pedestal extraction}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.4}{Time delay correction}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.5}{Non-linearity correction}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.6}{Time-walk correction}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.7}{Number of triggered channel in a chip correction}{section.5}% 18
+\BOOKMARK [1][-]{section.6}{Results}{}% 19
+\BOOKMARK [2][-]{subsection.6.1}{Systematic uncertainties}{section.6}% 20
+\BOOKMARK [2][-]{subsection.6.2}{Timing of muon and electron beams}{section.6}% 21
+\BOOKMARK [2][-]{subsection.6.3}{Timing of pion showers}{section.6}% 22
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 23
+\BOOKMARK [1][-]{section.8}{Additional figures}{}% 24

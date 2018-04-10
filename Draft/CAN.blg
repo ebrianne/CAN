@@ -7,12 +7,16 @@ The style file: ieeetr.bst
 Database file #1: biblio.bib
 Warning--I didn't find a database entry for "ILC_TDR"
 Warning--I didn't find a database entry for "IEEE_timing"
+Warning--I didn't find a database entry for "MoradeFreitas:2002kj"
+Warning--I didn't find a database entry for "Frank:2014zya"
+Warning--I didn't find a database entry for "2011_JINST_6_P04003"
+Warning--I didn't find a database entry for "Hartbrich:2016bbz"
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Brianne2012"
 Warning--I didn't find a database entry for "Hartbrich2011"
 You've used 0 entries,
             1876 wiz_defined-function locations,
-            487 strings with 3563 characters,
+            495 strings with 3701 characters,
 and the built_in function-call counts, 20 in all, are:
 = -- 0
 > -- 0
@@ -51,4 +55,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 2
-(There were 5 warnings)
+(There were 9 warnings)

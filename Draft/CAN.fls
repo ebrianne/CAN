@@ -300,6 +300,12 @@ INPUT ./fig/SlopesTDC.pdf
 INPUT fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf
 INPUT ./fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf
 INPUT ./fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf
+INPUT fig/TimeWalkProfile.pdf
+INPUT ./fig/TimeWalkProfile.pdf
+INPUT ./fig/TimeWalkProfile.pdf
+INPUT fig/NumberHits_Dependance_AllEnergies.pdf
+INPUT ./fig/NumberHits_Dependance_AllEnergies.pdf
+INPUT ./fig/NumberHits_Dependance_AllEnergies.pdf
 INPUT biblio.tex
 INPUT biblio.tex
 INPUT CAN.bbl

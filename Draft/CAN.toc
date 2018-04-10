@@ -1,37 +1,20 @@
-\babel@toc {english}{}
-\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
-\contentsline {section}{\numberline {2}The CERN 2015 Testbeam Setup}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}The CALICE AHCAL technological prototype}{4}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Testbeam Setup}{4}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}The SPIROC2b chip}{4}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Trigger Signals}{6}{subsection.2.4}
-\contentsline {section}{\numberline {3}Runs \& Event Selection}{6}{section.3}
-\contentsline {subsection}{\numberline {3.1}Dataset}{6}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Muon Selection}{7}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Electron Selection}{8}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Pion Selection}{8}{subsection.3.4}
-\contentsline {section}{\numberline {4}Simulation}{9}{section.4}
-\contentsline {subsection}{\numberline {4.1}AHCAL Simulation Model \& Digitisation}{9}{subsection.4.1}
-\contentsline {section}{\numberline {5}Timing Calibration}{11}{section.5}
-\contentsline {subsection}{\numberline {5.1}Slope calibration}{11}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Determination of the time of first hit}{12}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Time reference}{12}{subsubsection.5.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2}Time of the first hit distribution}{14}{subsubsection.5.2.2}
-\contentsline {subsection}{\numberline {5.3}Corrections applied to data}{15}{subsection.5.3}
-\contentsline {subsubsection}{\numberline {5.3.1}Ramp non-linearity correction}{15}{subsubsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.2}Time Walk correction}{15}{subsubsection.5.3.2}
-\contentsline {subsubsection}{\numberline {5.3.3}Time of first hit for muons}{16}{subsubsection.5.3.3}
-\contentsline {subsection}{\numberline {5.4}Cross-check of the calibration with electrons}{17}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Influence of the number of triggered channels}{18}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Time of the first hit for electrons}{19}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}Influence of the detector inhomogeneity}{19}{subsection.5.7}
-\contentsline {section}{\numberline {6}Comparison with simulation for muons and electrons}{21}{section.6}
-\contentsline {section}{\numberline {7}Results}{25}{section.7}
-\contentsline {section}{\numberline {8}Summary}{26}{section.8}
-\contentsline {section}{Appendix}{27}{section.8}
-\setcounter {tocdepth}{0}
-\contentsline {section}{\numberline {A}Error Estimation of the TDC calibration.}{27}{appendix.A}
-\contentsline {section}{\numberline {B}Influence of the number of triggered channels and parametrisation in Monte-Carlo.}{29}{appendix.B}
-\contentsline {section}{\numberline {C}Noise extraction and effect in timing.}{31}{appendix.C}
-\contentsline {section}{\numberline {D}Tables of rejected chips.}{32}{appendix.D}
-\contentsline {section}{Bibliography}{33}{table.caption.35}
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Testbeam Setup}{2}{section.2}
+\contentsline {section}{\numberline {3}Event Selection}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Muon selection}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Electron selection}{4}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Pion selection}{5}{subsection.3.3}
+\contentsline {section}{\numberline {4}Timing calibration of the AHCAL}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Time recording in the SPIROC2b}{5}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Timing calibration procedure}{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Slope and Pedestal extraction}{6}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Time delay correction}{7}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Non-linearity correction}{8}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Time-walk correction}{9}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Number of triggered channel in a chip correction}{9}{subsection.4.7}
+\contentsline {section}{\numberline {5}Results}{10}{section.5}
+\contentsline {subsection}{\numberline {5.1}Timing of muon and electron beams}{10}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Timing of pion showers}{10}{subsection.5.2}
+\contentsline {section}{\numberline {6}Conclusion}{10}{section.6}
+\contentsline {section}{\numberline {7}Additional figures}{11}{section.7}

@@ -1,56 +1,54 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: CAN.aux
+The style file: ieeetr.bst
 A level-1 auxiliary file: title.aux
 A level-1 auxiliary file: main.aux
-The style file: ieeetr.bst
 Database file #1: biblio.bib
-Warning--I didn't find a database entry for "ILC_TDR"
-Warning--I didn't find a database entry for "IEEE_timing"
-Warning--I didn't find a database entry for "MoradeFreitas:2002kj"
-Warning--I didn't find a database entry for "Frank:2014zya"
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "Brianne2012"
-Warning--I didn't find a database entry for "Hartbrich2011"
-You've used 0 entries,
+Warning--entry type for "H2Beamline" isn't style-file defined
+--line 152 of file biblio.bib
+Warning--empty journal in Benaglia2016
+Warning--empty booktitle in Sefkow:316196
+Warning--empty booktitle in Krueger:205287
+You've used 13 entries,
             1876 wiz_defined-function locations,
-            491 strings with 3629 characters,
-and the built_in function-call counts, 20 in all, are:
-= -- 0
-> -- 0
+            566 strings with 6120 characters,
+and the built_in function-call counts, 2910 in all, are:
+= -- 270
+> -- 109
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 9
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 43
+- -- 30
+* -- 178
+:= -- 406
+add.period$ -- 13
+call.type$ -- 13
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 16
+duplicate$ -- 171
+empty$ -- 298
+format.name$ -- 30
+if$ -- 726
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 13
+missing$ -- 9
+newline$ -- 43
+num.names$ -- 12
+pop$ -- 63
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 121
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 112
+swap$ -- 65
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There were 7 warnings)
+warning$ -- 3
+while$ -- 21
+width$ -- 15
+write$ -- 117
+(There were 4 warnings)

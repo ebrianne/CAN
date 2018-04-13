@@ -1,3 +1,68 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{Benaglia2016}
+A.~Benaglia, E.~Auffray, P.~Lecoq, H.~Wenzel, and A.~Para, ``{Space-Time
+  Development of Electromagnetic and Hadronic Showers and Perspectives for
+  Novel Calorimetric Techniques},'' vol.~63, pp.~574--579, 04 2016.
+
+\bibitem{Sefkow:316196}
+F.~Sefkow and K.~Krueger, ``{T}owards a new {AHCAL} prototype,'' CALICE
+  Collaboration Meeting, Arlington (Texas, USA), 14 Sep 2016 - 16 Sep 2016, Sep
+  2016.
+
+\bibitem{Krueger:205287}
+K.~Krueger, ``{P}rototype {T}ests for a {H}ighly {G}ranular
+  {S}cintillator-{B}ased {H}adron {C}alorimeter,'' 16th International
+  Conference on Calorimetry in High Energy Physics, Giessen (Germany), 6 Apr
+  2014 - 11 Apr 2014, Apr 2014.
+
+\bibitem{5401891}
+S.~Callier, F.~Dulucq, R.~Fabbri, C.~de~La~Taille, B.~Lutz, G.~Martin-Chassard,
+  L.~Raux, and W.~Shen, ``Silicon photomultiplier integrated readout chip
+  (spiroc) for the ilc: Measurements and possible further development,'' in
+  {\em 2009 IEEE Nuclear Science Symposium Conference Record (NSS/MIC)},
+  pp.~42--46, Oct 2009.
+
+\bibitem{Kvasnicka:CR_IEEE2016}
+{Kvasnicka, Jiri}, ``{A Scalable Data Acquisition System for the CALICE Tile
+  Hadron Calorimeter},'' {\em Conference Record IEEE}, 2016.
+
+\bibitem{MoradeFreitas:2002kj}
+P.~Mora~de Freitas and H.~Videau, ``{Detector simulation with MOKKA / GEANT4:
+  Present and future},'' in {\em {Linear colliders. Proceedings, International
+  Workshop on physics and experiments with future electron-positron linear
+  colliders, LCWS 2002, Seogwipo, Jeju Island, Korea, August 26-30, 2002}},
+  pp.~623--627, 2002.
+
+\bibitem{Frank:2014zya}
+M.~Frank, F.~Gaede, C.~Grefe, and P.~Mato, ``{DD4hep: A Detector Description
+  Toolkit for High Energy Physics Experiments},'' {\em J. Phys. Conf. Ser.},
+  vol.~513, p.~022010, 2014.
+
+\bibitem{H2Beamline}
+``{CERN North Area H2 beamline}.''
+
+\bibitem{1748-0221-5-05-P05004}
+{The CALICE collaboration}, ``{Construction and commissioning of the CALICE
+  analog hadron calorimeter prototype},'' {\em Journal of Instrumentation},
+  vol.~5, no.~05, p.~P05004, 2010.
+
+\bibitem{Hartbrich:2016bbz}
+O.~Hartbrich, {\em {Scintillator Calorimeters for a Future Linear Collider
+  Experiment}}.
+\newblock PhD thesis, Hasylab, DESY, Hamburg, 2016.
+
+\bibitem{Brianne2012}
+E.~Brianne, ``{Studies of the front-end electronics of the Analog HCAL}.'' DESY
+  summer student report, 2012.
+
+\bibitem{Hartbrich2011}
+O.~Hartbrich, ``{Investigation of the time measurement capabilities of the
+  SPIROC2b ASIC}.'' DESY summer student report, 2011.
+
+\bibitem{Simon2013}
+F.~Simon, C.~Soldner, and L.~Weuste, ``{T3B - an experiment to measure the time
+  structure of hadronic showers},'' {\em Journal of Instrumentation}, vol.~8,
+  no.~12, p.~P12001, 2013.
 
 \end{thebibliography}

@@ -1,6 +1,6 @@
 %!TeX spellcheck = en-US
 %!TEX root = CAN.tex
-\documentclass[a4paper,11pt]{article}
+\documentclass[a4paper, 11pt]{article}
 
 \include{style}
 
@@ -9,5 +9,94 @@
 \include{title}
 
 \include{main}
+
+\bibliography{biblio}
+\clearpage
+
+\begin{appendix}
+
+	\section*{Appendix}
+  \addcontentsline{toc}{section}{Appendix}
+
+	\begin{table}[htb!]
+		\centering
+		\caption{List of runs taken at SPS in July 2015.}
+		\label{table:dataruns}
+		\begin{tabular}{@{}lp{2cm}p{7.5cm}p{2cm}@{}}
+			\toprule
+			\multicolumn{1}{l}{\textbf{Particle}} & \textbf{Energy} & \textbf{Runs} & \textbf{\# Events}\\
+			\midrule
+			\multirow{2}{*}{$\mu^-$}& 50 GeV & 24016-24204 & 120,887,651\\& 150 GeV & 24623-24662 & 15,534,328\\
+			\midrule
+			\multirow{2}{*}{e$^-$}& 10 GeV & 24531-24576 & 38,028,438\\& 15 GeV & 24507-24527 & 7,701,325\\& 20 GeV & 24479-24504 & 10,498,554\\& 30 GeV & 24454-24475 & 3,382,943\\& 40 GeV & 24420-24448 & 2,665,843\\& 50 GeV & 24404-24419 & 5,933,995\\
+			\midrule
+			\multirow{2}{*}{$\pi^-$}& 10 GeV & 24266-24272, 24300-24317, 24381-24397 & 24,311,420\\& 20 GeV & 24398-24400 & N/A\\& 30 GeV & 24259-24299, 24319-24380 & 10,120,753\\& 50 GeV & 24212-24254, 24325-24357, 24580-24612 & 10,704,661\\& 70 GeV & 24219-24242, 24365-24374 & 8,885,407\\& 90 GeV & 24233-24287, 24331-24364 & 7,955,604\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+
+	\begin{table}[htb!]
+		\centering
+		\caption{List of AHCAL channels used as time reference for this analysis. In this analysis, the time reference signals T$_{12}$, T$_{13}$ and T$_{14}$ are used.}
+		\label{table:trigger_ref}
+		\begin{tabular}{@{} ccccc @{}}
+			\toprule
+			Layer \# & Chip Number & Channel & Comments & Name \\
+			\midrule
+			11 & 169 & 29 & noisy & T$_{11}$ \\
+			11 & 177 & 23 & broken & - \\
+			12 & 185 & 29 & - & T$_{12}$ \\
+			13 & 201 & 29 & -  & T$_{13}$ \\
+			13 & 211 & 6 & broken & - \\
+			14 & 217 & 23 & - & T$_{14}$ \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+
+	\begin{table}[htb!]
+		\centering
+		\caption{Selection cuts for the muon runs.}
+		\label{table:muon_sel}
+		\begin{tabular}{@{}lll@{}}
+			\toprule
+			\multicolumn{1}{l}{\textbf{Name}} & \textbf{Beam Energy} & \textbf{Cut}\\
+			\midrule
+			\multirow{2}{*}{Preselection}& All & 0 mm < $cog_{z}$ < 800 mm\\& All & 0 < $n_{hits}$ < 20 \\
+			\multirow{2}{*}{Track Selection SSF}& All & $n_{hits}$ in tower > 7 \\& All & $n_{hits}$ in layer < 3 \\
+			\multirow{2}{*}{Track Selection BL}& All & $n_{hits}$ in tower > 2 \\& All & $n_{hits}$ in layer < 3 \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+
+	\begin{table}[htb!]
+		\centering
+		\caption{Selection cuts for each electron runs.}
+		\label{table:electron_sel}
+		\begin{tabular}{@{}lll@{}}
+			\toprule
+			\multicolumn{1}{l}{\textbf{Name}} & \textbf{Beam Energy} & \textbf{Cut}\\
+			\midrule
+			\multirow{2}{*}{Event Quality}& All & Cherenkov ON\\& All & Energy in the first 3 layers of AHCAL > 10 MIP \\
+			\multirow{9}{*}{Electron Selection}& 10 GeV & 25 < $n_{hits}$ < 75 \\& 15 GeV & 30 < $n_{hits}$ < 90 \\& 20 GeV & 40 < $n_{hits}$ < 100 \\& 30 GeV & 50 < $n_{hits}$ < 110 \\& 40 GeV & 60 < $n_{hits}$ < 120 \\& 50 GeV & 70 < $n_{hits}$ < 140 \\& All & $cog_{z}$ < 250 mm\\& All & -90 mm < $cog_{x, y}$ < 90 mm \\& All & Energy in last two layers < 1\% $E_{sum}$ \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+
+	\begin{table}[htb!]
+		\centering
+		\caption{Selection cuts for the pions runs.}
+		\label{table:pion_sel}
+		\begin{tabular}{@{}lll@{}}
+			\toprule
+			\multicolumn{1}{l}{\textbf{Name}} & \textbf{Beam Energy} & \textbf{Cut}\\
+			\midrule
+			\multirow{1}{*}{Event Quality}& All & Cherenkov OFF\\
+			\multirow{3}{*}{Pion Selection}& All & $n_{hits}$ > 20 \\& All & $n_{hits}$ in the first 2 AHCAL layers < 5 \\& All & Energy in last two layers > 1\% $E_{sum}$ \\
+			\multirow{2}{*}{Multi Particle Rejection}& All & $n_{hits}$ in time window > 5 \\& All & $n_{Cluster}$ > 0 \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+
+\end{appendix}
 
 \end{document}

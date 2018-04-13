@@ -23,8 +23,6 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -157,6 +155,8 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
 INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/babel/switch.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/appendix/appendix.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/appendix/appendix.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/titlesec/titlesec.sty
@@ -365,8 +365,6 @@ INPUT ./fig/Time_Correlation_50GeV_short_QGSPBERTHP.pdf
 INPUT fig/Time_Correlation_50GeV_long_QGSPBERTHP.pdf
 INPUT ./fig/Time_Correlation_50GeV_long_QGSPBERTHP.pdf
 INPUT ./fig/Time_Correlation_50GeV_long_QGSPBERTHP.pdf
-INPUT biblio.tex
-INPUT biblio.tex
 INPUT CAN.bbl
 INPUT CAN.bbl
 INPUT CAN.aux

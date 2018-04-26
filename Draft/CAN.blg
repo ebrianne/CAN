@@ -10,36 +10,36 @@ Warning--entry type for "H2Beamline" isn't style-file defined
 Warning--empty journal in Benaglia2016
 Warning--empty booktitle in Sefkow:316196
 Warning--empty booktitle in Krueger:205287
-You've used 13 entries,
+You've used 14 entries,
             1876 wiz_defined-function locations,
-            566 strings with 6120 characters,
-and the built_in function-call counts, 2910 in all, are:
-= -- 270
-> -- 109
+            570 strings with 6181 characters,
+and the built_in function-call counts, 3024 in all, are:
+= -- 278
+> -- 113
 < -- 0
-+ -- 43
-- -- 30
-* -- 178
-:= -- 406
++ -- 45
+- -- 31
+* -- 181
+:= -- 421
 add.period$ -- 13
-call.type$ -- 13
-change.case$ -- 12
+call.type$ -- 14
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 171
-empty$ -- 298
-format.name$ -- 30
-if$ -- 726
+cite$ -- 17
+duplicate$ -- 175
+empty$ -- 316
+format.name$ -- 31
+if$ -- 755
 int.to.chr$ -- 0
-int.to.str$ -- 13
+int.to.str$ -- 14
 missing$ -- 9
-newline$ -- 43
-num.names$ -- 12
-pop$ -- 63
+newline$ -- 46
+num.names$ -- 13
+pop$ -- 68
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 121
+skip$ -- 129
 stack$ -- 0
 substring$ -- 112
 swap$ -- 65
@@ -48,7 +48,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 21
-width$ -- 15
-write$ -- 117
+while$ -- 22
+width$ -- 16
+write$ -- 123
 (There were 4 warnings)

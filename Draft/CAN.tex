@@ -34,7 +34,7 @@
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \renewcommand{\floatpagefraction}{0.95}
 
-\title{Timing Measurement in the CALICE Analog Hadronic Calorimeter engineering prototype}
+\title{Timing of hadron showers in the CALICE Analog Hadronic Calorimeter engineering prototype using steel absorber}
 
 \author{The CALICE Collaboration\thanks{Corresponding authors: Eldwan Brianne (eldwan.brianne@desy.de), Katja Kr\"uger (katja.krueger@desy.de) } \\
   \vspace{10 mm}
@@ -42,7 +42,7 @@
   {\rm \bf \normalsize This note contains preliminary CALICE results, and is for the use of members of the CALICE Collaboration and others to whom permission has been given.}
   }
 
-\abstract{This note presents the results obtained with the CALICE Analog Hadronic Calorimeter engineering prototype at the SPS CERN testbeam campaign in 2015. The analysis presents the timing calibration and includes timing distributions for muon, electron and pion beams. The results are compared to several \geant version 10.1 physics lists.}
+\abstract{This note presents the results obtained with the CALICE Analog Hadronic Calorimeter engineering prototype at the SPS CERN testbeam campaign in July 2015. The analysis presents the timing calibration and includes timing distributions for muon, electron and pion beams. The results are compared to several \geant version 10.1 physics lists.}
 
 \begin{document}
 
@@ -54,7 +54,7 @@ Apart from energy measurement, the aspect of precise timing measurement is being
 
 % A hadronic shower possesses several timing components related to different processes happening in the shower. A fast component related to instantaneous highly energetic deposits from high-energy hadrons and electromagnetic sub-showers. A slow component due to neutron scattering, nuclear-recoil and photons from nuclear processes, this component can last up to several milliseconds. Apart from physics processes, the measured hit time is influenced by the active medium used as well as the front-end electronics. Time constants in the active medium such as the scintillation decay time can affect the time measurement.
 
-The CALICE Analog Hadronic Calorimeter (AHCAL) technological prototype \cite{Sefkow:316196, Krueger:205287} has been installed in the SPS CERN facilities in July 2015 in order to provide measurements using plastic scintillators. The goal of this study is to improve our knowledge about hadronic showers especially about its time evolution and time correlations of layers within the calorimeter. This note presents the time calibration procedure of the AHCAL and the results obtained in muon, electron and pion beams in an energy range from 10 GeV to 90 GeV, as indicated in table \ref{table:dataruns}.
+The CALICE Analog Hadronic Calorimeter (AHCAL) technological prototype \cite{Sefkow:316196, Krueger:205287} has been installed in the SPS CERN facilities in July 2015 in order to provide measurements using plastic scintillators. This note presents the time calibration procedure of the AHCAL and the results obtained in muon, electron and pion beams in an energy range from 10 GeV to 90 GeV, as indicated in table \ref{table:dataruns}.
 
 \section{Testbeam Setup}
 
@@ -70,14 +70,12 @@ Scintillator plates in front and back of the calorimeter are used as a trigger s
 
 \section{Simulation}
 
-The simulation model of the AHCAL prototype is based on the \mokka \cite{MoradeFreitas:2002kj} framework v08-05-01 and the new \ddhep \cite{Frank:2014zya} framework v00-16, using the \geant v10.1 simulation. A right-handed coordinate system is used such that the Z-axis points in the beam direction and that the Y-axis is directed upwards. No beamline instrumentation is simulated except scintillator triggers in front of and behind the detector. A similar amount of material is achieved by filling the world volume with air and by adding 5.6 mm of lead ($\sim$ 1 X$_0$) directly at the calorimeter front face in order to account for missing upstream material. The beam gun is placed 1 m from the calorimeter front face and it is configured to generate single beam particles with a 2\% momentum spread according to the beamline beam parameters \cite{H2Beamline}. Muons and electron showers are simulated using the QGSP\_BERT\_HP physics list. Pion showers are simulated using QGSP\_BERT, QGSP\_BERT\_HP and QBBC physics lists.
+The AHCAL simulation model is based on the \mokka \cite{MoradeFreitas:2002kj} framework v08-05-01 and the new \ddhep \cite{Frank:2014zya} framework v00-16, using the \geant v10.1 simulation. A right-handed coordinate system is used such that the Z-axis points in the beam direction and that the Y-axis is directed upwards. No beamline instrumentation is simulated except scintillator triggers in front of and behind the detector. A similar amount of material is achieved by filling the world volume with air and by adding 5.6 mm of lead ($\sim$ 1 X$_0$) directly at the calorimeter front face in order to account for missing upstream material. The beam gun is placed 1 m from the calorimeter front face and it is configured to generate single beam particles with a 2\% momentum spread according to the beamline beam parameters. Muons and electron showers are simulated using the QGSP\_BERT\_HP physics list. Pion showers are simulated using QGSP\_BERT, QGSP\_BERT\_HP and QBBC physics lists.
 
 \subsection{Geometry and Digitization}
 \label{sec:GeoDigi}
 
-The AHCAL simulation model consists of 32 absorber layers and 14 active layers. Each absorber layer are made of stainless steel 17.2 mm thick. Each active layer is primarily composed of 1 mm steel cassette, 0.7 mm PCB, 2 or 3 mm scintillator strip or tile. The density and composition of the scintillator is taken as default provided in \geant.
-
-The digitization of simulated hits is very similar to the previous AHCAL physics prototype \cite{1748-0221-5-05-P05004}. Individual calibration factors obtained from data are used to extract the light yield which is needed to model the statistical fluctuations of photons hitting a SiPM \cite{Hartbrich:2016bbz}. Saturation effects are also included using a global parameter, the number of pixels available on each SiPM type, as no measurement of the saturation curve is available. Most of the tiles used are wrapped with a reflective foil such that crosstalk effects between channels can be neglected. For layers with no wrapping, a default value of 15\% cross-talk is used. Noise is extracted from muon runs and overlaid onto simulated events.
+The AHCAL simulation model consists of 32 absorber layers and 14 active layers. Each absorber layer are made of stainless steel 17.2 mm thick. Each active layer is primarily composed of 1 mm steel cassette, 0.7 mm PCB, 2 or 3 mm scintillator strip or tile. The digitization of simulated hits is very similar to the previous AHCAL physics prototype \cite{1748-0221-5-05-P05004}. Individual calibration factors obtained from data are used to extract the light yield which is needed to model the statistical fluctuations of photons hitting a SiPM \cite{Hartbrich:2016bbz}. Saturation effects are also included using a global parameter, the number of pixels available on each SiPM type, as no measurement of the saturation curve is available. Most of the tiles used are wrapped with a reflective foil such that crosstalk effects between channels can be neglected. For layers with no wrapping, a default value of 15\% cross-talk is used. Noise is extracted from muon runs and overlaid onto simulated events.
 
 The timing of simulated hits is modeled as in the SPIROC2b, the energy from sub-hits in a cell is integrated over a sliding time window of 15 ns, if the energy sum of the sub-hits in this time window passes the energy threshold, the time of the sub-hit passing the energy threshold is used as the time of the simulated hit. To simulate detector resolution effects, the time of a simulated hit is smeared with a double Gaussian function, with parameters determined from data, and is convoluted with a Gaussian function with a sigma depending on the number of triggered channels in a chip parametrized from data (see section \ref{sec:NumberTrigger}).
 
@@ -121,7 +119,7 @@ The figure \ref{fig:EsumMeanElectron} shows the mean energy sum $<E_{sum}>$ as a
 	\label{fig:eHitVal}
 \end{figure}
 
-The simulation does not describe perfectly the data especially for higher electron beam energies, but reflects the data around 10-20\%. However, the description of electromagnetic showers in simulations is deemed satisfactory for the study of the time development of hadron showers.
+The simulation does not describe perfectly the data especially for higher electron beam energies. However, the description of electromagnetic showers in simulations is deemed satisfactory for the study of the time development of hadron showers.
 
 \section{Event Selection}
 

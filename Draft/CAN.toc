@@ -9,6 +9,7 @@
 \contentsline {subsection}{\numberline {4.3}Pion selection}{6}
 \contentsline {section}{\numberline {5}Timing calibration of the AHCAL}{6}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {5.1}Time recording in the SPIROC2b}{7}
 \contentsline {subsection}{\numberline {5.2}Timing calibration procedure}{8}
 \contentsline {subsection}{\numberline {5.3}Slope and Pedestal extraction}{8}
@@ -24,6 +25,8 @@
 \contentsline {section}{\numberline {7}Conclusion}{18}
 \contentsline {section}{\numberline {A}Appendix}{20}
 =======
+=======
+>>>>>>> b6a7609c500280dac8a514b6f45551c06d4927a0
 \contentsline {subsection}{\numberline {5.1}Time recording in the SPIROC2b}{6}
 \contentsline {subsection}{\numberline {5.2}Timing calibration procedure}{6}
 \contentsline {subsection}{\numberline {5.3}Slope and Pedestal extraction}{7}
@@ -37,4 +40,7 @@
 \contentsline {subsection}{\numberline {6.3}Timing of pion showers}{13}
 \contentsline {section}{\numberline {7}Conclusion}{16}
 \contentsline {section}{\numberline {A}Appendix}{18}
+<<<<<<< HEAD
+>>>>>>> b6a7609c500280dac8a514b6f45551c06d4927a0
+=======
 >>>>>>> b6a7609c500280dac8a514b6f45551c06d4927a0

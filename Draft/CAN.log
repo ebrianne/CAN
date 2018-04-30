@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.13)  30 APR 2018 18:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.13)  30 APR 2018 18:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -812,213 +812,205 @@ File: fig/TestbeamSetup.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/TestbeamSetup.pdf  used on input line 65.
 (pdftex.def)             Requested size: 301.14316pt x 192.27075pt.
  [2 <./fig/TestbeamSetup.pdf>] [3]
-<fig/ComparisonMCData_MIPPeak.pdf, id=168, 569.12625pt x 409.53pt>
+<fig/ComparisonMCData_MIPPeak.pdf, id=163, 569.12625pt x 409.53pt>
 File: fig/ComparisonMCData_MIPPeak.pdf Graphic file (type pdf)
 <use fig/ComparisonMCData_MIPPeak.pdf>
 Package pdftex.def Info: fig/ComparisonMCData_MIPPeak.pdf  used on input line 1
-20.
+12.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/ProfileMuons_Edep.pdf, id=169, 569.12625pt x 409.53pt>
+<fig/ProfileMuons_Edep.pdf, id=164, 569.12625pt x 409.53pt>
 File: fig/ProfileMuons_Edep.pdf Graphic file (type pdf)
 <use fig/ProfileMuons_Edep.pdf>
-Package pdftex.def Info: fig/ProfileMuons_Edep.pdf  used on input line 125.
+Package pdftex.def Info: fig/ProfileMuons_Edep.pdf  used on input line 117.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
- [4]
-<fig/HitEnergy_Electrons10GeV.pdf, id=184, 569.12625pt x 409.53pt>
+ [4 <./fig/ComparisonMCData_MIPPeak.pdf, page is rotated 90 degrees> <./fig/Pro
+fileMuons_Edep.pdf, page is rotated 90 degrees>]
+<fig/HitEnergy_Electrons10GeV.pdf, id=268, 569.12625pt x 409.53pt>
 File: fig/HitEnergy_Electrons10GeV.pdf Graphic file (type pdf)
 <use fig/HitEnergy_Electrons10GeV.pdf>
 Package pdftex.def Info: fig/HitEnergy_Electrons10GeV.pdf  used on input line 1
-36.
+28.
 (pdftex.def)             Requested size: 301.14316pt x 216.70616pt.
-
-Underfull \vbox (badness 1983) has occurred while \output is active []
-
- [5 <./fig/ComparisonMCData_MIPPeak.pdf, page is rotated 90 degrees> <./fig/Pro
-fileMuons_Edep.pdf, page is rotated 90 degrees> <./fig/HitEnergy_Electrons10GeV
-.pdf, page is rotated 90 degrees>] [6]
-<fig/TDCRamp.pdf, id=336, 724.46434pt x 438.50938pt>
+ [5 <./fig/HitEnergy_Electrons10GeV.pdf, page is rotated 90 degrees>]
+[6]
+<fig/TDCRamp.pdf, id=333, 724.46434pt x 438.50938pt>
 File: fig/TDCRamp.pdf Graphic file (type pdf)
 <use fig/TDCRamp.pdf>
-Package pdftex.def Info: fig/TDCRamp.pdf  used on input line 190.
+Package pdftex.def Info: fig/TDCRamp.pdf  used on input line 174.
 (pdftex.def)             Requested size: 387.18312pt x 234.36267pt.
- [7]
-<fig/TimeCalibOverview.pdf, id=344, 797.1265pt x 357.27226pt>
+
+Underfull \vbox (badness 1490) has occurred while \output is active []
+
+ [7 <./fig/TDCRamp.pdf>]
+<fig/TimeCalibOverview.pdf, id=369, 797.1265pt x 357.27226pt>
 File: fig/TimeCalibOverview.pdf Graphic file (type pdf)
 <use fig/TimeCalibOverview.pdf>
-Package pdftex.def Info: fig/TimeCalibOverview.pdf  used on input line 202.
+Package pdftex.def Info: fig/TimeCalibOverview.pdf  used on input line 186.
 (pdftex.def)             Requested size: 430.20639pt x 192.826pt.
-<fig/ExampleTDCSpectra.pdf, id=346, 569.12625pt x 409.53pt>
+<fig/ExampleTDCSpectra.pdf, id=371, 569.12625pt x 409.53pt>
 File: fig/ExampleTDCSpectra.pdf Graphic file (type pdf)
 <use fig/ExampleTDCSpectra.pdf>
-Package pdftex.def Info: fig/ExampleTDCSpectra.pdf  used on input line 217.
+Package pdftex.def Info: fig/ExampleTDCSpectra.pdf  used on input line 201.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/SlopesTDC.pdf, id=347, 569.12625pt x 409.53pt>
+<fig/SlopesTDC.pdf, id=372, 569.12625pt x 409.53pt>
 File: fig/SlopesTDC.pdf Graphic file (type pdf)
 <use fig/SlopesTDC.pdf>
-Package pdftex.def Info: fig/SlopesTDC.pdf  used on input line 223.
+Package pdftex.def Info: fig/SlopesTDC.pdf  used on input line 207.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
- [8 <./fig/TDCRamp.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9 <./fig/TimeCalibOverview.pdf> <./fig/ExampleTDCSpectra.pdf, page is rotated
- 90 degrees> <./fig/SlopesTDC.pdf, page is rotated 90 degrees>]
-<fig/T0_Resolution_5.pdf, id=557, 569.12625pt x 408.52625pt>
+ [8 <./fig/TimeCalibOverview.pdf>]
+<fig/T0_Resolution_5.pdf, id=459, 569.12625pt x 408.52625pt>
 File: fig/T0_Resolution_5.pdf Graphic file (type pdf)
 <use fig/T0_Resolution_5.pdf>
-Package pdftex.def Info: fig/T0_Resolution_5.pdf  used on input line 240.
+Package pdftex.def Info: fig/T0_Resolution_5.pdf  used on input line 224.
 (pdftex.def)             Requested size: 210.80348pt x 151.32065pt.
-<fig/T0ReferenceError.pdf, id=558, 569.12625pt x 409.53pt>
+<fig/T0ReferenceError.pdf, id=460, 569.12625pt x 409.53pt>
 File: fig/T0ReferenceError.pdf Graphic file (type pdf)
 <use fig/T0ReferenceError.pdf>
-Package pdftex.def Info: fig/T0ReferenceError.pdf  used on input line 246.
+Package pdftex.def Info: fig/T0ReferenceError.pdf  used on input line 230.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf, id=564, 569.12625pt x 409
+
+Underfull \vbox (badness 4303) has occurred while \output is active []
+
+ [9 <./fig/ExampleTDCSpectra.pdf, page is rotated 90 degrees> <./fig/SlopesTDC.
+pdf, page is rotated 90 degrees> <./fig/T0_Resolution_5.pdf, page is rotated 90
+ degrees> <./fig/T0ReferenceError.pdf, page is rotated 90 degrees>]
+<fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf, id=649, 569.12625pt x 409
 .53pt>
 File: fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf Graphic file (type pd
 f)
 <use fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf>
 Package pdftex.def Info: fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf  u
-sed on input line 260.
+sed on input line 244.
 (pdftex.def)             Requested size: 258.12645pt x 185.74904pt.
- [10 <./fig/T0_Resolution_5.pdf, page is rotated 90 degrees> <./fig/T0Reference
-Error.pdf, page is rotated 90 degrees>]
-<fig/LinearityCorrection_Module09_Chip146_BXID0.pdf, id=663, 569.12625pt x 409.
+ [10 <./fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf, page is rotated 90
+ degrees>]
+<fig/LinearityCorrection_Module09_Chip146_BXID0.pdf, id=703, 569.12625pt x 409.
 53pt>
 File: fig/LinearityCorrection_Module09_Chip146_BXID0.pdf Graphic file (type pdf
 )
 <use fig/LinearityCorrection_Module09_Chip146_BXID0.pdf>
 Package pdftex.def Info: fig/LinearityCorrection_Module09_Chip146_BXID0.pdf  us
-ed on input line 275.
+ed on input line 259.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Timing_AHCAL_LinCorrection.pdf, id=664, 569.12625pt x 409.53pt>
+<fig/Timing_AHCAL_LinCorrection.pdf, id=704, 569.12625pt x 409.53pt>
 File: fig/Timing_AHCAL_LinCorrection.pdf Graphic file (type pdf)
 <use fig/Timing_AHCAL_LinCorrection.pdf>
 Package pdftex.def Info: fig/Timing_AHCAL_LinCorrection.pdf  used on input line
- 281.
+ 265.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/TimeWalkProfile.pdf, id=671, 569.12625pt x 409.53pt>
+<fig/TimeWalkProfile.pdf, id=711, 569.12625pt x 409.53pt>
 File: fig/TimeWalkProfile.pdf Graphic file (type pdf)
 <use fig/TimeWalkProfile.pdf>
-Package pdftex.def Info: fig/TimeWalkProfile.pdf  used on input line 295.
+Package pdftex.def Info: fig/TimeWalkProfile.pdf  used on input line 279.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Timing_AHCAL_AllCorrection.pdf, id=672, 569.12625pt x 409.53pt>
+<fig/Timing_AHCAL_AllCorrection.pdf, id=712, 569.12625pt x 409.53pt>
 File: fig/Timing_AHCAL_AllCorrection.pdf Graphic file (type pdf)
 <use fig/Timing_AHCAL_AllCorrection.pdf>
 Package pdftex.def Info: fig/Timing_AHCAL_AllCorrection.pdf  used on input line
- 301.
+ 285.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
- [11 <./fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf, page is rotated 90
- degrees>] [12 <./fig/LinearityCorrection_Module09_Chip146_BXID0.pdf, page is r
-otated 90 degrees> <./fig/Timing_AHCAL_LinCorrection.pdf, page is rotated 90 de
-grees> <./fig/TimeWalkProfile.pdf, page is rotated 90 degrees> <./fig/Timing_AH
-CAL_AllCorrection.pdf, page is rotated 90 degrees>]
-<fig/NumberHits_Dependance_AllEnergies.pdf, id=913, 569.12625pt x 409.53pt>
+ [11 <./fig/LinearityCorrection_Module09_Chip146_BXID0.pdf, page is rotated 90 
+degrees> <./fig/Timing_AHCAL_LinCorrection.pdf, page is rotated 90 degrees>]
+<fig/NumberHits_Dependance_AllEnergies.pdf, id=815, 569.12625pt x 409.53pt>
 File: fig/NumberHits_Dependance_AllEnergies.pdf Graphic file (type pdf)
 <use fig/NumberHits_Dependance_AllEnergies.pdf>
 Package pdftex.def Info: fig/NumberHits_Dependance_AllEnergies.pdf  used on inp
-ut line 315.
+ut line 299.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/ParametrisationPedestalShift_20GeV.pdf, id=914, 569.12625pt x 409.53pt>
+<fig/ParametrisationPedestalShift_20GeV.pdf, id=816, 569.12625pt x 409.53pt>
 File: fig/ParametrisationPedestalShift_20GeV.pdf Graphic file (type pdf)
 <use fig/ParametrisationPedestalShift_20GeV.pdf>
 Package pdftex.def Info: fig/ParametrisationPedestalShift_20GeV.pdf  used on in
-put line 321.
+put line 305.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
- [13 <./fig/NumberHits_Dependance_AllEnergies.pdf, page is rotated 90 degrees> 
-<./fig/ParametrisationPedestalShift_20GeV.pdf, page is rotated 90 degrees>] [14
-]
-<fig/Comparison_MokkaDD4hepData_Muons.pdf, id=1020, 569.12625pt x 408.52625pt>
+ [12 <./fig/TimeWalkProfile.pdf, page is rotated 90 degrees> <./fig/Timing_AHCA
+L_AllCorrection.pdf, page is rotated 90 degrees> <./fig/NumberHits_Dependance_A
+llEnergies.pdf, page is rotated 90 degrees> <./fig/ParametrisationPedestalShift
+_20GeV.pdf, page is rotated 90 degrees>] [13] [14]
+<fig/Comparison_MokkaDD4hepData_Muons.pdf, id=1017, 569.12625pt x 408.52625pt>
 File: fig/Comparison_MokkaDD4hepData_Muons.pdf Graphic file (type pdf)
 <use fig/Comparison_MokkaDD4hepData_Muons.pdf>
 Package pdftex.def Info: fig/Comparison_MokkaDD4hepData_Muons.pdf  used on inpu
-t line 384.
+t line 368.
 (pdftex.def)             Requested size: 258.12645pt x 185.29378pt.
-<fig/Comparison_SimData_Electrons10GeV.pdf, id=1023, 569.12625pt x 409.53pt>
+<fig/Comparison_SimData_Electrons10GeV.pdf, id=1020, 569.12625pt x 409.53pt>
 File: fig/Comparison_SimData_Electrons10GeV.pdf Graphic file (type pdf)
 <use fig/Comparison_SimData_Electrons10GeV.pdf>
 Package pdftex.def Info: fig/Comparison_SimData_Electrons10GeV.pdf  used on inp
-ut line 394.
+ut line 378.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Comparison_SimData_Electrons_nHits_10GeV.pdf, id=1024, 569.12625pt x 408.5
+<fig/Comparison_SimData_Electrons_nHits_10GeV.pdf, id=1021, 569.12625pt x 408.5
 2625pt>
 File: fig/Comparison_SimData_Electrons_nHits_10GeV.pdf Graphic file (type pdf)
 <use fig/Comparison_SimData_Electrons_nHits_10GeV.pdf>
 Package pdftex.def Info: fig/Comparison_SimData_Electrons_nHits_10GeV.pdf  used
- on input line 399.
+ on input line 383.
 (pdftex.def)             Requested size: 210.80348pt x 151.32065pt.
-
-Underfull \vbox (badness 1377) has occurred while \output is active []
-
- [15]
-[16 <./fig/Comparison_MokkaDD4hepData_Muons.pdf, page is rotated 90 degrees> <.
-/fig/Comparison_SimData_Electrons10GeV.pdf, page is rotated 90 degrees> <./fig/
-Comparison_SimData_Electrons_nHits_10GeV.pdf, page is rotated 90 degrees>]
-<fig/Comparison_SimData_Pion10GeV_LateClusters.pdf, id=1175, 569.12625pt x 409.
+ [15 <./fig/Comparison_MokkaDD4hepData_Muons.pdf, page is rotated 90 degrees>]
+<fig/Comparison_SimData_Pion10GeV_LateClusters.pdf, id=1078, 569.12625pt x 409.
 53pt>
 File: fig/Comparison_SimData_Pion10GeV_LateClusters.pdf Graphic file (type pdf)
 
 <use fig/Comparison_SimData_Pion10GeV_LateClusters.pdf>
 Package pdftex.def Info: fig/Comparison_SimData_Pion10GeV_LateClusters.pdf  use
-d on input line 412.
+d on input line 396.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Comparison_SimData_Pion10GeV_LateClusters_DD4hep.pdf, id=1176, 569.12625pt
+<fig/Comparison_SimData_Pion10GeV_LateClusters_DD4hep.pdf, id=1079, 569.12625pt
  x 409.53pt>
 File: fig/Comparison_SimData_Pion10GeV_LateClusters_DD4hep.pdf Graphic file (ty
 pe pdf)
 <use fig/Comparison_SimData_Pion10GeV_LateClusters_DD4hep.pdf>
 Package pdftex.def Info: fig/Comparison_SimData_Pion10GeV_LateClusters_DD4hep.p
-df  used on input line 417.
+df  used on input line 401.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Energy_10GeV_Mokka.pdf, id=1178, 569.12625pt x 409.53pt>
+ [16 <./fig/Comparison_SimData_Electrons10GeV.pdf, page is rotated 90 degrees> 
+<./fig/Comparison_SimData_Electrons_nHits_10GeV.pdf, page is rotated 90 degrees
+> <./fig/Comparison_SimData_Pion10GeV_LateClusters.pdf, page is rotated 90 degr
+ees> <./fig/Comparison_SimData_Pion10GeV_LateClusters_DD4hep.pdf, page is rotat
+ed 90 degrees>]
+<fig/Time_Energy_10GeV_Mokka.pdf, id=1265, 569.12625pt x 409.53pt>
 File: fig/Time_Energy_10GeV_Mokka.pdf Graphic file (type pdf)
 <use fig/Time_Energy_10GeV_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Energy_10GeV_Mokka.pdf  used on input line 42
-9.
+Package pdftex.def Info: fig/Time_Energy_10GeV_Mokka.pdf  used on input line 41
+3.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Energy_90GeV_Mokka.pdf, id=1179, 569.12625pt x 409.53pt>
+<fig/Time_Energy_90GeV_Mokka.pdf, id=1266, 569.12625pt x 409.53pt>
 File: fig/Time_Energy_90GeV_Mokka.pdf Graphic file (type pdf)
 <use fig/Time_Energy_90GeV_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Energy_90GeV_Mokka.pdf  used on input line 43
-4.
+Package pdftex.def Info: fig/Time_Energy_90GeV_Mokka.pdf  used on input line 41
+8.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-
-[17 <./fig/Comparison_SimData_Pion10GeV_LateClusters.pdf, page is rotated 90 de
-grees> <./fig/Comparison_SimData_Pion10GeV_LateClusters_DD4hep.pdf, page is rot
-ated 90 degrees>]
-<fig/Time_Radius_50GeV_SSF_Mokka.pdf, id=1276, 569.12625pt x 409.53pt>
+ [17 <./fig/Time_Energy_10GeV_Mokka.pdf, page is rotated 90 degrees> <./fig/Tim
+e_Energy_90GeV_Mokka.pdf, page is rotated 90 degrees>]
+<fig/Time_Radius_50GeV_SSF_Mokka.pdf, id=1365, 569.12625pt x 409.53pt>
 File: fig/Time_Radius_50GeV_SSF_Mokka.pdf Graphic file (type pdf)
 <use fig/Time_Radius_50GeV_SSF_Mokka.pdf>
 Package pdftex.def Info: fig/Time_Radius_50GeV_SSF_Mokka.pdf  used on input lin
-e 446.
+e 430.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_50GeV_BL_Mokka.pdf, id=1277, 569.12625pt x 409.53pt>
+<fig/Time_Radius_50GeV_BL_Mokka.pdf, id=1366, 569.12625pt x 409.53pt>
 File: fig/Time_Radius_50GeV_BL_Mokka.pdf Graphic file (type pdf)
 <use fig/Time_Radius_50GeV_BL_Mokka.pdf>
 Package pdftex.def Info: fig/Time_Radius_50GeV_BL_Mokka.pdf  used on input line
- 452.
+ 436.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18 <./fig/Time_Energy_10GeV_Mokka.pdf, page is rotated 90 degrees> <./fig/Tim
-e_Energy_90GeV_Mokka.pdf, page is rotated 90 degrees> <./fig/Time_Radius_50GeV_
-SSF_Mokka.pdf, page is rotated 90 degrees> <./fig/Time_Radius_50GeV_BL_Mokka.pd
-f, page is rotated 90 degrees>] (./CAN.bbl [19]) [20]pdfTeX warning (ext4): des
-tination with the same identifier (name{ref-table:muon_sel}) has been already u
-sed, duplicate ignored
+ (./CAN.bbl [18 <./fig/Time_Radius_50GeV_SSF_Mokka.pdf, page is rotated 90 degr
+ees> <./fig/Time_Radius_50GeV_BL_Mokka.pdf, page is rotated 90 degrees>]) [19]p
+dfTeX warning (ext4): destination with the same identifier (name{ref-table:muon
+_sel}) has been already used, duplicate ignored
 <to be read again> 
                    }
-l.516 	\label{table:muon_sel}
-                              [21
+l.500 	\label{table:muon_sel}
+                              [20
 
-] [22] [23] (./CAN.aux)
+] [21] [22] (./CAN.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15536 strings out of 492985
- 311065 string characters out of 6132585
+ 15535 strings out of 492985
+ 311060 string characters out of 6132585
  331836 words of memory out of 5000000
  18776 multiletter control sequences out of 15000+600000
  611520 words of font info for 136 fonts, out of 8000000 for 9000
@@ -1036,10 +1028,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist
 1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times
 /utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CAN.pdf (24 pages, 736783 bytes).
+Output written on CAN.pdf (23 pages, 734168 bytes).
 PDF statistics:
- 1552 PDF objects out of 1728 (max. 8388607)
- 861 compressed objects within 9 object streams
- 124 named destinations out of 1000 (max. 500000)
+ 1544 PDF objects out of 1728 (max. 8388607)
+ 854 compressed objects within 9 object streams
+ 123 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

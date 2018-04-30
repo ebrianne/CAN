@@ -94,17 +94,9 @@ The AHCAL simulation model is based on the \mokka \cite{MoradeFreitas:2002kj} fr
 \subsection{Geometry and Digitization}
 \label{sec:GeoDigi}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 The AHCAL simulation model consists of 32 absorber layers and 14 active layers. Each absorber layer are made of stainless steel 17.2 mm thick. Each active layer is primarily composed of 1 mm steel cassette, 0.7 mm PCB, 2 or 3 mm scintillator strip or tile. The density and composition of the scintillator is taken as default provided in \geant.
 
 The digitization of simulated hits is very similar to the previous AHCAL physics prototype \cite{1748-0221-5-05-P05004}. Individual calibration factors obtained from data are used to extract the light yield which is needed to model the statistical fluctuations of photons hitting a SiPM \cite{Hartbrich:2016bbz}. Saturation effects are also included using a global parameter, the number of pixels available on each SiPM type, as no measurement of the saturation curve is available. Most of the tiles used are wrapped with a reflective foil such that crosstalk effects between channels can be neglected. For layers with no wrapping, a default value of 15\% cross-talk is used. Noise is extracted from muon runs and overlaid onto simulated events. Dead channels and channels without calibration factors (MIP, gain, pedestal) are rejected.
-=======
-The AHCAL simulation model consists of 32 absorber layers and 14 active layers. Each absorber layer are made of stainless steel 17.2 mm thick. Each active layer is primarily composed of 1 mm steel cassette, 0.7 mm PCB, 2 or 3 mm scintillator strip or tile. The digitization of simulated hits is very similar to the previous AHCAL physics prototype \cite{1748-0221-5-05-P05004}. Individual calibration factors obtained from data are used to extract the light yield which is needed to model the statistical fluctuations of photons hitting a SiPM \cite{Hartbrich:2016bbz}. Saturation effects are also included using a global parameter, the number of pixels available on each SiPM type, as no measurement of the saturation curve is available. Most of the tiles used are wrapped with a reflective foil such that crosstalk effects between channels can be neglected. For layers with no wrapping, a default value of 15\% cross-talk is used. Noise is extracted from muon runs and overlaid onto simulated events.
->>>>>>> b6a7609c500280dac8a514b6f45551c06d4927a0
-=======
-The AHCAL simulation model consists of 32 absorber layers and 14 active layers. Each absorber layer are made of stainless steel 17.2 mm thick. Each active layer is primarily composed of 1 mm steel cassette, 0.7 mm PCB, 2 or 3 mm scintillator strip or tile. The digitization of simulated hits is very similar to the previous AHCAL physics prototype \cite{1748-0221-5-05-P05004}. Individual calibration factors obtained from data are used to extract the light yield which is needed to model the statistical fluctuations of photons hitting a SiPM \cite{Hartbrich:2016bbz}. Saturation effects are also included using a global parameter, the number of pixels available on each SiPM type, as no measurement of the saturation curve is available. Most of the tiles used are wrapped with a reflective foil such that crosstalk effects between channels can be neglected. For layers with no wrapping, a default value of 15\% cross-talk is used. Noise is extracted from muon runs and overlaid onto simulated events.
->>>>>>> b6a7609c500280dac8a514b6f45551c06d4927a0
 
 The timing of simulated hits is modeled as in the SPIROC2b, the energy from sub-hits in a cell is integrated over a sliding time window of 15 ns, if the energy sum of the sub-hits in this time window passes the energy threshold, the time of the sub-hit passing the energy threshold is used as the time of the simulated hit. To simulate detector resolution effects, the time of a simulated hit is smeared with a double Gaussian function, with parameters determined from data, and is convoluted with a Gaussian function with a sigma depending on the number of triggered channels in a chip parametrized from data (see section \ref{sec:NumberTrigger}).
 
@@ -137,8 +129,6 @@ Further comparison were made using the electron dataset. The figure \ref{fig:Hit
 	\caption{Electron hit energy spectra for data and simulation for 10 GeV beam energy. The different colors corresponds to the variation of the cross-talk parameter in the simulations between 10\% and 18\%.} \label{fig:HitEnergy10GeVe}
 \end{figure}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 % \begin{figure}[htbp!]
 % 	\centering
 % 	\begin{subfigure}[t]{0.49\textwidth}
@@ -155,12 +145,6 @@ Further comparison were made using the electron dataset. The figure \ref{fig:Hit
 % \end{figure}
 
 A more detailed energy analysis of the CERN 2015 July data in the AHCAL is in preparation \cite{AmbraPrivate}. The simulation does not describe perfectly the data especially for higher electron beam energies, but reflects the data around 10-20\%. However, the description of electromagnetic showers in simulations is deemed satisfactory for the study of the time development of hadron showers.
-=======
-The simulation does not describe perfectly the data especially for higher electron beam energies. However, the description of electromagnetic showers in simulations is deemed satisfactory for the study of the time development of hadron showers.
->>>>>>> b6a7609c500280dac8a514b6f45551c06d4927a0
-=======
-The simulation does not describe perfectly the data especially for higher electron beam energies. However, the description of electromagnetic showers in simulations is deemed satisfactory for the study of the time development of hadron showers.
->>>>>>> b6a7609c500280dac8a514b6f45551c06d4927a0
 
 \section{Event Selection}
 
@@ -170,7 +154,7 @@ To select muons, an event pre-selection and a track finder \cite{Hartbrich:2016b
 
 \subsection{Electron selection}
 
-Electron events are needed to validate the timing behavior in simulation as well as the detector simulation model. It is important to have a clean sample of electrons to cross-check the timing calibration. An electron selection is done using the beam instrumentation and layer information. Events with a Cherenkov tag are used. The energy deposit in the first three AHCAL layers ($E_3+E_4+E_5$) must be over 10 MIPs. A box cut on the number of hits and the center of gravity in the z direction is done. As the number of hits in a electron shower is proportional to the shower energy, this cut is energy dependent. The energy deposited in the last two layers relative to the energy deposited in the calorimeter ($(E_{13}+E_{14})/\Sigma E$) is required to be under 1\% to reject pion showers and to contain the electron shower. The electron selection is summed up in table \ref{table:electron_sel}. The selection efficiency is <0.1\% for muons, between 96-91\% for electrons between 10 and 50 GeV and 15.9-1.1\% for pions between 10 and 50 GeV. A significant fraction of pion remains at low energies, however, there is confidence that no pion contamination is present due to the pure beam generation with the beamline.
+Electron events are needed to validate the timing behavior in simulation as well as the detector simulation model. It is important to have a clean sample of electrons to cross-check the timing calibration. An electron selection is done using the beam instrumentation and layer information. Events with a Cherenkov tag are used. The energy deposit in the first three AHCAL layers ($E_3+E_4+E_5$) must be over 10 MIPs. A box cut on the number of hits and the center of gravity in the z direction is done. As the number of hits in a electron shower is proportional to the shower energy, this cut is energy dependent. The energy deposited in the last two layers relative to the energy deposited in the calorimeter ($(E_{13}+E_{14})/\Sigma E$) is required to be under 1\% to reject pion showers and to contain the electron shower. The electron selection is summed up in table \ref{table:electron_sel}. The selection efficiency is <0.1\% for muons, between 96-91\% for electrons between 10 and 50 GeV and 15.9-1.1\% for pions between 10 and 50 GeV. A significant fraction of pion remains at low energies, however, there is confidence that no pion contamination is present due to the pure electron beam generation with the beamline.
 
 \subsection{Pion selection}
 \label{sec:pionsel}

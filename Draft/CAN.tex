@@ -2,6 +2,7 @@
 %!TEX root = CAN.tex
 \documentclass{JINST}
 \let\ifpdf\relax
+\pdfminorversion=4
 
 \usepackage{graphicx}
 \usepackage[position=b]{subcaption}
@@ -28,6 +29,8 @@
 \newcommand\marlin{\textsc{Marlin}\xspace}
 \newcommand\lcio{\textsc{LCIO}\xspace}
 \newcommand\qt{\textsc{Qt}\xspace}
+
+\usepackage{epstopdf}
 
 \preprint{CALICE Analysis Note CAN-0XX \\v1.0\\ \today}
 
@@ -365,7 +368,7 @@ Firstly, the comparison of the time of first hit distribution for muons between 
 
 \begin{figure}[htbp!]
 	\centering
-	\includegraphics[width=0.6\textwidth]{fig/Comparison_MokkaDD4hepData_Muons.pdf}
+	\includegraphics[width=0.6\textwidth]{fig/Comparison_MokkaDD4hepData_Muons.eps}
 	\caption{Time of first hit distribution for muons in data and simulation between -50 and 50 ns. The grey area represents the statistical uncertainty of the data. The error bars of the simulation are obtained by varying the cross-talk parameter between 10\% and 18\% and taking into account the error of a global time smearing parametrization.}
 	\label{fig:sim_data_muon}
 \end{figure}
@@ -375,7 +378,7 @@ Secondly, to further validate the time simulation, comparisons with electron dat
 \begin{figure}[htbp!]
 	\centering
 	\begin{subfigure}[t]{0.49\textwidth}
-		\includegraphics[width=1\textwidth]{fig/Comparison_SimData_Electrons10GeV.pdf}
+		\includegraphics[width=1\textwidth]{fig/Comparison_SimData_Electrons10GeV.eps}
 		\caption{}\label{fig:elec_sim_data_10GeV}
 	\end{subfigure}
 	\hfill

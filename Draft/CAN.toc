@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {4.3}Pion selection}{6}
 \contentsline {section}{\numberline {5}Timing calibration of the AHCAL}{6}
 \contentsline {subsection}{\numberline {5.1}Time recording in the SPIROC2b}{7}
-\contentsline {subsection}{\numberline {5.2}Timing calibration procedure}{8}
+\contentsline {subsection}{\numberline {5.2}Timing calibration procedure}{7}
 \contentsline {subsection}{\numberline {5.3}Slope and Pedestal extraction}{8}
 \contentsline {subsection}{\numberline {5.4}Time reference calibration}{8}
 \contentsline {subsection}{\numberline {5.5}Time delay correction}{10}
@@ -19,6 +19,6 @@
 \contentsline {section}{\numberline {6}Results}{13}
 \contentsline {subsection}{\numberline {6.1}Systematic uncertainties}{13}
 \contentsline {subsection}{\numberline {6.2}Timing of muon and electron beams}{15}
-\contentsline {subsection}{\numberline {6.3}Timing of pion showers}{16}
+\contentsline {subsection}{\numberline {6.3}Timing of pion showers}{15}
 \contentsline {section}{\numberline {7}Conclusion}{20}
 \contentsline {section}{\numberline {A}Appendix}{22}

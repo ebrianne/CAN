@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.13)  4 MAY 2018 12:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.13)  7 MAY 2018 15:30
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -745,106 +745,124 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 \c__siunitx_mathsf_int=\count298
 \c__siunitx_mathtt_int=\count299
  [1]
-<fig/TestbeamSetup.pdf, id=107, 669.66206pt x 427.56227pt>
+<fig/TestbeamSetup.pdf, id=108, 669.66206pt x 427.56227pt>
 File: fig/TestbeamSetup.pdf Graphic file (type pdf)
 <use fig/TestbeamSetup.pdf>
 Package pdftex.def Info: fig/TestbeamSetup.pdf  used on input line 68.
 (pdftex.def)             Requested size: 301.14316pt x 192.27075pt.
  [2 <./fig/TestbeamSetup.pdf>] [3]
-<fig/ComparisonMCData_MIPPeak.pdf, id=162, 569.12625pt x 409.53pt>
+<fig/ComparisonMCData_MIPPeak.pdf, id=163, 569.12625pt x 409.53pt>
 File: fig/ComparisonMCData_MIPPeak.pdf Graphic file (type pdf)
 <use fig/ComparisonMCData_MIPPeak.pdf>
-Package pdftex.def Info: fig/ComparisonMCData_MIPPeak.pdf  used on input line 115.
+Package pdftex.def Info: fig/ComparisonMCData_MIPPeak.pdf  used on input line 117.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/ProfileMuons_Edep.pdf, id=163, 569.12625pt x 409.53pt>
+<fig/ProfileMuons_Edep.pdf, id=164, 569.12625pt x 409.53pt>
 File: fig/ProfileMuons_Edep.pdf Graphic file (type pdf)
 <use fig/ProfileMuons_Edep.pdf>
-Package pdftex.def Info: fig/ProfileMuons_Edep.pdf  used on input line 120.
+Package pdftex.def Info: fig/ProfileMuons_Edep.pdf  used on input line 122.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
  [4 <./fig/ComparisonMCData_MIPPeak.pdf, page is rotated 90 degrees> <./fig/ProfileMuons_Edep.pdf, page is rotated 90 degrees>]
-<fig/HitEnergy_Electrons10GeV.pdf, id=266, 569.12625pt x 409.53pt>
+<fig/HitEnergy_Electrons10GeV.pdf, id=267, 569.12625pt x 409.53pt>
 File: fig/HitEnergy_Electrons10GeV.pdf Graphic file (type pdf)
 <use fig/HitEnergy_Electrons10GeV.pdf>
-Package pdftex.def Info: fig/HitEnergy_Electrons10GeV.pdf  used on input line 131.
+Package pdftex.def Info: fig/HitEnergy_Electrons10GeV.pdf  used on input line 133.
 (pdftex.def)             Requested size: 301.14316pt x 216.70616pt.
  [5 <./fig/HitEnergy_Electrons10GeV.pdf, page is rotated 90 degrees>] [6]
-<fig/TDCRamp.pdf, id=331, 724.46434pt x 438.50938pt>
+<fig/TDCRamp.pdf, id=332, 724.46434pt x 438.50938pt>
 File: fig/TDCRamp.pdf Graphic file (type pdf)
 <use fig/TDCRamp.pdf>
-Package pdftex.def Info: fig/TDCRamp.pdf  used on input line 177.
+Package pdftex.def Info: fig/TDCRamp.pdf  used on input line 179.
 (pdftex.def)             Requested size: 387.18312pt x 234.36267pt.
 
 Underfull \vbox (badness 1490) has occurred while \output is active []
 
  [7 <./fig/TDCRamp.pdf>]
-<fig/TimeCalibOverview.pdf, id=366, 797.1265pt x 357.27226pt>
+<fig/TimeCalibOverview.pdf, id=367, 797.1265pt x 357.27226pt>
 File: fig/TimeCalibOverview.pdf Graphic file (type pdf)
 <use fig/TimeCalibOverview.pdf>
-Package pdftex.def Info: fig/TimeCalibOverview.pdf  used on input line 189.
+Package pdftex.def Info: fig/TimeCalibOverview.pdf  used on input line 191.
 (pdftex.def)             Requested size: 430.20639pt x 192.826pt.
-<fig/ExampleTDCSpectra.pdf, id=368, 569.12625pt x 409.53pt>
+<fig/ExampleTDCSpectra.pdf, id=369, 569.12625pt x 409.53pt>
 File: fig/ExampleTDCSpectra.pdf Graphic file (type pdf)
 <use fig/ExampleTDCSpectra.pdf>
-Package pdftex.def Info: fig/ExampleTDCSpectra.pdf  used on input line 204.
+Package pdftex.def Info: fig/ExampleTDCSpectra.pdf  used on input line 206.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/SlopesTDC.pdf, id=369, 569.12625pt x 409.53pt>
+<fig/SlopesTDC.pdf, id=370, 569.12625pt x 409.53pt>
 File: fig/SlopesTDC.pdf Graphic file (type pdf)
 <use fig/SlopesTDC.pdf>
-Package pdftex.def Info: fig/SlopesTDC.pdf  used on input line 210.
+Package pdftex.def Info: fig/SlopesTDC.pdf  used on input line 212.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
  [8 <./fig/TimeCalibOverview.pdf>]
-<fig/T0_Resolution_5.pdf, id=456, 569.12625pt x 408.52625pt>
+<fig/T0_Resolution_5.pdf, id=457, 569.12625pt x 408.52625pt>
 File: fig/T0_Resolution_5.pdf Graphic file (type pdf)
 <use fig/T0_Resolution_5.pdf>
-Package pdftex.def Info: fig/T0_Resolution_5.pdf  used on input line 227.
+Package pdftex.def Info: fig/T0_Resolution_5.pdf  used on input line 229.
 (pdftex.def)             Requested size: 210.80348pt x 151.32065pt.
-<fig/T0ReferenceError.pdf, id=457, 569.12625pt x 409.53pt>
+<fig/T0ReferenceError.pdf, id=458, 569.12625pt x 409.53pt>
 File: fig/T0ReferenceError.pdf Graphic file (type pdf)
 <use fig/T0ReferenceError.pdf>
-Package pdftex.def Info: fig/T0ReferenceError.pdf  used on input line 233.
+Package pdftex.def Info: fig/T0ReferenceError.pdf  used on input line 235.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 
 Underfull \vbox (badness 4303) has occurred while \output is active []
 
  [9 <./fig/ExampleTDCSpectra.pdf, page is rotated 90 degrees> <./fig/SlopesTDC.pdf, page is rotated 90 degrees> <./fig/T0_Resolution_5.pdf, page is rotated 90 degrees> <./fig/T0ReferenceError.pdf, page is rotated 90 degrees>]
-<fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf, id=645, 569.12625pt x 409.53pt>
+<fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf, id=646, 569.12625pt x 409.53pt>
 File: fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf Graphic file (type pdf)
 <use fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf>
-Package pdftex.def Info: fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf  used on input line 247.
+Package pdftex.def Info: fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf  used on input line 249.
 (pdftex.def)             Requested size: 258.12645pt x 185.74904pt.
  [10 <./fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.pdf, page is rotated 90 degrees>]
-<fig/LinearityCorrection_Module09_Chip146_BXID0.pdf, id=699, 569.12625pt x 409.53pt>
+<fig/LinearityCorrection_Module09_Chip146_BXID0.pdf, id=700, 569.12625pt x 409.53pt>
 File: fig/LinearityCorrection_Module09_Chip146_BXID0.pdf Graphic file (type pdf)
 <use fig/LinearityCorrection_Module09_Chip146_BXID0.pdf>
-Package pdftex.def Info: fig/LinearityCorrection_Module09_Chip146_BXID0.pdf  used on input line 262.
+Package pdftex.def Info: fig/LinearityCorrection_Module09_Chip146_BXID0.pdf  used on input line 264.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Timing_AHCAL_LinCorrection.pdf, id=700, 569.12625pt x 409.53pt>
+<fig/Timing_AHCAL_LinCorrection.pdf, id=701, 569.12625pt x 409.53pt>
 File: fig/Timing_AHCAL_LinCorrection.pdf Graphic file (type pdf)
 <use fig/Timing_AHCAL_LinCorrection.pdf>
-Package pdftex.def Info: fig/Timing_AHCAL_LinCorrection.pdf  used on input line 268.
+Package pdftex.def Info: fig/Timing_AHCAL_LinCorrection.pdf  used on input line 270.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/TimeWalkProfile.pdf, id=707, 569.12625pt x 409.53pt>
+<fig/TimeWalkProfile.pdf, id=708, 569.12625pt x 409.53pt>
 File: fig/TimeWalkProfile.pdf Graphic file (type pdf)
 <use fig/TimeWalkProfile.pdf>
-Package pdftex.def Info: fig/TimeWalkProfile.pdf  used on input line 282.
+Package pdftex.def Info: fig/TimeWalkProfile.pdf  used on input line 284.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Timing_AHCAL_AllCorrection.pdf, id=708, 569.12625pt x 409.53pt>
+<fig/Timing_AHCAL_AllCorrection.pdf, id=709, 569.12625pt x 409.53pt>
 File: fig/Timing_AHCAL_AllCorrection.pdf Graphic file (type pdf)
 <use fig/Timing_AHCAL_AllCorrection.pdf>
-Package pdftex.def Info: fig/Timing_AHCAL_AllCorrection.pdf  used on input line 288.
+Package pdftex.def Info: fig/Timing_AHCAL_AllCorrection.pdf  used on input line 290.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
  [11 <./fig/LinearityCorrection_Module09_Chip146_BXID0.pdf, page is rotated 90 degrees> <./fig/Timing_AHCAL_LinCorrection.pdf, page is rotated 90 degrees>]
-<fig/NumberHits_Dependance_AllEnergies.pdf, id=810, 569.12625pt x 409.53pt>
+<fig/NumberHits_Dependance_AllEnergies.pdf, id=811, 569.12625pt x 409.53pt>
 File: fig/NumberHits_Dependance_AllEnergies.pdf Graphic file (type pdf)
 <use fig/NumberHits_Dependance_AllEnergies.pdf>
-Package pdftex.def Info: fig/NumberHits_Dependance_AllEnergies.pdf  used on input line 302.
+Package pdftex.def Info: fig/NumberHits_Dependance_AllEnergies.pdf  used on input line 304.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/ParametrisationPedestalShift_20GeV.pdf, id=811, 569.12625pt x 409.53pt>
+<fig/ParametrisationPedestalShift_20GeV.pdf, id=812, 569.12625pt x 409.53pt>
 File: fig/ParametrisationPedestalShift_20GeV.pdf Graphic file (type pdf)
 <use fig/ParametrisationPedestalShift_20GeV.pdf>
-Package pdftex.def Info: fig/ParametrisationPedestalShift_20GeV.pdf  used on input line 308.
+Package pdftex.def Info: fig/ParametrisationPedestalShift_20GeV.pdf  used on input line 310.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
- [12 <./fig/TimeWalkProfile.pdf, page is rotated 90 degrees> <./fig/Timing_AHCAL_AllCorrection.pdf, page is rotated 90 degrees> <./fig/NumberHits_Dependance_AllEnergies.pdf, page is rotated 90 degrees> <./fig/ParametrisationPedestalShift_20GeV.pdf, page is rotated 90 degrees>] [13] [14]
+ [12 <./fig/TimeWalkProfile.pdf, page is rotated 90 degrees> <./fig/Timing_AHCAL_AllCorrection.pdf, page is rotated 90 degrees> <./fig/NumberHits_Dependance_AllEnergies.pdf, page is rotated 90 degrees> <./fig/ParametrisationPedestalShift_20GeV.pdf, page is rotated 90 degrees>]
+Package epstopdf Info: Source file: <fig/CheckCorrection.eps>
+(epstopdf)                    date: 2018-05-07 11:10:30
+(epstopdf)                    size: 16703 bytes
+(epstopdf)             Output file: <fig/CheckCorrection-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-07 11:19:44
+(epstopdf)                    size: 18928 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/CheckCorrection-eps-converted-to.pdf fig/CheckCorrection.eps>
+(epstopdf)             \includegraphics on input line 322.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./fig/CheckCorrection-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<fig/CheckCorrection-eps-converted-to.pdf, id=1002, 569.12625pt x 409.53pt>
+File: fig/CheckCorrection-eps-converted-to.pdf Graphic file (type pdf)
+<use fig/CheckCorrection-eps-converted-to.pdf>
+Package pdftex.def Info: fig/CheckCorrection-eps-converted-to.pdf  used on input line 322.
+(pdftex.def)             Requested size: 258.12645pt x 185.74904pt.
+[13 <./fig/CheckCorrection-eps-converted-to.pdf>] [14]
 Package epstopdf Info: Source file: <fig/Comparison_MokkaDD4hepData_Muons.eps>
 (epstopdf)                    date: 2018-05-04 11:50:09
 (epstopdf)                    size: 87143 bytes
@@ -852,144 +870,16 @@ Package epstopdf Info: Source file: <fig/Comparison_MokkaDD4hepData_Muons.eps>
 (epstopdf)                    date: 2018-05-04 11:51:15
 (epstopdf)                    size: 50218 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf fig/Comparison_MokkaDD4hepData_Muons.eps>
-(epstopdf)             \includegraphics on input line 371.
+(epstopdf)             \includegraphics on input line 382.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf, id=1011, 569.12625pt x 409.53pt>
+<fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf, id=1027, 569.12625pt x 409.53pt>
 File: fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf  used on input line 371.
+Package pdftex.def Info: fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf  used on input line 382.
 (pdftex.def)             Requested size: 258.12645pt x 185.74904pt.
-Package epstopdf Info: Source file: <fig/Comparison_SimData_Electrons10GeV.eps>
-(epstopdf)                    date: 2018-05-04 11:52:40
-(epstopdf)                    size: 143879 bytes
-(epstopdf)             Output file: <fig/Comparison_SimData_Electrons10GeV-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-05-04 11:53:23
-(epstopdf)                    size: 73108 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/Comparison_SimData_Electrons10GeV-eps-converted-to.pdf fig/Comparison_SimData_Electrons10GeV.eps>
-(epstopdf)             \includegraphics on input line 381.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig/Comparison_SimData_Electrons10GeV-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<fig/Comparison_SimData_Electrons10GeV-eps-converted-to.pdf, id=1014, 569.12625pt x 409.53pt>
-File: fig/Comparison_SimData_Electrons10GeV-eps-converted-to.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Electrons10GeV-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons10GeV-eps-converted-to.pdf  used on input line 381.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Comparison_SimData_Electrons_nHits_10GeV.pdf, id=1015, 569.12625pt x 408.52625pt>
-File: fig/Comparison_SimData_Electrons_nHits_10GeV.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Electrons_nHits_10GeV.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons_nHits_10GeV.pdf  used on input line 386.
-(pdftex.def)             Requested size: 210.80348pt x 151.32065pt.
-[15 <./fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf>]
-<fig/Comparison_SimData_Pion10GeV_LateClusters.pdf, id=1041, 569.12625pt x 409.53pt>
-File: fig/Comparison_SimData_Pion10GeV_LateClusters.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Pion10GeV_LateClusters.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Pion10GeV_LateClusters.pdf  used on input line 399.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Comparison_SimData_Pion10GeV_LateClusters_DD4hep.pdf, id=1042, 569.12625pt x 409.53pt>
-File: fig/Comparison_SimData_Pion10GeV_LateClusters_DD4hep.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Pion10GeV_LateClusters_DD4hep.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Pion10GeV_LateClusters_DD4hep.pdf  used on input line 404.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
- [16 <./fig/Comparison_SimData_Electrons10GeV-eps-converted-to.pdf> <./fig/Comparison_SimData_Electrons_nHits_10GeV.pdf, page is rotated 90 degrees> <./fig/Comparison_SimData_Pion10GeV_LateClusters.pdf, page is rotated 90 degrees> <./fig/Comparison_SimData_Pion10GeV_LateClusters_DD4hep.pdf, page is rotated 90 degrees>]
-<fig/Time_Energy_10GeV_Mokka.pdf, id=1196, 569.12625pt x 409.53pt>
-File: fig/Time_Energy_10GeV_Mokka.pdf Graphic file (type pdf)
-<use fig/Time_Energy_10GeV_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Energy_10GeV_Mokka.pdf  used on input line 416.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Energy_90GeV_Mokka.pdf, id=1197, 569.12625pt x 409.53pt>
-File: fig/Time_Energy_90GeV_Mokka.pdf Graphic file (type pdf)
-<use fig/Time_Energy_90GeV_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Energy_90GeV_Mokka.pdf  used on input line 421.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
- [17 <./fig/Time_Energy_10GeV_Mokka.pdf, page is rotated 90 degrees> <./fig/Time_Energy_90GeV_Mokka.pdf, page is rotated 90 degrees>]
-<fig/Time_Radius_50GeV_SSF_Mokka.pdf, id=1295, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_50GeV_SSF_Mokka.pdf Graphic file (type pdf)
-<use fig/Time_Radius_50GeV_SSF_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Radius_50GeV_SSF_Mokka.pdf  used on input line 433.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_50GeV_BL_Mokka.pdf, id=1296, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_50GeV_BL_Mokka.pdf Graphic file (type pdf)
-<use fig/Time_Radius_50GeV_BL_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Radius_50GeV_BL_Mokka.pdf  used on input line 439.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
- (./CAN.bbl [18 <./fig/Time_Radius_50GeV_SSF_Mokka.pdf, page is rotated 90 degrees> <./fig/Time_Radius_50GeV_BL_Mokka.pdf, page is rotated 90 degrees>]) [19]pdfTeX warning (ext4): destination with the same identifier (name{ref-table:muon_sel}) has been already used, duplicate ignored
-<to be read again> 
-                   }
-l.503 	\label{table:muon_sel}
-                             
-Package epstopdf Info: Source file: <fig/Comparison_SimData_Electrons15GeV.eps>
-(epstopdf)                    date: 2018-05-04 11:59:17
-(epstopdf)                    size: 150432 bytes
-(epstopdf)             Output file: <fig/Comparison_SimData_Electrons15GeV-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-05-04 12:13:31
-(epstopdf)                    size: 69708 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/Comparison_SimData_Electrons15GeV-eps-converted-to.pdf fig/Comparison_SimData_Electrons15GeV.eps>
-(epstopdf)             \includegraphics on input line 568.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig/Comparison_SimData_Electrons15GeV-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<fig/Comparison_SimData_Electrons15GeV-eps-converted-to.pdf, id=1395, 569.12625pt x 409.53pt>
-File: fig/Comparison_SimData_Electrons15GeV-eps-converted-to.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Electrons15GeV-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons15GeV-eps-converted-to.pdf  used on input line 568.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-Package epstopdf Info: Source file: <fig/Comparison_SimData_Electrons20GeV.eps>
-(epstopdf)                    date: 2018-05-04 12:00:26
-(epstopdf)                    size: 132278 bytes
-(epstopdf)             Output file: <fig/Comparison_SimData_Electrons20GeV-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-05-04 12:13:31
-(epstopdf)                    size: 69713 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/Comparison_SimData_Electrons20GeV-eps-converted-to.pdf fig/Comparison_SimData_Electrons20GeV.eps>
-(epstopdf)             \includegraphics on input line 574.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig/Comparison_SimData_Electrons20GeV-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<fig/Comparison_SimData_Electrons20GeV-eps-converted-to.pdf, id=1396, 569.12625pt x 409.53pt>
-File: fig/Comparison_SimData_Electrons20GeV-eps-converted-to.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Electrons20GeV-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons20GeV-eps-converted-to.pdf  used on input line 574.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-Package epstopdf Info: Source file: <fig/Comparison_SimData_Electrons30GeV.eps>
-(epstopdf)                    date: 2018-05-04 12:00:36
-(epstopdf)                    size: 133617 bytes
-(epstopdf)             Output file: <fig/Comparison_SimData_Electrons30GeV-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-05-04 12:13:31
-(epstopdf)                    size: 70912 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/Comparison_SimData_Electrons30GeV-eps-converted-to.pdf fig/Comparison_SimData_Electrons30GeV.eps>
-(epstopdf)             \includegraphics on input line 580.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig/Comparison_SimData_Electrons30GeV-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<fig/Comparison_SimData_Electrons30GeV-eps-converted-to.pdf, id=1397, 569.12625pt x 409.53pt>
-File: fig/Comparison_SimData_Electrons30GeV-eps-converted-to.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Electrons30GeV-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons30GeV-eps-converted-to.pdf  used on input line 580.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-Package epstopdf Info: Source file: <fig/Comparison_SimData_Electrons40GeV.eps>
-(epstopdf)                    date: 2018-05-04 12:00:44
-(epstopdf)                    size: 143111 bytes
-(epstopdf)             Output file: <fig/Comparison_SimData_Electrons40GeV-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-05-04 12:13:32
-(epstopdf)                    size: 72583 bytes
-(epstopdf)             Command: <epstopdf --outfile=fig/Comparison_SimData_Electrons40GeV-eps-converted-to.pdf fig/Comparison_SimData_Electrons40GeV.eps>
-(epstopdf)             \includegraphics on input line 586.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./fig/Comparison_SimData_Electrons40GeV-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<fig/Comparison_SimData_Electrons40GeV-eps-converted-to.pdf, id=1398, 569.12625pt x 409.53pt>
-File: fig/Comparison_SimData_Electrons40GeV-eps-converted-to.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Electrons40GeV-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons40GeV-eps-converted-to.pdf  used on input line 586.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/Comparison_SimData_Electrons50GeV.eps>
 (epstopdf)                    date: 2018-05-04 12:00:53
 (epstopdf)                    size: 119036 bytes
@@ -997,243 +887,87 @@ Package epstopdf Info: Source file: <fig/Comparison_SimData_Electrons50GeV.eps>
 (epstopdf)                    date: 2018-05-04 12:13:32
 (epstopdf)                    size: 73083 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf fig/Comparison_SimData_Electrons50GeV.eps>
-(epstopdf)             \includegraphics on input line 592.
+(epstopdf)             \includegraphics on input line 392.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf, id=1399, 569.12625pt x 409.53pt>
+<fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf, id=1030, 569.12625pt x 409.53pt>
 File: fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf  used on input line 592.
+Package pdftex.def Info: fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf  used on input line 392.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Comparison_SimData_Electrons_nHits_15GeV.pdf, id=1400, 569.12625pt x 408.52625pt>
-File: fig/Comparison_SimData_Electrons_nHits_15GeV.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Electrons_nHits_15GeV.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons_nHits_15GeV.pdf  used on input line 601.
-(pdftex.def)             Requested size: 210.80348pt x 151.32065pt.
-<fig/Comparison_SimData_Electrons_nHits_20GeV.pdf, id=1401, 569.12625pt x 408.52625pt>
-File: fig/Comparison_SimData_Electrons_nHits_20GeV.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Electrons_nHits_20GeV.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons_nHits_20GeV.pdf  used on input line 607.
-(pdftex.def)             Requested size: 210.80348pt x 151.32065pt.
-<fig/Comparison_SimData_Electrons_nHits_30GeV.pdf, id=1402, 569.12625pt x 408.52625pt>
-File: fig/Comparison_SimData_Electrons_nHits_30GeV.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Electrons_nHits_30GeV.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons_nHits_30GeV.pdf  used on input line 613.
-(pdftex.def)             Requested size: 210.80348pt x 151.32065pt.
-<fig/Comparison_SimData_Electrons_nHits_40GeV.pdf, id=1403, 569.12625pt x 408.52625pt>
-File: fig/Comparison_SimData_Electrons_nHits_40GeV.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Electrons_nHits_40GeV.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons_nHits_40GeV.pdf  used on input line 619.
-(pdftex.def)             Requested size: 210.80348pt x 151.32065pt.
-<fig/Comparison_SimData_Electrons_nHits_50GeV.pdf, id=1404, 569.12625pt x 408.52625pt>
+<fig/Comparison_SimData_Electrons_nHits_50GeV.pdf, id=1031, 569.12625pt x 408.52625pt>
 File: fig/Comparison_SimData_Electrons_nHits_50GeV.pdf Graphic file (type pdf)
 <use fig/Comparison_SimData_Electrons_nHits_50GeV.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons_nHits_50GeV.pdf  used on input line 625.
+Package pdftex.def Info: fig/Comparison_SimData_Electrons_nHits_50GeV.pdf  used on input line 397.
 (pdftex.def)             Requested size: 210.80348pt x 151.32065pt.
-<fig/Comparison_SimData_Pion30GeV_LateClusters.pdf, id=1405, 569.12625pt x 409.53pt>
-File: fig/Comparison_SimData_Pion30GeV_LateClusters.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Pion30GeV_LateClusters.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Pion30GeV_LateClusters.pdf  used on input line 637.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Comparison_SimData_Pion50GeV_LateClusters.pdf, id=1406, 569.12625pt x 409.53pt>
-File: fig/Comparison_SimData_Pion50GeV_LateClusters.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Pion50GeV_LateClusters.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Pion50GeV_LateClusters.pdf  used on input line 642.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Comparison_SimData_Pion70GeV_LateClusters.pdf, id=1407, 569.12625pt x 409.53pt>
-File: fig/Comparison_SimData_Pion70GeV_LateClusters.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Pion70GeV_LateClusters.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Pion70GeV_LateClusters.pdf  used on input line 648.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Comparison_SimData_Pion90GeV_LateClusters.pdf, id=1408, 569.12625pt x 409.53pt>
-File: fig/Comparison_SimData_Pion90GeV_LateClusters.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Pion90GeV_LateClusters.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Pion90GeV_LateClusters.pdf  used on input line 654.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-
-Underfull \hbox (badness 4531) in paragraph at lines 635--657
-[][] []
- []
-
-<fig/Comparison_SimData_Pion30GeV_LateClusters_DD4hep.pdf, id=1409, 569.12625pt x 409.53pt>
-File: fig/Comparison_SimData_Pion30GeV_LateClusters_DD4hep.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Pion30GeV_LateClusters_DD4hep.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Pion30GeV_LateClusters_DD4hep.pdf  used on input line 663.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep.pdf, id=1410, 569.12625pt x 409.53pt>
+[15] [16 <./fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf> <./fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf> <./fig/Comparison_SimData_Electrons_nHits_50GeV.pdf, page is rotated 90 degrees>]
+<fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep.pdf, id=1118, 569.12625pt x 409.53pt>
 File: fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep.pdf Graphic file (type pdf)
 <use fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep.pdf  used on input line 668.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Comparison_SimData_Pion70GeV_LateClusters_DD4hep.pdf, id=1411, 569.12625pt x 409.53pt>
-File: fig/Comparison_SimData_Pion70GeV_LateClusters_DD4hep.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Pion70GeV_LateClusters_DD4hep.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Pion70GeV_LateClusters_DD4hep.pdf  used on input line 674.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Comparison_SimData_Pion90GeV_LateClusters_DD4hep.pdf, id=1412, 569.12625pt x 409.53pt>
-File: fig/Comparison_SimData_Pion90GeV_LateClusters_DD4hep.pdf Graphic file (type pdf)
-<use fig/Comparison_SimData_Pion90GeV_LateClusters_DD4hep.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Pion90GeV_LateClusters_DD4hep.pdf  used on input line 680.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-
-Underfull \hbox (badness 4531) in paragraph at lines 661--683
-[][] []
- []
-
-<fig/Time_Energy_30GeV_Mokka.pdf, id=1413, 569.12625pt x 409.53pt>
-File: fig/Time_Energy_30GeV_Mokka.pdf Graphic file (type pdf)
-<use fig/Time_Energy_30GeV_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Energy_30GeV_Mokka.pdf  used on input line 692.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Energy_50GeV_Mokka.pdf, id=1414, 569.12625pt x 409.53pt>
-File: fig/Time_Energy_50GeV_Mokka.pdf Graphic file (type pdf)
-<use fig/Time_Energy_50GeV_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Energy_50GeV_Mokka.pdf  used on input line 698.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Energy_70GeV_Mokka.pdf, id=1415, 569.12625pt x 409.53pt>
-File: fig/Time_Energy_70GeV_Mokka.pdf Graphic file (type pdf)
-<use fig/Time_Energy_70GeV_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Energy_70GeV_Mokka.pdf  used on input line 704.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Energy_10GeV_DD4hep.pdf, id=1416, 569.12625pt x 409.53pt>
-File: fig/Time_Energy_10GeV_DD4hep.pdf Graphic file (type pdf)
-<use fig/Time_Energy_10GeV_DD4hep.pdf>
-Package pdftex.def Info: fig/Time_Energy_10GeV_DD4hep.pdf  used on input line 713.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Energy_30GeV_DD4hep.pdf, id=1417, 569.12625pt x 409.53pt>
-File: fig/Time_Energy_30GeV_DD4hep.pdf Graphic file (type pdf)
-<use fig/Time_Energy_30GeV_DD4hep.pdf>
-Package pdftex.def Info: fig/Time_Energy_30GeV_DD4hep.pdf  used on input line 719.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Energy_50GeV_DD4hep.pdf, id=1418, 569.12625pt x 409.53pt>
+Package pdftex.def Info: fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep.pdf  used on input line 409.
+(pdftex.def)             Requested size: 258.12645pt x 185.74904pt.
+<fig/Time_Energy_50GeV_DD4hep.pdf, id=1120, 569.12625pt x 409.53pt>
 File: fig/Time_Energy_50GeV_DD4hep.pdf Graphic file (type pdf)
 <use fig/Time_Energy_50GeV_DD4hep.pdf>
-Package pdftex.def Info: fig/Time_Energy_50GeV_DD4hep.pdf  used on input line 725.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Energy_70GeV_DD4hep.pdf, id=1419, 569.12625pt x 409.53pt>
-File: fig/Time_Energy_70GeV_DD4hep.pdf Graphic file (type pdf)
-<use fig/Time_Energy_70GeV_DD4hep.pdf>
-Package pdftex.def Info: fig/Time_Energy_70GeV_DD4hep.pdf  used on input line 731.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Energy_90GeV_DD4hep.pdf, id=1420, 569.12625pt x 409.53pt>
-File: fig/Time_Energy_90GeV_DD4hep.pdf Graphic file (type pdf)
-<use fig/Time_Energy_90GeV_DD4hep.pdf>
-Package pdftex.def Info: fig/Time_Energy_90GeV_DD4hep.pdf  used on input line 737.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_10GeV_SSF_Mokka.pdf, id=1421, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_10GeV_SSF_Mokka.pdf Graphic file (type pdf)
-<use fig/Time_Radius_10GeV_SSF_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Radius_10GeV_SSF_Mokka.pdf  used on input line 748.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_30GeV_SSF_Mokka.pdf, id=1422, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_30GeV_SSF_Mokka.pdf Graphic file (type pdf)
-<use fig/Time_Radius_30GeV_SSF_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Radius_30GeV_SSF_Mokka.pdf  used on input line 754.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_70GeV_SSF_Mokka.pdf, id=1423, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_70GeV_SSF_Mokka.pdf Graphic file (type pdf)
-<use fig/Time_Radius_70GeV_SSF_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Radius_70GeV_SSF_Mokka.pdf  used on input line 760.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_90GeV_SSF_Mokka.pdf, id=1424, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_90GeV_SSF_Mokka.pdf Graphic file (type pdf)
-<use fig/Time_Radius_90GeV_SSF_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Radius_90GeV_SSF_Mokka.pdf  used on input line 766.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_10GeV_SSF_DD4hep.pdf, id=1425, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_10GeV_SSF_DD4hep.pdf Graphic file (type pdf)
-<use fig/Time_Radius_10GeV_SSF_DD4hep.pdf>
-Package pdftex.def Info: fig/Time_Radius_10GeV_SSF_DD4hep.pdf  used on input line 775.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_30GeV_SSF_DD4hep.pdf, id=1426, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_30GeV_SSF_DD4hep.pdf Graphic file (type pdf)
-<use fig/Time_Radius_30GeV_SSF_DD4hep.pdf>
-Package pdftex.def Info: fig/Time_Radius_30GeV_SSF_DD4hep.pdf  used on input line 781.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_50GeV_SSF_DD4hep.pdf, id=1427, 569.12625pt x 409.53pt>
+Package pdftex.def Info: fig/Time_Energy_50GeV_DD4hep.pdf  used on input line 420.
+(pdftex.def)             Requested size: 258.12645pt x 185.74904pt.
+ [17 <./fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep.pdf, page is rotated 90 degrees>]
+<fig/Time_Radius_50GeV_SSF_DD4hep.pdf, id=1172, 569.12625pt x 409.53pt>
 File: fig/Time_Radius_50GeV_SSF_DD4hep.pdf Graphic file (type pdf)
 <use fig/Time_Radius_50GeV_SSF_DD4hep.pdf>
-Package pdftex.def Info: fig/Time_Radius_50GeV_SSF_DD4hep.pdf  used on input line 787.
+Package pdftex.def Info: fig/Time_Radius_50GeV_SSF_DD4hep.pdf  used on input line 430.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_70GeV_SSF_DD4hep.pdf, id=1428, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_70GeV_SSF_DD4hep.pdf Graphic file (type pdf)
-<use fig/Time_Radius_70GeV_SSF_DD4hep.pdf>
-Package pdftex.def Info: fig/Time_Radius_70GeV_SSF_DD4hep.pdf  used on input line 793.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_90GeV_SSF_DD4hep.pdf, id=1429, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_90GeV_SSF_DD4hep.pdf Graphic file (type pdf)
-<use fig/Time_Radius_90GeV_SSF_DD4hep.pdf>
-Package pdftex.def Info: fig/Time_Radius_90GeV_SSF_DD4hep.pdf  used on input line 799.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_10GeV_BL_Mokka.pdf, id=1430, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_10GeV_BL_Mokka.pdf Graphic file (type pdf)
-<use fig/Time_Radius_10GeV_BL_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Radius_10GeV_BL_Mokka.pdf  used on input line 808.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_30GeV_BL_Mokka.pdf, id=1431, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_30GeV_BL_Mokka.pdf Graphic file (type pdf)
-<use fig/Time_Radius_30GeV_BL_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Radius_30GeV_BL_Mokka.pdf  used on input line 814.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_70GeV_BL_Mokka.pdf, id=1432, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_70GeV_BL_Mokka.pdf Graphic file (type pdf)
-<use fig/Time_Radius_70GeV_BL_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Radius_70GeV_BL_Mokka.pdf  used on input line 820.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_90GeV_BL_Mokka.pdf, id=1433, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_90GeV_BL_Mokka.pdf Graphic file (type pdf)
-<use fig/Time_Radius_90GeV_BL_Mokka.pdf>
-Package pdftex.def Info: fig/Time_Radius_90GeV_BL_Mokka.pdf  used on input line 826.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_10GeV_BL_DD4hep.pdf, id=1434, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_10GeV_BL_DD4hep.pdf Graphic file (type pdf)
-<use fig/Time_Radius_10GeV_BL_DD4hep.pdf>
-Package pdftex.def Info: fig/Time_Radius_10GeV_BL_DD4hep.pdf  used on input line 835.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_30GeV_BL_DD4hep.pdf, id=1435, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_30GeV_BL_DD4hep.pdf Graphic file (type pdf)
-<use fig/Time_Radius_30GeV_BL_DD4hep.pdf>
-Package pdftex.def Info: fig/Time_Radius_30GeV_BL_DD4hep.pdf  used on input line 841.
-(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_50GeV_BL_DD4hep.pdf, id=1436, 569.12625pt x 409.53pt>
+<fig/Time_Radius_50GeV_BL_DD4hep.pdf, id=1173, 569.12625pt x 409.53pt>
 File: fig/Time_Radius_50GeV_BL_DD4hep.pdf Graphic file (type pdf)
 <use fig/Time_Radius_50GeV_BL_DD4hep.pdf>
-Package pdftex.def Info: fig/Time_Radius_50GeV_BL_DD4hep.pdf  used on input line 847.
+Package pdftex.def Info: fig/Time_Radius_50GeV_BL_DD4hep.pdf  used on input line 436.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_70GeV_BL_DD4hep.pdf, id=1437, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_70GeV_BL_DD4hep.pdf Graphic file (type pdf)
-<use fig/Time_Radius_70GeV_BL_DD4hep.pdf>
-Package pdftex.def Info: fig/Time_Radius_70GeV_BL_DD4hep.pdf  used on input line 853.
+ [18 <./fig/Time_Energy_50GeV_DD4hep.pdf, page is rotated 90 degrees> <./fig/Time_Radius_50GeV_SSF_DD4hep.pdf, page is rotated 90 degrees> <./fig/Time_Radius_50GeV_BL_DD4hep.pdf, page is rotated 90 degrees>]
+<fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.pdf, id=1314, 569.12625pt x 409.53pt>
+File: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.pdf Graphic file (type pdf)
+<use fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.pdf>
+Package pdftex.def Info: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.pdf  used on input line 448.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-<fig/Time_Radius_90GeV_BL_DD4hep.pdf, id=1438, 569.12625pt x 409.53pt>
-File: fig/Time_Radius_90GeV_BL_DD4hep.pdf Graphic file (type pdf)
-<use fig/Time_Radius_90GeV_BL_DD4hep.pdf>
-Package pdftex.def Info: fig/Time_Radius_90GeV_BL_DD4hep.pdf  used on input line 859.
+<fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.pdf, id=1315, 569.12625pt x 409.53pt>
+File: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.pdf Graphic file (type pdf)
+<use fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.pdf>
+Package pdftex.def Info: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.pdf  used on input line 454.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-[20
+<fig/Time_Correlation_long.pdf, id=1316, 569.12625pt x 409.53pt>
+File: fig/Time_Correlation_long.pdf Graphic file (type pdf)
+<use fig/Time_Correlation_long.pdf>
+Package pdftex.def Info: fig/Time_Correlation_long.pdf  used on input line 466.
+(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
+<fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep.pdf, id=1317, 569.12625pt x 409.53pt>
+File: fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep.pdf Graphic file (type pdf)
+<use fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep.pdf>
+Package pdftex.def Info: fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep.pdf  used on input line 472.
+(pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
+ [19 <./fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.pdf, page is rotated 90 degrees> <./fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.pdf, page is rotated 90 degrees> <./fig/Time_Correlation_long.pdf, page is rotated 90 degrees> <./fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep.pdf, page is rotated 90 degrees>] (./CAN.bbl [20]) [21]pdfTeX warning (ext4): destination with the same identifier (name{ref-table:muon_sel}) has been already used, duplicate ignored
+<to be read again> 
+                   }
+l.541   \label{table:muon_sel}
+                               [22
 
-] [21] [22] [23 <./fig/Comparison_SimData_Electrons15GeV-eps-converted-to.pdf> <./fig/Comparison_SimData_Electrons20GeV-eps-converted-to.pdf> <./fig/Comparison_SimData_Electrons30GeV-eps-converted-to.pdf> <./fig/Comparison_SimData_Electrons40GeV-eps-converted-to.pdf> <./fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf>] [24 <./fig/Comparison_SimData_Electrons_nHits_15GeV.pdf, page is rotated 90 degrees> <./fig/Comparison_SimData_Electrons_nHits_20GeV.pdf, page is rotated 90 degrees> <./fig/Comparison_SimData_Electrons_nHits_30GeV.pdf, page is rotated 90 degrees> <./fig/Comparison_SimData_Electrons_nHits_40GeV.pdf, page is rotated 90 degrees> <./fig/Comparison_SimData_Electrons_nHits_50GeV.pdf, page is rotated 90 degrees>] [25 <./fig/Comparison_SimData_Pion30GeV_LateClusters.pdf, page is rotated 90 degrees> <./fig/Comparison_SimData_Pion50GeV_LateClusters.pdf, page is rotated 90 degrees> <./fig/Comparison_SimData_Pion70GeV_LateClusters.pdf, page is rotated 90 degrees> <./fig/C
-omparison_SimData_Pion90GeV_LateClusters.pdf, page is rotated 90 degrees>] [26 <./fig/Comparison_SimData_Pion30GeV_LateClusters_DD4hep.pdf, page is rotated 90 degrees> <./fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep.pdf, page is rotated 90 degrees> <./fig/Comparison_SimData_Pion70GeV_LateClusters_DD4hep.pdf, page is rotated 90 degrees> <./fig/Comparison_SimData_Pion90GeV_LateClusters_DD4hep.pdf, page is rotated 90 degrees>] [27 <./fig/Time_Energy_30GeV_Mokka.pdf, page is rotated 90 degrees> <./fig/Time_Energy_50GeV_Mokka.pdf, page is rotated 90 degrees> <./fig/Time_Energy_70GeV_Mokka.pdf, page is rotated 90 degrees>] [28 <./fig/Time_Energy_10GeV_DD4hep.pdf, page is rotated 90 degrees> <./fig/Time_Energy_30GeV_DD4hep.pdf, page is rotated 90 degrees> <./fig/Time_Energy_50GeV_DD4hep.pdf, page is rotated 90 degrees> <./fig/Time_Energy_70GeV_DD4hep.pdf, page is rotated 90 degrees> <./fig/Time_Energy_90GeV_DD4hep.pdf, page is rotated 90 degrees>] [29 <./fig/Time_Radius_10GeV_SSF_Mokk
-a.pdf, page is rotated 90 degrees> <./fig/Time_Radius_30GeV_SSF_Mokka.pdf, page is rotated 90 degrees> <./fig/Time_Radius_70GeV_SSF_Mokka.pdf, page is rotated 90 degrees> <./fig/Time_Radius_90GeV_SSF_Mokka.pdf, page is rotated 90 degrees>] [30 <./fig/Time_Radius_10GeV_SSF_DD4hep.pdf, page is rotated 90 degrees> <./fig/Time_Radius_30GeV_SSF_DD4hep.pdf, page is rotated 90 degrees> <./fig/Time_Radius_50GeV_SSF_DD4hep.pdf, page is rotated 90 degrees> <./fig/Time_Radius_70GeV_SSF_DD4hep.pdf, page is rotated 90 degrees> <./fig/Time_Radius_90GeV_SSF_DD4hep.pdf, page is rotated 90 degrees>] [31 <./fig/Time_Radius_10GeV_BL_Mokka.pdf, page is rotated 90 degrees> <./fig/Time_Radius_30GeV_BL_Mokka.pdf, page is rotated 90 degrees> <./fig/Time_Radius_70GeV_BL_Mokka.pdf, page is rotated 90 degrees> <./fig/Time_Radius_90GeV_BL_Mokka.pdf, page is rotated 90 degrees>] [32 <./fig/Time_Radius_10GeV_BL_DD4hep.pdf, page is rotated 90 degrees> <./fig/Time_Radius_30GeV_BL_DD4hep.pdf, page is rotated 90 degree
-s> <./fig/Time_Radius_50GeV_BL_DD4hep.pdf, page is rotated 90 degrees> <./fig/Time_Radius_70GeV_BL_DD4hep.pdf, page is rotated 90 degrees> <./fig/Time_Radius_90GeV_BL_DD4hep.pdf, page is rotated 90 degrees>] (./CAN.aux)
+] [23] [24] (./CAN.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15954 strings out of 492985
- 328334 string characters out of 6132585
- 351318 words of memory out of 5000000
- 19047 multiletter control sequences out of 15000+600000
+ 15567 strings out of 492985
+ 312688 string characters out of 6132585
+ 331866 words of memory out of 5000000
+ 18796 multiletter control sequences out of 15000+600000
  611520 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,10n,49p,10354b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CAN.pdf (33 pages, 2030707 bytes).
+Output written on CAN.pdf (25 pages, 1201619 bytes).
 PDF statistics:
- 3408 PDF objects out of 3580 (max. 8388607)
- 224 named destinations out of 1000 (max. 500000)
- 351 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1594 PDF objects out of 1728 (max. 8388607)
+ 129 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,6 +19,6 @@
 \contentsline {section}{\numberline {6}Results}{13}
 \contentsline {subsection}{\numberline {6.1}Systematic uncertainties}{13}
 \contentsline {subsection}{\numberline {6.2}Timing of muon and electron beams}{15}
-\contentsline {subsection}{\numberline {6.3}Timing of pion showers}{15}
-\contentsline {section}{\numberline {7}Conclusion}{18}
-\contentsline {section}{\numberline {A}Appendix}{20}
+\contentsline {subsection}{\numberline {6.3}Timing of pion showers}{16}
+\contentsline {section}{\numberline {7}Conclusion}{20}
+\contentsline {section}{\numberline {A}Appendix}{22}

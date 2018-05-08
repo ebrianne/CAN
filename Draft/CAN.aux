@@ -29,7 +29,6 @@
 \newlabel{sub@fig:ProfileMIP_Edep}{{b}{4}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \subref  {fig:MIPData_MC}) Hit Energy Spectra for the complete AHCAL for muon like-track hits for both data and simulation. \subref  {fig:ProfileMIP_Edep}) Longitudinal mean energy profile for muon like-track hits in data and simulations..\relax }}{4}}
 \newlabel{fig:Val}{{2}{4}}
-\citation{AmbraPrivate}
 \global\@todotoctrue
 \citation{Hartbrich:2016bbz}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Electron hit energy spectra for data and simulation for 10 GeV beam energy. The different colors corresponds to the variation of the cross-talk parameter in the simulations between 10\% and 18\%.\relax }}{5}}
@@ -40,12 +39,12 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Electron selection}{6}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Pion selection}{6}}
 \newlabel{sec:pionsel}{{4.3}{6}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Timing calibration of the AHCAL}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Timing calibration of the AHCAL}{7}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Time recording in the SPIROC2b}{7}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Schematic of the TDC ramp in the SPIROC2b used in testbeam with a slow clock of 250 kHz. The slope of the ramp is $\Delta _t$/(Max-Ped). The time of the hit is then calculated as the following: t$_{Hit}$ = slope $\times $ (TDC$_{Hit}$ - Ped).\relax }}{7}}
 \newlabel{fig:ConvertTime}{{4}{7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Timing calibration procedure}{7}}
 \citation{Brianne2012}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Timing calibration procedure}{8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Overall view of the different steps performed for the AHCAL timing calibration. In total, more than 20000 constants are needed.\relax }}{8}}
 \newlabel{fig:CalibOverview}{{5}{8}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Slope and Pedestal extraction}{8}}
@@ -63,10 +62,11 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces \subref  {fig:T0Corr}) Time difference between the trigger channels before and after correction for T$_{12}$ and T$_{14}$. $\mu $ = 10.6 ns, RMS = 11.6 ns, $\mu _{corrected}$ = 0.9 ns, RMS$_{corrected}$ = 4.8 ns. The two visible peaks in blue are due to pedestal values being different dependent of the bunch-crossing parity. \subref  {fig:TRefErr}) Distribution of the uncertainty $\sigma _{ref}$. The red line represents the cut of 4 ns.\relax }}{9}}
 \citation{Hartbrich2011}
 \citation{Brianne2012}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Time delay correction}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Time offset correction}{10}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Time of first hit distribution for a single channel (Chip 236, Chn 21, Mem 01, BXID 1). An offset of -165.2 ns is determined for this channel.\relax }}{10}}
 \newlabel{fig:TimeChnwithOffset}{{8}{10}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Non-linearity correction}{10}}
+\newlabel{sec:Non-linCorr}{{5.6}{10}}
 \newlabel{fig:NLCorr}{{9a}{11}}
 \newlabel{sub@fig:NLCorr}{{a}{11}}
 \newlabel{fig:TimingNLCorr}{{9b}{11}}
@@ -85,62 +85,62 @@
 \newlabel{sub@fig:nhits_profile}{{a}{12}}
 \newlabel{fig:nhits_RMS_profile}{{11b}{12}}
 \newlabel{sub@fig:nhits_RMS_profile}{{b}{12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces \subref  {fig:nhits_profile}) Mean time of the first hit as a function of the number of triggered channels above 0.5 MIP in a chip. The mean time shift upwards with the increase of triggers leading to large tails in the time distribution. A second order polynomial fit is done for the time correction shown by the red dashed line. \subref  {fig:nhits_RMS_profile}) RMS of the time distribution for 20 GeV electrons as a function of the number of triggered channels in a chip.\relax }}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces \subref  {fig:nhits_profile}) Mean time of the first hit as a function of the number of triggered channels above 0.5 MIP, $N_{trig/chip}$, in a chip. The mean time shift upwards with the increase of triggers leading to large tails in the time distribution. A second order polynomial fit is done for the time correction shown by the red dashed line. \subref  {fig:nhits_RMS_profile}) RMS of the time distribution for 20 GeV electrons as a function of $N_{trig/chip}$.\relax }}{12}}
 \global\@todotoctrue
 \@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Residuals of the mean time of the first hit as a function of the number of triggered channels above 0.5 MIP in a chip after correction. The correction has been applied to all electron samples separately to evaluate the systematic uncertainty. The vertical red lines delimit the three sections used for the systematic uncertainty.\relax }}{13}}
 \newlabel{fig:Nhit_residuals}{{12}{13}}
+\newlabel{eq:syst_nHits}{{5.2}{13}}
 \@writefile{toc}{\contentsline {section}{\numberline {6}Results}{13}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Systematic uncertainties}{13}}
-\citation{Simon2013}
 \@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Summary of systematic uncertainties.\relax }}{15}}
 \newlabel{table:time_syst}{{2}{15}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Timing of muon and electron beams}{15}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Timing of pion showers}{15}}
+\citation{Simon2013}
 \@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Time of first hit distribution for muons in data and both \textsc  {Mokka}\xspace  and \textsc  {DD4hep}\xspace  simulations between -50 and 50 ns. The grey area represents the statistical uncertainty of the data. The error bars of the simulation are obtained by varying the cross-talk parameter between 10\% and 18\% and taking into account the error of a global time smearing parametrization.\relax }}{16}}
 \newlabel{fig:sim_data_muon}{{13}{16}}
-\newlabel{fig:elec_sim_data_50GeV}{{14a}{16}}
-\newlabel{sub@fig:elec_sim_data_50GeV}{{a}{16}}
-\newlabel{fig:elec_sim_data_nHits_50GeV}{{14b}{16}}
-\newlabel{sub@fig:elec_sim_data_nHits_50GeV}{{b}{16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces \subref  {fig:elec_sim_data_50GeV}) Comparison of the time of first hit between data and both \textsc  {Mokka}\xspace  and \textsc  {DD4hep}\xspace  simulations for 50 GeV electrons. The grey area represents the statistical and systematical error of the data. Error bars in simulation are obtained by varying the cross-talk parameter between 10\% and 18\% and with the uncertainty on parametrization of the width of the time distribution as a function of the number of triggered channels in a chip. \subref  {fig:elec_sim_data_nHits_50GeV}) Comparison of the number of triggered channels per chip between data and simulations for 50 GeV electrons. The grey area represents the statistical error of the data. Error bars in simulation are obtained by varying the cross-talk parameter between 10\% and 18\%.\relax }}{16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Timing of pion showers}{16}}
+\newlabel{fig:elec_sim_data_50GeV}{{14a}{17}}
+\newlabel{sub@fig:elec_sim_data_50GeV}{{a}{17}}
+\newlabel{fig:elec_sim_data_nHits_50GeV}{{14b}{17}}
+\newlabel{sub@fig:elec_sim_data_nHits_50GeV}{{b}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces \subref  {fig:elec_sim_data_50GeV}) Comparison of the time of first hit between data and both \textsc  {Mokka}\xspace  and \textsc  {DD4hep}\xspace  simulations for 50 GeV electrons. The grey area represents the statistical and systematical error of the data. Error bars in simulation are obtained by varying the cross-talk parameter between 10\% and 18\% and with the uncertainty on parametrization of the width of the time distribution as a function of the number of triggered channels in a chip. \subref  {fig:elec_sim_data_nHits_50GeV}) Comparison of the number of triggered channels per chip between data and simulations for 50 GeV electrons. The grey area represents the statistical error of the data. Error bars in simulation are obtained by varying the cross-talk parameter between 10\% and 18\%.\relax }}{17}}
 \@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Comparison of the time of first hit distribution for 50 GeV pions in data and three different physics list for the \textsc  {DD4hep}\xspace  simulation. The grey and color bands shows the statistical and systematic uncertainties.\relax }}{17}}
 \newlabel{fig:dNdt_SimData_50GeV_DD4hep}{{15}{17}}
 \@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Comparison of the mean time of first hit as function of the hit energy in data and \textsc  {DD4hep}\xspace  simulation for 50 GeV pions. The grey and color bands shows the statistical and systematic uncertainties.\relax }}{18}}
 \newlabel{fig:Energy_SimData_50GeV}{{16}{18}}
-\newlabel{fig:Radius_SSF_SimData_50GeV}{{17a}{18}}
-\newlabel{sub@fig:Radius_SSF_SimData_50GeV}{{a}{18}}
-\newlabel{fig:Radius_BL_SimData_50GeV}{{17b}{18}}
-\newlabel{sub@fig:Radius_BL_SimData_50GeV}{{b}{18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Comparison of the time of first hit as function of the hit distance to the shower axis in data and simulations for 50 GeV pion for the layers 3 to 10 on the left and for layers 11 to 14 on the right. The grey and color bands shows the systematics.\relax }}{18}}
-\newlabel{fig:Radius_SSF_SimData_50GeVComparison}{{17}{18}}
+\newlabel{fig:Radius_SSF_SimData_50GeV}{{17a}{19}}
+\newlabel{sub@fig:Radius_SSF_SimData_50GeV}{{a}{19}}
+\newlabel{fig:Radius_BL_SimData_50GeV}{{17b}{19}}
+\newlabel{sub@fig:Radius_BL_SimData_50GeV}{{b}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Comparison of the time of first hit as function of the hit distance to the shower axis in data and simulations for 50 GeV pion for the layers 3 to 10 on the left and for layers 11 to 14 on the right. The grey and color bands shows the systematics.\relax }}{19}}
+\newlabel{fig:Radius_SSF_SimData_50GeVComparison}{{17}{19}}
 \newlabel{fig:Radius_Individual_Data_50GeV}{{18a}{19}}
 \newlabel{sub@fig:Radius_Individual_Data_50GeV}{{a}{19}}
 \newlabel{fig:Radius_Individual_Sim_50GeV}{{18b}{19}}
 \newlabel{sub@fig:Radius_Individual_Sim_50GeV}{{b}{19}}
 \@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Mean time of first hit as function of the hit distance to the shower axis for 50 GeV pions for different layers. For data, on the left. For simulation using the QGSP\_BERT\_HP physics list, on the right. Both figures shows the same behavior with a decrease of the curve slope for deeper layers in the calorimeter.\relax }}{19}}
 \newlabel{fig:Radius_SimData_50GeVComparison_Individual}{{18}{19}}
-\newlabel{fig:TimeCorr_Data_50GeV}{{19a}{19}}
-\newlabel{sub@fig:TimeCorr_Data_50GeV}{{a}{19}}
-\newlabel{fig:TimeCorr_Data_50GeV_Sim}{{19b}{19}}
-\newlabel{sub@fig:TimeCorr_Data_50GeV_Sim}{{b}{19}}
-\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Hit timing correlations between layers 13 and 14 in the \textsc  {DD4hep}\xspace  simulation with QGSP\_BERT\_HP for 50 GeV pions. Each bin is normalized to the total number of entries in the 2D histogram.\relax }}{19}}
-\newlabel{fig:TimeCorr_50GeV}{{19}{19}}
 \global\@todotoctrue
 \bibdata{biblio}
+\newlabel{fig:TimeCorr_Data_50GeV}{{19a}{20}}
+\newlabel{sub@fig:TimeCorr_Data_50GeV}{{a}{20}}
+\newlabel{fig:TimeCorr_Data_50GeV_Sim}{{19b}{20}}
+\newlabel{sub@fig:TimeCorr_Data_50GeV_Sim}{{b}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Hit timing correlations between layers 13 and 14 in the \textsc  {DD4hep}\xspace  simulation with QGSP\_BERT\_HP for 50 GeV pions. Each bin is normalized to the total number of entries in the 2D histogram.\relax }}{20}}
+\newlabel{fig:TimeCorr_50GeV}{{19}{20}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{20}}
 \bibcite{Benaglia2016}{1}
 \bibcite{Sefkow:316196}{2}
 \bibcite{Krueger:205287}{3}
 \bibcite{5401891}{4}
 \bibcite{Kvasnicka:CR_IEEE2016}{5}
 \bibcite{MoradeFreitas:2002kj}{6}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{20}}
 \bibcite{Frank:2014zya}{7}
 \bibcite{1748-0221-5-05-P05004}{8}
 \bibcite{Hartbrich:2016bbz}{9}
-\bibcite{AmbraPrivate}{10}
-\bibcite{Brianne2012}{11}
-\bibcite{Hartbrich2011}{12}
-\bibcite{Simon2013}{13}
+\bibcite{Brianne2012}{10}
+\bibcite{Hartbrich2011}{11}
+\bibcite{Simon2013}{12}
 \bibstyle{JHEP}
 \global\@todotoctrue
 \@writefile{toc}{\contentsline {section}{\numberline {A}Appendix}{22}}

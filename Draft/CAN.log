@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.13)  8 MAY 2018 19:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.13)  8 MAY 2018 19:45
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -749,199 +749,176 @@ Package epstopdf Info: Source file: <fig/TestbeamSetup.eps>
 (epstopdf)                    date: 2018-05-07 15:38:51
 (epstopdf)                    size: 83539 bytes
 (epstopdf)             Output file: <fig/TestbeamSetup-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/TestbeamSetup-eps-converted-to.pdf fig/TestbeamSetup.eps>
-(epstopdf)             \includegraphics on input line 68.
-runsystem(epstopdf --outfile=fig/TestbeamSetup-eps-converted-to.pdf fig/TestbeamSetup.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/TestbeamSetup-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:33
-(epstopdf)                    size: 64836 bytes.
+(epstopdf)                    size: 64836 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/TestbeamSetup-eps-converted-to.pdf fig/TestbeamSetup.eps>
+(epstopdf)             \includegraphics on input line 66.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/TestbeamSetup-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/TestbeamSetup-eps-converted-to.pdf, id=108, 648.4225pt x 384.43625pt>
 File: fig/TestbeamSetup-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/TestbeamSetup-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TestbeamSetup-eps-converted-to.pdf  used on input line 68.
+Package pdftex.def Info: fig/TestbeamSetup-eps-converted-to.pdf  used on input line 66.
 (pdftex.def)             Requested size: 301.14316pt x 178.54396pt.
 [2 <./fig/TestbeamSetup-eps-converted-to.pdf>] [3]
 Package epstopdf Info: Source file: <fig/ComparisonMCData_MIPPeak.eps>
 (epstopdf)                    date: 2018-05-08 15:47:44
 (epstopdf)                    size: 11625 bytes
 (epstopdf)             Output file: <fig/ComparisonMCData_MIPPeak-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/ComparisonMCData_MIPPeak-eps-converted-to.pdf fig/ComparisonMCData_MIPPeak.eps>
-(epstopdf)             \includegraphics on input line 118.
-runsystem(epstopdf --outfile=fig/ComparisonMCData_MIPPeak-eps-converted-to.pdf fig/ComparisonMCData_MIPPeak.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/ComparisonMCData_MIPPeak-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:33
-(epstopdf)                    size: 10216 bytes.
+(epstopdf)                    size: 10216 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ComparisonMCData_MIPPeak-eps-converted-to.pdf fig/ComparisonMCData_MIPPeak.eps>
+(epstopdf)             \includegraphics on input line 116.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/ComparisonMCData_MIPPeak-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/ComparisonMCData_MIPPeak-eps-converted-to.pdf, id=159, 569.12625pt x 409.53pt>
 File: fig/ComparisonMCData_MIPPeak-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/ComparisonMCData_MIPPeak-eps-converted-to.pdf>
-Package pdftex.def Info: fig/ComparisonMCData_MIPPeak-eps-converted-to.pdf  used on input line 118.
+Package pdftex.def Info: fig/ComparisonMCData_MIPPeak-eps-converted-to.pdf  used on input line 116.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/ProfileMuons_Edep.eps>
 (epstopdf)                    date: 2018-05-08 15:53:58
 (epstopdf)                    size: 14998 bytes
 (epstopdf)             Output file: <fig/ProfileMuons_Edep-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/ProfileMuons_Edep-eps-converted-to.pdf fig/ProfileMuons_Edep.eps>
-(epstopdf)             \includegraphics on input line 123.
-runsystem(epstopdf --outfile=fig/ProfileMuons_Edep-eps-converted-to.pdf fig/ProfileMuons_Edep.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/ProfileMuons_Edep-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:33
-(epstopdf)                    size: 13501 bytes.
+(epstopdf)                    size: 13501 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ProfileMuons_Edep-eps-converted-to.pdf fig/ProfileMuons_Edep.eps>
+(epstopdf)             \includegraphics on input line 121.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/ProfileMuons_Edep-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/ProfileMuons_Edep-eps-converted-to.pdf, id=160, 569.12625pt x 409.53pt>
 File: fig/ProfileMuons_Edep-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/ProfileMuons_Edep-eps-converted-to.pdf>
-Package pdftex.def Info: fig/ProfileMuons_Edep-eps-converted-to.pdf  used on input line 123.
+Package pdftex.def Info: fig/ProfileMuons_Edep-eps-converted-to.pdf  used on input line 121.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 [4 <./fig/ComparisonMCData_MIPPeak-eps-converted-to.pdf> <./fig/ProfileMuons_Edep-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/HitEnergy_Electrons10GeV.eps>
 (epstopdf)                    date: 2018-05-08 15:48:41
 (epstopdf)                    size: 86011 bytes
 (epstopdf)             Output file: <fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf fig/HitEnergy_Electrons10GeV.eps>
-(epstopdf)             \includegraphics on input line 134.
-runsystem(epstopdf --outfile=fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf fig/HitEnergy_Electrons10GeV.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:34
-(epstopdf)                    size: 68576 bytes.
+(epstopdf)                    size: 68576 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf fig/HitEnergy_Electrons10GeV.eps>
+(epstopdf)             \includegraphics on input line 132.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf, id=195, 569.12625pt x 409.53pt>
+<fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf, id=194, 569.12625pt x 409.53pt>
 File: fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf>
-Package pdftex.def Info: fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf  used on input line 134.
+Package pdftex.def Info: fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf  used on input line 132.
 (pdftex.def)             Requested size: 301.14316pt x 216.70616pt.
-[5 <./fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf>]
-Underfull \vbox (badness 1377) has occurred while \output is active []
-
- [6]
+[5 <./fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf>] [6]
 Package epstopdf Info: Source file: <fig/TDCRamp.eps>
 (epstopdf)                    date: 2018-05-07 15:38:33
 (epstopdf)                    size: 154546 bytes
 (epstopdf)             Output file: <fig/TDCRamp-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/TDCRamp-eps-converted-to.pdf fig/TDCRamp.eps>
-(epstopdf)             \includegraphics on input line 165.
-runsystem(epstopdf --outfile=fig/TDCRamp-eps-converted-to.pdf fig/TDCRamp.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/TDCRamp-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:34
-(epstopdf)                    size: 142475 bytes.
+(epstopdf)                    size: 142475 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/TDCRamp-eps-converted-to.pdf fig/TDCRamp.eps>
+(epstopdf)             \includegraphics on input line 163.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/TDCRamp-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/TDCRamp-eps-converted-to.pdf, id=226, 681.54625pt x 373.395pt>
 File: fig/TDCRamp-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/TDCRamp-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TDCRamp-eps-converted-to.pdf  used on input line 165.
+Package pdftex.def Info: fig/TDCRamp-eps-converted-to.pdf  used on input line 163.
 (pdftex.def)             Requested size: 387.18312pt x 212.12517pt.
 [7 <./fig/TDCRamp-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/TimeCalibOverview.eps>
 (epstopdf)                    date: 2018-05-07 15:37:57
 (epstopdf)                    size: 109598 bytes
 (epstopdf)             Output file: <fig/TimeCalibOverview-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/TimeCalibOverview-eps-converted-to.pdf fig/TimeCalibOverview.eps>
-(epstopdf)             \includegraphics on input line 177.
-runsystem(epstopdf --outfile=fig/TimeCalibOverview-eps-converted-to.pdf fig/TimeCalibOverview.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/TimeCalibOverview-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:35
-(epstopdf)                    size: 94355 bytes.
+(epstopdf)                    size: 94355 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/TimeCalibOverview-eps-converted-to.pdf fig/TimeCalibOverview.eps>
+(epstopdf)             \includegraphics on input line 175.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/TimeCalibOverview-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/TimeCalibOverview-eps-converted-to.pdf, id=243, 764.8575pt x 316.18124pt>
 File: fig/TimeCalibOverview-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/TimeCalibOverview-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TimeCalibOverview-eps-converted-to.pdf  used on input line 177.
+Package pdftex.def Info: fig/TimeCalibOverview-eps-converted-to.pdf  used on input line 175.
 (pdftex.def)             Requested size: 430.20639pt x 177.84186pt.
 Package epstopdf Info: Source file: <fig/ExampleTDCSpectra.eps>
 (epstopdf)                    date: 2018-05-08 16:05:54
 (epstopdf)                    size: 44126 bytes
 (epstopdf)             Output file: <fig/ExampleTDCSpectra-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/ExampleTDCSpectra-eps-converted-to.pdf fig/ExampleTDCSpectra.eps>
-(epstopdf)             \includegraphics on input line 192.
-runsystem(epstopdf --outfile=fig/ExampleTDCSpectra-eps-converted-to.pdf fig/ExampleTDCSpectra.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/ExampleTDCSpectra-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:35
-(epstopdf)                    size: 26696 bytes.
+(epstopdf)                    size: 26696 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ExampleTDCSpectra-eps-converted-to.pdf fig/ExampleTDCSpectra.eps>
+(epstopdf)             \includegraphics on input line 190.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/ExampleTDCSpectra-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/ExampleTDCSpectra-eps-converted-to.pdf, id=245, 569.12625pt x 409.53pt>
 File: fig/ExampleTDCSpectra-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/ExampleTDCSpectra-eps-converted-to.pdf>
-Package pdftex.def Info: fig/ExampleTDCSpectra-eps-converted-to.pdf  used on input line 192.
+Package pdftex.def Info: fig/ExampleTDCSpectra-eps-converted-to.pdf  used on input line 190.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/SlopesTDC.eps>
 (epstopdf)                    date: 2018-05-08 16:05:54
 (epstopdf)                    size: 8606 bytes
 (epstopdf)             Output file: <fig/SlopesTDC-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/SlopesTDC-eps-converted-to.pdf fig/SlopesTDC.eps>
-(epstopdf)             \includegraphics on input line 198.
-runsystem(epstopdf --outfile=fig/SlopesTDC-eps-converted-to.pdf fig/SlopesTDC.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/SlopesTDC-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:36
-(epstopdf)                    size: 10088 bytes.
+(epstopdf)                    size: 10088 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/SlopesTDC-eps-converted-to.pdf fig/SlopesTDC.eps>
+(epstopdf)             \includegraphics on input line 196.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/SlopesTDC-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/SlopesTDC-eps-converted-to.pdf, id=246, 569.12625pt x 409.53pt>
 File: fig/SlopesTDC-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/SlopesTDC-eps-converted-to.pdf>
-Package pdftex.def Info: fig/SlopesTDC-eps-converted-to.pdf  used on input line 198.
+Package pdftex.def Info: fig/SlopesTDC-eps-converted-to.pdf  used on input line 196.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 [8 <./fig/TimeCalibOverview-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/T0_Resolution_5.eps>
 (epstopdf)                    date: 2018-05-08 16:11:20
 (epstopdf)                    size: 12866 bytes
 (epstopdf)             Output file: <fig/T0_Resolution_5-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/T0_Resolution_5-eps-converted-to.pdf fig/T0_Resolution_5.eps>
-(epstopdf)             \includegraphics on input line 215.
-runsystem(epstopdf --outfile=fig/T0_Resolution_5-eps-converted-to.pdf fig/T0_Resolution_5.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/T0_Resolution_5-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:36
-(epstopdf)                    size: 12002 bytes.
+(epstopdf)                    size: 12002 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/T0_Resolution_5-eps-converted-to.pdf fig/T0_Resolution_5.eps>
+(epstopdf)             \includegraphics on input line 213.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/T0_Resolution_5-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/T0_Resolution_5-eps-converted-to.pdf, id=271, 569.12625pt x 408.52625pt>
 File: fig/T0_Resolution_5-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/T0_Resolution_5-eps-converted-to.pdf>
-Package pdftex.def Info: fig/T0_Resolution_5-eps-converted-to.pdf  used on input line 215.
+Package pdftex.def Info: fig/T0_Resolution_5-eps-converted-to.pdf  used on input line 213.
 (pdftex.def)             Requested size: 210.80348pt x 151.32065pt.
 Package epstopdf Info: Source file: <fig/T0ReferenceError.eps>
 (epstopdf)                    date: 2018-05-08 16:11:33
 (epstopdf)                    size: 13953 bytes
 (epstopdf)             Output file: <fig/T0ReferenceError-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/T0ReferenceError-eps-converted-to.pdf fig/T0ReferenceError.eps>
-(epstopdf)             \includegraphics on input line 221.
-runsystem(epstopdf --outfile=fig/T0ReferenceError-eps-converted-to.pdf fig/T0ReferenceError.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/T0ReferenceError-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:36
-(epstopdf)                    size: 11408 bytes.
+(epstopdf)                    size: 11408 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/T0ReferenceError-eps-converted-to.pdf fig/T0ReferenceError.eps>
+(epstopdf)             \includegraphics on input line 219.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/T0ReferenceError-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/T0ReferenceError-eps-converted-to.pdf, id=272, 569.12625pt x 409.53pt>
 File: fig/T0ReferenceError-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/T0ReferenceError-eps-converted-to.pdf>
-Package pdftex.def Info: fig/T0ReferenceError-eps-converted-to.pdf  used on input line 221.
+Package pdftex.def Info: fig/T0ReferenceError-eps-converted-to.pdf  used on input line 219.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 
 Underfull \vbox (badness 2538) has occurred while \output is active []
@@ -951,234 +928,210 @@ Package epstopdf Info: Source file: <fig/Timing_Chip236_Chn21_Mem01_BXID1_withOf
 (epstopdf)                    date: 2018-05-08 16:13:46
 (epstopdf)                    size: 11711 bytes
 (epstopdf)             Output file: <fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset-eps-converted-to.pdf fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.eps>
-(epstopdf)             \includegraphics on input line 235.
-runsystem(epstopdf --outfile=fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset-eps-converted-to.pdf fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:37
-(epstopdf)                    size: 8589 bytes.
+(epstopdf)                    size: 8589 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset-eps-converted-to.pdf fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.eps>
+(epstopdf)             \includegraphics on input line 233.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset-eps-converted-to.pdf, id=332, 569.12625pt x 409.53pt>
 File: fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset-eps-converted-to.pdf  used on input line 235.
+Package pdftex.def Info: fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset-eps-converted-to.pdf  used on input line 233.
 (pdftex.def)             Requested size: 258.12645pt x 185.74904pt.
 [10 <./fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/LinearityCorrection_Module09_Chip146_BXID0.eps>
 (epstopdf)                    date: 2018-05-08 16:21:11
 (epstopdf)                    size: 14451 bytes
 (epstopdf)             Output file: <fig/LinearityCorrection_Module09_Chip146_BXID0-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/LinearityCorrection_Module09_Chip146_BXID0-eps-converted-to.pdf fig/LinearityCorrection_Module09_Chip146_BXID0.eps>
-(epstopdf)             \includegraphics on input line 251.
-runsystem(epstopdf --outfile=fig/LinearityCorrection_Module09_Chip146_BXID0-eps-converted-to.pdf fig/LinearityCorrection_Module09_Chip146_BXID0.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/LinearityCorrection_Module09_Chip146_BXID0-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:37
-(epstopdf)                    size: 16569 bytes.
+(epstopdf)                    size: 16569 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/LinearityCorrection_Module09_Chip146_BXID0-eps-converted-to.pdf fig/LinearityCorrection_Module09_Chip146_BXID0.eps>
+(epstopdf)             \includegraphics on input line 249.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/LinearityCorrection_Module09_Chip146_BXID0-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/LinearityCorrection_Module09_Chip146_BXID0-eps-converted-to.pdf, id=352, 569.12625pt x 409.53pt>
 File: fig/LinearityCorrection_Module09_Chip146_BXID0-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/LinearityCorrection_Module09_Chip146_BXID0-eps-converted-to.pdf>
-Package pdftex.def Info: fig/LinearityCorrection_Module09_Chip146_BXID0-eps-converted-to.pdf  used on input line 251.
+Package pdftex.def Info: fig/LinearityCorrection_Module09_Chip146_BXID0-eps-converted-to.pdf  used on input line 249.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/Timing_AHCAL_LinCorrection.eps>
 (epstopdf)                    date: 2018-05-08 16:23:06
 (epstopdf)                    size: 11413 bytes
 (epstopdf)             Output file: <fig/Timing_AHCAL_LinCorrection-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/Timing_AHCAL_LinCorrection-eps-converted-to.pdf fig/Timing_AHCAL_LinCorrection.eps>
-(epstopdf)             \includegraphics on input line 257.
-runsystem(epstopdf --outfile=fig/Timing_AHCAL_LinCorrection-eps-converted-to.pdf fig/Timing_AHCAL_LinCorrection.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/Timing_AHCAL_LinCorrection-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:37
-(epstopdf)                    size: 12415 bytes.
+(epstopdf)                    size: 12415 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Timing_AHCAL_LinCorrection-eps-converted-to.pdf fig/Timing_AHCAL_LinCorrection.eps>
+(epstopdf)             \includegraphics on input line 255.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Timing_AHCAL_LinCorrection-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/Timing_AHCAL_LinCorrection-eps-converted-to.pdf, id=353, 569.12625pt x 409.53pt>
 File: fig/Timing_AHCAL_LinCorrection-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Timing_AHCAL_LinCorrection-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Timing_AHCAL_LinCorrection-eps-converted-to.pdf  used on input line 257.
+Package pdftex.def Info: fig/Timing_AHCAL_LinCorrection-eps-converted-to.pdf  used on input line 255.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/TimeWalkProfile.eps>
 (epstopdf)                    date: 2018-05-08 16:24:04
 (epstopdf)                    size: 16748 bytes
 (epstopdf)             Output file: <fig/TimeWalkProfile-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/TimeWalkProfile-eps-converted-to.pdf fig/TimeWalkProfile.eps>
-(epstopdf)             \includegraphics on input line 271.
-runsystem(epstopdf --outfile=fig/TimeWalkProfile-eps-converted-to.pdf fig/TimeWalkProfile.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/TimeWalkProfile-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:38
-(epstopdf)                    size: 21158 bytes.
+(epstopdf)                    size: 21158 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/TimeWalkProfile-eps-converted-to.pdf fig/TimeWalkProfile.eps>
+(epstopdf)             \includegraphics on input line 269.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/TimeWalkProfile-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/TimeWalkProfile-eps-converted-to.pdf, id=360, 569.12625pt x 409.53pt>
 File: fig/TimeWalkProfile-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/TimeWalkProfile-eps-converted-to.pdf>
-Package pdftex.def Info: fig/TimeWalkProfile-eps-converted-to.pdf  used on input line 271.
+Package pdftex.def Info: fig/TimeWalkProfile-eps-converted-to.pdf  used on input line 269.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/Timing_AHCAL_AllCorrection.eps>
 (epstopdf)                    date: 2018-05-08 16:26:56
 (epstopdf)                    size: 12560 bytes
 (epstopdf)             Output file: <fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf fig/Timing_AHCAL_AllCorrection.eps>
-(epstopdf)             \includegraphics on input line 277.
-runsystem(epstopdf --outfile=fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf fig/Timing_AHCAL_AllCorrection.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:38
-(epstopdf)                    size: 12927 bytes.
+(epstopdf)                    size: 12927 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf fig/Timing_AHCAL_AllCorrection.eps>
+(epstopdf)             \includegraphics on input line 275.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf, id=361, 569.12625pt x 409.53pt>
 File: fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf  used on input line 277.
+Package pdftex.def Info: fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf  used on input line 275.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 [11 <./fig/LinearityCorrection_Module09_Chip146_BXID0-eps-converted-to.pdf> <./fig/Timing_AHCAL_LinCorrection-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/NumberHits_Dependance_AllEnergies.eps>
 (epstopdf)                    date: 2018-05-08 16:32:55
 (epstopdf)                    size: 10989 bytes
 (epstopdf)             Output file: <fig/NumberHits_Dependance_AllEnergies-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/NumberHits_Dependance_AllEnergies-eps-converted-to.pdf fig/NumberHits_Dependance_AllEnergies.eps>
-(epstopdf)             \includegraphics on input line 291.
-runsystem(epstopdf --outfile=fig/NumberHits_Dependance_AllEnergies-eps-converted-to.pdf fig/NumberHits_Dependance_AllEnergies.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/NumberHits_Dependance_AllEnergies-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:39
-(epstopdf)                    size: 13414 bytes.
+(epstopdf)                    size: 13414 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/NumberHits_Dependance_AllEnergies-eps-converted-to.pdf fig/NumberHits_Dependance_AllEnergies.eps>
+(epstopdf)             \includegraphics on input line 289.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/NumberHits_Dependance_AllEnergies-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/NumberHits_Dependance_AllEnergies-eps-converted-to.pdf, id=401, 569.12625pt x 409.53pt>
 File: fig/NumberHits_Dependance_AllEnergies-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/NumberHits_Dependance_AllEnergies-eps-converted-to.pdf>
-Package pdftex.def Info: fig/NumberHits_Dependance_AllEnergies-eps-converted-to.pdf  used on input line 291.
+Package pdftex.def Info: fig/NumberHits_Dependance_AllEnergies-eps-converted-to.pdf  used on input line 289.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/ParametrisationPedestalShift_20GeV.eps>
 (epstopdf)                    date: 2018-05-08 16:35:40
 (epstopdf)                    size: 8247 bytes
 (epstopdf)             Output file: <fig/ParametrisationPedestalShift_20GeV-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/ParametrisationPedestalShift_20GeV-eps-converted-to.pdf fig/ParametrisationPedestalShift_20GeV.eps>
-(epstopdf)             \includegraphics on input line 297.
-runsystem(epstopdf --outfile=fig/ParametrisationPedestalShift_20GeV-eps-converted-to.pdf fig/ParametrisationPedestalShift_20GeV.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/ParametrisationPedestalShift_20GeV-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:39
-(epstopdf)                    size: 10473 bytes.
+(epstopdf)                    size: 10473 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/ParametrisationPedestalShift_20GeV-eps-converted-to.pdf fig/ParametrisationPedestalShift_20GeV.eps>
+(epstopdf)             \includegraphics on input line 295.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/ParametrisationPedestalShift_20GeV-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/ParametrisationPedestalShift_20GeV-eps-converted-to.pdf, id=402, 569.12625pt x 409.53pt>
 File: fig/ParametrisationPedestalShift_20GeV-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/ParametrisationPedestalShift_20GeV-eps-converted-to.pdf>
-Package pdftex.def Info: fig/ParametrisationPedestalShift_20GeV-eps-converted-to.pdf  used on input line 297.
+Package pdftex.def Info: fig/ParametrisationPedestalShift_20GeV-eps-converted-to.pdf  used on input line 295.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 [12 <./fig/TimeWalkProfile-eps-converted-to.pdf> <./fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf> <./fig/NumberHits_Dependance_AllEnergies-eps-converted-to.pdf> <./fig/ParametrisationPedestalShift_20GeV-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/CheckCorrection.eps>
 (epstopdf)                    date: 2018-05-07 11:10:30
 (epstopdf)                    size: 16703 bytes
 (epstopdf)             Output file: <fig/CheckCorrection-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/CheckCorrection-eps-converted-to.pdf fig/CheckCorrection.eps>
-(epstopdf)             \includegraphics on input line 308.
-runsystem(epstopdf --outfile=fig/CheckCorrection-eps-converted-to.pdf fig/CheckCorrection.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/CheckCorrection-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:39
-(epstopdf)                    size: 18928 bytes.
+(epstopdf)                    size: 18928 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/CheckCorrection-eps-converted-to.pdf fig/CheckCorrection.eps>
+(epstopdf)             \includegraphics on input line 306.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/CheckCorrection-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/CheckCorrection-eps-converted-to.pdf, id=462, 569.12625pt x 409.53pt>
 File: fig/CheckCorrection-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/CheckCorrection-eps-converted-to.pdf>
-Package pdftex.def Info: fig/CheckCorrection-eps-converted-to.pdf  used on input line 308.
+Package pdftex.def Info: fig/CheckCorrection-eps-converted-to.pdf  used on input line 306.
 (pdftex.def)             Requested size: 258.12645pt x 185.74904pt.
 [13 <./fig/CheckCorrection-eps-converted-to.pdf>] [14]
 Package epstopdf Info: Source file: <fig/Comparison_MokkaDD4hepData_Muons.eps>
 (epstopdf)                    date: 2018-05-04 11:50:09
 (epstopdf)                    size: 87143 bytes
 (epstopdf)             Output file: <fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf fig/Comparison_MokkaDD4hepData_Muons.eps>
-(epstopdf)             \includegraphics on input line 378.
-runsystem(epstopdf --outfile=fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf fig/Comparison_MokkaDD4hepData_Muons.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:40
-(epstopdf)                    size: 50218 bytes.
+(epstopdf)                    size: 50218 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf fig/Comparison_MokkaDD4hepData_Muons.eps>
+(epstopdf)             \includegraphics on input line 376.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf, id=491, 569.12625pt x 409.53pt>
 File: fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf  used on input line 378.
+Package pdftex.def Info: fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf  used on input line 376.
 (pdftex.def)             Requested size: 258.12645pt x 185.74904pt.
 [15]
 Package epstopdf Info: Source file: <fig/Comparison_SimData_Electrons50GeV.eps>
 (epstopdf)                    date: 2018-05-04 12:00:53
 (epstopdf)                    size: 119036 bytes
 (epstopdf)             Output file: <fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf fig/Comparison_SimData_Electrons50GeV.eps>
-(epstopdf)             \includegraphics on input line 388.
-runsystem(epstopdf --outfile=fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf fig/Comparison_SimData_Electrons50GeV.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:40
-(epstopdf)                    size: 73083 bytes.
+(epstopdf)                    size: 73083 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf fig/Comparison_SimData_Electrons50GeV.eps>
+(epstopdf)             \includegraphics on input line 386.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf, id=500, 569.12625pt x 409.53pt>
 File: fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf  used on input line 388.
+Package pdftex.def Info: fig/Comparison_SimData_Electrons50GeV-eps-converted-to.pdf  used on input line 386.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/Comparison_SimData_Electrons_nHits_50GeV.eps>
 (epstopdf)                    date: 2018-05-08 18:35:04
 (epstopdf)                    size: 29277 bytes
 (epstopdf)             Output file: <fig/Comparison_SimData_Electrons_nHits_50GeV-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/Comparison_SimData_Electrons_nHits_50GeV-eps-converted-to.pdf fig/Comparison_SimData_Electrons_nHits_50GeV.eps>
-(epstopdf)             \includegraphics on input line 393.
-runsystem(epstopdf --outfile=fig/Comparison_SimData_Electrons_nHits_50GeV-eps-converted-to.pdf fig/Comparison_SimData_Electrons_nHits_50GeV.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/Comparison_SimData_Electrons_nHits_50GeV-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:41
-(epstopdf)                    size: 21531 bytes.
+(epstopdf)                    size: 21531 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Comparison_SimData_Electrons_nHits_50GeV-eps-converted-to.pdf fig/Comparison_SimData_Electrons_nHits_50GeV.eps>
+(epstopdf)             \includegraphics on input line 391.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Comparison_SimData_Electrons_nHits_50GeV-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/Comparison_SimData_Electrons_nHits_50GeV-eps-converted-to.pdf, id=501, 569.12625pt x 409.53pt>
 File: fig/Comparison_SimData_Electrons_nHits_50GeV-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Comparison_SimData_Electrons_nHits_50GeV-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons_nHits_50GeV-eps-converted-to.pdf  used on input line 393.
+Package pdftex.def Info: fig/Comparison_SimData_Electrons_nHits_50GeV-eps-converted-to.pdf  used on input line 391.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep.eps>
 (epstopdf)                    date: 2018-05-08 18:42:27
 (epstopdf)                    size: 31597 bytes
 (epstopdf)             Output file: <fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep.eps>
-(epstopdf)             \includegraphics on input line 405.
-runsystem(epstopdf --outfile=fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:41
-(epstopdf)                    size: 27618 bytes.
+(epstopdf)                    size: 27618 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep.eps>
+(epstopdf)             \includegraphics on input line 403.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf, id=508, 569.12625pt x 409.53pt>
 File: fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf  used on input line 405.
+Package pdftex.def Info: fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf  used on input line 403.
 (pdftex.def)             Requested size: 258.12645pt x 185.74904pt.
 [16 <./fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf>]
 Underfull \vbox (badness 4505) has occurred while \output is active []
@@ -1188,140 +1141,126 @@ Package epstopdf Info: Source file: <fig/Time_Energy_50GeV_DD4hep.eps>
 (epstopdf)                    date: 2018-05-08 19:04:48
 (epstopdf)                    size: 14956 bytes
 (epstopdf)             Output file: <fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf fig/Time_Energy_50GeV_DD4hep.eps>
-(epstopdf)             \includegraphics on input line 416.
-runsystem(epstopdf --outfile=fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf fig/Time_Energy_50GeV_DD4hep.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:42
-(epstopdf)                    size: 15651 bytes.
+(epstopdf)                    size: 15651 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf fig/Time_Energy_50GeV_DD4hep.eps>
+(epstopdf)             \includegraphics on input line 414.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf, id=571, 569.12625pt x 409.53pt>
 File: fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf  used on input line 416.
+Package pdftex.def Info: fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf  used on input line 414.
 (pdftex.def)             Requested size: 258.12645pt x 185.74904pt.
 Package epstopdf Info: Source file: <fig/Time_Radius_50GeV_SSF_DD4hep.eps>
 (epstopdf)                    date: 2018-05-08 19:04:48
 (epstopdf)                    size: 11121 bytes
 (epstopdf)             Output file: <fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf fig/Time_Radius_50GeV_SSF_DD4hep.eps>
-(epstopdf)             \includegraphics on input line 427.
-runsystem(epstopdf --outfile=fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf fig/Time_Radius_50GeV_SSF_DD4hep.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:42
-(epstopdf)                    size: 12957 bytes.
+(epstopdf)                    size: 12957 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf fig/Time_Radius_50GeV_SSF_DD4hep.eps>
+(epstopdf)             \includegraphics on input line 425.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf, id=573, 569.12625pt x 409.53pt>
 File: fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf  used on input line 427.
+Package pdftex.def Info: fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf  used on input line 425.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/Time_Radius_50GeV_BL_DD4hep.eps>
 (epstopdf)                    date: 2018-05-08 19:04:48
 (epstopdf)                    size: 12384 bytes
 (epstopdf)             Output file: <fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf fig/Time_Radius_50GeV_BL_DD4hep.eps>
-(epstopdf)             \includegraphics on input line 433.
-runsystem(epstopdf --outfile=fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf fig/Time_Radius_50GeV_BL_DD4hep.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:42
-(epstopdf)                    size: 13769 bytes.
+(epstopdf)                    size: 13769 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf fig/Time_Radius_50GeV_BL_DD4hep.eps>
+(epstopdf)             \includegraphics on input line 431.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf, id=574, 569.12625pt x 409.53pt>
 File: fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf  used on input line 433.
+Package pdftex.def Info: fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf  used on input line 431.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 [18 <./fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.eps>
 (epstopdf)                    date: 2018-05-08 17:27:25
 (epstopdf)                    size: 13243 bytes
 (epstopdf)             Output file: <fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.eps>
-(epstopdf)             \includegraphics on input line 445.
-runsystem(epstopdf --outfile=fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:43
-(epstopdf)                    size: 13005 bytes.
+(epstopdf)                    size: 13005 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.eps>
+(epstopdf)             \includegraphics on input line 443.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf, id=599, 569.12625pt x 409.53pt>
 File: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf  used on input line 445.
+Package pdftex.def Info: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf  used on input line 443.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.eps>
 (epstopdf)                    date: 2018-05-08 17:28:45
 (epstopdf)                    size: 12392 bytes
 (epstopdf)             Output file: <fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.eps>
-(epstopdf)             \includegraphics on input line 451.
-runsystem(epstopdf --outfile=fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:43
-(epstopdf)                    size: 12646 bytes.
+(epstopdf)                    size: 12646 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.eps>
+(epstopdf)             \includegraphics on input line 449.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf, id=600, 569.12625pt x 409.53pt>
 File: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf  used on input line 451.
+Package pdftex.def Info: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf  used on input line 449.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/Time_Correlation_long.eps>
 (epstopdf)                    date: 2018-05-08 17:47:13
 (epstopdf)                    size: 326873 bytes
 (epstopdf)             Output file: <fig/Time_Correlation_long-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/Time_Correlation_long-eps-converted-to.pdf fig/Time_Correlation_long.eps>
-(epstopdf)             \includegraphics on input line 463.
-runsystem(epstopdf --outfile=fig/Time_Correlation_long-eps-converted-to.pdf fig/Time_Correlation_long.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/Time_Correlation_long-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:44
-(epstopdf)                    size: 187349 bytes.
+(epstopdf)                    size: 187349 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Time_Correlation_long-eps-converted-to.pdf fig/Time_Correlation_long.eps>
+(epstopdf)             \includegraphics on input line 461.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Time_Correlation_long-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/Time_Correlation_long-eps-converted-to.pdf, id=601, 569.12625pt x 409.53pt>
 File: fig/Time_Correlation_long-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Time_Correlation_long-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Time_Correlation_long-eps-converted-to.pdf  used on input line 463.
+Package pdftex.def Info: fig/Time_Correlation_long-eps-converted-to.pdf  used on input line 461.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep.eps>
 (epstopdf)                    date: 2018-05-08 17:51:20
 (epstopdf)                    size: 994084 bytes
 (epstopdf)             Output file: <fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep-eps-converted-to.pdf>
-(epstopdf)             Command: <epstopdf --outfile=fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep-eps-converted-to.pdf fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep.eps>
-(epstopdf)             \includegraphics on input line 469.
-runsystem(epstopdf --outfile=fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep-eps-converted-to.pdf fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep.eps)...executed.
-
-Package epstopdf Info: Result file: <fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep-eps-converted-to.pdf>
 (epstopdf)                    date: 2018-05-08 19:30:45
-(epstopdf)                    size: 436461 bytes.
+(epstopdf)                    size: 436461 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep-eps-converted-to.pdf fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep.eps>
+(epstopdf)             \includegraphics on input line 467.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep-eps-converted-to.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 <fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep-eps-converted-to.pdf, id=602, 569.12625pt x 409.53pt>
 File: fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep-eps-converted-to.pdf  used on input line 469.
+Package pdftex.def Info: fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep-eps-converted-to.pdf  used on input line 467.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
-[19 <./fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf> <./fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf> <./fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf> <./fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf>] (./CAN.bbl [20 <./fig/Time_Correlation_long-eps-converted-to.pdf> <./fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep-eps-converted-to.pdf>]) [21]pdfTeX warning (ext4): destination with the same identifier (name{ref-table:muon_sel}) has been already used, duplicate ignored
+[19 <./fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf> <./fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf> <./fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf> <./fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf>] [20 <./fig/Time_Correlation_long-eps-converted-to.pdf> <./fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep-eps-converted-to.pdf>] (./CAN.bbl) [21]pdfTeX warning (ext4): destination with the same identifier (name{ref-table:muon_sel}) has been already used, duplicate ignored
 <to be read again> 
                    }
-l.537   \label{table:muon_sel}
+l.535   \label{table:muon_sel}
                                [22
 
 ] [23] [24] (./CAN.aux)
@@ -1339,7 +1278,7 @@ Here is how much of TeX's memory you used:
  42i,14n,49p,10354b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on CAN.pdf (25 pages, 1607482 bytes).
+Output written on CAN.pdf (25 pages, 1608136 bytes).
 PDF statistics:
  790 PDF objects out of 1000 (max. 8388607)
  130 named destinations out of 1000 (max. 500000)

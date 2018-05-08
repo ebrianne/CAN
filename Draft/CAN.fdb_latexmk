@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex CAN"] 1525770880 "CAN.aux" "CAN.bbl" "CAN" 1525800645
+["bibtex CAN"] 1525801550 "CAN.aux" "CAN.bbl" "CAN" 1525801552
   "./JHEP.bst" 1503948596 20366 831a28ea1bdab239787a5f8d5fe1ce22 ""
-  "CAN.aux" 1525800645 14763 7ceb789fc91b43416bb3cac9b4b605fb ""
+  "CAN.aux" 1525801552 14763 4e3bb9c51790c62fcce9143adcba061e ""
   "biblio.bib" 1525095036 7258 ce3a384c45eafb2067cdbc3464dee8a6 ""
   (generated)
-  "CAN.blg"
   "CAN.bbl"
-["pdflatex"] 1525800631 "CAN.tex" "CAN.pdf" "CAN" 1525800645
+  "CAN.blg"
+["pdflatex"] 1525801551 "CAN.tex" "CAN.pdf" "CAN" 1525801552
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm" 1480098688 1384 4632f5e54900a7dadbb83f555bc61e56 ""
@@ -137,10 +137,10 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1513167793 2534590 c894378de966c0111b577bc0522e89da ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1513167845 4130803 15c8207dc07584383d76b27a465d011b ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "CAN.aux" 1525800645 14763 7ceb789fc91b43416bb3cac9b4b605fb ""
-  "CAN.bbl" 1525770880 2766 6bec5ad8203ee8423f45a68f193588f4 "bibtex CAN"
-  "CAN.tex" 1525800597 59410 42d2098be64efc02136985df3903b5cc ""
-  "CAN.toc" 1525800645 1652 39bb1f18a4ba25e63899f20f30316232 ""
+  "CAN.aux" 1525801552 14763 4e3bb9c51790c62fcce9143adcba061e ""
+  "CAN.bbl" 1525801551 2766 6bec5ad8203ee8423f45a68f193588f4 "bibtex CAN"
+  "CAN.tex" 1525801526 59570 ed3c8a26a37476fa21f622ead6ffbdd5 ""
+  "CAN.toc" 1525801552 1652 39bb1f18a4ba25e63899f20f30316232 ""
   "JINST.cls" 1503948598 64023 0e2effaabacc525d1bf75b5332bea0ce ""
   "fig/CheckCorrection.eps" 1525684230 16703 76555836cf9cae32409c869777fd9e8c ""
   "fig/ComparisonMCData_MIPPeak.eps" 1525787264 11625 dac301e8f5df84ddd27c5e1195139bab ""
@@ -172,7 +172,7 @@
   "fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.eps" 1525793245 13243 8b67e14df003003f5ef877a2e9f4fac0 ""
   "fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.eps" 1525793325 12392 7dd70c1cd1369ef575571fa8c7b97c82 ""
   (generated)
-  "CAN.aux"
   "CAN.toc"
   "CAN.log"
+  "CAN.aux"
   "CAN.pdf"

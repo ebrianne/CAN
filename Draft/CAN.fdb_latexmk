@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex CAN"] 1525801550 "CAN.aux" "CAN.bbl" "CAN" 1525801552
+["bibtex CAN"] 1525801550 "CAN.aux" "CAN.bbl" "CAN" 1525857740
   "./JHEP.bst" 1503948596 20366 831a28ea1bdab239787a5f8d5fe1ce22 ""
-  "CAN.aux" 1525801552 14763 4e3bb9c51790c62fcce9143adcba061e ""
+  "CAN.aux" 1525857739 14763 4e3bb9c51790c62fcce9143adcba061e ""
   "biblio.bib" 1525095036 7258 ce3a384c45eafb2067cdbc3464dee8a6 ""
   (generated)
   "CAN.bbl"
   "CAN.blg"
-["pdflatex"] 1525801551 "CAN.tex" "CAN.pdf" "CAN" 1525801552
+["pdflatex"] 1525857737 "CAN.tex" "CAN.pdf" "CAN" 1525857740
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm" 1480098688 1384 4632f5e54900a7dadbb83f555bc61e56 ""
@@ -137,10 +137,10 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1513167793 2534590 c894378de966c0111b577bc0522e89da ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1513167845 4130803 15c8207dc07584383d76b27a465d011b ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "CAN.aux" 1525801552 14763 4e3bb9c51790c62fcce9143adcba061e ""
+  "CAN.aux" 1525857739 14763 4e3bb9c51790c62fcce9143adcba061e ""
   "CAN.bbl" 1525801551 2766 6bec5ad8203ee8423f45a68f193588f4 "bibtex CAN"
-  "CAN.tex" 1525801526 59570 ed3c8a26a37476fa21f622ead6ffbdd5 ""
-  "CAN.toc" 1525801552 1652 39bb1f18a4ba25e63899f20f30316232 ""
+  "CAN.tex" 1525857727 59597 bfbec8db8d64c6996c384f8e77a11d7d ""
+  "CAN.toc" 1525857739 1652 39bb1f18a4ba25e63899f20f30316232 ""
   "JINST.cls" 1503948598 64023 0e2effaabacc525d1bf75b5332bea0ce ""
   "fig/CheckCorrection.eps" 1525684230 16703 76555836cf9cae32409c869777fd9e8c ""
   "fig/ComparisonMCData_MIPPeak.eps" 1525787264 11625 dac301e8f5df84ddd27c5e1195139bab ""
@@ -161,8 +161,8 @@
   "fig/TestbeamSetup.eps" 1525700331 83539 42a793fb8216a5c7f4cb4da7342542c5 ""
   "fig/TimeCalibOverview.eps" 1525700277 109598 3c26f0421146d421ae163dd6a747172d ""
   "fig/TimeWalkProfile.eps" 1525789444 16748 525e615a46e96ca8f7e00a60b400908f ""
-  "fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep.eps" 1525794680 994084 521e9095a91ebcdc6eb051cdf93da24b ""
-  "fig/Time_Correlation_long.eps" 1525794433 326873 f962555ccb979667af6c2d1d4af38d47 ""
+  "fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep.eps" 1525856205 65987 3e4d983c9cc610453ae113262f045fda ""
+  "fig/Time_Correlation_long.eps" 1525855855 242299 3b65b9f539cd3bf05241d87a33e941a7 ""
   "fig/Time_Energy_50GeV_DD4hep.eps" 1525799088 14956 fd9defb9803790fbe7539909ac7de3c3 ""
   "fig/Time_Radius_50GeV_BL_DD4hep.eps" 1525799088 12384 38ef27e1d9fe674a09f91a9e79079b1d ""
   "fig/Time_Radius_50GeV_SSF_DD4hep.eps" 1525799088 11121 79e5dc218d3d77708e8ade90af36e6bb ""
@@ -172,7 +172,7 @@
   "fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.eps" 1525793245 13243 8b67e14df003003f5ef877a2e9f4fac0 ""
   "fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.eps" 1525793325 12392 7dd70c1cd1369ef575571fa8c7b97c82 ""
   (generated)
-  "CAN.toc"
-  "CAN.log"
   "CAN.aux"
   "CAN.pdf"
+  "CAN.log"
+  "CAN.toc"

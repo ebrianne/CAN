@@ -295,8 +295,6 @@ INPUT ./fig/ProfileMuons_Edep.eps
 INPUT ./fig/ProfileMuons_Edep-eps-converted-to.pdf
 INPUT ./fig/ProfileMuons_Edep-eps-converted-to.pdf
 INPUT ./fig/ProfileMuons_Edep-eps-converted-to.pdf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT fig/HitEnergy_Electrons10GeV.eps
 INPUT ./fig/HitEnergy_Electrons10GeV.eps
 INPUT ./fig/HitEnergy_Electrons10GeV.eps
@@ -306,6 +304,8 @@ INPUT ./fig/HitEnergy_Electrons10GeV.eps
 INPUT ./fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf
 INPUT ./fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf
 INPUT ./fig/HitEnergy_Electrons10GeV-eps-converted-to.pdf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT fig/TDCRamp.eps
@@ -425,9 +425,6 @@ INPUT ./fig/ParametrisationPedestalShift_20GeV.eps
 INPUT ./fig/ParametrisationPedestalShift_20GeV-eps-converted-to.pdf
 INPUT ./fig/ParametrisationPedestalShift_20GeV-eps-converted-to.pdf
 INPUT ./fig/ParametrisationPedestalShift_20GeV-eps-converted-to.pdf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT fig/CheckCorrection.eps
 INPUT ./fig/CheckCorrection.eps
 INPUT ./fig/CheckCorrection.eps
@@ -437,14 +434,13 @@ INPUT ./fig/CheckCorrection.eps
 INPUT ./fig/CheckCorrection-eps-converted-to.pdf
 INPUT ./fig/CheckCorrection-eps-converted-to.pdf
 INPUT ./fig/CheckCorrection-eps-converted-to.pdf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/zptmcm7v.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT fig/Comparison_MokkaDD4hepData_Muons.eps
 INPUT ./fig/Comparison_MokkaDD4hepData_Muons.eps
 INPUT ./fig/Comparison_MokkaDD4hepData_Muons.eps
@@ -454,6 +450,10 @@ INPUT ./fig/Comparison_MokkaDD4hepData_Muons.eps
 INPUT ./fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf
 INPUT ./fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf
 INPUT ./fig/Comparison_MokkaDD4hepData_Muons-eps-converted-to.pdf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT fig/Comparison_SimData_Electrons50GeV.eps
 INPUT ./fig/Comparison_SimData_Electrons50GeV.eps
 INPUT ./fig/Comparison_SimData_Electrons50GeV.eps
@@ -546,8 +546,11 @@ INPUT ./fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep-eps-converted-to.pdf
 INPUT ./fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep-eps-converted-to.pdf
 INPUT CAN.bbl
 INPUT CAN.bbl
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss9.tfm
@@ -564,6 +567,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb

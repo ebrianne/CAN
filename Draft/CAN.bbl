@@ -1,5 +1,11 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
+\bibitem{Barklow:2016tza}
+T.~Barklow, L.~d`Hautuille, C.~Milke, B.~Schumm, A.~Schütz, M.~Stanitzki, and
+  J.~Strube, {\it {A Study of the Impact of High Cross Section ILC Processes on
+  the SiD Detector Design}},  \href{http://xxx.lanl.gov/abs/1609.0781}{{\tt
+  arXiv:1609.0781}}.
+
 \bibitem{Benaglia2016}
 A.~Benaglia, E.~Auffray, P.~Lecoq, H.~Wenzel, and A.~Para, {\it {Space-Time
   Development of Electromagnetic and Hadronic Showers and Perspectives for
@@ -61,5 +67,9 @@ O.~Hartbrich, ``{Investigation of the time measurement capabilities of the
 F.~Simon, C.~Soldner, and L.~Weuste, {\it {T3B - an experiment to measure the
   time structure of hadronic showers}},  {\em Journal of Instrumentation} {\bf
   8} (2013), no.~12 P12001.
+
+\bibitem{Katja:Geant4Talk}
+R.~P. Katja~Krueger, {\it {CALICE Results Electromagnetic and Hadronic
+  Showers}},  June, 2017.
 
 \end{thebibliography}\endgroup

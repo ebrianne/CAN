@@ -1,0 +1,131 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue255;\red0\green0\blue255;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c1680\c19835\c100000;\cssrgb\c1680\c19835\c100000;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww33520\viewh19940\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+Thank you for the fast reading and detailed comments. They have been implemented as suggested in the note.\
+\
+\pard\pardeftab720\sl300\partightenfactor0
+\cf3 Comments to CAN-061 version from May 9 by Gerald Grenier\
+\
+=================\
+\pard\pardeftab720\partightenfactor0
+\cf4 Main comments :\
+=================\
+\
+-- Figure 1 : Are the scintillators on scale in this figure ?\
+\cf2 Not really. I can modify the schematic if needed. \
+The two first scintillator plate were 10x10 cm2 in size and the next two bigger scintillator plates were 50x50 cm2. The small size scintillator were used for electrons and pion beams. The big size scintillator were used for muon beams.\
+I added a comment in the note.\cf4 \
+\
+-- line 58-59 : same comment as Matthew. How are the ECAL and HCAL HBUs dispatched between the layers ? How many HBUs per layer ?\
+\cf2 Implemented in the note according to Matthew\'92s comment.\cf4 \
+\
+-- line 62 : Which type of HBUs ? HCAL one ?\
+\cf2 Yes, AHCAL HBU type. Reformulated the full sentence to provide a clearer picture of the setup.\
+\cf4 \
+-- Figure 2 : What is the size of the error bars on these 2 graphs ? Are they within the line width or not drawn ?\
+\cf2 Error bars are not implemented here.\
+\cf4 \
+-- line 123 : up to 10%. It is up to 20% on figure 3.\
+\cf2 Reformulated the sentence. I want to highlight that the only relevant region for my analysis is below 10 MIPs.\cf4 \
+\
+-- lines 146-147, 157-159, 179-181 : I haven't been able to figure out if the selection efficiencies were estimated from data or Monte Carlo.\
+Although, for electron and pion, add a table with the beam energy and the selection efficiencies.\
+If selection efficiencies are estimated from MC, is Cerenkov tag included in the efficiency calculation ?\
+\cf2 The selection efficiencies are estimated from MC. The table for electrons and pions containing the selection efficiencies is added.\
+No Cherenkov detector is present in the simulation. No Cherenkov efficiency is included in the calculation.\cf4 \
+\
+-- line 159-161 : Do you have an estimate of the level of pion contamination in the electron sample ?\
+\cf2 At a maximum, a contamination of <1% was estimated during testbeam for low electron energies. (https://ttfinfo.desy.de/CALICEelog-sec/show.jsp?dir=/2015/29/17.07&pos=2015-07-17T17:48:25) \
+However, we run in dedicated electron beam setting that give confidence that no pion are present in the data according to the beam line information on how electron beams are generated.\cf4 \
+\
+-- line 164 : "as these events would be instantaneous." What do you mean by instantaneous ?\
+\
+-- line 173 : I haven't understood. "Then for each hit after 50 ns", you consider hits arriving 50 ns after what ?\
+"a timing window of 30 ns" : centered on the hit, starting, ending at the hit, staring 50 ns after the hit ?\
+\
+-- figure 4 : Adding a and b on the graph would help.\
+\
+-- line 200 : what is a BXID parity ?\
+\
+-- line 211 and equation 5.1. Is the number 3920 fluctuating between the 2 TDC in an ASIC ? between TDCs in different ASICs ?\
+\
+-- figure 6 a) : What is the horizontal dashed line ? Why is the distribution not flat at the beginning and at the end ?\
+I haven't found the yellow bands mentionned in the caption. In the caption, "the black VERTICAL lines".\
+\
+-- figure 7 : caption for figure b : Distribution of the time reference uncertainty. (remove sigma_ref)\
+-- line 233 : How the cut value 4 ns was chosen ?\
+\
+-- line 239-240. What do you mean by "Muons are quasi-instantaneous" ? That there are travelling at nearly the light speed ?\
+The first hit distribution should peak at 0 ns. What time corresponds to "0 ns" here ? The thus in the sentence is not at all obvious.\
+\
+-- line 244-246 : Could you described the algorithm used to reduce the histogram range ? This sentence is unclear.\
+-- line 247 : 10 ns corresponds to more than 3 sigma of the time reference uncertainty. From previous section and figure 7b, the time reference uncertainty is computed event by event, and only event with this uncertainty below 4 ns are kept. So 10 ns will or will not be more than 3 sigma of the time reference uncertainty depending on the event.\
+\
+-- section 6.1 : systematic uncertainties :\
+--- If I've understood well, the uncertainty on the slope estimated with equation 5.1 should be included in the non-linearity uncertainty. Did I get it correctly ? If not, where is the unsertainty on the slope s taken into account ?\
+--- Global time smearing parameters and as function of Ntrig/chip : for these 2 uncertainties, what does it mean to apply a systematic uncertainty to simulation ?\
+--- Absolute number of events (line 344-348) : I haven't figured out how an uncertainty on the data normalisation translates to an uncertainty on he time of first hit. And you really meant data normalisation, not MC normalisation ?\
+\
+-- figure 13 : I haven't seen the grey area.\
+\
+-- figure 15 and line 377 : the over-estimation of the late tail by a around a factor 2 looks within the uncertainty. So can we really state that QGSP_BERT_HP disagree with the data ?\
+\
+-- figures 15, 16 and 17 : you should add the data (black dots) in the caption.\
+\
+-- line 418-420 : Could you add a plot to illustrate that statement ?\
+\
+-- figure 19 : Description of figure 19a is missing in the caption.\
+-- I don't understand the absence of the time correlated component in the simulation. I would exect it quite not so unusual to have a secondary shower particle able to travel one interaction length between layer 13 and 14.\
+-- line 437 : punch-through pions should be desribed by the simulation.\
+\
+\pard\pardeftab720\partightenfactor0
+\cf3 =================\cf4 \
+---- References :\
+\cf3 =================\
+\pard\pardeftab720\partightenfactor0
+\cf4 \
+-- Reference 1 : where is it published ?\
+\cf2 Corrected the reference.\cf4 \
+\
+-- References 2 and 3 : are these proceedings or slides ?\
+\cf2 The reference 2 are slides\cf4 \
+\cf2 Modified the reference 3 (proceedings)\cf4 \
+\
+-- Reference 5 : Is "Conference Record IEEE(2016)" enough to retrieve the publication ?\
+\cf2 Corrected the reference\cf4 \
+\
+-- Reference 10 and 11 : Are DESY summer student reports available out of DESY ?\
+\cf2 Yes they are. \
+- \cf4 http://www.desy.de/f/students/2012/reports/Eldwan_Brianne.pdf.gz\
+- http://www.desy.de/f/students/2011/reports/hartbrich.pdf.gz\
+\
+\pard\pardeftab720\partightenfactor0
+\cf3 =================\cf4 \
+Typos/grammar/... :\
+\cf3 =================\
+\pard\pardeftab720\partightenfactor0
+\cf4 \
+-- Line 6 : you should add a reference for PFA\
+-- line 50 : comprises --> comprised\
+-- line 51 : is operated --> was operated\
+-- line 54 : mention that table 3 is in the appendix.\
+-- line 61 : These layers WERE mainly ...\
+-- line 75 : you should add a ref for Geant4\
+-- line 151 : the beam instrumentation and AHCAL layer information\
+-- line 154 : increaseS\
+-- line 172 : are places and ordered --> are ordered\
+-- line 225 : was injected IN these channels.\
+-- line 230 : centered AT 0 ns.\
+-- line 233 : large large\
+-- line 259 : An example\
+-- line 374 : of first hit compared\
+-- line 386 : for 50 GeV pions.\
+-- line 448 : WAS presented.}

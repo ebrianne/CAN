@@ -32,7 +32,7 @@
 
 \usepackage{epstopdf}
 
-\preprint{CALICE Analysis Note CAN-061 \\v1.0\\ \today}
+\preprint{CALICE Analysis Note CAN-061 \\v2\\ \today}
 
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \renewcommand{\floatpagefraction}{0.95}
@@ -67,7 +67,7 @@ The testbeam setup at CERN in July 2015, at the SPS beamline H2, is shown in fig
   \caption{Sketch view of the beamline setup at the CERN SPS H2 beamline in July 2015.} \label{fig:TestbeamScketch}
 \end{figure}
 
-The AHCAL prototype absorber stack is composed of 48 steel plates in which 14 active layers were installed. The two first layers consist of single ECAL Base Units (EBUs) with $4 * 36$ cells of $4.5 * 0.5$ cm$^2$ size (ECAL). The ECAL cells of both layers are oriented parallel to the x-axis. The next eight layers consist of single HCAL Base Units (HBUs) with $12 * 12$ cells of $3 * 3$ cm$^2$ size (HCAL). The absorber plates have thickness of 1.7 cm, such that the first 10 layers correspond to a depth of around 10 X$_0$ ($\sim$ 1 $\lambda_{\pi}$). These layers mainly used as a shower start finder. The last four layers consist of 2 by 2 HBUs providing information about the development of pion showers at different depths. In total, the prototype has 3744 channels. It uses SiPM technology coupled to scintillator tiles readout by an application specific integrated chip, the SPIROC2b \cite{5401891}. A diverse variety of SiPMs and tile designs were used in this testbeam, a detailed table of the SiPM characteristics can be seen in Table \ref{table:sipm_list}. The AHCAL detector was placed on a movable stage in order to be able to scan the detector with muons for calibration runs.
+The AHCAL prototype absorber stack is composed of 48 steel plates in which 14 active modules were installed. The two first modules consist of single ECAL Base Units (EBUs) with $4 \times 36$ cells of $4.5 \times 0.5$ cm$^2$ size (ECAL). The ECAL cells of both modules are oriented parallel to the x-axis. The next eight modules consist of single HCAL Base Units (HBUs) with $12 \times 12$ cells of $3 \times 3$ cm$^2$ size (HCAL). The absorber plates have thickness of 1.7 cm, such that the first 10 modules correspond to a depth of around 10 X$_0$ ($\sim$ 1 $\lambda_{\pi}$). These modules mainly used as a shower start finder. The last four modules consist of 2 by 2 HBUs providing information about the development of pion showers at different depths. In total, the prototype has 3744 channels. It uses SiPM technology coupled to scintillator tiles readout by an application specific integrated chip, the SPIROC2b \cite{5401891}. A diverse variety of SiPMs and tile designs were used in this testbeam, a detailed table of the SiPM characteristics can be seen in Table \ref{table:sipm_list}. The AHCAL detector was placed on a movable stage in order to be able to scan the detector with muons for calibration runs.
 
 \begin{table}[htb!]
   \centering
@@ -87,7 +87,7 @@ The AHCAL prototype absorber stack is composed of 48 steel plates in which 14 ac
   \end{tabular}
 \end{table}
 
-Scintillator plates in front and back of the calorimeter are used as a trigger signal that is provided to the AHCAL DAQ to validate events \cite{Kvasnicka:CR_IEEE2016}. Additionally, the coincidence signal from the scintillators is provided directly to several channels of the AHCAL in order to provide a reference time of the trigger as shown in table \ref{table:trigger_ref}. A Cherenkov detector, at around 100 m upstream, was available to tag incoming particles.
+Scintillator plates, $10\times10 cm^2$ and $50\times50 cm^2$, placed in front and back of the calorimeter are used as a trigger signal that is provided to the AHCAL DAQ to validate events \cite{Kvasnicka:CR_IEEE2016}. Additionally, the coincidence signal from the scintillators is provided directly to several channels of the AHCAL in order to provide a reference time of the trigger as shown in table \ref{table:trigger_ref}. A Cherenkov detector, at around 100 m upstream, was available to tag incoming particles.
 
 \section{Simulation}
 
@@ -98,9 +98,9 @@ The \mokka and \ddhep simulations have been checked to give consistent results. 
 \subsection{Geometry and Digitization}
 \label{sec:GeoDigi}
 
-The AHCAL simulation model consists of 32 absorber layers and 14 active layers. Each absorber layer are made of stainless steel 17.2 mm thick. Each active layer is primarily composed of 1 mm steel cassette, 0.7 mm PCB, 2 or 3 mm scintillator strip or tile. The density and composition of the scintillator is taken as default provided in \geant.
+The AHCAL simulation model consists of 32 absorber layers and 14 active modules. Each absorber layer are made of stainless steel 17.2 mm thick. Each active layer is primarily composed of 1 mm steel cassette, 0.7 mm PCB, 2 or 3 mm scintillator strip or tile. The density and composition of the scintillator is taken as default provided in \geant.
 
-The digitization of simulated hits is very similar to the previous AHCAL physics prototype \cite{1748-0221-5-05-P05004}. Individual calibration factors obtained from data are used to extract the light yield which is needed to model the statistical fluctuations of photons hitting a SiPM \cite{Hartbrich:2016bbz}. Saturation effects are also included using a global parameter, the number of pixels available on each SiPM type, as no measurement of the saturation curve is available. Most of the tiles used are wrapped with a reflective foil such that crosstalk effects between channels can be neglected. For layers with no wrapping, a default value of 15\% cross-talk is used. Noise is extracted from muon runs and overlaid onto simulated events. Dead channels and channels without calibration factors (MIP, gain, pedestal) are rejected.
+The digitization of simulated hits is very similar to the previous AHCAL physics prototype \cite{1748-0221-5-05-P05004}. Individual calibration factors obtained from data are used to extract the light yield which is needed to model the statistical fluctuations of photons hitting a SiPM \cite{Hartbrich:2016bbz}. Saturation effects are also included using a global parameter, the number of pixels available on each SiPM type, as no measurement of the saturation curve is available. Most of the tiles used are wrapped with a reflective foil such that crosstalk effects between channels can be neglected. For modules with no wrapping, a default value of 15\% cross-talk is used. Noise is extracted from muon runs and overlaid onto simulated events. Dead channels and channels without calibration factors (MIP, gain, pedestal) are rejected.
 
 The timing of simulated hits is modeled as in the SPIROC2b, the energy from sub-hits in a cell is integrated over a sliding time window of 15 ns, if the energy sum of the sub-hits in this time window passes the energy threshold, the time of the sub-hit passing the energy threshold is used as the time of the simulated hit. To simulate detector resolution effects, the time of a simulated hit is smeared with a double Gaussian function, with parameters determined from data, and is convoluted with a Gaussian function with a sigma depending on the number of triggered channels in a chip parametrized from data (see section \ref{sec:NumberTrigger}).
 
@@ -125,7 +125,7 @@ Prior to the time analysis, the simulation and digitization are validated. Compa
   \label{fig:Val}
 \end{figure}
 
-Further comparison were made using the electron dataset. Figure~\ref{fig:HitEnergy10GeVe} shows the hit energy spectrum for 10 GeV electron showers in data and simulation. Hit energies up to 60 MIPs are well described by the simulation, with deviations up to 10\%. In the region of 20 MIPs, where a larger difference is noticeable, the SPIROC2b switches from high gain to low gain readout. A mis-calibration of the factor between the two gains leads to the observed difference. At high hit energies above 60 MIPs, the simulation is underestimating the hit energy significantly. A similar effect is observed at higher beam energies. This effect is caused by a too small value of the number of effective pixels used to simulate the effect of the limited number of pixels of the SiPMs. The nominal number of pixels is used, which does not take into account that pixels can fire more than once due to afterpulsing. However, for this analysis, only energies below tens of MIPs are relevant (see section \ref{sec:TWCorr}) and well described by the simulation.
+Further comparison were made using the electron dataset. Figure~\ref{fig:HitEnergy10GeVe} shows the hit energy spectrum for 10 GeV electron showers in data and simulation. Hit energies up to 10 MIPs are well described by the simulation, with deviations up to 10\%. In the region of 20 MIPs, where a larger difference is noticeable, the SPIROC2b switches from high gain to low gain readout. A mis-calibration of the factor between the two gains leads to the observed difference. At high hit energies above 60 MIPs, the simulation is underestimating the hit energy significantly. A similar effect is observed at higher beam energies. This effect is caused by a too small value of the number of effective pixels used to simulate SiPM saturation effects. The nominal number of pixels is used, which does not take into account that pixels can fire more than once due to recovery and afterpulsing. However, for this analysis, only energies below tens of MIPs are relevant (see section \ref{sec:TWCorr}) and well described by the simulation.
 
 \begin{figure}[htbp!]
   \centering
@@ -145,10 +145,45 @@ To select muons, an event pre-selection and a track finder \cite{Hartbrich:2016b
 
 Electron events are needed to validate the timing behavior in simulation as well as the detector simulation model. It is important to have a clean sample of electrons to cross-check the timing calibration. An electron selection is done using the beam instrumentation and layer information. Events with a Cherenkov tag are used. The energy deposit in the first three AHCAL layers ($E_3+E_4+E_5$) must be over 10 MIPs. A box cut on the number of hits and the center of gravity in the z direction is done. As the number of hits in a electron shower increase with the shower energy, this cut is energy dependent. The energy deposited in the last two layers relative to the energy deposited in the calorimeter ($(E_{13}+E_{14})/\Sigma E$) is required to be under 1\% to reject pion showers and to contain the electron shower. The electron selection is summarized in table \ref{table:electron_sel}. The selection efficiency is <0.1\% for muons, between 96-91\% for electrons between 10 and 50 GeV and 15.9-1.1\% for pions between 10 and 50 GeV. Even though a significant fraction of pions passes the electron selection at low energies, there is confidence that very little pion contamination is present in the data due to the pure electron beam generation with the beamline.
 
+\begin{table}[htb!]
+	\centering
+	\caption{Efficiency of the electron selection for simulated electrons, muons and pions for energies between 10 and 50 GeV. The efficiency is defined as the number of events after selection over the number of event before selection.}
+	\label{table:eff_electron}
+	\begin{tabular}{@{} llll @{}}
+		\toprule
+		\textbf{Beam Energy} & \textbf{$\epsilon_{\mu}$} & \textbf{$\epsilon_{e}$} & \textbf{$\epsilon_{\pi}$}\\
+		\midrule
+		10 GeV & <0.1\% & 96\% & 15.9\%\\
+		15 GeV & <0.1\% & 95.7\% & 10.1\%\\
+		20 GeV & <0.1\% & 95.2\% & 6.3\%\\
+		30 GeV & <0.1\% & 93.9\% & 2.3\%\\
+		40 GeV & <0.1\% & 92.7\% & 1.2\%\\
+		50 GeV & <0.1\% & 91.5\% & 1.1\%\\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
 \subsection{Pion selection}
 \label{sec:pionsel}
 
 The goal of the pion selection is to reject punch-through pions, muons and possible electron contamination as these events would be instantaneous. The events without a Cherenkov tag are selected. The number of hits per event needs to be above 20 to reject most muons or punch-through pions. No cut on the center of gravity in z is done in order not to bias the start of the pion shower. The energy fraction deposited in the two last AHCAL layers must be above 1\% in order to ensure that the pion showered and to reject possible electron showers. The number of hits in the two first AHCAL layers $N_3+N_4$ must be smaller than 5 to mitigate possible particle contamination from electrons. In addition, multiple particle events were observed in the data. As no beam instrumentation could be used for rejecting these events, a rejection method based on the hit time information was developed. The method is the following: all the hits in an event are placed and ordered in time; Then for each hit after 50 ns, the number of hits in a timing window of 30 ns is counted. If the number of hits is above 5, it is classified as a \textit{late cluster}. The event is rejected if there is at least one late cluster. The multi-particle event rejection has been checked on simulated data and affects the selection between <0.1\% up to 2\% from 10 to 90 GeV pions. These multi-particle events are also suppressed in data. The number of events removed varies between 0.1\% and 1\% depending on the beam energy. However, due to the calorimeter not being fully equipped thus providing limited information, some contamination by multi-particle may remain in the data. The table \ref{table:pion_sel} shows the selection cuts for the pion data. The selection efficiency is 0.1-1\% for muons, <0.1\% for electrons and between 29.9 and 51\% for pions between 10 and 90 GeV.
+
+\begin{table}[htb!]
+	\centering
+	\caption{Efficiency of the pion selection for beam energies between 10 and 90 GeV. The efficiency is defined as the number of events after selection over the number of event before selection.}
+	\label{table:eff_pion}
+	\begin{tabular}{@{} llll @{}}
+		\toprule
+		\textbf{Beam Energy} & \textbf{$\epsilon_{\mu}$} & \textbf{$\epsilon_{e}$} & \textbf{$\epsilon_{\pi}$}\\
+		\midrule
+		10 GeV & <0.1\% & <0.1\% & 29.9\%\\
+		30 GeV & 0.9\% & <0.1\% & 50.3\%\\
+		50 GeV & 0.9\% & <0.1\% & 51.1\%\\
+		70 GeV & 0.9\% & <0.1\% & 51\%\\
+		90 GeV & 0.9\% & <0.1\% & 50.2\%\\
+		\bottomrule
+	\end{tabular}
+\end{table}
 
 \section{Timing calibration of the AHCAL}
 
@@ -317,10 +352,10 @@ the time in the data. This effect is parametrized in simulation as explained in 
   \label{fig:Nhit_residuals}
 \end{figure}
 
-Figure \ref{fig:Nhit_residuals} shows the residuals of the mean time of first hit as a function of $N_{trig/chip}$ after the correction. The correction has been applied to all electron samples separately in order to evaluate the systematic uncertainty of the correction. Three ranges in $N_{trig/chip}$ have been defined delimited by the red lines to estimate the uncertainty. To not overestimate the uncertainty, half of the residual envelope is taken as uncertainty. For 0 < $N_{trig/chip}$ < 5, a systematic uncertainty of 2 ns is taken, For 5 $\leq$ $N_{trig/chip}$ < 12, a systematic uncertainty of 5 ns is taken and finally for $N_{trig/chip}$ $\geq$ 12, a systematic of 7 ns is taken. Finally, the uncertainty for the mean time of the hit is computed \textit{for each bin of energy and radius} by weighting according to the fraction of hits in each of the three regions following equation \ref{eq:syst_nHits}.
+Figure \ref{fig:Nhit_residuals} shows the residuals of the mean time of first hit as a function of $N_{trig/chip}$ after the correction. The correction has been applied to all electron samples separately in order to evaluate the systematic uncertainty of the correction. Three ranges in $N_{trig/chip}$ have been defined delimited by the red lines to estimate the uncertainty. To not overestimate the uncertainty, half of the residual envelope is taken as uncertainty. For 0 < $N_{trig/chip}$ < 5, a systematic uncertainty of 2 ns is taken, For 5 $\leq$ $N_{trig/chip}$ < 12, a systematic uncertainty of 5 ns is taken and finally for $N_{trig/chip}$ $\geq$ 12, a systematic of 7 ns is taken. Finally, the uncertainty for the mean time of the hit is computed \textit{for each bin of energy and radius} by weighting according to the fraction of hits in each of the three regions following equation \ref{eq:syst_nHits}. As the uncertainties in the three ranges are correlated, a conservative way is to add linearly the uncertainties.
 
 \begin{equation}
-  \sigma = \sqrt{(n_1 \times \sigma_1)^2 + (n_2 \times \sigma_2)^2 + (n_3 \times \sigma_3)^2} \label{eq:syst_nHits}
+  \sigma = n_1 \times \sigma_1 + n_2 \times \sigma_2 + n_3 \times \sigma_3 \label{eq:syst_nHits}
 \end{equation}
 
 with $\sigma_1$ = 2 ns, $\sigma_2$ = 5 ns, $\sigma_3$ = 7 ns, $n_1$ the fraction of hits for the i-th bin in the region 0 < $N_{trig/chip}$ < 5, $n_2$ the fraction of hits for the i-th bin in the region 5 $\leq$ $N_{trig/chip}$ < 12 and $n_2$ the fraction of hits for the i-th bin in the region $N_{trig/chip}$ $\geq$ 12 and such as $n_1 + n_2 + n_3$ is equal to one in the i-th bin.
@@ -341,7 +376,7 @@ The following systematic uncertainties are taken into account for the simulation
   \item Global time smearing parameters: A global time smearing parametrization is used from muon data to smear the time in simulation. A bin-by-bin systematic uncertainty is applied to the time of first hit distribution in simulation to take into account the difference with a layer-wise time smearing parametrization.
   \item Time smearing as function of $N_{trig/chip}$: A smearing parametrization of the width of the time distribution as a function of $N_{trig/chip}$ is obtained from electron data. An error band on the width was obtained by comparing all electron energies. This is applied to simulation for systematics.
   \item Determination of the offset to $t=0$: For simulation, the time shift per layer is calculated using a time of flight correction $T_{of} = \frac{z_{layer}}{c}$ with $c$ the speed of light and $z_{layer}$ the z position of a layer. For this, an uncertainty of 3 mm corresponding to the scintillator thickness is taken in z corresponding to 0.01 ns uncertainty in timing.
-  \item Cross-talk: No measurement for optical cross-talk between tiles is available. For a previous prototype with similar scintillator tiles, it varies between 10\% and 18\%. The cross-talk value induces a different number of hits in the detector thus has an impact on the width of the time of first hit distribution. The variation of this parameter in the simulation for the layers 4 to 10 is used for systematics.
+  \item Cross-talk: No measurement for optical cross-talk between tiles is available. For a previous prototype with similar scintillator tiles, it varies between 10\% and 18\%. The cross-talk value induces a different number of hits in the detector thus has an impact on the width of the time of first hit distribution. The variation of this parameter in the simulation for the modules 4 to 10 is used for systematics.
   \item Absolute number of events: In the pion data, some possible contamination from multi-particle events may be present still after the selection. Thus, the number of true pion events is not known. The cluster time rejection method (see section \ref{sec:pionsel}) rejects up to 1\% of events in the data. A conservative uncertainty of 10\% on the data normalization is assigned when comparing data to simulation for the absolute time of first hit distribution of pions.
 \end{itemize}
 
@@ -405,7 +440,7 @@ In order to further validate the time simulation, a comparison with electron dat
 
 \subsection{Timing of pion showers}
 
-Figure \ref{fig:dNdt_SimData_50GeV_DD4hep} shows the time distribution of first hits compared to three different physics lists for 50 GeV pions. For the core of the distribution below 50 ns, all physics lists describe the data within the systematics. The late tail is described best by the QGSP\_BERT\_HP physics list. The QBBC physics list tends to over-estimate the late tail by around a factor 2. This does not agree with the observations made in the T3B experiment \cite{Simon2013} where the QBBC physics list agrees well with the time distribution for 60 GeV pions. It may be related to the use of different \geant versions because the T3B experiment used \geant v9.4p03 \cite{Katja:Geant4Talk}. The QGSP\_BERT physics list without the precision treatment of neutron results in an overestimation of the tail of the distribution by around a factor of 5.
+Figure \ref{fig:dNdt_SimData_50GeV_DD4hep} shows the time distribution of first hits compared to three different physics lists for 50 GeV pions. For the core of the distribution below 50 ns, all physics lists describe the data within the systematics. The late tail is described best by the QGSP\_BERT\_HP and QBBC physics lists. The QGSP\_BERT physics list without the precision treatment of neutron results in an overestimation of the tail of the distribution by around a factor of 5.
 
 \begin{figure}[htbp!]
   \centering
@@ -421,12 +456,12 @@ In general, data and all simulations show a rise of the mean time of first hit t
 \begin{figure}[htbp!]
   \centering
   \includegraphics[width=0.6\textwidth]{fig/Time_Energy_50GeV_DD4hep.eps}
-  \caption{Comparison of the mean time of first hit as function of the hit energy in data and \ddhep simulation for 50 GeV pions. The grey and color bands shows the statistical and systematic uncertainties.}
+  \caption{Comparison of the mean time of first hit as a function of the hit energy in data and \ddhep simulation for 50 GeV pions. The grey and color bands shows the statistical and systematic uncertainties.}
   \label{fig:Energy_SimData_50GeV}
 \end{figure}
 
-The prompt component of a hadron shower is dominated by EM sub-showers and relativistic particles, whereas the delayed component is coming from mostly evaporation and spallation low energy neutrons. It is expected that the former is concentrated near the shower axis, while the latter is spread out laterally as these neutrons can travel far away in the calorimeter before interacting. Therefore, the radial dependence of the time of first hit of 50 GeV pion showers is studied. It is studied separately for layers 3 to 10 (small layers) and layers 11 to 14 (big layers) as significant differences were found (figure \ref{fig:Radius_SSF_SimData_50GeVComparison}). Both distributions show an increase of the mean time of first hit with the distance to the shower center, but the effect is larger for the small layers, where the mean time of first hit is around 9 ns at 22 cm, while the large layers show an effect of less than 4 ns at the same distance.
-For the layers 3 to 10, the QBBC and QGSP\_BERT\_HP physics lists reproduce well the data within systematics while QGSP\_BERT lies above the data at large distances from the center-of-gravity of the shower. For the layers 11 to 14, the QGSP\_BERT\_HP physics list agrees the best with the data. The QBBC and QGSP\_BERT physics lists agree with data up to around 10 cm distance and then both tend to lie above the data for higher distances. The observations for other beam energies are similar. The main difference between the QGSP\_BERT\_HP and the QGSP\_BERT physics list is the detailed neutron tracking in QGSP\_BERT\_HP. The figures show that without this detailed neutron tracking, too many late energy depositions are created that are spread far away from the shower axis.
+The prompt component of a hadron shower is dominated by EM sub-showers and relativistic particles, whereas the delayed component is coming from mostly evaporation and spallation low energy neutrons. It is expected that the former is concentrated near the shower axis, while the latter is spread out laterally as these neutrons can travel far away in the calorimeter before interacting. Therefore, the radial dependence of the time of first hit of 50 GeV pion showers is studied. It is studied separately for modules 3 to 10 (small modules) and modules 11 to 14 (big modules) as significant differences were found (figure \ref{fig:Radius_SSF_SimData_50GeVComparison}). Both distributions show an increase of the mean time of first hit with the distance to the shower center, but the effect is larger for the small modules, where the mean time of first hit is around 9 ns at 22 cm, while the large modules show an effect of less than 4 ns at the same distance.
+For the modules 3 to 10, the QBBC and QGSP\_BERT\_HP physics lists reproduce well the data within systematics while QGSP\_BERT lies above the data at large distances from the center-of-gravity of the shower. For the modules 11 to 14, the QGSP\_BERT\_HP physics list agrees the best with the data. The QBBC and QGSP\_BERT physics lists agree with data up to around 10 cm distance and then both tend to lie above the data for higher distances. The observations for other beam energies are similar. The main difference between the QGSP\_BERT\_HP and the QGSP\_BERT physics list is the detailed neutron tracking in QGSP\_BERT\_HP. The figures show that without this detailed neutron tracking, too many late energy depositions are created that are spread far away from the shower axis.
 
 \begin{figure}[htbp!]
   \begin{subfigure}[t]{0.49\textwidth}
@@ -440,11 +475,11 @@ For the layers 3 to 10, the QBBC and QGSP\_BERT\_HP physics lists reproduce well
     \includegraphics[width=1\textwidth]{fig/Time_Radius_50GeV_BL_DD4hep.eps}
     \caption{Layers 11 to 14} \label{fig:Radius_BL_SimData_50GeV}
   \end{subfigure}
-  \caption{Comparison of the time of first hit as function of the hit distance to the shower axis in data and simulations for 50 GeV pion for the layers 3 to 10 on the left and for layers 11 to 14 on the right. The grey and color bands shows the systematics.}
+  \caption{Comparison of the time of first hit as a function of the hit distance to the shower axis in data and simulations for 50 GeV pion for the modules 3 to 10 on the left and for modules 11 to 14 on the right. The grey and color bands shows the systematics.}
   \label{fig:Radius_SSF_SimData_50GeVComparison}
 \end{figure}
 
-By studying the layers individually, it was found that the mean time of the first hit as a function of the hit distance to the shower axis decreases with deeper layers as shown in figure \ref{fig:Radius_Individual_Data_50GeV}. Especially at larger distances this study shows strong statistical fluctuations. The simulation shows a similar behaviour (figure \ref{fig:Radius_Individual_Sim_50GeV}). This behavior is related to where the pion shower starts and thus, at the depth that the shower is sampled. This has been verified by looking at the mean time of the first hit as a function of the hit distance to the shower axis at a fixed depth of the reconstructed shower start.
+By studying the modules individually, it was found that the mean time of the first hit as a function of the hit distance to the shower axis decreases with deeper modules as shown in figure \ref{fig:Radius_Individual_Data_50GeV}. Especially at larger distances this study shows strong statistical fluctuations. The simulation shows a similar behaviour (figure \ref{fig:Radius_Individual_Sim_50GeV}). This behavior is related to where the pion shower starts and thus, at the depth that the shower is sampled. This has been verified by looking at the mean time of the first hit as a function of the hit distance to the shower axis at a fixed depth of the reconstructed shower start.
 
 \begin{figure}[htbp!]
   \begin{subfigure}[t]{0.49\textwidth}
@@ -458,11 +493,11 @@ By studying the layers individually, it was found that the mean time of the firs
     \includegraphics[width=1\textwidth]{fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.eps}
     \caption{} \label{fig:Radius_Individual_Sim_50GeV}
   \end{subfigure}
-  \caption{Mean time of first hit as function of the hit distance to the shower axis for 50 GeV pions for different layers. For data, on the left. For simulation using the QGSP\_BERT\_HP physics list, on the right. Both figures shows the same behavior with a decrease of the curve slope for deeper layers in the calorimeter.}
+  \caption{Mean time of first hit as a function of the hit distance to the shower axis for 50 GeV pions for different modules. For data, on the left. For simulation using the QGSP\_BERT\_HP physics list, on the right. Both figures shows the same behavior with a decrease of the curve slope for deeper modules in the calorimeter.}
   \label{fig:Radius_SimData_50GeVComparison_Individual}
 \end{figure}
 
-Finally, timing correlations between layers has been investigated. This is done by comparing the time of a hit in layer $i$ with the time of the closest hit in the next layer $i+1$. A maximal radial distance of 60 mm is allowed between the two hits.
+Finally, timing correlations between modules has been investigated. This is done by comparing the time of a hit in layer $i$ with the time of the closest hit in the next layer $i+1$. A maximal radial distance of 60 mm is allowed between the two hits.
 
 \begin{figure}[htbp!]
   \begin{subfigure}[t]{0.49\textwidth}
@@ -476,13 +511,13 @@ Finally, timing correlations between layers has been investigated. This is done 
     \includegraphics[width=1\textwidth]{fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep.eps}
     \caption{Simulation} \label{fig:TimeCorr_Data_50GeV_Sim}
   \end{subfigure}
-  \caption{Hit timing correlations between layers 13 and 14 for data on the left and the \ddhep simulation with QGSP\_BERT\_HP on the right, for 50 GeV pions. Each bin is normalized to the total number of entries in the 2D histogram. The red box in the left plot represents the zone investigated to quantify the difference between data and simulation as stated in the text.}
+  \caption{Hit timing correlations between modules 13 and 14 for data on the left and the \ddhep simulation with QGSP\_BERT\_HP on the right, for 50 GeV pions. Each bin is normalized to the total number of entries in the 2D histogram. The red box in the left plot represents the zone investigated to quantify the difference between data and simulation as stated in the text.}
   \label{fig:TimeCorr_50GeV}
 \end{figure}
 
-Two types of correlations were investigated, short and long. For the short correlation, the layers 6 and 7 were chosen, separated by 1 $X_0$ or 0.1 $\lambda_{\pi}$. For the long correlations, the layers 13 and 14 were selected, separated by 10 $X_0$ or 1 $\lambda_{\pi}$. It is expected that EM sub-showers can lead to a correlation of hit times for the layers 6 and 7, while the layers 13 and 14 are far apart, and therefore would show less correlation of hit times. The long correlation is shown in figure \ref{fig:TimeCorr_Data_50GeV} for 50 GeV pions.
+Two types of correlations were investigated, short and long. For the short correlation, the modules 6 and 7 were chosen, separated by 1 $X_0$ or 0.1 $\lambda_{\pi}$. For the long correlations, the modules 13 and 14 were selected, separated by 10 $X_0$ or 1 $\lambda_{\pi}$. It is expected that EM sub-showers can lead to a correlation of hit times for the modules 6 and 7, while the modules 13 and 14 are far apart, and therefore would show less correlation of hit times. The long correlation is shown in figure \ref{fig:TimeCorr_Data_50GeV} for 50 GeV pions.
 
-For comparison, the \ddhep simulation using the QGSP\_BERT\_HP physics list is shown in figure \ref{fig:TimeCorr_Data_50GeV_Sim}. While the data show a clear component with hits correlated in time between the two layers, the simulation does not show this. This has been quantified by looking at the fraction of entries in a square between 50 and 2000 ns as shown by the red line in figure \ref{fig:TimeCorr_Data_50GeV}. Around $3.25 \pm 0.12$\% of the entries are in the red square in data as opposed to around $0.71 \pm 0.02$\% for the \ddhep simulation with the QGSP\_BERT\_HP physics list. This accounts for a difference of around 3\%, however, the reason is not clear. A possible reason for the correlation in data are multi-particle events, muons or punch-through pions that trigger at a later time, that are not rejected completely by the pion selection. With the limited amount of active layers available for this prototype, no further conclusions can be drawn from this study.
+For comparison, the \ddhep simulation using the QGSP\_BERT\_HP physics list is shown in figure \ref{fig:TimeCorr_Data_50GeV_Sim}. While the data show a clear component with hits correlated in time between the two modules, the simulation does not show this. This has been quantified by looking at the fraction of entries in a square between 50 and 2000 ns as shown by the red line in figure \ref{fig:TimeCorr_Data_50GeV}. Around $3.25 \pm 0.12$\% of the entries are in the red square in data as opposed to around $0.71 \pm 0.02$\% for the \ddhep simulation with the QGSP\_BERT\_HP physics list. This accounts for a difference of around 3\%, however, the reason is not clear. A possible reason for the correlation in data are multi-particle events, muons or punch-through pions that trigger at a later time, that are not rejected completely by the pion selection. With the limited amount of active layers available for this prototype, no further conclusions can be drawn from this study.
 
 \section{Conclusion}
 
@@ -550,9 +585,9 @@ Secondly, the study of the time development of pion showers is presented. Late c
     \midrule
     \multirow{2}{*}{Preselection}& All & 0 mm < $cog_{z}$ < 800 mm\\& All & 0 < $n_{hits}$ < 20 \\
     \midrule
-    \multirow{2}{*}{Track Selection (layers 1 to 10)}& All & $n_{hits}$ in tower > 7 \\& All & $n_{hits}$ in layer < 3 \\
+    \multirow{2}{*}{Track Selection (Modules 1 to 10)}& All & $n_{hits}$ in tower > 7 \\& All & $n_{hits}$ in layer < 3 \\
     \midrule
-    \multirow{2}{*}{Track Selection (layers 11 to 14)}& All & $n_{hits}$ in tower > 2 \\& All & $n_{hits}$ in layer < 3 \\
+    \multirow{2}{*}{Track Selection (Modules 11 to 14)}& All & $n_{hits}$ in tower > 2 \\& All & $n_{hits}$ in layer < 3 \\
     \bottomrule
   \end{tabular}
 \end{table}

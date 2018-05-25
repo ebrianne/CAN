@@ -4,47 +4,45 @@ The top-level auxiliary file: CAN.aux
 The style file: JHEP.bst
 Database file #1: biblio.bib
 Warning--empty booktitle in Sefkow:316196
-Warning--empty booktitle in Krueger:205287
-Warning--empty booktitle in Katja:Geant4Talk
-You've used 14 entries,
+You've used 12 entries,
             2195 wiz_defined-function locations,
-            606 strings with 6459 characters,
-and the built_in function-call counts, 3211 in all, are:
-= -- 285
-> -- 135
+            594 strings with 6135 characters,
+and the built_in function-call counts, 3198 in all, are:
+= -- 300
+> -- 124
 < -- 0
-+ -- 52
-- -- 38
-* -- 199
-:= -- 465
-add.period$ -- 15
-call.type$ -- 14
-change.case$ -- 13
++ -- 47
+- -- 35
+* -- 202
+:= -- 450
+add.period$ -- 13
+call.type$ -- 12
+change.case$ -- 11
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 194
-empty$ -- 340
-format.name$ -- 38
-if$ -- 804
+cite$ -- 13
+duplicate$ -- 187
+empty$ -- 324
+format.name$ -- 35
+if$ -- 813
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 27
-newline$ -- 46
-num.names$ -- 14
-pop$ -- 90
+int.to.str$ -- 12
+missing$ -- 23
+newline$ -- 40
+num.names$ -- 12
+pop$ -- 72
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 101
+skip$ -- 122
 stack$ -- 0
-substring$ -- 89
-swap$ -- 57
+substring$ -- 129
+swap$ -- 70
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 21
-width$ -- 16
-write$ -- 123
-(There were 3 warnings)
+warning$ -- 1
+while$ -- 23
+width$ -- 14
+write$ -- 113
+(There was 1 warning)

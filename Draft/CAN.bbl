@@ -7,9 +7,10 @@ T.~Barklow, L.~d`Hautuille, C.~Milke, B.~Schumm, A.~Schütz, M.~Stanitzki, and
   arXiv:1609.0781}}.
 
 \bibitem{Benaglia2016}
-A.~Benaglia, E.~Auffray, P.~Lecoq, H.~Wenzel, and A.~Para, {\it {Space-Time
-  Development of Electromagnetic and Hadronic Showers and Perspectives for
-  Novel Calorimetric Techniques}}, .
+A.~Benaglia, E.~Auffray, P.~Lecoq, H.~Wenzel, and A.~Para, {\it Space-time
+  development of electromagnetic and hadronic showers and perspectives for
+  novel calorimetric techniques},  {\em IEEE Transactions on Nuclear Science}
+  {\bf 63} (April, 2016) 574--579.
 
 \bibitem{Sefkow:316196}
 F.~Sefkow and K.~Krueger, {\it {T}owards a new {AHCAL} prototype},  CALICE
@@ -17,10 +18,9 @@ F.~Sefkow and K.~Krueger, {\it {T}owards a new {AHCAL} prototype},  CALICE
   Sep, 2016.
 
 \bibitem{Krueger:205287}
-K.~Krueger, {\it {P}rototype {T}ests for a {H}ighly {G}ranular
-  {S}cintillator-{B}ased {H}adron {C}alorimeter},  16th International
-  Conference on Calorimetry in High Energy Physics, Giessen (Germany), 6 Apr
-  2014 - 11 Apr 2014, Apr, 2014.
+K.~Krüger and the CALICE~collaboration, {\it Prototype tests for a highly
+  granular scintillator-based hadron calorimeter},  {\em Journal of Physics:
+  Conference Series} {\bf 587} (2015), no.~1 012033.
 
 \bibitem{5401891}
 S.~Callier, F.~Dulucq, R.~Fabbri, C.~de~La~Taille, B.~Lutz, G.~Martin-Chassard,
@@ -30,8 +30,10 @@ S.~Callier, F.~Dulucq, R.~Fabbri, C.~de~La~Taille, B.~Lutz, G.~Martin-Chassard,
   pp.~42--46, Oct, 2009.
 
 \bibitem{Kvasnicka:CR_IEEE2016}
-{Kvasnicka, Jiri}, {\it {A Scalable Data Acquisition System for the CALICE Tile
-  Hadron Calorimeter}},  {\em Conference Record IEEE} (2016).
+J.~Kvasnicka, {\it A scalable data acquisition system for the calice tile
+  hadron calorimeter},  in {\em 2016 IEEE Nuclear Science Symposium, Medical
+  Imaging Conference and Room-Temperature Semiconductor Detector Workshop
+  (NSS/MIC/RTSD)}, pp.~1--6, Oct, 2016.
 
 \bibitem{MoradeFreitas:2002kj}
 P.~Mora~de Freitas and H.~Videau, {\it {Detector simulation with MOKKA /
@@ -62,14 +64,5 @@ E.~Brianne, ``{Studies of the front-end electronics of the Analog HCAL}.'' DESY
 \bibitem{Hartbrich2011}
 O.~Hartbrich, ``{Investigation of the time measurement capabilities of the
   SPIROC2b ASIC}.'' DESY summer student report, 2011.
-
-\bibitem{Simon2013}
-F.~Simon, C.~Soldner, and L.~Weuste, {\it {T3B - an experiment to measure the
-  time structure of hadronic showers}},  {\em Journal of Instrumentation} {\bf
-  8} (2013), no.~12 P12001.
-
-\bibitem{Katja:Geant4Talk}
-R.~P. Katja~Krueger, {\it {CALICE Results Electromagnetic and Hadronic
-  Showers}},  June, 2017.
 
 \end{thebibliography}\endgroup

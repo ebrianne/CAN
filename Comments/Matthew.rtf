@@ -1,10 +1,10 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue255;\red37\green0\blue255;
-\red0\green0\blue255;}
+}
 {\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c1680\c19835\c100000;\cssrgb\c20000\c20000\c100000;
-\cssrgb\c1680\c19835\c100000;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww27620\viewh16480\viewkind0
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww27380\viewh14980\viewkind0
 \deftab720
 \pard\pardeftab720\partightenfactor0
 
@@ -12,60 +12,72 @@
 Thank you for the fast reading and detailed comments. They have been implemented as suggested in the note.\
 \
 \pard\pardeftab720\sl300\partightenfactor0
-\cf3 \outl0\strokewidth0 \strokec4 Comments to CAN-061 version from May 9 by Matthew Wing\
-\outl0\strokewidth0 \
+\cf3 Comments to CAN-061 version from May 9 by Matthew Wing\
+\
 \pard\pardeftab720\partightenfactor0
-\cf5 =========================\cf3 \
+\cf3 =========================\
 Questions on analysis and plots\
 =========================\
 \
 - Figure 2 and the discussion.  The differences in the hit energy spectra are not large, but what effect do they have ?  How does this feed into the systematics ?  Maybe I missed it and it comes later, but then a forward reference would help.\
 \pard\pardeftab720\partightenfactor0
 \cf2 Agreed the difference of the energy spectra is minimal. \
-A significant difference in the width of the distribution would I think mostly impact the number of hits and to a certain the level the calo response and resolution. \cf2 However, for this analysis, only the number of hits has a main impact which is minimal as the shape of the spectra are very similar.\
-\cf2 A difference in the position of the peak of the spectra would have an impact on the energy scale of the detector. The precision at which the energy scale is determined as been assessed (3.6\\% syst.) and it is included in the systematics when looking at the mean time versus the hit energy. I added a forward reference.\
+A significant difference in the width of the distribution would I think mostly impact the number of hits and to a certain the level the calo response and resolution. However, for this analysis, only the number of hits has a main impact which is minimal as the shape of the spectra are very similar.\
+A difference in the position of the peak of the spectra would have an impact on the energy scale of the detector. The precision at which the energy scale is determined as been assessed (3.6\\% syst.) and it is included in the systematics when looking at the mean time versus the hit energy. I added a forward reference.\
+\pard\pardeftab720\partightenfactor0
 \cf3 \
 - Figure 3.  I guess that we are not requesting to release this plot ?  The disagreement around 20 MIPs should also be clear on the ratio, i.e. we should still be able to see the points.  If it will not be shown in public, the it is not a high priority, but it would still be good to update.\
-\cf2 The plot has been corrected in order to see the points. I agree that the agreement is not great especially at high hit energies and it has been investigated in details by Ambra Provenza. New factors have been determined for the inter calibration high gain/low gain factor and the number of effective pixels. However, the effect of the new factors on my timing analysis are of no consequence as only hit energies below 10 MIPs are relevant (for the time-walk correction) where the agreement is good.\cf3 \
+\pard\pardeftab720\partightenfactor0
+\cf2 The plot has been corrected in order to see the points. I agree that the agreement is not great especially at high hit energies and it has been investigated in details by Ambra Provenza. New factors have been determined for the inter calibration high gain/low gain factor and the number of effective pixels. However, the effect of the new factors on my timing analysis are of no consequence and I would like to emphasise that only hit energies below 10 MIPs are relevant (for the time-walk correction) where the agreement is good.\cf3 \
 \
 - Figure 6, caption.  I make s = 3920/(3613-88) = 1.44 ns/TDC, but you have 1.47 ns/TDC ?\
 \cf2 Corrected.\
+\pard\pardeftab720\partightenfactor0
 \cf3 \
 - Figure 7.  I would not show the mean and RMS for the results before correction.  It is obvious with two peaks like this that the RMS will be very large.  My initial thought was that the numbers applied to one of the Gaussians and not both together.  So I think having the numbers is confusing with no real gain as it is so obvious, visually, that the correction has worked.  Maybe I missed it, but why are there effectively two distributions before correction ?\
+\pard\pardeftab720\partightenfactor0
 \cf2 Removed the mean and RMS before correction. \
 There are two distributions before the correction due to the fact that pedestals are dependent on the bunch-crossing parity which is not taken into account in the pedestal extraction. This was done in order to have enough statistics to determine the pedestal for each channel. However, this does not affect the final results as the offset in pedestals is corrected in a later stage. I reformulated in the text how the time of a hit is calculated and added a small paragraph on the pedestal extraction for each channel.\cf3 \
 \
 - Figure 9.  The fit is okay, but a chi^2/ndf of 74/56 is not great.  So do you know what is missing ?  Same for figure 10 where the fit is chi^2/ndf=1.86.\
-\cf2 I believe it is due to my method of making the plot. It is a TProfile. By default the TProfile is done assuming Gaussian errors. The error here is then underestimated if the underlying distribution for each point is different of a Gaussian. \
-- Need to check effect of proper distribution and fit on the final time resolution (much better??)\cf3 \
+\cf2 I believe that is because of the Chi2 method of calculation. If I am correct, generally in the Chi2 calculation there is the assumption that the errors are Gaussian. However for this study, the underlying distribution is not Gaussian. Also it may comes from the fact that we don\'92t really know the exact fit function, it is just an assumption as well that this assumption is true for all chips. Same for the next figure, we assume that the fit function works for all chips but we know that different thresholds are used depending on the chip that might have a small effect there.\cf3 \
 \
 - Figure 11.  What do the horizontal error bars represent ?  Are they real errors, and if so what, or are they just some plotting feature ?  Are they included in the fit ?\
 \cf2 The horizontal errors are just the bin width by default in the Tprofile, it is just a feature of the plot. I removed them. Same for the figure 12.\cf3 \
 \
 - Figure 13.  In the ratio, are the error bars on  the MC due to statistics of the sample or the cross talk ?  It mentions cross talk in the caption, but I wanted to check whether there is a statistical effect too.\
   In the legend, the data has \'93stat+syst\'94 but in the caption it says just \'93statistical\'94; correct one or the other.\
-\cf2 The errors bar in the MC are statistical and also from the cross-talk. However, the uncertainty form the cross-talk is very minimal. The error bars in the tails of the MC are from statistics.\
+\cf2 The errors bar in the MC are statistical and also from the cross-talk. However, the uncertainty from the cross-talk is very minimal. The error bars in the tails of the MC are mostly from statistical uncertainty.\
 Corrected the plot.\
+\pard\pardeftab720\partightenfactor0
 \cf3 \
 - l.377-81.  Attributing a factor of 2 to the GEANT version seems like a poor advert for GEANT; is this really the case ?\
   Is a factor of 5 okay; don\'92t we need a comment.\
-\cf2 Reformulated. Added reference for it. The main problem here is that I don\'92t have the possibility to check this using the same geant4 version of T3B. It is not available with the soft resources I have. I would have troubles to make firstly the software compiling then it would take me quite some time to run simulation, digitisation and reconstruction to get the plot. If it is really needed then we can discuss about this at a later time.\cf3 \
+\pard\pardeftab720\partightenfactor0
+\cf2 After discussions and cross-checks, QGSP_BERT_HP and QBBC are in relative good agreement with the data. \cf3 \
 \
 - Figure 14a.  I assume the red points are under the blue points so essentially invisible ?  Looking at the error bars, I assume these are correlated which means that all points all move up or down together ?\
 \cf2 Indeed the red points and blue points are the same mostly. Comparison between data and simulation with Mokka and DD4hep was done in order to validate the new DD4hep simulation framework. \
+Yes indeed the error are correlated.\
+\pard\pardeftab720\partightenfactor0
 \cf3 \
 - Figure 16.  Is the uncertainty shown correlated between points or is a shape change, within that band, allowed ?  Same for Figure 17.  This then relates to the discussion and the goodness of the description.\
-\cf2 Need to see with Katja/Felix?\cf3 \
+\pard\pardeftab720\partightenfactor0
+\cf2 The systematic uncertainty was recalculated as it was under-estimated due to correlations which increased the error band. Now all physics list agree with data within the uncertainties.\cf3 \
 \
 - Figure 17.  I don\'92t think I have fully understood the procedure as how you get negative values for the mean time ?  Is there a subtraction that happens ?\
-\cf2 The time is defined as t_i - T_ref for the i-th channel. For each bin of radius/energy, a distribution of \cf2 t_i - T_ref for all channels is done. The mean of this time distribution is then taken in the range [-50, 200] ns. This mean will be dependent of the shape of the distribution especially the tail on the left between -50 and 0 ns. \
+\cf2 The time is defined as t_i - T_ref for the i-th channel. For each bin of radius/energy, a distribution of t_i - T_ref for all channels is done. The mean of this time distribution is then taken in the range [-50, 200] ns. This mean will be dependent of the shape of the distribution especially the tail on the left between -50 and 0 ns. \
+\pard\pardeftab720\partightenfactor0
 \cf3 \
 - l.435-9.  That is a bit of an unsatisfactory end ?  How will this difference affects the results ?\
-\
 \pard\pardeftab720\partightenfactor0
-\cf5 =========================\cf3 \
+\cf2 This is indeed a bit unfortunate. A better equipped calorimeter would give a higher power to select pion properly and reject multi-particle events. \
+This would enable to perform a better comparison between data and MC and a conclusion could be drawn from this study.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
+=========================\
 Corrections to note/plots\
-\cf5 =========================\cf3 \
+=========================\
 \
 - l.49-51.  This sentence does not make sense and I am not sure what to take from it.  Maybe make it two sentences and it will be clearer.\
 \pard\pardeftab720\partightenfactor0
@@ -73,15 +85,20 @@ Corrections to note/plots\
 \pard\pardeftab720\partightenfactor0
 \cf3 \
 - l.58-9.  Be more precise in the description.  Which layers are ECAL, which layers are HCAL.  In principle, someone should be able to read this and programme the exact configuration; at the moment I don't think you can.\
+\pard\pardeftab720\partightenfactor0
 \cf2 Implemented in the note. \cf3 \
 \
 - p.8, Eq.5.1 and discussion.  Normally, I think that a slop is defined as (y2-y1)/(x2-x1) but you have (x2-x1)/(y2-y1).  I don\'92t think that this affects any of the analysis, and so I think you should just avoid the word \'93slope" as it did confuse me.\
-\cf2 Has been implemented. The slope is defined as \cf2 (y2-y1)/(x2-x1) and the inverse of the slope is used for converting the TDC to ns.\cf2 \
+\cf2 Has been implemented. The slope is defined as (y2-y1)/(x2-x1) and the inverse of the slope is used for converting the TDC to ns.\
+\pard\pardeftab720\partightenfactor0
 \cf3 \
 - l.228-9.  I am not sure what this sentence means, particularly the word \'93rapport\'94.\
+\pard\pardeftab720\partightenfactor0
 \cf2 Corrected.\
+\pard\pardeftab720\partightenfactor0
 \cf3 \
 - Figure 8.  The stat. box says -165.3, but the caption -165.2 ns.  It\'92s only a small difference, but should be the same.\
+\pard\pardeftab720\partightenfactor0
 \cf2 Corrected.\cf3 \
 \
 - Figure 14b.  The legend overlaps with some of the points and so needs to be moved.\

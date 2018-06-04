@@ -4,45 +4,45 @@ The top-level auxiliary file: CAN.aux
 The style file: JHEP.bst
 Database file #1: biblio.bib
 Warning--empty booktitle in Sefkow:316196
-You've used 12 entries,
+You've used 15 entries,
             2195 wiz_defined-function locations,
-            594 strings with 6135 characters,
-and the built_in function-call counts, 3198 in all, are:
-= -- 300
-> -- 124
+            615 strings with 6652 characters,
+and the built_in function-call counts, 4053 in all, are:
+= -- 396
+> -- 140
 < -- 0
-+ -- 47
-- -- 35
-* -- 202
-:= -- 450
-add.period$ -- 13
-call.type$ -- 12
-change.case$ -- 11
++ -- 54
+- -- 39
+* -- 260
+:= -- 568
+add.period$ -- 17
+call.type$ -- 15
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 187
-empty$ -- 324
-format.name$ -- 35
-if$ -- 813
+cite$ -- 16
+duplicate$ -- 233
+empty$ -- 409
+format.name$ -- 39
+if$ -- 1035
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 23
-newline$ -- 40
-num.names$ -- 12
-pop$ -- 72
+int.to.str$ -- 15
+missing$ -- 31
+newline$ -- 50
+num.names$ -- 15
+pop$ -- 81
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 122
+skip$ -- 153
 stack$ -- 0
-substring$ -- 129
-swap$ -- 70
+substring$ -- 190
+swap$ -- 89
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 23
-width$ -- 14
-write$ -- 113
+while$ -- 30
+width$ -- 17
+write$ -- 146
 (There was 1 warning)

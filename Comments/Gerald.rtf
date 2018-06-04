@@ -1,9 +1,7 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue255;\red0\green0\blue255;
-}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c1680\c19835\c100000;\cssrgb\c1680\c19835\c100000;
-}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c1680\c19835\c100000;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww33520\viewh19940\viewkind0
 \deftab720
 \pard\pardeftab720\partightenfactor0
@@ -16,116 +14,224 @@ Thank you for the fast reading and detailed comments. They have been implemented
 \
 =================\
 \pard\pardeftab720\partightenfactor0
-\cf4 Main comments :\
+\cf3 Main comments :\
 =================\
 \
 -- Figure 1 : Are the scintillators on scale in this figure ?\
+\pard\pardeftab720\partightenfactor0
 \cf2 Not really. I can modify the schematic if needed. \
 The two first scintillator plate were 10x10 cm2 in size and the next two bigger scintillator plates were 50x50 cm2. The small size scintillator were used for electrons and pion beams. The big size scintillator were used for muon beams.\
-I added a comment in the note.\cf4 \
+I added a comment in the note.\cf3 \
 \
 -- line 58-59 : same comment as Matthew. How are the ECAL and HCAL HBUs dispatched between the layers ? How many HBUs per layer ?\
-\cf2 Implemented in the note according to Matthew\'92s comment.\cf4 \
+\cf2 Implemented in the note according to Matthew\'92s comment.\cf3 \
 \
 -- line 62 : Which type of HBUs ? HCAL one ?\
 \cf2 Yes, AHCAL HBU type. Reformulated the full sentence to provide a clearer picture of the setup.\
-\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 -- Figure 2 : What is the size of the error bars on these 2 graphs ? Are they within the line width or not drawn ?\
+\pard\pardeftab720\partightenfactor0
 \cf2 Error bars are not implemented here.\
-\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 -- line 123 : up to 10%. It is up to 20% on figure 3.\
-\cf2 Reformulated the sentence. I want to highlight that the only relevant region for my analysis is below 10 MIPs.\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf2 Reformulated the sentence. I want to highlight that the only relevant region for my analysis is below 10 MIPs.\cf3 \
 \
 -- lines 146-147, 157-159, 179-181 : I haven't been able to figure out if the selection efficiencies were estimated from data or Monte Carlo.\
 Although, for electron and pion, add a table with the beam energy and the selection efficiencies.\
-If selection efficiencies are estimated from MC, is Cerenkov tag included in the efficiency calculation ?\
+If selection efficiencies are estimated from MC, is Cherenkov tag included in the efficiency calculation ?\
 \cf2 The selection efficiencies are estimated from MC. The table for electrons and pions containing the selection efficiencies is added.\
-No Cherenkov detector is present in the simulation. No Cherenkov efficiency is included in the calculation.\cf4 \
+No Cherenkov detector is present in the simulation. No Cherenkov efficiency is included in the calculation.\cf3 \
 \
 -- line 159-161 : Do you have an estimate of the level of pion contamination in the electron sample ?\
 \cf2 At a maximum, a contamination of <1% was estimated during testbeam for low electron energies. (https://ttfinfo.desy.de/CALICEelog-sec/show.jsp?dir=/2015/29/17.07&pos=2015-07-17T17:48:25) \
-However, we run in dedicated electron beam setting that give confidence that no pion are present in the data according to the beam line information on how electron beams are generated.\cf4 \
+However, we run in dedicated electron beam setting that give confidence that no pion are present in the data according to the beam line information on how electron beams are generated.\cf3 \
 \
 -- line 164 : "as these events would be instantaneous." What do you mean by instantaneous ?\
+\cf2 By instantaneous, I mean that the time of these events would be similar to the time distribution of muons and electrons, i.e. centred around 0 ns. \
+Events like this would bias the time distribution of pions more towards the core centred to 0 ns suppressing the sensitivity to the tail of the time distribution. \cf3 \
 \
 -- line 173 : I haven't understood. "Then for each hit after 50 ns", you consider hits arriving 50 ns after what ?\
 "a timing window of 30 ns" : centered on the hit, starting, ending at the hit, staring 50 ns after the hit ?\
+\cf2 For each event, the hits are ordered in time. I look at the time of each hit, if it is after 50 ns. I take this hit and look in a window of 30 ns after the time of this hit. For example,\
+One hit is at 10 ns, then it is ignored. One hit is a 60 ns, then I look at the number of hits in the time window [60, 90] ns. I tried to reformulate to make it more clear.\cf3 \
 \
 -- figure 4 : Adding a and b on the graph would help.\
+\cf2 Done\cf3 \
 \
 -- line 200 : what is a BXID parity ?\
+\cf2 Each clock cycle increments a counter (12 bits) that is unique for each event. This number is referred as the BXID or bunch-crossing. The parity refers to the fact that this number is even or odd.\
+Reformulated.\cf3 \
 \
 -- line 211 and equation 5.1. Is the number 3920 fluctuating between the 2 TDC in an ASIC ? between TDCs in different ASICs ?\
+\cf2 This is a very good question. This has not been verified and it cannot be checked at the moment as I would need time and access to the used boards to perform the measurement. \
+For one chip, this value is the same for all channels (TDC ramps are common to the 36 channels). However, for different chips, I can not confirm. \
+I would believe that a small difference in the order of few percent could be possible due to manufacturing (dependent on the multiplexer between the two TDC ramps).\cf3 \
 \
 -- figure 6 a) : What is the horizontal dashed line ? Why is the distribution not flat at the beginning and at the end ?\
-I haven't found the yellow bands mentionned in the caption. In the caption, "the black VERTICAL lines".\
+I haven't found the yellow bands mentioned in the caption. In the caption, "the black VERTICAL lines".\
+\cf2 The horizontal dashed line is the mean of the histogram in the y-axis. It is used to determine the Pedestal value.\
+The figure is not flat, at the beginning due to the deadtime of the ramp and, at the end, due to a feature of the electronics and DAQ: a validation signal (from the trigger scintillators) is sent to the ASIC by the DAQ to validate the acquired event. However, this signal comes with a slight delay due to cables thus at the end of the figure, a dip in the distribution is visible, this is because the validation comes too late and then some events are not validated and removed from the chip memory. After a peak is visible, this is because here the validation signal would come also too late but in the next bunch-crossing and therefore all events are kept in memory in this region. This is purely a DAQ feature.\
+The yellow band is not very visible I agree to this scale. Modified the caption for including the necessary description of the plot.\cf3 \
 \
 -- figure 7 : caption for figure b : Distribution of the time reference uncertainty. (remove sigma_ref)\
 -- line 233 : How the cut value 4 ns was chosen ?\
+\cf2 Corrected. The cut was chosen in order to minimise the uncertainty on the time reference while not impacting much the number of events. \
+Looking at the shape of the histogram, the cut should to be done before the sharp decrease. The cut at 4 ns results in a mean uncertainty around 1.3 ns while keeping around 82% of the events.\cf3 \
 \
 -- line 239-240. What do you mean by "Muons are quasi-instantaneous" ? That there are travelling at nearly the light speed ?\
 The first hit distribution should peak at 0 ns. What time corresponds to "0 ns" here ? The thus in the sentence is not at all obvious.\
+\cf2 I mean that the fact for muons, the physical process of the signal (ionisation) is instantaneous. Therefore, the difference between the hit signal and the time reference should be in principle a Dirac peak at 0 ns. \
+However due to the electronic resolution, we should observe a peak centred at 0 ns with a certain width corresponding to the time resolution. Tried to make the sentence more clear.\cf3 \
 \
 -- line 244-246 : Could you described the algorithm used to reduce the histogram range ? This sentence is unclear.\
+\cf2 The algorithm is quite simple. For each channel, memory cell and bunch-crossing parity, I take the maximum bin of the histogram as a starting value. \
+Then I reduce iteratively the x-axis range of the histogram between [t_max - RMS, t_max + RMS] where t_max is corresponding to the time at the centre of the maximum bin of the distribution until the RMS of the distribution is under 10 ns. \
+For each iteration, a new t_max corresponding to the maximum bin in the new x-axis range is taken.\cf3 \
+\
 -- line 247 : 10 ns corresponds to more than 3 sigma of the time reference uncertainty. From previous section and figure 7b, the time reference uncertainty is computed event by event, and only event with this uncertainty below 4 ns are kept. So 10 ns will or will not be more than 3 sigma of the time reference uncertainty depending on the event.\
+\cf2 Indeed, the uncertainty of the time reference is computed for each event, therefore some events will be very close to 4 ns. \
+I reformulated that it corresponds to more than 3 sigma of the mean uncertainty on the time reference. \
+This is still valid as the sigma of the time distribution for each channel will be very close to a convolution of the mean time uncertainty of the time reference and the electronics.\cf3 \
 \
 -- section 6.1 : systematic uncertainties :\
---- If I've understood well, the uncertainty on the slope estimated with equation 5.1 should be included in the non-linearity uncertainty. Did I get it correctly ? If not, where is the unsertainty on the slope s taken into account ?\
+--- If I've understood well, the uncertainty on the slope estimated with equation 5.1 should be included in the non-linearity uncertainty. Did I get it correctly ? If not, where is the uncertainty on the slope s taken into account ?\
+\cf2 Yes, it is included in the uncertainty on the non-linearity\cf3 \
+\
 --- Global time smearing parameters and as function of Ntrig/chip : for these 2 uncertainties, what does it mean to apply a systematic uncertainty to simulation ?\
+\cf2 I reformulated as it was unclear maybe.\cf3  \cf2 For simulation, a global function (double gaussian with parameters determined from data) is used to smear the time in simulation. \
+A systematic error for each time bin was derived by comparing the difference between a layer-wise and global time smearing parametrisation of the simulated time distribution for muons.\
+Concerning the systematic as a function of Ntrig/chip, the smearing parametrisation for electrons was obtained from data. An error band of the smearing parametrisation was obtained using the complete electron dataset. \
+The minimum and maximum border of the smearing parametrisation are used to obtained two simulation datasets that then are used to derive a systematic uncertainty on the simulation. \
+This is done by comparing the two simulation using the minimum and maximum smearing parametrisation with the simulation using the default smearing parametrisation.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 --- Absolute number of events (line 344-348) : I haven't figured out how an uncertainty on the data normalisation translates to an uncertainty on he time of first hit. And you really meant data normalisation, not MC normalisation ?\
+\pard\pardeftab720\partightenfactor0
+\cf2 This is data normalisation. This uncertainty is on the shape of the time of first hit distribution for pions. This is due to the fact that multi-particle events are present in data and thus are not true pion only events compared to simulation where there are only pions.\
+I tried to reformulate this paragraph to make it more clear.\cf3 \
 \
 -- figure 13 : I haven't seen the grey area.\
+\cf2 The grey area is slightly visible on the MC/Data plot below the time distribution.\cf3  \
 \
 -- figure 15 and line 377 : the over-estimation of the late tail by a around a factor 2 looks within the uncertainty. So can we really state that QGSP_BERT_HP disagree with the data ?\
+\cf2 I guess you meant QBBC. Corrected according to Roman and Matthew comments.\cf3 \
 \
 -- figures 15, 16 and 17 : you should add the data (black dots) in the caption.\
+\cf2 I added it in the plot caption.\cf3 \
 \
 -- line 418-420 : Could you add a plot to illustrate that statement ?\
+\cf2 I added plots in the appendix to illustrate this argument.\cf3 \
 \
 -- figure 19 : Description of figure 19a is missing in the caption.\
--- I don't understand the absence of the time correlated component in the simulation. I would exect it quite not so unusual to have a secondary shower particle able to travel one interaction length between layer 13 and 14.\
--- line 437 : punch-through pions should be desribed by the simulation.\
+\cf2 Removed according to Roman\'92s comment.\cf3 \
 \
-\pard\pardeftab720\partightenfactor0
-\cf3 =================\cf4 \
+-- I don't understand the absence of the time correlated component in the simulation. I would exect it quite not so unusual to have a secondary shower particle able to travel one interaction length between layer 13 and 14.\
+\cf2 I agree that one would expect secondary particle from a pion shower that travel 1 lambda. \
+However, I would expect this component to be instantaneous and not delayed even taking into account the time of flight (which is irrelevant). This means that hits from secondary particles should be in the core of the time distribution (below 50 ns), thus it is not visible in this plot. This plot only illustrates late contributions (over 50 ns) which can only be produced by neutron spallation, neutron absorption, nuclear de-excitation.\cf3 \
+\
+-- line 437 : punch-through pions should be described by the simulation.\
+\cf2 The pion selection was aimed to reject muons or punch-through pions.\
+However, it was observed that some events have multi-particles, especially double events such as a pion showering and a muon or punch-through pion that arrives much later (> 50 ns after the pion shower). \
+I was not able to reject such events from the data using the rejection based on the time information explained in the pion selection.\cf3 \
+\
+=================\
 ---- References :\
-\cf3 =================\
-\pard\pardeftab720\partightenfactor0
-\cf4 \
+=================\
+\
 -- Reference 1 : where is it published ?\
-\cf2 Corrected the reference.\cf4 \
+\cf2 Corrected the reference.\cf3 \
 \
 -- References 2 and 3 : are these proceedings or slides ?\
-\cf2 The reference 2 are slides\cf4 \
-\cf2 Modified the reference 3 (proceedings)\cf4 \
+\cf2 The reference 2 are slides\cf3 \
+\cf2 Modified the reference 3 (proceedings)\cf3 \
 \
 -- Reference 5 : Is "Conference Record IEEE(2016)" enough to retrieve the publication ?\
-\cf2 Corrected the reference\cf4 \
+\cf2 Corrected the reference\cf3 \
 \
 -- Reference 10 and 11 : Are DESY summer student reports available out of DESY ?\
 \cf2 Yes they are. \
-- \cf4 http://www.desy.de/f/students/2012/reports/Eldwan_Brianne.pdf.gz\
-- http://www.desy.de/f/students/2011/reports/hartbrich.pdf.gz\
+- http://www.desy.de/f/students/2012/reports/Eldwan_Brianne.pdf.gz\
+- http://www.desy.de/f/students/2011/reports/hartbrich.pdf.gz\cf3 \
 \
-\pard\pardeftab720\partightenfactor0
-\cf3 =================\cf4 \
+=================\
 Typos/grammar/... :\
-\cf3 =================\
-\pard\pardeftab720\partightenfactor0
-\cf4 \
--- Line 6 : you should add a reference for PFA\
+=================\
+\
+-- Line 36 : you should add a reference for PFA\
+\cf2 Done.\cf3 \
+\
 -- line 50 : comprises --> comprised\
+\cf2 Done.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 -- line 51 : is operated --> was operated\
+\pard\pardeftab720\partightenfactor0
+\cf2 Done.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 -- line 54 : mention that table 3 is in the appendix.\
+\pard\pardeftab720\partightenfactor0
+\cf2 Done.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 -- line 61 : These layers WERE mainly ...\
+\pard\pardeftab720\partightenfactor0
+\cf2 Done.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 -- line 75 : you should add a ref for Geant4\
+\pard\pardeftab720\partightenfactor0
+\cf2 Done.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 -- line 151 : the beam instrumentation and AHCAL layer information\
+\pard\pardeftab720\partightenfactor0
+\cf2 Done.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 -- line 154 : increaseS\
+\pard\pardeftab720\partightenfactor0
+\cf2 Done.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 -- line 172 : are places and ordered --> are ordered\
+\pard\pardeftab720\partightenfactor0
+\cf2 Done.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 -- line 225 : was injected IN these channels.\
+\pard\pardeftab720\partightenfactor0
+\cf2 Done.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 -- line 230 : centered AT 0 ns.\
+\pard\pardeftab720\partightenfactor0
+\cf2 Done.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 -- line 233 : large large\
+\pard\pardeftab720\partightenfactor0
+\cf2 Done.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 -- line 259 : An example\
+\pard\pardeftab720\partightenfactor0
+\cf2 Done.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 -- line 374 : of first hit compared\
+\pard\pardeftab720\partightenfactor0
+\cf2 Done.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 -- line 386 : for 50 GeV pions.\
--- line 448 : WAS presented.}
+\pard\pardeftab720\partightenfactor0
+\cf2 Done.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
+-- line 448 : WAS presented.\
+\pard\pardeftab720\partightenfactor0
+\cf2 Done.}

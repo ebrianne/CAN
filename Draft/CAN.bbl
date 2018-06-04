@@ -1,5 +1,10 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
+\bibitem{Thomson:2009rp}
+M.~A. Thomson, {\it {{Particle Flow Calorimetry and the PandoraPFA
+  Algorithm}}},  {\em Nucl. Instrum. Meth.} {\bf A611} (2009) 25--40,
+  [\href{http://xxx.lanl.gov/abs/0907.3577}{{\tt arXiv:0907.3577}}].
+
 \bibitem{Barklow:2016tza}
 T.~Barklow, L.~d`Hautuille, C.~Milke, B.~Schumm, A.~Schütz, M.~Stanitzki, and
   J.~Strube, {\it {A Study of the Impact of High Cross Section ILC Processes on
@@ -47,6 +52,12 @@ M.~Frank, F.~Gaede, C.~Grefe, and P.~Mato, {\it {DD4hep: A Detector Description
   Toolkit for High Energy Physics Experiments}},  {\em J. Phys. Conf. Ser.}
   {\bf 513} (2014) 022010.
 
+\bibitem{Agostinelli2003}
+S.~Agostinelli and al., {\it {Geant4 -- a simulation toolkit}},  {\em Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment} {\bf 506} (2003), no.~3
+  250 -- 303.
+
 \bibitem{1748-0221-5-05-P05004}
 {The CALICE collaboration}, {\it {Construction and commissioning of the CALICE
   analog hadron calorimeter prototype}},  {\em Journal of Instrumentation} {\bf
@@ -56,6 +67,11 @@ M.~Frank, F.~Gaede, C.~Grefe, and P.~Mato, {\it {DD4hep: A Detector Description
 O.~Hartbrich, {\em {Scintillator Calorimeters for a Future Linear Collider
   Experiment}}.
 \newblock PhD thesis, Hasylab, DESY, Hamburg, 2016.
+
+\bibitem{Gunter:2015ika}
+C.~Günter, {\em {Comparison of Iron and Tungsten Absorber Structures for an
+  Analog Hadron Calorimeter}}.
+\newblock PhD thesis, U. Hamburg, Dept. Phys., Hamburg, 2015.
 
 \bibitem{Brianne2012}
 E.~Brianne, ``{Studies of the front-end electronics of the Analog HCAL}.'' DESY

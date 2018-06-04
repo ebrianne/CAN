@@ -55,7 +55,7 @@ Experiments at future lepton colliders require unprecedented jet energy resoluti
 
 Apart from energy measurement, the aspect of precise timing measurement is being investigated. Timing measurements in a calorimeter can be used to reject out of time pile-up events. In addition, the impact of background events on physics measurements such as $\gamma\gamma \rightarrow$ hadrons background, could be mitigated by using timing information of the calorimeters and trackers \cite{Barklow:2016tza}. Moreover, time information could be used to improve the energy reconstruction of hadronic showers by distinguishing the electromagnetic and hadronic components of the shower.\cite{Benaglia2016}.
 
-The CALICE Analog Hadronic Calorimeter (AHCAL) prototype \cite{Sefkow:316196, Krueger:205287} with steel absorber has been installed in the SPS CERN facilities in July 2015. This prototype was partially instrumented and was comprised of earlier version of active readout. The performance of this prototype is not expected to reach the final performance of the engineering prototype. Furthermore, this prototype was operated at a lower clock speed than the design in order to enhance the data taking efficiency which limits the timing resolution. This note presents the time calibration procedure of the AHCAL and the results obtained in muon, electron and pion beams in an energy range from 10 GeV to 90 GeV, as indicated in table \ref{table:dataruns} in the appendix. Furthermore, this analysis is the first of its kind to such a system level and enters new territories for high granular calorimeters.
+The CALICE Analog Hadronic Calorimeter (AHCAL) prototype \cite{Sefkow:316196, Krueger:205287} with steel absorber has been installed in the SPS CERN facilities in July 2015. This prototype was partially instrumented and was comprised of earlier version of active readout. The performance of this prototype is not expected to reach the final performance of the engineering prototype. Furthermore, this prototype was operated at a lower clock speed than the design in order to enhance the data taking efficiency which limits the timing resolution. This note presents the time calibration procedure of the AHCAL and the results obtained in muon, electron and pion beams in an energy range from 10 GeV to 90 GeV, as indicated in Table \ref{table:dataruns} in the appendix. Furthermore, this analysis is the first of its kind to such a system level and enters new territories for high granular calorimeters.
 
 \section{Testbeam Setup}
 
@@ -67,7 +67,7 @@ The testbeam setup at CERN in July 2015, at the SPS beamline H2, is shown in fig
   \caption{Sketch view of the beamline setup at the CERN SPS H2 beamline in July 2015.} \label{fig:TestbeamScketch}
 \end{figure}
 
-The AHCAL prototype absorber stack is composed of 48 steel plates in which 14 active modules were installed. The two first modules consist of single ECAL Base Units (EBUs) with $4 \times 36$ cells of $4.5 \times 0.5$ cm$^2$ size (ECAL). The ECAL cells of both modules are oriented parallel to the x-axis. The next eight modules consist of single HCAL Base Units (HBUs) with $12 \times 12$ cells of $3 \times 3$ cm$^2$ size (HCAL). The absorber plates have thickness of 1.7 cm, such that the first 10 modules correspond to a depth of around 10 X$_0$ ($\sim$ 1 $\lambda_{\pi}$). These modules were mainly used as a shower start finder. The last four modules consist of 2 by 2 HBUs providing information about the development of pion showers at different depths. In total, the prototype has 3744 channels. Table \ref{table:AHCALlayer_structure} provides an overview of the AHCAL layer structure. It uses SiPM technology coupled to scintillator tiles readout by an application specific integrated chip, the SPIROC2b \cite{5401891}. A diverse variety of SiPMs and tile designs were used in this testbeam, a detailed table of the SiPM characteristics can be seen in Table \ref{table:sipm_list}. The AHCAL detector was placed on a movable stage in order to be able to scan the detector with muons for calibration runs.
+The AHCAL prototype absorber stack is composed of 48 steel plates in which 14 active modules were installed. The two first modules consist of single ECAL Base Units (EBUs) with $4 \times 36$ cells of $4.5 \times 0.5$ cm$^2$ size (ECAL). The ECAL cells of both modules are oriented parallel to the x-axis. The next eight modules consist of single HCAL Base Units (HBUs) with $12 \times 12$ cells of $3 \times 3$ cm$^2$ size (HCAL). The absorber plates have thickness of 1.7 cm, such that the first 10 modules correspond to a depth of around 10 X$_0$ ($\sim$ 1 $\lambda_{\pi}$). These modules were mainly used as a shower start finder. The last four modules consist of 2 by 2 HBUs providing information about the development of pion showers at different depths. In total, the prototype has 3744 channels. Table \ref{table:AHCALlayer_structure} provides an overview of the AHCAL layer structure. It uses SiPM technology coupled to scintillator tiles readout by an application specific integrated chip, the SPIROC2b \cite{5401891}. A diverse variety of SiPMs and tile designs were used in this testbeam, details of the SiPM characteristics can be seen in Table \ref{table:sipm_list}. The AHCAL detector was placed on a movable stage in order to be able to scan the detector with muons for calibration runs.
 
 \begin{table}[htb!]
   \centering
@@ -87,7 +87,7 @@ The AHCAL prototype absorber stack is composed of 48 steel plates in which 14 ac
   \end{tabular}
 \end{table}
 
-Scintillator plates, $10\times10 cm^2$ and $50\times50 cm^2$, placed in front and back of the calorimeter are used as a trigger signal that is provided to the AHCAL DAQ to validate events \cite{Kvasnicka:CR_IEEE2016}. Additionally, the coincidence signal from the scintillators is provided directly to several channels of the AHCAL in order to provide a reference time of the trigger as shown in table \ref{table:trigger_ref}. A Cherenkov detector, at around 100 m upstream, was available to tag incoming particles.
+Scintillator plates, $10\times10 cm^2$ and $50\times50 cm^2$, placed in front and back of the calorimeter are used as a trigger signal that is provided to the AHCAL DAQ to validate events \cite{Kvasnicka:CR_IEEE2016}. Additionally, the coincidence signal from the scintillators is provided directly to several channels of the AHCAL in order to provide a reference time of the trigger as shown in Table \ref{table:trigger_ref}. A Cherenkov detector, at around 100 m upstream, was available to tag incoming particles.
 
 \section{Simulation}
 
@@ -108,7 +108,7 @@ After the digitization, all simulated hits have the same format as raw data hits
 
 \subsection{AHCAL Model Validation}
 
-Prior to the time analysis, the simulation and digitization are validated. Comparisons of electromagnetic interactions in the AHCAL are done as such interactions should be well described in simulation. Firstly, the simulation must be validated at the lowest hit energies. The comparison of the spectrum of a MIP-like particle traversing the AHCAL was done and is shown in figure \ref{fig:MIPData_MC}. The shape of the spectrum matches relatively well. The simulation is slightly more narrow than the data because of channel-by-channel mis-calibrations that are not fully modeled in the simulation. The figure \ref{fig:ProfileMIP_Edep} shows the longitudinal mean energy profile for muon-like tracks in data and simulation. The data is reproduced by the simulations within 3-4\%. Channels for which no calibration with MIP-like particles could be determined in data are excluded from the analysis in data and simulation. A systematic on the energy scale of the calorimeter as shown in table \ref{table:time_syst} is applied later on the data when looking at the dependence of the time as a function of the hit energy.
+Prior to the time analysis, the simulation and digitization are validated. Comparisons of electromagnetic interactions in the AHCAL are done as such interactions should be well described in simulation. Firstly, the simulation must be validated at the lowest hit energies. The comparison of the spectrum of a MIP-like particle traversing the AHCAL was done and is shown in figure \ref{fig:MIPData_MC}. The shape of the spectrum matches relatively well. The simulation is slightly more narrow than the data because of channel-by-channel mis-calibrations that are not fully modeled in the simulation. The figure \ref{fig:ProfileMIP_Edep} shows the longitudinal mean energy profile for muon-like tracks in data and simulation. The data is reproduced by the simulations within 3-4\%. Channels for which no calibration with MIP-like particles could be determined in data are excluded from the analysis in data and simulation. A systematic on the energy scale of the calorimeter as shown in Table \ref{table:time_syst} is applied later on the data when looking at the dependence of the time as a function of the hit energy.
 
 \begin{figure}[htbp!]
   \centering
@@ -129,7 +129,7 @@ Further comparison were made using the electron dataset. Figure~\ref{fig:HitEner
 
 \begin{figure}[htbp!]
   \centering
-  \includegraphics[width=0.7\linewidth]{fig/HitEnergy_Electrons10GeV.eps}
+  \includegraphics[width=0.7\linewidth]{fig/HitEnergy_Electrons10GeV_DD4heponly.eps}
   \caption{Electron hit energy spectra for data and simulation for 10 GeV beam energy. The different colors corresponds to the variation of the cross-talk parameter in the simulations between 10\% and 18\%.} \label{fig:HitEnergy10GeVe}
 \end{figure}
 
@@ -141,11 +141,11 @@ The simulation does not describe the data perfectly especially for higher electr
 
 \subsection{Muon selection}
 
-To select muons, an event pre-selection and a track finder \cite{Hartbrich:2016bbz} selection is performed. A cut on the maximum number of hits in the AHCAL is done at 20 as the number of hits should be around 1 per layer for a MIP-like particle plus the number of noise hits expected in the detector. The track finder algorithm selects AHCAL towers of hits in the same $x:y$ position and it rejects AHCAL towers that contains less than a certain number of hits. In order to select muons or punch-through pions, a straight track of at least 7 hits is required in the whole AHCAL. This assumes that the calorimeter was perpendicular to the beam, any tilted tracks would be missed. In addition, to reject pion showering deep in the detector, no more than 2 hits are allowed per layer to account for some flexibility with noise hits. A summary of the muon selection is shown in table \ref{table:muon_sel}. The selection efficiency is 72.5\% for muons, <0.1\% for electrons and 5\% for pions which is compatible with the fraction of pion traversing the AHCAL without hard interaction.
+To select muons, an event pre-selection and a track finder \cite{Hartbrich:2016bbz} selection is performed. A cut on the maximum number of hits ($n_{hits}$) in the AHCAL is done at 20 as the number of hits should be around 1 per layer for a MIP-like particle plus the number of noise hits expected in the detector. A additionally, a cut on the energy weigthed center of gravity along the z axis ($cog_{z}$) is done between 0 and 800 mm as the center of gravity is expected to be centered in the calorimeter on the z coordinate due to muons depositing around the same energy for each layer. The track finder algorithm selects AHCAL towers of hits in the same $x:y$ position and it rejects AHCAL towers that contains less than a certain number of hits. In order to select muons or punch-through pions, a straight track of at least 7 hits is required in the whole AHCAL. This assumes that the calorimeter was perpendicular to the beam, any tilted tracks would be missed. In addition, to reject pion showering deep in the detector, no more than 2 hits are allowed per layer to account for some flexibility with noise hits. A summary of the muon selection is shown in Table \ref{table:muon_sel}. The selection efficiency is 72.5\% for muons, <0.1\% for electrons and 5\% for pions which is compatible with the fraction of pion traversing the AHCAL without hard interaction.
 
 \subsection{Electron selection}
 
-Electron events are needed to validate the timing behavior in simulation as well as the detector simulation model. It is important to have a clean sample of electrons to cross-check the timing calibration. An electron selection is done using the beam instrumentation and the AHCAL layer information. Events with a Cherenkov tag are used. The energy deposit in the first three AHCAL layers ($E_3+E_4+E_5$) must be over 10 MIPs. A box cut on the number of hits and the center of gravity in the z direction is done. As the number of hits in a electron shower increases with the shower energy, this cut is energy dependent. The energy deposited in the last two layers relative to the energy deposited in the calorimeter ($(E_{13}+E_{14})/\Sigma E$) is required to be under 1\% to reject pion showers and to contain the electron shower. The electron selection is summarised in table \ref{table:electron_sel}. The selection efficiencies are shown in \ref{table:eff_electron}. Even though a significant fraction of pions passes the electron selection at low energies, there is confidence that very little pion contamination is present in the data due to the pure electron beam generation with the beamline.
+Electron events are needed to validate the timing behavior in simulation as well as the detector simulation model. It is important to have a clean sample of electrons to cross-check the timing calibration. An electron selection is done using the beam instrumentation and the AHCAL layer information. Events with a Cherenkov tag are used. The energy deposit in the first three AHCAL layers ($E_3+E_4+E_5$) must be over 10 MIPs. A box cut on the number of hits ($n_{hits}$) and the center of gravity in the z direction ($cog_{z}$) is done. As the number of hits in a electron shower increases with the shower energy, this cut is energy dependent. The energy deposited in the last two layers relative to the energy deposited in the calorimeter ($(E_{13}+E_{14})/\Sigma E$) is required to be under 1\% to reject pion showers and to contain the electron shower. The electron selection is summarised in Table \ref{table:electron_sel}. The selection efficiencies are shown in Table \ref{table:eff_electron}. Even though a significant fraction of pions passes the electron selection at low energies, there is confidence that very little pion contamination is present in the data due to the pure electron beam generation with the beamline.
 
 \begin{table}[htb!]
 	\centering
@@ -168,7 +168,7 @@ Electron events are needed to validate the timing behavior in simulation as well
 \subsection{Pion selection}
 \label{sec:pionsel}
 
-The goal of the pion selection is to reject punch-through pions, muons and possible electron contamination as these events would be instantaneous. The events without a Cherenkov tag are selected. The number of hits per event needs to be above 20 to reject most muons or punch-through pions. No cut on the center of gravity in z is done in order not to bias the start of the pion shower. The energy fraction deposited in the two last AHCAL layers must be above 1\% in order to ensure that the pion showered and to reject possible electron showers. The number of hits in the two first AHCAL layers $N_3+N_4$ must be smaller than 5 to mitigate possible particle contamination from electrons. In addition, multiple particle events were observed in the data. As no beam instrumentation could be used for rejecting these events, a rejection method based on the hit time information was developed. The method is the following: all the hits in an event are ordered in time; For each hit with a time over 50 ns, the number of hits in a timing window of 30 ns after the hit time is counted. If the number of hits is above 5, it is classified as a \textit{late cluster}. The event is rejected if there is at least one late cluster. The multi-particle event rejection has been checked on simulated data and affects the selection between <0.1\% up to 2\% from 10 to 90 GeV pions. These multi-particle events are also suppressed in data. The number of events removed varies between 0.1\% and 1\% depending on the beam energy. However, due to the calorimeter not being fully equipped thus providing limited information, some contamination by multi-particle may remain in the data. The table \ref{table:pion_sel} shows the selection cuts for the pion data. The selection efficiencies are shown in \ref{table:eff_pion}
+The goal of the pion selection is to reject punch-through pions, muons and possible electron contamination as these events would be instantaneous. The events without a Cherenkov tag are selected. The number of hits per event($n_{hits}$) needs to be above 20 to reject most muons or punch-through pions. No cut on the center of gravity in z is done in order not to bias the start of the pion shower. The energy deposited in the two last AHCAL layers relative to the total energy ($(E_{13}+E_{14})/\Sigma E$) must be above 1\% in order to ensure that the pion showered and to reject possible electron showers. The number of hits in the two first AHCAL layers ($N_3+N_4$) must be smaller than 5 to mitigate possible particle contamination from electrons. In addition, multiple particle events were observed in the data. As no beam instrumentation could be used for rejecting these events, a rejection method based on the hit time information was developed. The method is the following: all the hits in an event are ordered in time; For each hit with a time over 50 ns, the number of hits in a timing window of 30 ns after the hit time is counted. If the number of hits is above 5, it is classified as a \textit{late cluster}. The event is rejected if there is at least one late cluster ($n_{Cluster}$). The multi-particle event rejection has been checked on simulated data and affects the selection between <0.1\% up to 2\% from 10 to 90 GeV pions. These multi-particle events are also suppressed in data. The number of events removed varies between 0.1\% and 1\% depending on the beam energy. However, due to the calorimeter not being fully equipped thus providing limited information, some contamination by multi-particle may remain in the data. The Table \ref{table:pion_sel} shows the selection cuts for the pion data. The selection efficiencies are shown in Table \ref{table:eff_pion}
 
 \begin{table}[htb!]
 	\centering
@@ -248,9 +248,9 @@ The same method is used to determine the pedestal for each channel using only th
 
 \subsection{Time reference calibration}
 
-The time references shown in table \ref{table:trigger_ref} are calibrated using the same method described above. However, to guarantee the most accurate result, the pedestal value is extracted for each memory cell. Since a signal with defined amplitude was injected in these channels, a corresponding amplitude range is required to reject noise hits from these channels. As these channels receive the trigger signal at the same time, a 2$^{nd}$ order polynomial correction w.r.t T$_{14}$ is done to remove any effects induced by the front-end electronics. This correction is equivalent to a non-linearity correction of T$_{12}$ and T$_{13}$ relative to T$_{14}$ similar to the procedure shown in section \ref{sec:Non-linCorr}. In this case, T$_{14}$ is not corrected for non-linearity.
+The channels shown in Table \ref{table:trigger_ref} are calibrated using the same method described above. These channels are of the most importance as they provide the time of when an event started. This is used later on in the analysis as a time reference ($T_{ref}$) compared to all channels ($t_{hit} - T_{ref}$). To guarantee the most accurate result, the pedestal value is extracted for each memory cell. Since a signal from the trigger scintillators with defined amplitude was injected in these channels, a corresponding amplitude range is required to reject noise hits from these channels. As these channels receive the trigger signal at the same time, a 2$^{nd}$ order polynomial correction w.r.t T$_{14}$ is done to remove any effects induced by the front-end electronics. This correction is equivalent to a non-linearity correction of T$_{12}$ or T$_{13}$ relative to T$_{14}$ similar to the procedure shown in section \ref{sec:Non-linCorr}. In this case, T$_{14}$ is not corrected for non-linearity.
 
-Ideally, the T$_{12}$ - T$_{14}$ and T$_{13}$ - T$_{14}$ distributions should be a Gaussian distribution centered at 0 ns. The figure \ref{fig:T0Corr} shows the distribution of T$_{12}$ - T$_{14}$ before and after the correction. One can notice two peaks before the correction because of the fact that the pedestal value is dependent on the bunch-crossing parity.
+Ideally, the T$_{12}$ - T$_{14}$ and T$_{13}$ - T$_{14}$ distributions should be a Gaussian distribution centered at 0 ns. The figure \ref{fig:T0Corr} shows the distribution of T$_{12}$ - T$_{14}$ before and after the correction. One can notice two peaks before the correction because of the fact that the pedestal value is dependent on the bunch-crossing parity that was not taken into account in the pedestal extraction.
 
 \begin{figure}[htbp!]
   \begin{subfigure}[t]{0.49\textwidth}
@@ -267,7 +267,7 @@ Ideally, the T$_{12}$ - T$_{14}$ and T$_{13}$ - T$_{14}$ distributions should be
   \caption{\subref{fig:T0Corr}) Time difference between the trigger channels before and after correction for T$_{12}$ and T$_{14}$. $\mu_{corrected}$ = 0.9 ns, RMS$_{corrected}$ = 4.8 ns. The two peaks in blue are due to the fact that the pedestal value is dependent on the bunch-crossing parity. \subref{fig:TRefErr}) Distribution of the time reference uncertainty. The red line represents the cut of 4 ns.}
 \end{figure}
 
-Finally, the time reference is calculated as the mean of T$_{12}$, T$_{13}$ and T$_{14}$ per event. To reject events with a too large time reference uncertainty, a cut of 4 ns on the time reference uncertainty is applied. The mean uncertainty of the time reference is around 1.30 ns as shown in figure \ref{fig:TRefErr}. This resolution from the time reference contributes to the final timing resolution obtained.
+Finally, the time reference ($T_{ref}$) is calculated as the mean of T$_{12}$, T$_{13}$ and T$_{14}$ per event. To reject events with a too large time reference uncertainty, a cut of 4 ns on the time reference uncertainty is applied. The mean uncertainty of the time reference is around 1.30 ns as shown in figure \ref{fig:TRefErr}. This resolution from the time reference contributes to the final timing resolution obtained.
 
 \subsection{Time offset correction}
 \label{sec:TimeOffset}
@@ -383,7 +383,7 @@ The following systematic uncertainties are taken into account for the simulation
   \item Normalisation of the pion dataset: When comparing the number of hits per time bin between data and simulation, there is an uncertainty related to the number of true pion events in the dataset. This number is perfectly known for simulation, however in data, an uncertainty is present due to some possible contamination from multi-particle events may be present still after the selection. The cluster time rejection method (see section \ref{sec:pionsel}) rejects up to 1\% of events in the data. A conservative uncertainty of 10\% on the data normalization is assigned when comparing data to simulation for the absolute time of first hit distribution of pions.
 \end{itemize}
 
-The systematic uncertainties are added in quadrature for the full systematic uncertainty assuming no correlation between uncertainties. For the mean time of the first hit as a function of the hit energy and as a function of the hit distance to the shower center of gravity, the systematic uncertainty is resulting at 0.3 ns for muons and between 2 to 4 ns for electrons and pions. The table \ref{table:time_syst} summarizes the systematic uncertainties used in the analysis.
+The systematic uncertainties are added in quadrature for the full systematic uncertainty assuming no correlation between uncertainties. For the mean time of the first hit as a function of the hit energy and as a function of the hit distance to the shower center of gravity, the systematic uncertainty is resulting at 0.3 ns for muons and between 2 to 4 ns for electrons and pions. The Table \ref{table:time_syst} summarizes the systematic uncertainties used in the analysis.
 
 \begin{table}[htb!]
   \centering
@@ -420,8 +420,8 @@ The comparison of the time of first hit distribution for muons between data and 
 
 \begin{figure}[htbp!]
   \centering
-  \includegraphics[width=0.6\textwidth]{fig/Comparison_MokkaDD4hepData_Muons.eps}
-  \caption{Time of first hit distribution for muons in data and both \mokka and \ddhep simulations between -50 and 50 ns. The grey area represents the statistical uncertainty of the data. The error bars of the simulation are obtained by varying the cross-talk parameter between 10\% and 18\% and taking into account the error of a global time smearing parametrization.}
+  \includegraphics[width=0.6\textwidth]{fig/Comparison_MokkaDD4hepData_Muons_DD4heponly.eps}
+  \caption{Time of first hit distribution for muons in data and the \ddhep simulation between -50 and 50 ns. The grey area represents the statistical uncertainty of the data. The error bars of the simulation are obtained by varying the cross-talk parameter between 10\% and 18\% and taking into account the error of a global time smearing parametrization.}
   \label{fig:sim_data_muon}
 \end{figure}
 
@@ -430,15 +430,15 @@ In order to further validate the time simulation, a comparison with electron dat
 \begin{figure}[htbp!]
   \centering
   \begin{subfigure}[t]{0.49\textwidth}
-    \includegraphics[width=1\textwidth]{fig/Comparison_SimData_Electrons50GeV.eps}
+    \includegraphics[width=1\textwidth]{fig/Comparison_SimData_Electrons50GeV_DD4heponly.eps}
     \caption{}\label{fig:elec_sim_data_50GeV}
   \end{subfigure}
   \hfill
   \begin{subfigure}[t]{0.49\textwidth}
-    \includegraphics[width=1\textwidth]{fig/Comparison_SimData_Electrons_nHits_50GeV.eps}
+    \includegraphics[width=1\textwidth]{fig/Comparison_SimData_Electrons_nHits_50GeV_DD4heponly.eps}
     \caption{}\label{fig:elec_sim_data_nHits_50GeV}
   \end{subfigure}
-  \caption{\subref{fig:elec_sim_data_50GeV}) Comparison of the time of first hit between data and both \mokka and \ddhep simulations for 50 GeV electrons. The grey area represents the statistical and systematical error of the data. Error bars in simulation are obtained by varying the cross-talk parameter between 10\% and 18\% and with the uncertainty on parametrization of the width of the time distribution as a function of the number of triggered channels in a chip. \subref{fig:elec_sim_data_nHits_50GeV}) Comparison of the number of triggered channels per chip between data and simulations for 50 GeV electrons. The grey area represents the statistical error of the data. Error bars in simulation are obtained by varying the cross-talk parameter between 10\% and 18\%.}
+  \caption{\subref{fig:elec_sim_data_50GeV}) Comparison of the time of first hit between data and the \ddhep simulation for 50 GeV electrons. The grey area represents the statistical and systematical error of the data. Error bars in simulation are obtained by varying the cross-talk parameter between 10\% and 18\% and with the uncertainty on parametrization of the width of the time distribution as a function of the number of triggered channels in a chip. \subref{fig:elec_sim_data_nHits_50GeV}) Comparison of the number of triggered channels per chip between data and simulations for 50 GeV electrons. The grey area represents the statistical error of the data. Error bars in simulation are obtained by varying the cross-talk parameter between 10\% and 18\%.}
 \end{figure}
 
 \subsection{Timing of pion showers}
@@ -482,7 +482,7 @@ For the modules 3 to 10, the QBBC and QGSP\_BERT\_HP physics lists reproduce wel
   \label{fig:Radius_SSF_SimData_50GeVComparison}
 \end{figure}
 
-By studying the modules individually, it was found that the mean time of the first hit as a function of the hit distance to the shower axis decreases with deeper modules as shown in figure \ref{fig:Radius_Individual_Data_50GeV}. Especially at larger distances this study shows strong statistical fluctuations. The simulation shows a similar behaviour (figure \ref{fig:Radius_Individual_Sim_50GeV}). This behavior is related to where the pion shower starts and thus, at the depth that the shower is sampled. This has been verified by looking at the mean time of the first hit as a function of the hit distance to the shower axis at a fixed depth of the reconstructed shower start as shown in figure \ref{fig:Radius_FHIAll} and for different reconstructed shower start at a fixed layer as shown in figure \ref{fig:Radius_FHISim} in the appendix.
+By studying the modules individually, it was found that the mean time of the first hit as a function of the hit distance to the shower axis decreases with deeper modules as shown in figure \ref{fig:Radius_Individual_Data_50GeV}. Especially at larger distances this study shows strong statistical fluctuations. The simulation shows a similar behaviour (figure \ref{fig:Radius_Individual_Sim_50GeV}). This behavior is related to where the pion shower starts and thus, at the depth that the shower is sampled.
 
 \begin{figure}[htbp!]
   \begin{subfigure}[t]{0.49\textwidth}
@@ -541,6 +541,8 @@ Secondly, the study of the time development of pion showers was presented. Late 
 \appendix
 \section{Appendix}
 \label{appendix:Additional}
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
 
 \begin{table}[htb!]
   \centering
@@ -562,7 +564,28 @@ Secondly, the study of the time development of pion showers was presented. Late 
 
 \begin{table}[htb!]
   \centering
-  \caption{List of AHCAL channels used as time reference for this analysis. In this analysis, the time reference signals T$_{12}$, T$_{13}$ and T$_{14}$ are used.}
+  \caption{List of the different SiPMs used in the CALICE AHCAL in July 2015.}
+  \label{table:sipm_list}
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{@{}cccccccc@{}}
+    \toprule
+    Layer & Producer & Model & Area (mm$^2$) & Pitch ($\mu$m) & WLS Fibre & Read-out type & $N_{px}$ [$10^3$]\\
+    \midrule
+    1 & Hamamatsu & S12571\_010P & $1\times1$ & 10 & no & Bottom & 10\\
+    2 & Hamamatsu & S10362-11-025O & $1\times1$ & 25 & no & Side & 1.6\\
+    3 & Hamamatsu & S12571-025P & $1\times1$ & 25 & no & SMD & 1.6\\
+    4-5 & Ketek & N/A & $2.25\times2.25$ & 18 & no & Side & 12\\
+    6-10 & CPTA & CPTA & $1.28\times1.28$ & 40 & yes & Side & 0.8\\
+    11-12 & Ketek (UHH) & PM1125NS-SB0 & $1.2\times1.2$ & 25 & no & Side & 2.3\\
+    13-14 & SenSL & MicroFB-10020-SMT & $1\times1$ & 20 & no & Side & 1.3\\
+    \bottomrule
+  \end{tabular}
+  }
+\end{table}
+
+\begin{table}[htb!]
+  \centering
+  \caption{List of AHCAL channels used as time reference for this analysis. In this analysis, the time reference signals are defined as T$_{11}$, T$_{12}$, T$_{13}$ and T$_{14}$ representing the reference channels on Modules 11, 12, 13 and 14 respectively. In this analysis, T$_{12}$, T$_{13}$ and T$_{14}$ only are used.}
   \label{table:trigger_ref}
   \begin{tabular}{@{} ccccc @{}}
     \toprule
@@ -588,9 +611,9 @@ Secondly, the study of the time development of pion showers was presented. Late 
     \midrule
     \multirow{2}{*}{Preselection}& All & 0 mm < $cog_{z}$ < 800 mm\\& All & 0 < $n_{hits}$ < 20 \\
     \midrule
-    \multirow{2}{*}{Track Selection (Modules 1 to 10)}& All & $n_{hits}$ in tower > 7 \\& All & $n_{hits}$ in layer < 3 \\
+    \multirow{2}{*}{Track Selection (Modules 1 to 10)}& All & $n_{hits}$ in AHCAL tower > 7 \\& All & $n_{hits}$ in layer < 3 \\
     \midrule
-    \multirow{2}{*}{Track Selection (Modules 11 to 14)}& All & $n_{hits}$ in tower > 2 \\& All & $n_{hits}$ in layer < 3 \\
+    \multirow{2}{*}{Track Selection (Modules 11 to 14)}& All & $n_{hits}$ in AHCAL tower > 2 \\& All & $n_{hits}$ in layer < 3 \\
     \bottomrule
   \end{tabular}
 \end{table}
@@ -603,9 +626,9 @@ Secondly, the study of the time development of pion showers was presented. Late 
     \toprule
     \multicolumn{1}{l}{\textbf{Name}} & \textbf{Beam Energy} & \textbf{Cut}\\
     \midrule
-    \multirow{2}{*}{Event Quality}& All & Cherenkov ON\\& All & Energy in the first 3 layers of AHCAL > 10 MIP \\
+    \multirow{2}{*}{Event Quality}& All & Cherenkov ON\\& All & Energy in the first 3 layers of AHCAL ($E_3 + E_4 + E_5$) > 10 MIP \\
     \midrule
-    \multirow{9}{*}{Electron Selection}& 10 GeV & 25 < $n_{hits}$ < 75 \\& 15 GeV & 30 < $n_{hits}$ < 90 \\& 20 GeV & 40 < $n_{hits}$ < 100 \\& 30 GeV & 50 < $n_{hits}$ < 110 \\& 40 GeV & 60 < $n_{hits}$ < 120 \\& 50 GeV & 70 < $n_{hits}$ < 140 \\& All & $cog_{z}$ < 250 mm\\& All & -90 mm < $cog_{x, y}$ < 90 mm \\& All & Energy in last two layers < 1\% $E_{sum}$ \\
+    \multirow{9}{*}{Electron Selection}& 10 GeV & 25 < $n_{hits}$ < 75 \\& 15 GeV & 30 < $n_{hits}$ < 90 \\& 20 GeV & 40 < $n_{hits}$ < 100 \\& 30 GeV & 50 < $n_{hits}$ < 110 \\& 40 GeV & 60 < $n_{hits}$ < 120 \\& 50 GeV & 70 < $n_{hits}$ < 140 \\& All & $cog_{z}$ < 250 mm\\& All & -90 mm < $cog_{x, y}$ < 90 mm \\& All & Energy in last two layers ($E_{13} + E_{14}$) < 1\% $\Sigma E$ \\
     \bottomrule
   \end{tabular}
 \end{table}
@@ -620,64 +643,11 @@ Secondly, the study of the time development of pion showers was presented. Late 
     \midrule
     \multirow{1}{*}{Event Quality}& All & Cherenkov OFF\\
     \midrule
-    \multirow{3}{*}{Pion Selection}& All & $n_{hits}$ > 20 \\& All & $n_{hits}$ in the first 2 AHCAL layers < 5 \\& All & Energy in last two layers > 1\% $E_{sum}$ \\
+    \multirow{3}{*}{Pion Selection}& All & $n_{hits}$ > 20 \\& All & $n_{hits}$ in the first 2 AHCAL layers ($N_3 + N_4$) < 5 \\& All & Energy in last two layers ($E_{13} + E_{14}$) > 1\% $\Sigma E$ \\
     \midrule
     \multirow{2}{*}{Multi Particle Rejection}& All & $n_{hits}$ in time window > 5 \\& All & $n_{Cluster}$ > 0 \\
     \bottomrule
   \end{tabular}
 \end{table}
-
-\begin{table}[htb!]
-  \centering
-  \caption{List of the different SiPMs used in the CALICE AHCAL in July 2015.}
-  \label{table:sipm_list}
-  \resizebox{\textwidth}{!}{%
-  \begin{tabular}{@{}cccccccc@{}}
-    \toprule
-    Layer & Producer & Model & Area (mm$^2$) & Pitch ($\mu$m) & WLS Fibre & Read-out type & $N_{px}$ [$10^3$]\\
-    \midrule
-    1 & Hamamatsu & S12571\_010P & $1\times1$ & 10 & no & Bottom & 10\\
-    2 & Hamamatsu & S10362-11-025O & $1\times1$ & 25 & no & Side & 1.6\\
-    3 & Hamamatsu & S12571-025P & $1\times1$ & 25 & no & SMD & 1.6\\
-    4-5 & Ketek & N/A & $2.25\times2.25$ & 18 & no & Side & 12\\
-    6-10 & CPTA & CPTA & $1.28\times1.28$ & 40 & yes & Side & 0.8\\
-    11-12 & Ketek (UHH) & PM1125NS-SB0 & $1.2\times1.2$ & 25 & no & Side & 2.3\\
-    13-14 & SenSL & MicroFB-10020-SMT & $1\times1$ & 20 & no & Side & 1.3\\
-    \bottomrule
-  \end{tabular}
-  }
-\end{table}
-
-\begin{figure}[htbp!]
-	\begin{subfigure}[t]{0.49\textwidth}
-		\centering
-		\includegraphics[width=1\textwidth]{fig/Timing_Radius_Comparison_ShortAsymRange_ShowerStart.eps}
-		\caption{}\label{fig:Radius_FHI}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}[t]{0.49\textwidth}
-		\centering
-		\includegraphics[width=1\textwidth]{fig/Radius_ShowerStartTruth.eps}
-		\caption{}\label{fig:Radius_FHISim1}
-	\end{subfigure}
-	\caption{Mean time of first hit as a function of the hit distance to the shower axis for 50 GeV pions for a fixed distance of 4 between the reconstructed FHI layer and a layer. The left plot shows the radial timing profile of modules 7 and 10 in data. The right plots shows the radial timing profile for the same layers in simulation with the QGSP\_BERT\_HP physics list.}
-	\label{fig:Radius_FHIAll}
-\end{figure}
-
-\begin{figure}[htbp!]
-	\begin{subfigure}[t]{0.49\textwidth}
-		\centering
-		\includegraphics[width=1\textwidth]{fig/Timing_Radius_Comparison_ShortAsymRange_ShowerStart_FixedModule.eps}
-		\caption{}\label{fig:Radius_FHI_Fixed}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}[t]{0.49\textwidth}
-		\centering
-		\includegraphics[width=1\textwidth]{fig/Radius_ShowerStartTruth_FixedModule.eps}
-		\caption{}\label{fig:Radius_FHI_FixedSim}
-	\end{subfigure}
-	\caption{Mean time of the first hit as a function of the hit distance to the shower axis for 50 GeV pions for different reconstructed FHI layers. In data on the left and in simulation with the QGSP\_BERT\_HP physics list on the right.}
-	\label{fig:Radius_FHISim}
-\end{figure}
 
 \end{document}

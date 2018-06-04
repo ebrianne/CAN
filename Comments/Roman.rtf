@@ -1,9 +1,7 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue255;\red0\green0\blue255;
-}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c1680\c19835\c100000;\cssrgb\c1680\c19835\c100000;
-}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c1680\c19835\c100000;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww31960\viewh18780\viewkind0
 \deftab720
 \pard\pardeftab720\partightenfactor0
@@ -15,74 +13,81 @@ Thank you for the fast reading and detailed comments. They have been implemented
 \cf3 Comments to CAN-061 version from May 9 by Roman Poeschl\
 \pard\pardeftab720\partightenfactor0
 \cf0 \
-\cf4 ===================\
+\cf3 ===================\
 General comments:\
-\pard\pardeftab720\partightenfactor0
-\cf4 ===================\
-\pard\pardeftab720\partightenfactor0
-\cf4 \
+===================\
+\
 - My impression is that the analysis and note needs (at least) one more round of iteration before it reaches the CALICE Standards even for CALICE Analysis Notes. We were asked to give a first quick feedback so I will not elaborate on issues like English that are anyway rather to be put into the hands of Matthew.\
 \
 - The note draws its importance from the fact that, as said above, it is the first study of this kind on system level. I think this has to be made crystal clear, i.e. explicitly said. Under this condition the results can be considered for approval. The analysis enters new territory and delivers results that are broadly expected. Some distinguishing power is visible.\
-\cf2 A comment on this has been added in the introduction of the note.\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf2 A comment on this has been added in the introduction of the note.\cf3 \
 \
 - At several places more motivation and explanation would enhance the quality of the presentation.\
-\cf2 Tried to motivate more my arguments. Added more explanations in some part to make my point more clear.\cf4 \
+\cf2 Tried to motivate more my arguments. Added more explanations in some part to make my point more clear.\cf3 \
 \
-\pard\pardeftab720\partightenfactor0
-\cf4 ===================\
+===================\
 Comments on results:\
 ===================\
-\pard\pardeftab720\partightenfactor0
-\cf4 \
+\
 - Fig. 2 and 3: The agreement between data and MC is satisfactory only when applying the cross-talk parameter of 10%. This has to be discussed.\
 The cross talk parameter and in particular the assumed values appear only on Page 14.\
-\cf2 Added in the paragraph before a word from why 15% (with reference) and the variation with reference to syst. uncertainty section. Added some discussion about data/MC comparison with the 10% value. However, this was checked (number of hits distribution, energySum distribution) for all electrons energies and low energies (10, 20, 30) GeV favours 10% cross-talk while (40, 50) favour 18% cross-talk.\cf4 \
+\cf2 Added in the paragraph before a word from why 15% (with reference) and the variation with reference to syst. uncertainty section. Added some discussion about data/MC comparison with the 10% value. However, this was checked (number of hits distribution, energySum distribution) for all electrons energies and low energies (10, 20, 30) GeV favours 10% cross-talk while (40, 50) favour 18% cross-talk.\cf3 \
 \
 - Sec. 4.2, general: I am a bit puzzled by the rejection of multi-events using the time parameter. This can only work if the particles come shortly after each other and not at the same time. You may want to point our that you exploit this effect to at least reject events with a different time of arrival. The granularity of the AHCAL is maybe too coarse to reject events by means of counting e.g. incoming trajectories\
 \cf2 Agreed this method is used to reject events that arrives later than the first particle not at the same time this may be much more difficult and tricky with this prototype. \
-This was check with event displays to understand these events and it was noticed that most events where a pion that showered in the calorimeter followed by a muon or punch-through pion arriving over 50 ns after the trigger.\cf4  \cf2 I added this point to make it clear.\
+This was check with event displays to understand these events and it was noticed that most events where a pion that showered in the calorimeter followed by a muon or punch-through pion arriving over 50 ns after the trigger.\cf3  \cf2 I added this point to make it clear.\
 I also agree that the granularity of the AHCAL may be too coarse and that may be a reason why multi-particle events are still present in data.\
-\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 - Sec 4.2, cont\'92d: Please revise the discussion on selection and rejection. In particular the last sentence is unclear to me. What are e.g. the 29% and 51% referring to?\
-\cf2 Changed here to display a table.\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf2 Changed here to display a table.\cf3 \
 \
 - Eq. 5.1: As it is defined s is the inverse of the slope (i.e. Delta x/Delta y) following Fig. 4.\
-\cf2 Done, see in the answer to Matthew.\cf4 \
+\cf2 Done, see in the answer to Matthew.\cf3 \
 \
 - Sec. 5.3 and 5.4: I don\'92t understand why you can live without a memory cell wise pedestal correction in Sec. 5.3 while you apply a memory-wise pedestal correction of the reference cells. The transformation of a given TDC value depends on the pedestal. in *each* memory cell. Maybe in reality all is done correctly but the text leaves doubts.\
-\
+\cf2 This is true that normally one needs the pedestal value for each memory cells and also per TDC ramp depending on the BXID parity.\cf3  \cf2 However, for the sake of statistics, it was done that for the AHCAL channels (except the reference channels) using only the first memory cell (the one with the most statistics) without taking into account the BXID parity. In principle, this does not matter when this is done as memory cells and the BXID parity introduce only a time offset that is corrected later on when shifting the time distribution per channel, memory cell and BXID parity to 0 ns. However, for the reference channels, this can be done for all memory cells as there is enough statistics in all 16 of them.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 - Sec. 5.4 and Table 4: The choice of the reference cells is not motivated. It should also be better explained what role they do play or better said how their information is used in the following timing analysis. I must say that I have not fully understood what was actually done here.\
-\
+\pard\pardeftab720\partightenfactor0
+\cf2 Explanation why these channels are used has been added. \
+\pard\pardeftab720\partightenfactor0
+\cf3 \
 - Fig. 7: The origin of the double peak is not clear.\
-\cf2 See answer in Matthew comments.\cf4 \
+\pard\pardeftab720\partightenfactor0
+\cf2 See answer in Matthew comments.\cf3 \
 \
 - Figs. 9 and 10: In both figures I don\'92t understand the \'93Time of Hit\'94 distributions in the the left and right panels. The left hand sides must always be something like a mean value as the values on the y-axes only range between -2 and +2 ns. In the right panels the range of the values is between -20 and + 20ns. What is the meaning of the values in the left and right panels.\
-\cf2 Mistake on my side, the y-axis is indeed the mean time of first hit. This has been corrected in the plots.\cf4 \
+\cf2 Mistake on my side, the y-axis is indeed the mean time of first hit. This has been corrected in the plots.\cf3 \
 \
 Fig. 15: The uncertainty of the data does only allow for putting a doubt on QGSP_BERT and that the HP version is obviously more adequate. It does not allow for discarding QBBC. In that sense I don\'92t think that an incompatibility with the T3B result can be concluded. Shouldn\'92t the legend of the figure be similar to e.g. Fig. 14?\
-\cf2 See answer in Gerald comments. I modified the figure to have a correct legend for both cases.\cf4 \
+\cf2 See answer in Gerald comments. I modified the figure to have a correct legend for both cases.\cf3 \
 \
 Fig. 17: Can one explain briefly why the observation of bigger times away from the shower axis in earlier layers is expected?\
-\cf2 Backscattering of particles and neutrons.\cf4 \
+\cf2 The only reason for the earlier modules is the backscattering of neutrons. However, for the last modules, one could expect more hits but this does not mean that they are later in average. Following a hard interaction, secondary MIP-like particles are produced. These particles are travelling near the light speed and these are scattered to the back of the calorimeter explaining why the mean time of the hit can decrease at higher radius. This is confirmed by the simulation also.This was also verified by looking at the mean time of hit as a function of radius for a fixed distance between the reconstructed FHI and a layer and also looking at one fixed layer for different reconstructed FHI.\cf3 \
 \
 Fig. 19: Honestly I don\'92t understand these results. First of all it would be good to show also the results for layers 6 and 7 and secondly I don\'92t see that there should be no correlation at all for Layers 13 and 14. In any hadron interaction you produce fast charged pions (in first approach two that have around 16.6 GeV each [for a 50 GeV primary particle]) that should lead in your words \'94instantaneous\'94 signals. The electromagnetic component may get largely absorbed but not completely because you have two photons with about 8.3 GeV of energy. I agree that the correlation in the left panel looks artificial. Can you consider dropping this figure completely at this stage?\
 \
 -> Addendum: After having slept one night over it you may consider to produce also a zoom into the 50ns range to make visible correlations due to particles. This does however not change my conclusion that in its current form the plot cannot be considered for approval.\
 \
-\cf2 This plot can be very confusing and \'93unexpected\'94. I dropped it for now from the note at this stage.\cf4 \
+\cf2 I dropped it for now from the note at this stage. I also added the results for layers 6 and 7 in an additional file. Added also a zoom for data and MC for the long range correlation in the region of 50 ns as you can see also not much of a correlation here also.\
+I do agree with you that in a pion shower, secondary MIP-like particle are produced and travel forward in the calorimeter, these secondary particles are scattered to the back of the calorimeter. Let\'92s assume that the pion showers at 1 lambda, additional pions are produced that can also interact, these secondary pions lead to instantaneous signals. Also photons are produced from p0s decaying to photons that interacts leading to instantaneous signals. Even if photons travel up to the back of the calorimeter (1 lambda distance between Module 13 and 14), this will lead to instantaneous signals even accounting for time of flight, thus these hits will be below 50 ns. The only signals that are delayed enough (over 50 ns) are signals generated by neutrons travelling through the calorimeter, however, this is not expected that neutrons can lead to correlations as they travel very slowly (up to microseconds). Thus explaining why in simulation no correlation is visible. For data, this look indeed artificial and is most likely due to multi-particle events (generally one pion and a muon) where the muon arrives well late compared to the pion leading to an artificial correlation. These kind of events are difficult to remove completely as the calorimeter is not fully equipped.\cf3 \
 \
-\pard\pardeftab720\partightenfactor0
-\cf4 ===================\
+===================\
 Formal comments:\
 ===================\
-\pard\pardeftab720\partightenfactor0
-\cf4 \
+\
 - Table 5 appears before table 4 in the text.\
+\cf2 Corrected. \cf3 \
 \
 - Table 4: Please motivate the choice of cells (see comment above). Here all of a sudden a T11 appears.\
+\cf2 See answer above.\cf3 \
 \
 - Tables 5 - 7: Please introduce and define properly all the variables that appear in the tables. Make sure that this is done also elsewhere.\
+\cf2 Corrected.\cf3 \
 \
 - Honestly I don\'92t think that one needs to include Mokka and DD4HEP results. This is important for internal \'93sanity\'94 but doesn\'92t convey a physics message. For the thesis this may be fine but not for a publication!\
 \cf2 Corrected. Only DD4hep results are shown.}

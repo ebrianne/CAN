@@ -1,0 +1,119 @@
+\documentclass[a4paper]{article}
+\let\ifpdf\relax
+\pdfminorversion=4
+
+\usepackage[left=37mm,right=30mm,top=35mm,bottom=30mm]{geometry}
+\usepackage{graphicx}
+\usepackage[position=b]{subcaption}
+\captionsetup[subfigure]{width=0.9\textwidth}
+
+\usepackage{booktabs} % For professional looking tables
+\usepackage{multirow}
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[T1]{fontenc}
+\usepackage{siunitx} % use this package module for SI units
+
+\usepackage{lineno}
+\linenumbers
+
+\usepackage{xspace}
+\newcommand\geant{\textsc{Geant\,4}\xspace}
+\newcommand\mokka{\textsc{Mokka}\xspace}
+\newcommand\ddhep{\textsc{DD4hep}\xspace}
+\newcommand\ilcsoft{\textsc{ILCSoft}\xspace}
+\newcommand\cpp{\textsc{C++}\xspace}
+\newcommand\marlin{\textsc{Marlin}\xspace}
+\newcommand\lcio{\textsc{LCIO}\xspace}
+\newcommand\qt{\textsc{Qt}\xspace}
+
+\usepackage{epstopdf}
+
+\begin{document}
+
+\section{Additional Plots}
+
+\begin{figure}[htbp!]
+  \begin{subfigure}[t]{0.49\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{../Draft/fig/Timing_Radius_Comparison_ShortAsymRange_ShowerStart.eps}
+    \caption{}\label{fig:Radius_FHI}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.49\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{../Draft/fig/Radius_ShowerStartTruth.eps}
+    \caption{}\label{fig:Radius_FHISim1}
+  \end{subfigure}
+  \caption{Mean time of first hit as a function of the hit distance to the shower axis for 50 GeV pions for a fixed distance of 4 between the reconstructed FHI layer and a layer. The left plot shows the radial timing profile of modules 7 and 10 in data. The right plots shows the radial timing profile for the same layers in simulation with the QGSP\_BERT\_HP physics list.}
+  \label{fig:Radius_FHIAll}
+\end{figure}
+
+\begin{figure}[htbp!]
+  \begin{subfigure}[t]{0.49\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{../Draft/fig/Timing_Radius_Comparison_ShortAsymRange_ShowerStart_FixedModule.eps}
+    \caption{}\label{fig:Radius_FHI_Fixed}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.49\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{../Draft/fig/Radius_ShowerStartTruth_FixedModule.eps}
+    \caption{}\label{fig:Radius_FHI_FixedSim}
+  \end{subfigure}
+  \caption{Mean time of the first hit as a function of the hit distance to the shower axis for 50 GeV pions for different reconstructed FHI layers. In data on the left and in simulation with the QGSP\_BERT\_HP physics list on the right.}
+  \label{fig:Radius_FHISim}
+\end{figure}
+
+\begin{figure}[htbp!]
+  \begin{subfigure}[t]{0.49\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{../Draft/fig/Time_Correlation_short.eps}
+    \caption{Data} \label{fig:TimeCorr_Data_short_50GeV}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.49\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{../Draft/fig/Time_Correlation_50GeV_short_QGSPBERTHP_DD4hep.eps}
+    \caption{Simulation} \label{fig:TimeCorr_Data_short_50GeV_Sim}
+  \end{subfigure}
+  \caption{Hit timing correlations between modules 6 and 7 for data on the left and the \ddhep simulation with QGSP\_BERT\_HP on the right, for 50 GeV pions. Each bin is normalized to the total number of entries in the 2D histogram. The red box in the left plot represents the zone investigated to quantify the difference between data and simulation as stated in the text.}
+  \label{fig:TimeCorr_short_50GeV}
+\end{figure}
+
+\begin{figure}[htbp!]
+  \begin{subfigure}[t]{0.49\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{../Draft/fig/Time_Correlation_long.eps}
+    \caption{Data} \label{fig:TimeCorr_Data_long_50GeV}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.49\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{../Draft/fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep.eps}
+    \caption{Simulation} \label{fig:TimeCorr_Data_long_50GeV_Sim}
+  \end{subfigure}
+  \caption{Hit timing correlations between modules 13 and 14 for data on the left and the \ddhep simulation with QGSP\_BERT\_HP on the right, for 50 GeV pions. Each bin is normalized to the total number of entries in the 2D histogram. The red box in the left plot represents the zone investigated to quantify the difference between data and simulation as stated in the text.}
+  \label{fig:TimeCorr_long_50GeV}
+\end{figure}
+
+\begin{figure}[htbp!]
+  \begin{subfigure}[t]{0.49\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{../Draft/fig/Time_Correlation_long_Zoom.eps}
+    \caption{Data} \label{fig:TimeCorr_Data_long_50GeV_Zoom}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.49\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{../Draft/fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep_Zoom.eps}
+    \caption{Simulation} \label{fig:TimeCorr_Data_long_50GeV_Sim_Zoom}
+  \end{subfigure}
+  \caption{Hit timing correlations between modules 13 and 14 for data on the left and the \ddhep simulation with QGSP\_BERT\_HP on the right, for 50 GeV pions zoomed in the range [25, 500] ns. Each bin is normalized to the total number of entries in the 2D histogram. The red box in the left plot represents the zone investigated to quantify the difference between data and simulation as stated in the text.}
+  \label{fig:TimeCorr_long_50GeV_Zoom}
+\end{figure}
+
+
+\end{document}

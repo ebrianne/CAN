@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex CAN"] 1528118820 "CAN.aux" "CAN.bbl" "CAN" 1528123260
+["bibtex CAN"] 1529065304 "CAN.aux" "CAN.bbl" "CAN" 1529065306
   "./JHEP.bst" 1525875018 20366 831a28ea1bdab239787a5f8d5fe1ce22 ""
-  "CAN.aux" 1528120217 15320 3a005a8da4003956438d7ef8cdb8f8a7 ""
+  "CAN.aux" 1529065305 15417 75a2c025e91db83b59bed79dbe73f6c5 ""
   "biblio.bib" 1527597531 11510 92b5c02c3ffab197faac366994982d9e ""
   (generated)
   "CAN.blg"
   "CAN.bbl"
-["pdflatex"] 1528120216 "CAN.tex" "CAN.pdf" "CAN" 1528123260
+["pdflatex"] 1529065304 "CAN.tex" "CAN.pdf" "CAN" 1529065306
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1480098688 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -136,10 +136,10 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1525877708 2731351 f17f522fc02a53fd688e1adc6f33c908 ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1525877727 4220711 94730d8a7ee2535a803c806f0518adda ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "CAN.aux" 1528120217 15320 3a005a8da4003956438d7ef8cdb8f8a7 ""
-  "CAN.bbl" 1528118820 3698 4b80bbe7b62a75d79ab999f6d4f54243 "bibtex CAN"
-  "CAN.tex" 1528120214 64315 3effd75fb211cde349c40848b69e5bc5 ""
-  "CAN.toc" 1528120217 1653 f246c163170fd7890c023a40b5c42fd7 ""
+  "CAN.aux" 1529065305 15417 75a2c025e91db83b59bed79dbe73f6c5 ""
+  "CAN.bbl" 1529065304 3698 4b80bbe7b62a75d79ab999f6d4f54243 "bibtex CAN"
+  "CAN.tex" 1529065275 64470 ef63f6ea61a00d89bc2a87cb927022fc ""
+  "CAN.toc" 1529065305 1653 f246c163170fd7890c023a40b5c42fd7 ""
   "JINST.cls" 1525875018 64023 0e2effaabacc525d1bf75b5332bea0ce ""
   "fig/CheckCorrection.eps" 1526725323 14173 e8b6bc244b32291588e6e98cae8c4530 ""
   "fig/ComparisonMCData_MIPPeak.eps" 1525875018 11625 dac301e8f5df84ddd27c5e1195139bab ""
@@ -169,7 +169,7 @@
   "fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.eps" 1527176816 13251 be645e6074cfa0534d31a48660813166 ""
   "fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.eps" 1527176905 12409 ed5e260671e48cb46af063b7db6f4a5e ""
   (generated)
-  "CAN.aux"
-  "CAN.toc"
   "CAN.pdf"
   "CAN.log"
+  "CAN.aux"
+  "CAN.toc"

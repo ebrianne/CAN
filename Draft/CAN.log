@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.9)  4 JUN 2018 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.5.9)  15 JUN 2018 14:21
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1118,7 +1118,7 @@ Package epstopdf Info: Source file: <fig/CheckCorrection.eps>
 (epstopdf)                    date: 2018-05-19 12:23:01
 (epstopdf)                    size: 17711 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/CheckCorrection-eps-converted-to.pdf fig/CheckCorrection.eps>
-(epstopdf)             \includegraphics on input line 352.
+(epstopdf)             \includegraphics on input line 351.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1126,7 +1126,7 @@ pdfTeX warning: pdflatex (file ./fig/CheckCorrection-eps-converted-to.pdf): PDF 
 <fig/CheckCorrection-eps-converted-to.pdf, id=433, 569.12625pt x 409.53pt>
 File: fig/CheckCorrection-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/CheckCorrection-eps-converted-to.pdf>
-Package pdftex.def Info: fig/CheckCorrection-eps-converted-to.pdf  used on input line 352.
+Package pdftex.def Info: fig/CheckCorrection-eps-converted-to.pdf  used on input line 351.
 (pdftex.def)             Requested size: 258.12645pt x 185.74904pt.
 [13 <./fig/TimeWalkProfile-eps-converted-to.pdf> <./fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf>]
 Underfull \vbox (badness 4505) has occurred while \output is active []
@@ -1139,7 +1139,7 @@ Package epstopdf Info: Source file: <fig/Comparison_MokkaDD4hepData_Muons_DD4hep
 (epstopdf)                    date: 2018-06-04 14:32:24
 (epstopdf)                    size: 43082 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/Comparison_MokkaDD4hepData_Muons_DD4heponly-eps-converted-to.pdf fig/Comparison_MokkaDD4hepData_Muons_DD4heponly.eps>
-(epstopdf)             \includegraphics on input line 423.
+(epstopdf)             \includegraphics on input line 422.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1147,7 +1147,7 @@ pdfTeX warning: pdflatex (file ./fig/Comparison_MokkaDD4hepData_Muons_DD4heponly
 <fig/Comparison_MokkaDD4hepData_Muons_DD4heponly-eps-converted-to.pdf, id=514, 569.12625pt x 409.53pt>
 File: fig/Comparison_MokkaDD4hepData_Muons_DD4heponly-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Comparison_MokkaDD4hepData_Muons_DD4heponly-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Comparison_MokkaDD4hepData_Muons_DD4heponly-eps-converted-to.pdf  used on input line 423.
+Package pdftex.def Info: fig/Comparison_MokkaDD4hepData_Muons_DD4heponly-eps-converted-to.pdf  used on input line 422.
 (pdftex.def)             Requested size: 258.12645pt x 185.74904pt.
 [16]
 Package epstopdf Info: Source file: <fig/Comparison_SimData_Electrons50GeV_DD4heponly.eps>
@@ -1157,7 +1157,7 @@ Package epstopdf Info: Source file: <fig/Comparison_SimData_Electrons50GeV_DD4he
 (epstopdf)                    date: 2018-06-04 14:37:40
 (epstopdf)                    size: 55328 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/Comparison_SimData_Electrons50GeV_DD4heponly-eps-converted-to.pdf fig/Comparison_SimData_Electrons50GeV_DD4heponly.eps>
-(epstopdf)             \includegraphics on input line 433.
+(epstopdf)             \includegraphics on input line 432.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1165,7 +1165,7 @@ pdfTeX warning: pdflatex (file ./fig/Comparison_SimData_Electrons50GeV_DD4heponl
 <fig/Comparison_SimData_Electrons50GeV_DD4heponly-eps-converted-to.pdf, id=523, 569.12625pt x 409.53pt>
 File: fig/Comparison_SimData_Electrons50GeV_DD4heponly-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Comparison_SimData_Electrons50GeV_DD4heponly-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons50GeV_DD4heponly-eps-converted-to.pdf  used on input line 433.
+Package pdftex.def Info: fig/Comparison_SimData_Electrons50GeV_DD4heponly-eps-converted-to.pdf  used on input line 432.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/Comparison_SimData_Electrons_nHits_50GeV_DD4heponly.eps>
 (epstopdf)                    date: 2018-06-04 14:37:08
@@ -1174,7 +1174,7 @@ Package epstopdf Info: Source file: <fig/Comparison_SimData_Electrons_nHits_50Ge
 (epstopdf)                    date: 2018-06-04 14:37:40
 (epstopdf)                    size: 19736 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/Comparison_SimData_Electrons_nHits_50GeV_DD4heponly-eps-converted-to.pdf fig/Comparison_SimData_Electrons_nHits_50GeV_DD4heponly.eps>
-(epstopdf)             \includegraphics on input line 438.
+(epstopdf)             \includegraphics on input line 437.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1182,7 +1182,7 @@ pdfTeX warning: pdflatex (file ./fig/Comparison_SimData_Electrons_nHits_50GeV_DD
 <fig/Comparison_SimData_Electrons_nHits_50GeV_DD4heponly-eps-converted-to.pdf, id=524, 569.12625pt x 409.53pt>
 File: fig/Comparison_SimData_Electrons_nHits_50GeV_DD4heponly-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Comparison_SimData_Electrons_nHits_50GeV_DD4heponly-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Electrons_nHits_50GeV_DD4heponly-eps-converted-to.pdf  used on input line 438.
+Package pdftex.def Info: fig/Comparison_SimData_Electrons_nHits_50GeV_DD4heponly-eps-converted-to.pdf  used on input line 437.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1195,7 +1195,7 @@ Package epstopdf Info: Source file: <fig/Comparison_SimData_Pion50GeV_LateCluste
 (epstopdf)                    date: 2018-05-25 16:22:33
 (epstopdf)                    size: 28254 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep.eps>
-(epstopdf)             \includegraphics on input line 450.
+(epstopdf)             \includegraphics on input line 449.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1203,7 +1203,7 @@ pdfTeX warning: pdflatex (file ./fig/Comparison_SimData_Pion50GeV_LateClusters_D
 <fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf, id=546, 569.12625pt x 409.53pt>
 File: fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf  used on input line 450.
+Package pdftex.def Info: fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep-eps-converted-to.pdf  used on input line 449.
 (pdftex.def)             Requested size: 258.12645pt x 185.74904pt.
 Package epstopdf Info: Source file: <fig/Time_Energy_50GeV_DD4hep.eps>
 (epstopdf)                    date: 2018-05-28 14:40:49
@@ -1212,7 +1212,7 @@ Package epstopdf Info: Source file: <fig/Time_Energy_50GeV_DD4hep.eps>
 (epstopdf)                    date: 2018-05-28 14:43:30
 (epstopdf)                    size: 16317 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf fig/Time_Energy_50GeV_DD4hep.eps>
-(epstopdf)             \includegraphics on input line 461.
+(epstopdf)             \includegraphics on input line 460.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1220,7 +1220,7 @@ pdfTeX warning: pdflatex (file ./fig/Time_Energy_50GeV_DD4hep-eps-converted-to.p
 <fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf, id=548, 569.12625pt x 409.53pt>
 File: fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf  used on input line 461.
+Package pdftex.def Info: fig/Time_Energy_50GeV_DD4hep-eps-converted-to.pdf  used on input line 460.
 (pdftex.def)             Requested size: 258.12645pt x 185.74904pt.
 [18 <./fig/Comparison_SimData_Electrons50GeV_DD4heponly-eps-converted-to.pdf> <./fig/Comparison_SimData_Electrons_nHits_50GeV_DD4heponly-eps-converted-to.pdf>]
 Underfull \vbox (badness 4608) has occurred while \output is active []
@@ -1233,7 +1233,7 @@ Package epstopdf Info: Source file: <fig/Time_Radius_50GeV_SSF_DD4hep.eps>
 (epstopdf)                    date: 2018-05-28 14:43:30
 (epstopdf)                    size: 14207 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf fig/Time_Radius_50GeV_SSF_DD4hep.eps>
-(epstopdf)             \includegraphics on input line 472.
+(epstopdf)             \includegraphics on input line 471.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1241,7 +1241,7 @@ pdfTeX warning: pdflatex (file ./fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-
 <fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf, id=613, 569.12625pt x 409.53pt>
 File: fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf  used on input line 472.
+Package pdftex.def Info: fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf  used on input line 471.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/Time_Radius_50GeV_BL_DD4hep.eps>
 (epstopdf)                    date: 2018-05-28 14:40:49
@@ -1250,7 +1250,7 @@ Package epstopdf Info: Source file: <fig/Time_Radius_50GeV_BL_DD4hep.eps>
 (epstopdf)                    date: 2018-05-28 14:43:30
 (epstopdf)                    size: 14376 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf fig/Time_Radius_50GeV_BL_DD4hep.eps>
-(epstopdf)             \includegraphics on input line 478.
+(epstopdf)             \includegraphics on input line 477.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1258,7 +1258,7 @@ pdfTeX warning: pdflatex (file ./fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-t
 <fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf, id=614, 569.12625pt x 409.53pt>
 File: fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf  used on input line 478.
+Package pdftex.def Info: fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf  used on input line 477.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.eps>
 (epstopdf)                    date: 2018-05-24 17:46:56
@@ -1267,7 +1267,7 @@ Package epstopdf Info: Source file: <fig/Timing_Radius_Comparison_ShortAsymRange
 (epstopdf)                    date: 2018-05-25 16:23:34
 (epstopdf)                    size: 12765 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.eps>
-(epstopdf)             \includegraphics on input line 490.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1275,7 +1275,7 @@ pdfTeX warning: pdflatex (file ./fig/Timing_Radius_Comparison_ShortAsymRange_Ind
 <fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf, id=617, 569.12625pt x 409.53pt>
 File: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf  used on input line 490.
+Package pdftex.def Info: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf  used on input line 489.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 Package epstopdf Info: Source file: <fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.eps>
 (epstopdf)                    date: 2018-05-24 17:48:25
@@ -1284,7 +1284,7 @@ Package epstopdf Info: Source file: <fig/Timing_Radius_Comparison_ShortAsymRange
 (epstopdf)                    date: 2018-05-25 16:23:34
 (epstopdf)                    size: 12402 bytes
 (epstopdf)             Command: <epstopdf --outfile=fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.eps>
-(epstopdf)             \includegraphics on input line 496.
+(epstopdf)             \includegraphics on input line 495.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1292,10 +1292,10 @@ pdfTeX warning: pdflatex (file ./fig/Timing_Radius_Comparison_ShortAsymRange_Ind
 <fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf, id=618, 569.12625pt x 409.53pt>
 File: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf>
-Package pdftex.def Info: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf  used on input line 496.
+Package pdftex.def Info: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf  used on input line 495.
 (pdftex.def)             Requested size: 210.80348pt x 151.69244pt.
 [20 <./fig/Time_Radius_50GeV_SSF_DD4hep-eps-converted-to.pdf> <./fig/Time_Radius_50GeV_BL_DD4hep-eps-converted-to.pdf>] (./CAN.bbl [21 <./fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers-eps-converted-to.pdf> <./fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim-eps-converted-to.pdf>]) [22]
-Overfull \hbox (17.32916pt too wide) in paragraph at lines 625--634
+Overfull \hbox (17.32916pt too wide) in paragraph at lines 624--633
  [][] 
  []
 
@@ -1305,14 +1305,14 @@ Overfull \hbox (17.32916pt too wide) in paragraph at lines 625--634
 Here is how much of TeX's memory you used:
  15922 strings out of 492649
  320760 string characters out of 6129623
- 342560 words of memory out of 5000000
+ 342561 words of memory out of 5000000
  19464 multiletter control sequences out of 15000+600000
  613550 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,14n,49p,10355b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on CAN.pdf (26 pages, 958001 bytes).
+Output written on CAN.pdf (26 pages, 958062 bytes).
 PDF statistics:
  780 PDF objects out of 1000 (max. 8388607)
  134 named destinations out of 1000 (max. 500000)

@@ -434,7 +434,7 @@ In order to further validate the time simulation, a comparison with electron dat
 
 \subsection{Timing of pion showers}
 
-Figure \ref{fig:dNdt_Data} shows the time of first hit for muons, 10 GeV electrons and 50 GeV pions. Energy depositions from muons and electrons are instantaneous within a certain time window centered around 0 ns that is determined by the intrinsic time resolution of the detector. Some isolated hits are present in the tails most likely caused by SiPM thermal noise. This gives an idea of the noise level as well as the rejection of noise in the analysis.
+Figure \ref{fig:dNdt_Data} shows the time of first hit for muons, 10 GeV electrons and 50 GeV pions. The muon and electron distributions centered around 0 ns within a certain time window that is determined by the intrinsic time resolution of the detector. Isolated hits are present in the tails most likely caused by SiPM thermal noise.
 
 \begin{figure}[htbp!]
   \centering
@@ -450,34 +450,9 @@ Figure \ref{fig:dNdt_Data} shows the time of first hit for muons, 10 GeV electro
   \caption{\subref{fig:dNdt_Data}) Time of first hit for muons, electrons and pions in steel absorber in a range of -100 to 250 ns. The histograms are normalized to the number of events where at least one hit was identified. The errors bars are statistical and systematic uncertainties. The lines represent the fit to the data as explained in the text. \subref{fig:dNdt_SimData_50GeV_DD4hep}) Comparison of the time of first hit distribution for 50 GeV pions in data and three different physics list for the \ddhep simulation. The grey and color bands shows the statistical and systematic uncertainties.}
 \end{figure}
 
-The fraction of hits $n_{Late}/n_{Core}$, with $n_{Late}$ the number of hits between 50 ns and \SI{2}{\micro\second} and $n_{Core}$ the number of hits between -50 and 50 ns, is around 1.76\% for muons, 0.32\% for electrons and about 1.41\% for pions. The noise level is similar on the left side of the time distribution for muons, electrons and pions giving confidence that the right tail observed in the pion data is coming from physics and not noise.
+The noise level is similar on the left side of the time distribution for muons, electrons and pions giving confidence that the right tail observed between 30 to 50 ns in the pion data is coming from physics and not noise. A model of the sum of two exponentials and a constant is used, similar to the T3B experiment \cite{Simon2013}, to characterize the slow and fast time component of the distribution.
 
-The pion time distribution presents a higher tail between 30 to 50 ns than the electron time distribution. In order to characterize the distribution, a model of the sum of two exponentials and a constant, similar to the T3B experiment \cite{Simon2013} is applied following the equation \ref{eq:dNdt_eq}:
-
-\begin{equation} \label{eq:dNdt_eq}
-	\frac{1}{N}\frac{dN}{dt} = A_{fast} \times e^{-\frac{t}{\tau_{fast}}} + A_{slow} \times e^{-\frac{t}{\tau_{slow}}} + c
-\end{equation}
-
-where $A_{fast}, \tau_{fast}$ and $A_{slow}, \tau_{slow}$ are the amplitudes and decays times of the modeled fast and slow component of the hadronic shower. Since the fit is performed on several orders of magnitudes, the fit is performed in several steps. Firstly, the constant is fitted between 500 ns and \SI{2}{\micro\second}. Then, a new histogram of the time of hits hit is made subtracting the noise floor. Secondly, the slow component is fitted between 90 ns and \SI{2}{\micro\second}. Then, the parameter of the slow component is fixed and then the fast component is fitted between 10 ns to \SI{2}{\micro\second}.
-
-With this procedure, a fast component of $6.21 \pm 0.30$ ns and a slow component of $343 \pm 39$ ns are fitted. The time constant of the fast component is in the same order of magnitude as given by T3B of 8 ns and is interpreted by the energy deposition of evaporation of neutrons in the active medium. But due to the time resolution of the AHCAL being in the same order of magnitude, it is difficult to confirm this origin.
-
-However, the time constant of the slow component is very different than in the T3B experiment (around 80 ns in steel). This may be due to the contribution of SiPM noise that reduces the sensitivity to this slow component in the shower, and the contribution of multi-particle events. One can remark that this model may be incomplete as the fitting function does match well the data in the transition region of 50 to 100 ns. The table \ref{table:dNdt_fit} sums up the fitted results.
-
-\begin{table}[htb!]
-	\centering
-	\caption{Summary of the fit results in figure \ref{fig:dNdt_Data}.}
-	\label{table:dNdt_fit}
-	\begin{tabular}{@{} lccc @{}}
-		\toprule
-		Parameter & Muon & Electron & Pion \\
-		\midrule
-		$\tau_{fast}$ [ns] & - & - & $6.21 \pm 0.30$ \\
-		$\tau_{slow}$ [ns] & - & - & $343 \pm 39$ \\
-		$c$ & $(1.79 \pm 0.01) \times 10^{-5}$ & $(1.43 \pm 0.04) \times 10^{-5}$ & $(6.33 \pm 0.15) \times 10^{-5}$ \\
-		\bottomrule
-	\end{tabular}
-\end{table}
+A fast component of $6.21 \pm 0.30$ ns and a slow component of $343 \pm 39$ ns are extracted. The time constant of the fast component is in the same order of magnitude as given by the T3B experiment (8 ns). However, due to the time resolution of the AHCAL being in the same order of magnitude, it is difficult to confirm the observation made by T3B. The time constant of the slow component is very different than in the T3B experiment (around 80 ns in steel). It may be due to the contribution of SiPM noise that reduces the sensitivity to the slow component of the shower, and the contribution of multi-particle events. The model may be incomplete as the fitting function does match well the data in the transition region of 50 to 100 ns.
 
 Figure \ref{fig:dNdt_SimData_50GeV_DD4hep} shows the distribution of the time of the first hit compared to three different physics lists for 50 GeV pions. For the core of the distribution below 50 ns, all physics lists describe the data within the systematics. The late tail is described best by the QGSP\_BERT\_HP and QBBC physics lists. The QGSP\_BERT physics list without the precision treatment of neutron results in an overestimation of the tail of the distribution by around a factor of 5.
 

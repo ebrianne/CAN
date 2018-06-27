@@ -100,7 +100,7 @@ The \mokka and \ddhep simulations have been checked to give consistent results. 
 
 The AHCAL simulation model consists of 32 absorber layers and 14 active modules. Each absorber layer is made of stainless steel 17.2 mm thick. Each active layer is primarily composed of 1 mm steel cassette, 0.7 mm PCB, 2 or 3 mm scintillator strip or tile. The density and composition of the scintillator are taken as default provided in \geant.
 
-The beam profile is generated using a particle gun placed 1 m up-stream of the calorimeter front. For muons, a flat beam profile is used and is not expected to impact the MIP response. For electrons and pions, a 2D gaussian beam is assumed. The mean and sigma of the gaussian beam are estimated from data using the energy-weighted center of gravity in the x and y-axis.
+The beam profile is generated using a particle gun placed 1 m upstream of the calorimeter front. For muons, a flat beam profile is used and is not expected to impact the MIP response. For electrons and pions, a 2D Gaussian beam is assumed. The mean and sigma of the Gaussian beam are estimated from data using the energy-weighted center of gravity in the x and y-axis.
 
 The digitization of simulated hits is very similar to the previous AHCAL physics prototype \cite{1748-0221-5-05-P05004}. Individual calibration factors obtained from data are used to extract the light yield which is needed to model the statistical fluctuations of photons hitting a SiPM \cite{Hartbrich:2016bbz}. Saturation effects are also included using a global parameter, the number of pixels available on each SiPM type, as no measurement of the saturation curve is available. Most of the tiles used are wrapped with a reflective foil such that optical crosstalk effects between channels can be neglected. For modules with no wrapping, a default value of 15\% for the cross-talk is used based on previous measurements with the AHCAL physics prototype \cite{Gunter:2015ika}. A variation of the cross-talk parameter between 10\% and 18\% is used for systematics (see section \ref{sec:syst_uncert}). Noise is extracted from muon runs and overlaid onto simulated events. Dead channels and channels without calibration factors (MIP, gain, pedestal) are rejected.
 
@@ -127,7 +127,7 @@ Prior to the time analysis, the simulation and digitization are validated. Compa
   \label{fig:Val}
 \end{figure}
 
-The hit energy spectrum has also been checked for electrons. Data and simulation agree rather well within 10\% for energies below 10 MIPs, which is the range of hit energies relevant for this analysis.
+The hit energy spectrum has also been checked for electrons. Data and simulation agree rather well within 10\% for hit energies below 10 MIPs, which is the range relevant for this analysis.
 
 \section{Event Selection}
 
@@ -272,7 +272,7 @@ The time reference of the trigger is delayed compared to the muon passing throug
   \caption{Time of first hit distribution for a single channel (Chip 236, Chn 21, Mem 01, BXID 1). An offset of -165.3 ns is determined for this channel.}\label{fig:TimeChnwithOffset}
 \end{figure}
 
-A shifting procedure of the time of the hit relative to the time reference for each channel, memory-cell and BXID parity is performed. This is done to take into account the delay time of the trigger due to cabling and the trigger electronics as well as possible differences in channel pedestals. Only memory-cells containing more than 100 events are considered. The histogram range of the time of the hit relative to the time reference is reduced iteratively, in the range $t_{max} \pm RMS$ with $t_{max}$ corresponding to the time at the center of the maximum bin of the histogram, until the RMS of the distribution is smaller than 10 ns. This value corresponds to more than 3 sigma of the mean time reference uncertainty. The mean of the histogram is then used as the time offset value. An example of a single channel is shown in figure \ref{fig:TimeChnwithOffset}.
+A shifting procedure of the time of the hit relative to the time reference for each channel, memory-cell and BXID parity is performed. This is done to take into account the delay time of the trigger due to cabling and the trigger electronics as well as possible differences in channel pedestals. Only memory-cells containing more than 100 events are considered. The histogram range of the time of the hit relative to the time reference is reduced iteratively, in the range $t_{max} \pm RMS$ with $t_{max}$ corresponding to the time at the center of the maximum bin of the histogram, until the RMS of the distribution is smaller than 10 ns. This value corresponds to more than 3 sigmas of the time reference uncertainty. The mean of the histogram is then used as the time offset value. An example of a single channel is shown in figure \ref{fig:TimeChnwithOffset}.
 
 In total, 21040 individual offsets are extracted from data. The mean value of the time offset is around -150 ns which is around the expected value considering the cabling length and the trigger logic delay. This procedure also corrects for the time of flight of particles within the detector.
 
@@ -434,7 +434,7 @@ In order to further validate the time simulation, a comparison with electron dat
 
 \subsection{Timing of pion showers}
 
-Figure \ref{fig:dNdt_Data} shows the time of first hit for muons, 10 GeV electrons and 50 GeV pions. The muon and electron distributions centered around 0 ns within a certain time window that is determined by the intrinsic time resolution of the detector. Isolated hits are present in the tails most likely caused by SiPM thermal noise.
+Figure \ref{fig:dNdt_Data} shows the time of first hit for muons, 10 GeV electrons and 50 GeV pions. The muon and electron distributions are centered around 0 ns within a certain time window that is determined by the intrinsic time resolution of the detector. Isolated hits are present in the tails most likely caused by SiPM thermal noise.
 
 \begin{figure}[htbp!]
   \centering

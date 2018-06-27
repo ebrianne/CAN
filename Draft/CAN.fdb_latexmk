@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex CAN"] 1530034719 "CAN.aux" "CAN.bbl" "CAN" 1530034869
+["bibtex CAN"] 1530034719 "CAN.aux" "CAN.bbl" "CAN" 1530105867
   "./JHEP.bst" 1525875018 20366 831a28ea1bdab239787a5f8d5fe1ce22 ""
-  "CAN.aux" 1530034869 15955 6ce631510fc340fe16addc95b9bf7e55 ""
+  "CAN.aux" 1530105867 15955 6ce631510fc340fe16addc95b9bf7e55 ""
   "biblio.bib" 1527597531 11510 92b5c02c3ffab197faac366994982d9e ""
   (generated)
   "CAN.blg"
   "CAN.bbl"
-["pdflatex"] 1530034868 "CAN.tex" "CAN.pdf" "CAN" 1530034869
+["pdflatex"] 1530105865 "CAN.tex" "CAN.pdf" "CAN" 1530105867
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1480098688 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -136,10 +136,10 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1525877708 2731351 f17f522fc02a53fd688e1adc6f33c908 ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1525877727 4220711 94730d8a7ee2535a803c806f0518adda ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "CAN.aux" 1530034869 15955 6ce631510fc340fe16addc95b9bf7e55 ""
+  "CAN.aux" 1530105867 15955 6ce631510fc340fe16addc95b9bf7e55 ""
   "CAN.bbl" 1530034719 3904 45fe2711b90a498cd481e40b963a411e "bibtex CAN"
-  "CAN.tex" 1530034859 65262 87694c1e7694928ed85856f60774cace ""
-  "CAN.toc" 1530034869 1652 1b425236c523afda03b3ec8bb7684114 ""
+  "CAN.tex" 1530105734 65249 a1b09ae0d156f25c5fe41b39feb3603b ""
+  "CAN.toc" 1530105867 1652 1b425236c523afda03b3ec8bb7684114 ""
   "JINST.cls" 1525875018 64023 0e2effaabacc525d1bf75b5332bea0ce ""
   "fig/CheckCorrection.eps" 1526725323 14173 e8b6bc244b32291588e6e98cae8c4530 ""
   "fig/ComparisonMCData_MIPPeak.eps" 1525875018 11625 dac301e8f5df84ddd27c5e1195139bab ""
@@ -170,6 +170,6 @@
   "fig/Timing_dNdt_Comparison.eps" 1527171163 67072 f3c8f471ae59e5f163a54c3e87c73d78 ""
   (generated)
   "CAN.pdf"
-  "CAN.toc"
   "CAN.aux"
+  "CAN.toc"
   "CAN.log"

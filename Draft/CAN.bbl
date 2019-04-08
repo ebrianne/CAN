@@ -5,6 +5,16 @@ M.~A. Thomson, {\it {{Particle Flow Calorimetry and the PandoraPFA
   Algorithm}}},  {\em Nucl. Instrum. Meth.} {\bf A611} (2009) 25--40,
   [\href{http://xxx.lanl.gov/abs/0907.3577}{{\tt arXiv:0907.3577}}].
 
+\bibitem{Sefkow:316196}
+F.~Sefkow and K.~Krueger, {\it {T}owards a new {AHCAL} prototype},  CALICE
+  Collaboration Meeting, Arlington (Texas, USA), 14 Sep 2016 - 16 Sep 2016,
+  Sep, 2016.
+
+\bibitem{Krueger:205287}
+K.~Krüger and the CALICE~collaboration, {\it Prototype tests for a highly
+  granular scintillator-based hadron calorimeter},  {\em Journal of Physics:
+  Conference Series} {\bf 587} (2015), no.~1 012033.
+
 \bibitem{Barklow:2016tza}
 T.~Barklow, L.~d`Hautuille, C.~Milke, B.~Schumm, A.~Schütz, M.~Stanitzki, and
   J.~Strube, {\it {A Study of the Impact of High Cross Section ILC Processes on
@@ -16,16 +26,6 @@ A.~Benaglia, E.~Auffray, P.~Lecoq, H.~Wenzel, and A.~Para, {\it Space-time
   development of electromagnetic and hadronic showers and perspectives for
   novel calorimetric techniques},  {\em IEEE Transactions on Nuclear Science}
   {\bf 63} (April, 2016) 574--579.
-
-\bibitem{Sefkow:316196}
-F.~Sefkow and K.~Krueger, {\it {T}owards a new {AHCAL} prototype},  CALICE
-  Collaboration Meeting, Arlington (Texas, USA), 14 Sep 2016 - 16 Sep 2016,
-  Sep, 2016.
-
-\bibitem{Krueger:205287}
-K.~Krüger and the CALICE~collaboration, {\it Prototype tests for a highly
-  granular scintillator-based hadron calorimeter},  {\em Journal of Physics:
-  Conference Series} {\bf 587} (2015), no.~1 012033.
 
 \bibitem{5401891}
 S.~Callier, F.~Dulucq, R.~Fabbri, C.~de~La~Taille, B.~Lutz, G.~Martin-Chassard,
@@ -72,6 +72,11 @@ O.~Hartbrich, {\em {Scintillator Calorimeters for a Future Linear Collider
 C.~Günter, {\em {Comparison of Iron and Tungsten Absorber Structures for an
   Analog Hadron Calorimeter}}.
 \newblock PhD thesis, U. Hamburg, Dept. Phys., Hamburg, 2015.
+
+\bibitem{Brianne:2018rur}
+E.~Brianne, {\em {Time development of hadronic showers in a Highly Granular
+  Analog Hadron Calorimeter}}.
+\newblock PhD thesis, DESY, Hamburg, Germany, 2018.
 
 \bibitem{Brianne2012}
 E.~Brianne, ``{Studies of the front-end electronics of the Analog HCAL}.'' DESY

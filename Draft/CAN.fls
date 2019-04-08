@@ -78,8 +78,11 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
+INPUT /dev/null
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
@@ -297,6 +300,10 @@ INPUT ./fig/ProfileMuons_Edep_DD4hep-eps-converted-to.pdf
 INPUT ./fig/ProfileMuons_Edep_DD4hep-eps-converted-to.pdf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT fig/TDCRamp.eps
@@ -353,6 +360,10 @@ INPUT ./fig/T0ReferenceError.eps
 INPUT ./fig/T0ReferenceError-eps-converted-to.pdf
 INPUT ./fig/T0ReferenceError-eps-converted-to.pdf
 INPUT ./fig/T0ReferenceError-eps-converted-to.pdf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/zptmcm7v.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.eps
 INPUT ./fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.eps
 INPUT ./fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.eps
@@ -398,9 +409,6 @@ INPUT ./fig/Timing_AHCAL_AllCorrection.eps
 INPUT ./fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf
 INPUT ./fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf
 INPUT ./fig/Timing_AHCAL_AllCorrection-eps-converted-to.pdf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT fig/NumberHits_Dependance_AllEnergies.eps
 INPUT ./fig/NumberHits_Dependance_AllEnergies.eps
 INPUT ./fig/NumberHits_Dependance_AllEnergies.eps
@@ -428,10 +436,9 @@ INPUT ./fig/CheckCorrection.eps
 INPUT ./fig/CheckCorrection-eps-converted-to.pdf
 INPUT ./fig/CheckCorrection-eps-converted-to.pdf
 INPUT ./fig/CheckCorrection-eps-converted-to.pdf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT fig/Comparison_MokkaDD4hepData_Muons_DD4heponly.eps
 INPUT ./fig/Comparison_MokkaDD4hepData_Muons_DD4heponly.eps
 INPUT ./fig/Comparison_MokkaDD4hepData_Muons_DD4heponly.eps
@@ -539,6 +546,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT CAN.aux
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb

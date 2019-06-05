@@ -1,265 +1,183 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
-{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\froman\fcharset0 TimesNewRomanPSMT;}
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red25\green60\blue255;\red0\green0\blue0;\red251\green0\blue255;
-}
+\red25\green60\blue255;\red0\green0\blue0;}
 {\*\expandedcolortbl;;\cssrgb\c12594\c35385\c100000;\cssrgb\c0\c1\c1;\cssrgb\c100000\c7248\c100000;
-}
+\cssrgb\c12594\c35385\c100000;\cssrgb\c0\c1\c1;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww22780\viewh17320\viewkind0
 \deftab720
 \pard\pardeftab720\sl280\partightenfactor0
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
-Comments to CAN-061 version from May 9 by Gerald Grenier
-\f1 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+Comments to CAN-061 version from May 9 by Gerald Grenier\kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 \
 \cf2 ====================\
 Suggestions and questions :\
-====================
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+====================\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 \
-\cf2 Line 26 : you might rename this section/correction by "Triggered channel occupancy correction"
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Line 26 : you might rename this section/correction by "Triggered channel occupancy correction"\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Done.\
 \
-\cf2 Line 54 : just a question for my curiosity : What would be the improvement of a 20 times faster clock on the results presented in the note ?
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Line 54 : just a question for my curiosity : What would be the improvement of a 20 times faster clock on the results presented in the note ?\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 This would have a direct impact on the time resolution. Ideally, it would divide the time resolution obtained in testbeam by 20, achieving a sub-nanosecond time resolution.\
 \
 \cf2 Line 91 : the sentence is not finished.\cf0 \
-Done.
-\f1 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+Done.\kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 \
-\cf2 Line 113 : What is a sub-hit ? One contribution by a crossing particle ? By a Geant4 step ?
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Line 113 : What is a sub-hit ? One contribution by a crossing particle ? By a Geant4 step ?\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 A sub-hit is a Geant4 step contribution. \
 \
-\cf2 Line 135 : Why hit energies below 10 MIP the range relevant for this analysis ? Are the EM core of the pion shower not with electron-like hit energy densities ?
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Line 135 : Why hit energies below 10 MIP the range relevant for this analysis ? Are the EM core of the pion shower not with electron-like hit energy densities ?\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Indeed, hits from the core of a pion shower has the same hit energy density as electron-like showers. However, I am more interested in this analysis by delayed/late hits in the pion shower that have generally little energy. \
 \
-\cf2 Line 141-142 : I don't understand the cog_z between 0 and 800 mm. I don't remember the width of a layer but with 1.7 cm absorber+the scintillator+the electronics, let's say it makes a thickness of 2.5 cm per layer. Then the last active layer at slot 31 is at position 31*25=775 mm. So all the hits will then be between 0 and 800 mm, so the cogz too and the cut will have no effect. What did I miss here ?
-\f1 \cf2 \kerning1\expnd0\expndtw0 \
-
-\f0 \cf2 \expnd0\expndtw0\kerning0
+\cf2 Line 141-142 : I don't understand the cog_z between 0 and 800 mm. I don't remember the width of a layer but with 1.7 cm absorber+the scintillator+the electronics, let's say it makes a thickness of 2.5 cm per layer. Then the last active layer at slot 31 is at position 31*25=775 mm. So all the hits will then be between 0 and 800 mm, so the cogz too and the cut will have no effect. What did I miss here ?\kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Also, how is cogz computed ?\cf0 \
-The cogs is calculated as the following. Cogz = Sum_i Ei zi / Sum_i Ei. This is a pre-selection as a box-cut in the plane cogz:nhits. I agree the cogz cut will not have an effect here, only the number of hits in order to reject possible contamination from other particles. \
+The cogs is calculated as the following. Cogz = Sum_i Ei zi / Sum_i Ei. This is a pre-selection as a box-cut in the plane cogz:nhits. I agree the cogz cut will not have an effect here, only the number of hits in order to reject possible contamination from other particles. I commented out the sentence on the centre of gravity.\
 \
-\cf2 Line 145 (at least 7 hits), line 148 (shown in table A4) and table A4 : the at least 7 hits are for layer 1 to 10. There is at least 2 in layer 11 to 14. Is it a sum ? Then for the full HCAL, that would be at least 9 hits, not 7.
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
-Two selections are done as up to layer 10, these are single HBUs - after these are 2x2 HBUs. It is possible for a muon to be outside the 12x12 tiles, therefore only at the maximum 4 hits can be seen - a selection of 2 hits minimum is used for these type of events. I added my thesis as reference.\
+\cf2 Line 145 (at least 7 hits), line 148 (shown in table A4) and table A4 : the at least 7 hits are for layer 1 to 10. There is at least 2 in layer 11 to 14. Is it a sum ? Then for the full HCAL, that would be at least 9 hits, not 7.\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
+Two selections are done as up to layer 10, these are single HBUs - after these are 2x2 HBUs. It is possible for a muon to be outside the 12x12 tiles, therefore only at the maximum 4 hits can be seen - a selection of 2 hits minimum is used for these type of events. I reformulated the sentence and the table + I added my thesis as reference.\
 \
-\cf2 line 166 : I would suppress "as these events would be instantaneous"
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 line 166 : I would suppress "as these events would be instantaneous"\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Done.\
 \
-\cf2 Line 171-179 : Why multiparticle events have delayed clusters ? It could be if they are due to 2 different beam particles interacting but if they are due to single beam particles starting to shower in the material before the calo, I don't see why it would lead to delayed clusters.\cf0 \
-Multi-particle events such as a pion shower and a muon have been observed. The time reference is given by the first particle interacting in the HCAL. If a second particle comes later, all hits from this particle will have late hits (relative to the time reference). These events need to be rejected as they can influence the amount of late hits (the right tail of the time distribution) in pion showers.
-\f1 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Line 171-179 : Why multi-particle events have delayed clusters ? It could be if they are due to 2 different beam particles interacting but if they are due to single beam particles starting to shower in the material before the calo, I don't see why it would lead to delayed clusters.\cf0 \
+Multi-particle events such as a pion shower and a muon have been observed. The time reference is given by the first particle interacting in the HCAL. If a second particle comes later, all hits from this particle will have late hits (relative to the time reference). These events need to be rejected as they can influence the amount of late hits (the right tail of the time distribution) in pion showers.\kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 \
-\cf2 Line 187 : I suggest the change "as also processes induced by EM showers are quasi-instantaneous"
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Line 187 : I suggest the change "as also processes induced by EM showers are quasi-instantaneous"\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Done. \
 \
-Section 5 :
-\f1 \kerning1\expnd0\expndtw0 \
-
-\f0 \cf2 \expnd0\expndtw0\kerning0
+Section 5 :\kerning1\expnd0\expndtw0 \
+\cf2 \expnd0\expndtw0\kerning0
 -- Are all time correction stable with time ? \
-\cf3 This has been verified by applying the extracted time constant (pedestal, slope, time-walk and number of trigger correction) to another testbeam period in 2016 (for the same hardware). Only the time reference has to be re-calibrated as the method to obtain it can be different dependent on the testbeam. It has been concluded that the constants are stable in time of course applied on the same hardware.
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \cf2 \expnd0\expndtw0\kerning0
+\cf3 This has been verified by applying the extracted time constant (pedestal, slope, time-walk and number of trigger correction) to another testbeam period in 2016 (for the same hardware). Only the time reference has to be re-calibrated as the method to obtain it can be different dependent on the testbeam. It has been concluded that the constants are stable in time, of course applied on the same hardware.\cf0 \kerning1\expnd0\expndtw0 \
+\cf2 \expnd0\expndtw0\kerning0
 -- Have you done the time calibration once for all ? For each run ? \cf0 \
-Yes the time calibration has been done once for all \'97 all runs together.
-\f1 \kerning1\expnd0\expndtw0 \
-
-\f0 \cf4 \expnd0\expndtw0\kerning0
--- I would suggest you modify figure 4 to add a definition for the various time variable along the correction. For example, t_0 fr the reconstructed time, t_1 after time offset correcction, ... Then you can label the axis of figures 7, 8, 9 , 10, 11 , ... with the proper variable name rather than calling exerything "Mean time of first hit". You can reserve this name for the "Final time".
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+Yes the time calibration has been done once for all \'97 all runs together.\kerning1\expnd0\expndtw0 \
+\cf4 \expnd0\expndtw0\kerning0
+-- I would suggest you modify figure 4 to add a definition for the various time variable along the correction. For example, t_0 fr the reconstructed time, t_1 after time offset correction, ... Then you can label the axis of figures 7, 8, 9 , 10, 11 , ... with the proper variable name rather than calling everything "Mean time of first hit". You can reserve this name for the "Final time".\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 \
-\cf2 Figure 5a : Sorry, I still don't get how the horizontal line at value mu is used to determine the position of the left vertical line.
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
-The position of the left line is determined as first bin above 30% of mu.\
+\cf2 Figure 5a : Sorry, I still don't get how the horizontal line at value mu is used to determine the position of the left vertical line.\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
+The position of the left line is determined as the bin centre of the first bin above 30% of the value of mu.\
 \
-\cf2 Line 232-240 : you speak here about the non-linearity correction between trigger channels. Then line 241-244, you explain that this correction is explaining the fact that figure 6a goes from 2 peaks to one peak due to the correction. You need to rephrase a bit these 2 paragraph. Maybe in paragraph lines 241-244 by mentionning there is more than one correction. 
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Line 232-240 : you speak here about the non-linearity correction between trigger channels. Then line 241-244, you explain that this correction is explaining the fact that figure 6a goes from 2 peaks to one peak due to the correction. You need to rephrase a bit these 2 paragraph. Maybe in paragraph lines 241-244 by mentioning there is more than one correction. \cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Only one correction is done here. The second order polynomial actually performs the correction of the non-linearity between the trigger channel as well as corrects at the same time for the difference in pedestals with the BXID parity. I reformulated the sentence.\
 \
-\cf2 Figure 6a : the mean and RMS mentionned in the figure don't match the values in the caption.\cf0 \
-Corrected.
-\f1 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Figure 6a : the mean and RMS mentioned in the figure don't match the values in the caption.\cf0 \
+Corrected.\kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 \
-\cf2 Figure 6b : How is the time reference uncertainty computed ?\cf0  
-\f1 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Figure 6b : How is the time reference uncertainty computed ?\cf0  \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Added the formula\
 \
-\cf2 Figure 7 : I think what is plotted here is the time of the first hit after the second box in figure 4 minus the trigger reference time. That would explain why you have negative time. See my comments on change in figure 4 to solve this kind of issue.
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Figure 7 : I think what is plotted here is the time of the first hit after the second box in figure 4 minus the trigger reference time. That would explain why you have negative time. See my comments on change in figure 4 to solve this kind of issue.\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Yes, what is plotted is the calibrated channel time minus the time reference of the event. This is plotted before the time offset correction.\
 \
-\cf2 Section 5.6 : I would add a sentence explaining that non linearity in the ramp are visible because we are subtracting 2 hit times obtained from 2 different ramps.\cf0  
-\f1 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Section 5.6 : I would add a sentence explaining that non linearity in the ramp are visible because we are subtracting 2 hit times obtained from 2 different ramps.\cf0  \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 I can\'92t quantify on how much the time reference impacts the non-linearity.. indeed we are subtracting two hit time obtained from different chips. However, it is known that the time slope for each chip is not linear and may be seen as the main effect in the figure.\
 \
-\cf4 Figure 10a : the legend is a bit small.
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf5 Figure 10a : the legend is a bit small.\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
+Made it bigger.\
 \
-\cf2 Line 322 : "for each bin in energy and radius" of what ? the EM shower ? the pion shower ? both ? The energy here is the energy in the cell or the energy of the incoming particle ?
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Line 322 : "for each bin in energy and radius" of what ? the EM shower ? the pion shower ? both ? The energy here is the energy in the cell or the energy of the incoming particle ?\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 For the plots shown later (time vs energy, time vs radius), the uncertainty is calculated for each bin. The number of hits contributing to each bin is calculated and categorised by the 3 zones as described in the text. The time uncertainty can then be calculated for each bins of hit energy and hit radius.\
 \
-\cf4 Line 362 : Why 10% and why 10% is a conservative uncertainty ?
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf4 Line 362 : Why 10% and why 10% is a conservative uncertainty ?\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 \
-\cf2 Table 4 : 
-\f1 \cf2 \kerning1\expnd0\expndtw0 \
-
-\f0 \cf2 \expnd0\expndtw0\kerning0
--- What is the typical size of the incertainty related to glabal time smearing parameters and number of triggered channels ? Could you add these number in the table.
-\f1 \cf2 \kerning1\expnd0\expndtw0 \
-
-\f0 \cf2 \expnd0\expndtw0\kerning0
--- For the distributions, could you refer to the figures in the table (TOFH are figures 12 to 14, hit energy is figure 15 and hit distance are figures 16 and 17)
-\f1 \cf2 \kerning1\expnd0\expndtw0 \
-
-\f0 \cf0 \expnd0\expndtw0\kerning0
+\
+\cf2 Table 4 : \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
+-- What is the typical size of the uncertainty related to global time smearing parameters and number of triggered channels ? Could you add these number in the table.\kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
+-- For the distributions, could you refer to the figures in the table (TOFH are figures 12 to 14, hit energy is figure 15 and hit distance are figures 16 and 17)\kerning1\expnd0\expndtw0 \
+\cf0 \expnd0\expndtw0\kerning0
 Added typical uncertainties and figures.\
 \
-\cf2 Line 384 "... the increase of the width." of the nuber of triggered channels in a chip ?
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Line 384 "... the increase of the width." of the number of triggered channels in a chip ?\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Corrected.\
 \
-\cf4 Figure 13 : legends are too small.
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf5 Figure 13 : legends are too small.\cf4 \
+\cf6 Corrected\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 \
-\cf4 Figure 14a : legend is too small. 
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \cf4 \expnd0\expndtw0\kerning0
-Figure 14a : Could you provide this figure with \'e9lctron and pions of the same energy. I'm expecting then the electron shower to have a broader peak. 
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf5 Figure 14a : legend is too small. \cf4 \
+\cf6 Done\cf0 \kerning1\expnd0\expndtw0 \
+\cf5 \expnd0\expndtw0\kerning0
+Figure 14a : Could you provide this figure with electron and pions of the same energy. I'm expecting then the electron shower to have a broader peak. \cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
+I added in additional plots, the figure with 50 GeV electrons. However, 10 GeV was chosen as 50 GeV are not very good runs and are more noisy - this may also be exacerbated by the increased number of triggered channels. Indeed, with increased energy, there is a slight tendency for electrons to have the width of the peak increased due to the increase in the\cf6  triggered channel occupancy.\cf0 \
+\cf5 Figure 14b : You might add a MC/data plot here like in figure 12. \cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
+Done.\
 \
-\cf4 Figure 14b : You might add a MC/data plot here like in figure 12. 
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf5 Line 397 : concerning the fit : For which part of histogram figure 14a is the fit done ? What happens to the fit results if you change the histogram range for the fit ? Is the fit result pion energy dependent ?\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
+The same fit model as T3B was used to be able to compare things. The fit is performed in several steps. First the constant is fitted between 500 ns and 2 us. A new histogram is then made subtracting the noise floor. Secondly, the fast component is fixed and the slow component is fitted between 90 ns and 2 us. Finally, the slow component is fixed and the fast component is fitted between 10 ns and 2 us.\
+See Additional plots for the fit results per energy. As shown in the table 1, the fit values are compatible up to 50 GeV - For higher beam energies, the value differ a bit that may be due to the fact that the EM fraction of a pion shower increases with energy, therefore the width of the time distribution also increases (due to a higher \cf3 triggered channel occupancy) - this may influence the fitted values.\cf0 \
 \
-\cf4 Line 397 : concerning the fit : For which part of histogram figure 14a is the fit done ? What happens to the fit results if you change the histogram range for the fit ? Is the fit result pion energy dependent ?
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
-\
-\cf2 Line 404 : you mean "does NOT match well" ? 
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Line 404 : you mean "does NOT match well" ? \cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Corrected \
-\
-\cf4 Line 411 : Have you checkes the no hit energy dependence for muon and electron beam ? Can you provide a plot like figure 15 for muon and electron data ?
-\f1 \cf4 \kerning1\expnd0\expndtw0 \
-
-\f0 \cf4 \expnd0\expndtw0\kerning0
-I would also remove the "as these are quasi instantaneous"
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf5 \
+Line 411 : Have you checked the no hit energy dependence for muon and electron beam ? Can you provide a plot like figure 15 for muon and electron data ?\cf5 \kerning1\expnd0\expndtw0 \
+\cf5 \expnd0\expndtw0\kerning0
+I would also remove the "as these are quasi instantaneous"\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Yes this was checked. See additional plot.\
 \
-\cf2 figure 15 : Is the data curve the same for other pion energy. If yes, would it make sense to combine all the pion energies to reduce the uncertainties ?
-\f1 \cf2 \kerning1\expnd0\expndtw0 \
-
-\f0 \cf2 \expnd0\expndtw0\kerning0
-On this figure, the gerey band is uncertainties for the data only or for the data and the MC ? If only data, what would be the error bar size on the MC curves ? 
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 figure 15 : Is the data curve the same for other pion energy. If yes, would it make sense to combine all the pion energies to reduce the uncertainties ?\kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
+On this figure, the grey band is uncertainties for the data only or for the data and the MC ? If only data, what would be the error bar size on the MC curves ? \cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 The curve is not the same for other pion energies see additional plots - the uncertainty here is dominated by the systematic due to the number of triggered channel in a chip.\
 The grey band is the uncertainties for the data - the error bars on the MC are small.\
 \
-\cf2 Line 432 : 9ns : it is more 8 ns on figure 16a
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Line 432 : 9ns : it is more 8 ns on figure 16a\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Done.\
 \
-\cf2 Line 438 : The observations for other beam energies are similar : Can we combined many pion energies in a single plot to reduce the uncertainties then ? 
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Line 438 : The observations for other beam energies are similar : Can we combined many pion energies in a single plot to reduce the uncertainties then ? \cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Not possible as the uncertainty is dominated by the systematics (number of triggered channel in a chip)\
 \
-\cf2 Figure 16 caption : the grey and color bands show the systematics. How about the statistical uncerainties ? 
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Figure 16 caption : the grey and colour bands show the systematics. How about the statistical uncertainties ? \cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Corrected. The band showed are systematics and statistical uncertainties.\
 \
 \cf2 =====================\
-Minor corrections and typos :
-\f1 \cf2 \kerning1\expnd0\expndtw0 \
-
-\f0 \cf2 \expnd0\expndtw0\kerning0
+Minor corrections and typos :\kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 =====================\cf0 \
 \
-\cf2 Line 41 : I would put reference [4,5] (line 49) at the end of the sentence line 41. 
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Line 41 : I would put reference [4,5] (line 49) at the end of the sentence line 41. \cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Done.\
 \
-\cf2 Caption of figure 3 Delta_t instead of Delta t.
-\f1 \cf0 \kerning1\expnd0\expndtw0 \
-
-\f0 \expnd0\expndtw0\kerning0
+\cf2 Caption of figure 3 Delta_t instead of Delta t.\cf0 \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Done.\
 \
 \pard\pardeftab720\partightenfactor0
-\cf4 Figures 12 and 13 : Can you avoid the cut numbers on the intersection of the 2 vertical axis of the plots ?}
+\cf5 Figures 12 and 13 : Can you avoid the cut numbers on the intersection of the 2 vertical axis of the plots ?\cf4 \
+\cf6 Done.}

@@ -1,8 +1,6 @@
 %!TeX spellcheck = en-US
 %!TEX root = CAN.tex
 \documentclass{JINST}
-\let\ifpdf\relax
-\pdfminorversion=4
 
 \usepackage{graphicx}
 \usepackage[position=b]{subcaption}
@@ -135,7 +133,9 @@ A more detailed description of the selections applied can be read in \cite{Brian
 
 \subsection{Muon selection}
 
-To select muons, an event pre-selection and a track finder \cite{Hartbrich:2016bbz} selection is performed. A cut on the maximum number of hits ($n_{hits}$) in the AHCAL is done at 20 as the number of hits should be around 1 per layer for a MIP-like particle plus the number of noise hits expected in the detector. Additionally, a cut on the energy-weighted center of gravity along the z-axis ($cog_{z} = \frac{\Sigma_{i} E_{i}z_{i}}{\Sigma_{i} E_{i}}$) is done between 0 and 800 mm as the center of gravity is expected to be centered in the calorimeter on the z coordinate due to muons depositing around the same energy for each layer. The track finder algorithm selects AHCAL towers of hits in the same $x:y$ position and it rejects AHCAL towers that contain less than a certain number of hits. In order to select muons, a straight track of at least 7 hits is required in the whole AHCAL. In addition, to reject pions showering deep in the detector, no more than 2 hits are allowed per layer to account for some flexibility with noise hits. A summary of the muon selection is shown in Table \ref{table:muon_sel}. The selection efficiency is 72.5\% for muons, <0.1\% for electrons and 5\% for pions which is compatible with the fraction of pion traversing the AHCAL without hard interaction.
+To select muons, an event pre-selection and a track finder \cite{Hartbrich:2016bbz} selection is performed. A cut on the maximum number of hits ($n_{hits}$) in the AHCAL is done at 20 as the number of hits should be around 1 per layer for a MIP-like particle plus the number of noise hits expected in the detector.
+% Additionally, a cut on the energy-weighted center of gravity along the z-axis ($cog_{z} = \frac{\Sigma_{i} E_{i}z_{i}}{\Sigma_{i} E_{i}}$) is done between 0 and 800 mm as the center of gravity is expected to be centered in the calorimeter on the z coordinate due to muons depositing around the same energy for each layer.
+The track finder algorithm selects AHCAL towers of hits in the same $x:y$ position and it rejects AHCAL towers that contain less than a certain number of hits. In order to select muons, a straight track of at least 7 hits is required in the first ten layers of the AHCAL. Outside of the inner 12x12 tile area, a straight track of at least 2 hits in the last 4 layers is required. In addition, to reject pions showering deep in the detector, no more than 2 hits are allowed per layer to account for some flexibility with noise hits. A summary of the muon selection is shown in Table \ref{table:muon_sel}. The selection efficiency is 72.5\% for muons, <0.1\% for electrons and 5\% for pions which is compatible with the fraction of pion traversing the AHCAL without hard interaction.
 
 \subsection{Electron selection}
 
@@ -446,7 +446,7 @@ Figure \ref{fig:dNdt_Data} shows the time of first hit for muons, 10 GeV electro
   \end{subfigure}
   \hfill
   \begin{subfigure}[t]{0.49\textwidth}
-    \includegraphics[width=1\textwidth]{fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep.eps}
+    \includegraphics[width=1\textwidth]{fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep_Ratio.eps}
     \caption{}\label{fig:dNdt_SimData_50GeV_DD4hep}
   \end{subfigure}
   \caption{\subref{fig:dNdt_Data}) Time of first hit for muons, electrons and pions in steel absorber in a range of -100 to 250 ns. The histograms are normalized to the number of events where at least one hit was identified. The errors bars are statistical and systematic uncertainties. The lines represent the fit to the data as explained in the text. \subref{fig:dNdt_SimData_50GeV_DD4hep}) Comparison of the time of first hit distribution for 50 GeV pions in data and three different physics list for the \ddhep simulation. The grey and color bands shows the statistical and systematic uncertainties.}
@@ -619,7 +619,7 @@ Secondly, the study of the time development of pion showers was presented. The l
     \midrule
     \multirow{2}{*}{Track Selection (Modules 1 to 10)}& All & $n_{hits}$ in AHCAL tower > 7 \\& All & $n_{hits}$ in a layer < 3 \\
     \midrule
-    \multirow{2}{*}{Track Selection (Modules 11 to 14)}& All & $n_{hits}$ in AHCAL tower > 2 \\& All & $n_{hits}$ in a layer < 3 \\
+    \multirow{2}{*}{Track Selection (Modules 11 to 14) outside of inner 12x12 area}& All & $n_{hits}$ in AHCAL tower > 2 \\& All & $n_{hits}$ in a layer < 3 \\
     \bottomrule
   \end{tabular}
 \end{table}

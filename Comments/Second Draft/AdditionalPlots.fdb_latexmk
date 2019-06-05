@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1559749083 "AdditionalPlots.xdv" "AdditionalPlots.pdf" "AdditionalPlots" 1559749086
-  "AdditionalPlots.xdv" 1559749083 4708 29e5473740857fa410474fc03f401744 "xelatex"
+["xdvipdfmx"] 1559749059 "AdditionalPlots.xdv" "AdditionalPlots.pdf" "AdditionalPlots" 1559749142
+  "AdditionalPlots.xdv" 1559749059 6628 27820814d69ba37a686dc2e03f7d6a80 "xelatex"
   (generated)
   "AdditionalPlots.pdf"
-["xelatex"] 1559749083 "AdditionalPlots.tex" "AdditionalPlots.xdv" "AdditionalPlots" 1559749086
+["xelatex"] 1559749058 "AdditionalPlots.tex" "AdditionalPlots.xdv" "AdditionalPlots" 1559749142
   "../../Draft/fig/Radius_ShowerStartTruth.eps" 1525875374 9611 b42917d6e68093be5d02f2fa9e91c9cc ""
   "../../Draft/fig/Radius_ShowerStartTruth_FixedModule.eps" 1525875374 10014 1e4d1db4e7aec115b99cf893525d921f ""
   "../../Draft/fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep.eps" 1525875018 65987 3e4d983c9cc610453ae113262f045fda ""
@@ -12,9 +12,11 @@
   "../../Draft/fig/Time_Correlation_long.eps" 1528123095 74011 e95fe16fc701a2d54761d50f0b81de06 ""
   "../../Draft/fig/Time_Correlation_long_Zoom.eps" 1528123099 21194 423ea1e2cbf4d45aae0d897ff8263b66 ""
   "../../Draft/fig/Time_Correlation_short.eps" 1528123104 36644 31fcfd2e87f1e63b577bfbe6bed80716 ""
+  "../../Draft/fig/Timing_Energy_Comparison_ShortAsymRange.eps" 1527235384 14184 73154f3ff0745dffa67e922ff2fa0190 ""
   "../../Draft/fig/Timing_Radius_Comparison_ShortAsymRange_ShowerStart.eps" 1527160931 9704 1cf08c24d4dfb37071c946c11e5f3397 ""
   "../../Draft/fig/Timing_Radius_Comparison_ShortAsymRange_ShowerStart_FixedModule.eps" 1527160931 10782 620c0007473a19570059169e7dda97cf ""
-  "/dev/null" 1559749015 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "../../Draft/fig/Timing_dNdt_Comparison_50GeVe.eps" 1559736052 67019 23668de5870001d6118a3eeb7a4549c1 ""
+  "/dev/null" 1559749106 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -103,9 +105,9 @@
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1544742277 35176 ce7fee66be1fb01dfc6b702a7dbfa0ea ""
   "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1550601710 3737826 764cb4c2f371f0ed3269baf6969906d8 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "AdditionalPlots.aux" 1559749083 3683 cbb1ac59e4155c47cc225015a88bf410 ""
-  "AdditionalPlots.tex" 1559749081 5302 ddc145ce53b279f8bc64ea32a33e5eae ""
+  "AdditionalPlots.aux" 1559749059 4749 8d22cbd6c3107b47cf681d3a75413892 ""
+  "AdditionalPlots.tex" 1559749057 6923 2f0795a8dbd760a988ab1a3a7efa0ae9 ""
   (generated)
   "AdditionalPlots.log"
-  "AdditionalPlots.xdv"
   "AdditionalPlots.aux"
+  "AdditionalPlots.xdv"

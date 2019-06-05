@@ -113,5 +113,43 @@
   \label{fig:TimeCorr_long_50GeV_Zoom}
 \end{figure}
 
+\newpage
+\section{Additional Plots Second Draft}
+
+\begin{figure}[htbp!]
+  \begin{subfigure}[t]{0.49\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{../../Draft/fig/Timing_dNdt_Comparison_50GeVe.eps}
+    \caption{} \label{fig:dNdt_Data_50GeVe}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.49\textwidth}
+    \centering
+    \includegraphics[width=1\textwidth]{../../Draft/fig/Timing_Energy_Comparison_ShortAsymRange.eps}
+    \caption{} \label{fig:Energy_Data_all}
+  \end{subfigure}
+  \caption{On the left, Time of first hit for muons, electrons and pions in steel absorber in a range of -100 to 250 ns. The histograms are normalized to the number of events where at least one hit was identified. The errors bars are statistical and systematic uncertainties. On the right, Comparison of the mean time of first hit as a function of the hit energy in data for muons, electrons and pions. The grey band shows the statistical and systematic uncertainties for pions.}
+\end{figure}
+
+\begin{table}[htb!]
+  \centering
+  \caption{Fit results of the double exponential for each pion energies.}
+  \label{table:expotime_pions}
+  \begin{tabular}{@{} lccc @{}}
+    \toprule
+    Pion energy [GeV] & $\tau_{fast}$ [ns] & $\tau_{slow}$ [ns] & c \\
+    \midrule
+    10 & $5.61 \pm 0.36$ & $285 \pm 52$ & 5.9e-6 \\
+    \midrule
+    30 & $6.05 \pm 0.32$ & $310 \pm 41$ & 1.4e-5 \\
+    \midrule
+    50 & $6.21 \pm 0.30$ & $343 \pm 39$ & 3.0e-5 \\
+    \midrule
+    70 & $7.19 \pm 0.31$ & $333 \pm 35$ & 5.4e-5 \\
+    \midrule
+    90 & $7.41 \pm 0.32$ & $320 \pm 33$ & 3.0e-5 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 \end{document}

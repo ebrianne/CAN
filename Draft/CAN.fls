@@ -248,6 +248,10 @@ INPUT fig/ExampleTDCSpectra.eps
 INPUT fig/ExampleTDCSpectra.eps
 INPUT fig/SlopesTDC.eps
 INPUT fig/SlopesTDC.eps
+INPUT fig/Profiles_DeviationT0_12_14.eps
+INPUT fig/Profiles_DeviationT0_12_14.eps
+INPUT fig/Profiles_DeviationT0_12_14_Corrected.eps
+INPUT fig/Profiles_DeviationT0_12_14_Corrected.eps
 INPUT fig/T0_Resolution_5.eps
 INPUT fig/T0_Resolution_5.eps
 INPUT fig/T0ReferenceError.eps
@@ -284,10 +288,6 @@ INPUT fig/Time_Radius_50GeV_SSF_DD4hep.eps
 INPUT fig/Time_Radius_50GeV_SSF_DD4hep.eps
 INPUT fig/Time_Radius_50GeV_BL_DD4hep.eps
 INPUT fig/Time_Radius_50GeV_BL_DD4hep.eps
-INPUT fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.eps
-INPUT fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.eps
-INPUT fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.eps
-INPUT fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.eps
 INPUT CAN.bbl
 INPUT CAN.bbl
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.2.19)  5 JUN 2019 17:37
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.2.19)  6 JUN 2019 15:34
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -546,6 +546,8 @@ File: ../../Draft/fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep_Zoom.eps Gra
  [1
 
 ] [2]
+File: ../../Draft/fig/ExampleTDCSpectra_zoomleft.eps Graphic file (type eps)
+<../../Draft/fig/ExampleTDCSpectra_zoomleft.eps>
 File: ../../Draft/fig/Timing_dNdt_Comparison_50GeVe.eps Graphic file (type eps)
 <../../Draft/fig/Timing_dNdt_Comparison_50GeVe.eps>
 File: ../../Draft/fig/Timing_Energy_Comparison_ShortAsymRange.eps Graphic file (type eps)
@@ -553,12 +555,12 @@ File: ../../Draft/fig/Timing_Energy_Comparison_ShortAsymRange.eps Graphic file (
  [3] [4] (./AdditionalPlots.aux) )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 15869 strings out of 492933
- 314439 string characters out of 6133145
- 328170 words of memory out of 5000000
- 19780 multiletter control sequences out of 15000+600000
+ 15873 strings out of 492933
+ 314606 string characters out of 6133145
+ 328230 words of memory out of 5000000
+ 19783 multiletter control sequences out of 15000+600000
  558959 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 42i,9n,40p,618b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,9n,40p,618b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on AdditionalPlots.xdv (4 pages, 6628 bytes).
+Output written on AdditionalPlots.xdv (4 pages, 7188 bytes).

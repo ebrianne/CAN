@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.2.19)  5 JUN 2019 17:34
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.2.19)  6 JUN 2019 17:52
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -634,6 +634,10 @@ File: fig/ExampleTDCSpectra.eps Graphic file (type eps)
 File: fig/SlopesTDC.eps Graphic file (type eps)
 <fig/SlopesTDC.eps>
  [9]
+File: fig/Profiles_DeviationT0_12_14.eps Graphic file (type eps)
+<fig/Profiles_DeviationT0_12_14.eps>
+File: fig/Profiles_DeviationT0_12_14_Corrected.eps Graphic file (type eps)
+<fig/Profiles_DeviationT0_12_14_Corrected.eps>
 File: fig/T0_Resolution_5.eps Graphic file (type eps)
 <fig/T0_Resolution_5.eps>
 File: fig/T0ReferenceError.eps Graphic file (type eps)
@@ -641,11 +645,12 @@ File: fig/T0ReferenceError.eps Graphic file (type eps)
  [10]
 File: fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.eps Graphic file (type eps)
 <fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.eps>
+ [11]
 File: fig/LinearityCorrection_Module09_Chip146_BXID0.eps Graphic file (type eps)
 <fig/LinearityCorrection_Module09_Chip146_BXID0.eps>
 File: fig/Timing_AHCAL_LinCorrection.eps Graphic file (type eps)
 <fig/Timing_AHCAL_LinCorrection.eps>
- [11]
+ [12]
 File: fig/TimeWalkProfile.eps Graphic file (type eps)
 <fig/TimeWalkProfile.eps>
 File: fig/Timing_AHCAL_AllCorrection.eps Graphic file (type eps)
@@ -654,24 +659,30 @@ File: fig/NumberHits_Dependance_AllEnergies.eps Graphic file (type eps)
 <fig/NumberHits_Dependance_AllEnergies.eps>
 File: fig/ParametrisationPedestalShift_20GeV.eps Graphic file (type eps)
 <fig/ParametrisationPedestalShift_20GeV.eps>
- [12]
 File: fig/CheckCorrection.eps Graphic file (type eps)
 <fig/CheckCorrection.eps>
+ [13]
+Underfull \vbox (badness 4341) has occurred while \output is active []
 
-Underfull \vbox (badness 2173) has occurred while \output is active []
+ [14] [15]
 
- [13] [14] [15]
+LaTeX Warning: Reference `fig:Radius_Individual_Data_50GeV' on page 16 undefined on input line 425.
+
 File: fig/Comparison_MokkaDD4hepData_Muons_DD4heponly.eps Graphic file (type eps)
 <fig/Comparison_MokkaDD4hepData_Muons_DD4heponly.eps>
+[16]
 File: fig/Comparison_SimData_Electrons50GeV_DD4heponly.eps Graphic file (type eps)
 <fig/Comparison_SimData_Electrons50GeV_DD4heponly.eps>
 File: fig/Comparison_SimData_Electrons_nHits_50GeV_DD4heponly.eps Graphic file (type eps)
 <fig/Comparison_SimData_Electrons_nHits_50GeV_DD4heponly.eps>
- [16] [17]
+ [17]
 File: fig/Timing_dNdt_Comparison.eps Graphic file (type eps)
 <fig/Timing_dNdt_Comparison.eps>
 File: fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep_Ratio.eps Graphic file (type eps)
 <fig/Comparison_SimData_Pion50GeV_LateClusters_DD4hep_Ratio.eps>
+
+Underfull \vbox (badness 2547) has occurred while \output is active []
+
  [18]
 File: fig/Time_Energy_50GeV_DD4hep.eps Graphic file (type eps)
 <fig/Time_Energy_50GeV_DD4hep.eps>
@@ -680,34 +691,21 @@ File: fig/Time_Radius_50GeV_SSF_DD4hep.eps Graphic file (type eps)
 <fig/Time_Radius_50GeV_SSF_DD4hep.eps>
 File: fig/Time_Radius_50GeV_BL_DD4hep.eps Graphic file (type eps)
 <fig/Time_Radius_50GeV_BL_DD4hep.eps>
-File: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.eps Graphic file (type eps)
-<fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers.eps>
-File: fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.eps Graphic file (type eps)
-<fig/Timing_Radius_Comparison_ShortAsymRange_IndividualLayers_Sim.eps>
+ [20] (./CAN.bbl [21]) [22] [23
 
-Underfull \vbox (badness 4940) has occurred while \output is active []
+] [24] [25] (./CAN.aux)
 
- [20] (./CAN.bbl [21]) [22]
-Overfull \hbox (49.53677pt too wide) in paragraph at lines 614--625
- [][] 
- []
+LaTeX Warning: There were undefined references.
 
-
-Overfull \hbox (17.32916pt too wide) in paragraph at lines 631--640
- [][] 
- []
-
-[23
-
-] [24] [25] (./CAN.aux) )
+ )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 16031 strings out of 492933
- 315796 string characters out of 6133145
- 336743 words of memory out of 5000000
- 19905 multiletter control sequences out of 15000+600000
+ 16032 strings out of 492933
+ 315578 string characters out of 6133145
+ 337744 words of memory out of 5000000
+ 19906 multiletter control sequences out of 15000+600000
  600018 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  42i,14n,49p,2175b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CAN.xdv (26 pages, 100348 bytes).
+Output written on CAN.xdv (26 pages, 101444 bytes).

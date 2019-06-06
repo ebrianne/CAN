@@ -184,6 +184,8 @@ INPUT ../../Draft/fig/Time_Correlation_long_Zoom.eps
 INPUT ../../Draft/fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep_Zoom.eps
 INPUT ../../Draft/fig/Time_Correlation_50GeV_long_QGSPBERTHP_DD4hep_Zoom.eps
 OUTPUT AdditionalPlots.xdv
+INPUT ../../Draft/fig/ExampleTDCSpectra_zoomleft.eps
+INPUT ../../Draft/fig/ExampleTDCSpectra_zoomleft.eps
 INPUT ../../Draft/fig/Timing_dNdt_Comparison_50GeVe.eps
 INPUT ../../Draft/fig/Timing_dNdt_Comparison_50GeVe.eps
 INPUT ../../Draft/fig/Timing_Energy_Comparison_ShortAsymRange.eps

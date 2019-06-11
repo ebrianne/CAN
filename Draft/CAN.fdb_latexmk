@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex CAN"] 1560266922 "CAN.aux" "CAN.bbl" "CAN" 1560266937
+["bibtex CAN"] 1560266922 "CAN.aux" "CAN.bbl" "CAN" 1560267607
   "./JHEP.bst" 1525875018 20366 831a28ea1bdab239787a5f8d5fe1ce22 ""
   "CAN.aux" 1560266924 17765 232c896c600b83be2acce494d81092a0 ""
   "biblio.bib" 1560262947 12534 4c4edab07bf02169b343e5972a6d96e8 ""
   (generated)
-  "CAN.bbl"
   "CAN.blg"
-["xdvipdfmx"] 1560266925 "CAN.xdv" "CAN.pdf" "CAN" 1560266937
+  "CAN.bbl"
+["xdvipdfmx"] 1560266925 "CAN.xdv" "CAN.pdf" "CAN" 1560267607
   "CAN.xdv" 1560266924 104000 68694ed6f2f92f9737d850c50aa0e568 "xelatex"
   (generated)
   "CAN.pdf"
-["xelatex"] 1560266922 "CAN.tex" "CAN.xdv" "CAN" 1560266937
-  "/dev/null" 1560266917 0 d41d8cd98f00b204e9800998ecf8427e ""
+["xelatex"] 1560266922 "CAN.tex" "CAN.xdv" "CAN" 1560267607
+  "/dev/null" 1560267591 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm" 1480098688 1384 4632f5e54900a7dadbb83f555bc61e56 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm" 1480098688 6628 34c39492c0adc454c1c199922bba8363 ""
@@ -140,7 +140,7 @@
   "fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.eps" 1525875018 11711 02c753af76d5ac4c81000cbc95cbe40b ""
   "fig/Timing_dNdt_Comparison.eps" 1559735888 67036 7344b8179af837de6e69e397865d4b7b ""
   (generated)
+  "CAN.toc"
   "CAN.log"
   "CAN.aux"
-  "CAN.toc"
   "CAN.xdv"

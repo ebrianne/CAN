@@ -1,9 +1,9 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red25\green60\blue255;\red0\green0\blue0;\red251\green0\blue255;
-}
+\red25\green60\blue255;}
 {\*\expandedcolortbl;;\cssrgb\c12594\c35385\c100000;\cssrgb\c0\c1\c1;\cssrgb\c100000\c7248\c100000;
-}
+\cssrgb\c12594\c35385\c100000;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww22780\viewh17320\viewkind0
 \deftab720
 \pard\pardeftab720\sl280\partightenfactor0
@@ -37,8 +37,8 @@ A sub-hit is a Geant4 step contribution. \
 \expnd0\expndtw0\kerning0
 Indeed, hits from the core of a pion shower has the same hit energy density as electron-like showers. However, I am more interested in this analysis by delayed/late hits in the pion shower that have generally little energy. \
 \
-\cf2 Line 141-142 : I don't understand the cog_z between 0 and 800 mm. I don't remember the width of a layer but with 1.7 cm absorber+the scintillator+the electronics, let's say it makes a thickness of 2.5 cm per layer. Then the last active layer at slot 31 is at position 31*25=775 mm. So all the hits will then be between 0 and 800 mm, so the cogz too and the cut will have no effect. What did I miss here ?\cf2 \kerning1\expnd0\expndtw0 \
-\cf2 \expnd0\expndtw0\kerning0
+\cf2 Line 141-142 : I don't understand the cog_z between 0 and 800 mm. I don't remember the width of a layer but with 1.7 cm absorber+the scintillator+the electronics, let's say it makes a thickness of 2.5 cm per layer. Then the last active layer at slot 31 is at position 31*25=775 mm. So all the hits will then be between 0 and 800 mm, so the cogz too and the cut will have no effect. What did I miss here ?\kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 Also, how is cogz computed ?\cf0 \
 The cogs is calculated as the following. Cogz = Sum_i Ei zi / Sum_i Ei. This is a pre-selection as a box-cut in the plane cogz:nhits. I agree the cogz cut will not have an effect here, only the number of hits in order to reject possible contamination from other particles. I commented out the sentence on the centre of gravity.\
 \
@@ -106,16 +106,17 @@ Made it bigger.\
 For the plots shown later (time vs energy, time vs radius), the uncertainty is calculated for each bin. The number of hits contributing to each bin is calculated and categorised by the 3 zones as described in the text. The time uncertainty can then be calculated for each bins of hit energy and hit radius.\
 \
 \pard\pardeftab720\sl280\partightenfactor0
-\cf4 Line 362 : Why 10% and why 10% is a conservative uncertainty ?\cf0 \kerning1\expnd0\expndtw0 \
+\cf5 Line 362 : Why 10% and why 10% is a conservative uncertainty ?\cf0 \kerning1\expnd0\expndtw0 \
 \pard\pardeftab720\sl280\partightenfactor0
 \cf0 \expnd0\expndtw0\kerning0
+This uncertainty is difficult to evaluate\'85 \
+The most uncertain part in the analysis concerning the number of true single pion events is the fraction of multi-particle events which are difficult to remove from events as the calorimeter is not fully equipped. It is believed that the contamination from such events is in the percent level therefore a 10% uncertainty seem adequate. Looking at the paper by T3B, they assign a 10% uncertainty on the number of true pions when comparing dN/dt distributions. \
 \
-\
-\cf2 Table 4 : \cf2 \kerning1\expnd0\expndtw0 \
-\cf2 \expnd0\expndtw0\kerning0
--- What is the typical size of the uncertainty related to global time smearing parameters and number of triggered channels ? Could you add these number in the table.\cf2 \kerning1\expnd0\expndtw0 \
-\cf2 \expnd0\expndtw0\kerning0
--- For the distributions, could you refer to the figures in the table (TOFH are figures 12 to 14, hit energy is figure 15 and hit distance are figures 16 and 17)\cf2 \kerning1\expnd0\expndtw0 \
+\cf2 Table 4 : \kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
+-- What is the typical size of the uncertainty related to global time smearing parameters and number of triggered channels ? Could you add these number in the table.\kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
+-- For the distributions, could you refer to the figures in the table (TOFH are figures 12 to 14, hit energy is figure 15 and hit distance are figures 16 and 17)\kerning1\expnd0\expndtw0 \
 \cf0 \expnd0\expndtw0\kerning0
 Added typical uncertainties and figures.\
 \
@@ -150,14 +151,14 @@ See Additional plots for the fit results per energy. As shown in the table 1, th
 \expnd0\expndtw0\kerning0
 Corrected \
 \cf2 \
-Line 411 : Have you checked the no hit energy dependence for muon and electron beam ? Can you provide a plot like figure 15 for muon and electron data ?\cf2 \kerning1\expnd0\expndtw0 \
-\cf2 \expnd0\expndtw0\kerning0
+Line 411 : Have you checked the no hit energy dependence for muon and electron beam ? Can you provide a plot like figure 15 for muon and electron data ?\kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 I would also remove the "as these are quasi instantaneous"\cf0 \kerning1\expnd0\expndtw0 \
 \expnd0\expndtw0\kerning0
 Yes this was checked. See additional plot.\
 \
-\cf2 figure 15 : Is the data curve the same for other pion energy. If yes, would it make sense to combine all the pion energies to reduce the uncertainties ?\cf2 \kerning1\expnd0\expndtw0 \
-\cf2 \expnd0\expndtw0\kerning0
+\cf2 figure 15 : Is the data curve the same for other pion energy. If yes, would it make sense to combine all the pion energies to reduce the uncertainties ?\kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 On this figure, the grey band is uncertainties for the data only or for the data and the MC ? If only data, what would be the error bar size on the MC curves ? \cf0 \kerning1\expnd0\expndtw0 \
 \expnd0\expndtw0\kerning0
 The curve is not the same for other pion energies see additional plots - the uncertainty here is dominated by the systematic due to the number of triggered channel in a chip.\
@@ -176,8 +177,8 @@ Not possible as the uncertainty is dominated by the systematics (number of trigg
 Corrected. The band showed are systematics and statistical uncertainties.\
 \
 \cf2 =====================\
-Minor corrections and typos :\cf2 \kerning1\expnd0\expndtw0 \
-\cf2 \expnd0\expndtw0\kerning0
+Minor corrections and typos :\kerning1\expnd0\expndtw0 \
+\expnd0\expndtw0\kerning0
 =====================\cf0 \
 \
 \cf2 Line 41 : I would put reference [4,5] (line 49) at the end of the sentence line 41. \cf0 \kerning1\expnd0\expndtw0 \

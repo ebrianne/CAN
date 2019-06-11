@@ -287,19 +287,28 @@ Finally, the time reference ($T_{ref}$) is calculated as the mean of T$_{12}$, T
 The time reference of the trigger is delayed compared to the muon passing through the detector because of the length of cables and the trigger electronics logic. Therefore, the time offset of the time reference is determined from data. The physical process induced by muons is instantaneous, therefore the difference of the hit time and the time reference for each channel, memory cell and BXID should be a distribution that is centered at 0 ns.
 
 \begin{figure}[htbp!]
-  \centering
-  \includegraphics[width=0.6\textwidth]{fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.eps}
-  \caption{Time of first hit distribution for a single channel (Chip 236, Chn 21, Mem 01, BXID 1). An offset of -165.3 ns is determined for this channel.}\label{fig:TimeChnwithOffset}
+  \begin{subfigure}[t]{0.49\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.eps}
+    \caption{} \label{fig:TimeChnwithOffset}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.49\textwidth}
+    \centering
+    \includegraphics[width=1\linewidth]{fig/AllExtractedOffsets.eps}
+    \caption{} \label{fig:AllExtractedOffsets}
+  \end{subfigure}
+  \caption{\subref{fig:TimeChnwithOffset}) Time of first hit distribution for a single channel (Chip 236, Chn 21, Mem 01, BXID 1). An offset of -165.3 ns is determined for this channel. \subref{fig:AllExtractedOffsets}) Distribution of the time offsets extracted for all chips, channels, memory cells and bunch-crossing. The mean value is around the expected value of -150 ns considering cable length and trigger logic electronics.}
 \end{figure}
 
 A procedure has been developed that takes into account delays due to signal propagation and differences in channel pedestals. Only memory-cells containing more than 100 events are considered. The histogram interval $t_{max} \pm RMS$ where $t_{max}$ corresponds to the time at the center of the maximum bin, is reduced iteratively, until the RMS of the distribution is smaller than 10 ns. This value corresponds to more than 3 sigmas of the time reference uncertainty. The mean of the histogram is then used as the time offset value. An example of a single channel is shown in figure \ref{fig:TimeChnwithOffset}.
 
-In total, 21040 individual offsets are extracted from data. The mean value of the time offset is around -150 ns which is around the expected value considering the cabling length and the trigger logic delay. This procedure also corrects for the time of flight of particles within the detector.
+In total, 21040 individual offsets are extracted from data. The mean value of the time offset for all channels is around -150 ns (see figure \ref{fig:AllExtractedOffsets}). This is around the expected value considering the cabling length and the trigger logic delay. This procedure also corrects for the time of flight of particles within the detector.
 
 \subsection{Non-linearity correction}
 \label{sec:Non-linCorr}
 
-The time calibration relies on the linearity of the TDC voltage ramp in the \textit{SPIROC2B}. However, this assumption is not entirely reliable as shown in subsection \ref{subsec:TimeRefCalib}. The voltage slope shows a slight kink around the middle thus leading to a non-linear ramp. For this, a correction is applied. By investigating the time of the first hit for each chip and BXID parity as a function of the TDC value of the hit, the shape of the graph indicates how reliable is the assumption of a linear ramp. If the ramp would be perfectly linear, one would obtain a flat graph. To correct for the non-linearity of the ramp, a $2^{nd}$ order polynomial is used. An example of a typical chip is shown in figure \ref{fig:NLCorr}. The time resolution before and after the non-linearity correction are compared in figure \ref{fig:TimingNLCorr}, showing an improvement by about 5.1\%.
+The time calibration relies on the linearity of the TDC voltage ramp in the \textit{SPIROC2B}. However, this assumption is not entirely reliable as shown in subsection \ref{subsec:TimeRefCalib}. The voltage slope shows a slight kink around the middle thus leading to a non-linear ramp. For this, a correction is applied. By investigating the time of the first hit for each chip and BXID parity as a function of the TDC value of the hit, the shape of the graph indicates how reliable is the assumption of a linear ramp. If the ramp would be perfectly linear, one would obtain a flat graph. To correct for the non-linearity of the ramp, a $2^{nd}$ order polynomial is used. An example of a typical chip is shown in figure \ref{fig:NLCorr}. The time resolution before and after the non-linearity correction are compared in figure \ref{fig:TimingNLCorr}, showing an improvement by about 5\%.
 
 \begin{figure}[htbp!]
   \begin{subfigure}[t]{0.49\textwidth}
@@ -313,7 +322,7 @@ The time calibration relies on the linearity of the TDC voltage ramp in the \tex
     \includegraphics[width=1\linewidth]{fig/Timing_AHCAL_LinCorrection.eps}
     \caption{} \label{fig:TimingNLCorr}
   \end{subfigure}
-  \caption{\subref{fig:NLCorr}) Dependence of the mean time of the first hit as a function of the raw hit time in TDC units for chip 146 (BXID even) on layer 9. The quadratic fit is slightly curved showing that this chip presents a non-linear TDC ramp. \subref{fig:TimingNLCorr}) Time of the first hit distribution before and after the non-linearity correction. The correction results in an improvement of around 5\% on the RMS of the distribution.}
+  \caption{\subref{fig:NLCorr}) Dependence of the mean time of the first hit as a function of the raw hit time in TDC units for chip 146 (BXID even) on layer 9. The quadratic fit is slightly curved showing that this chip presents a non-linear TDC ramp. \subref{fig:TimingNLCorr}) Time of the first hit distribution before and after the non-linearity correction.}
 \end{figure}
 
 \subsection{Time-walk correction}
@@ -558,7 +567,9 @@ Firstly, the timing calibration was presented. A time resolution of around 5 ns 
 
 Secondly, the study of the time development of pion showers was presented. The late contributions are predominant at a larger radius from the core of the shower and they are consistent with low hit energies below 1 MIP. Comparisons to simulations show that the time structure of pion showers is well reproduced by the \geant physics lists QGSP\_BERT\_HP and QBBC. The QGSP\_BERT physics list tends to over-estimate the late contribution, showing that a proper treatment of neutrons is needed to reproduce the data to a satisfactory level.
 
-% \acknowledgments
+The time resolution obtained in testbeam does not reflect the time resolution that would be obtained in a linear collider scenario. The clock period would be increased from \SI{250}{\kilo\hertz} to \SI{5}{\mega\hertz} (\SI{4}{\micro\second} to \SI{200}{\nano\second}, otherwise a running mode called \textit{ILC mode}.). This would, theoretically, enable to achieve a single channel time resolution around \SI{150}{\pico\second}. Further testbeams are planned in order to evaluate the timing performance in ILC mode. Furthermore, many of the short comings in this analysis are related to the hardware poor performance. A better revision of the front-end electronics, especially a redesign of the timing measurement, would have a large impact on the timing performance of the detector. As well, the operation of the detector using similar layers (i.e same front-end revision, same SiPM type...) would facilitate the energy and timing calibration. This has already been demonstrated in a recent large prototype with 22k channels \cite{Sefkow:2018rhp}.
+
+%\acknowledgments
 
 \bibliography{biblio}
 \bibliographystyle{JHEP}

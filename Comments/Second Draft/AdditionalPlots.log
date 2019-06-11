@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.2.19)  6 JUN 2019 15:34
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.2.19)  11 JUN 2019 15:32
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -452,7 +452,38 @@ Package pdftexcmds Info: \pdfdraftmode not found.
 
 Package epstopdf Warning: Drivers other than `pdftex' and `luatex' are not supported.
 
-)) (./AdditionalPlots.aux)
+)) (./AdditionalPlots.aux
+
+LaTeX Warning: Label `fig:Radius_FHI' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Radius_FHI' multiply defined.
+
+
+LaTeX Warning: Label `fig:Radius_FHISim1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Radius_FHISim1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Radius_FHIAll' multiply defined.
+
+
+LaTeX Warning: Label `fig:Radius_FHI_Fixed' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Radius_FHI_Fixed' multiply defined.
+
+
+LaTeX Warning: Label `fig:Radius_FHI_FixedSim' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Radius_FHI_FixedSim' multiply defined.
+
+
+LaTeX Warning: Label `fig:Radius_FHISim' multiply defined.
+
+)
 \openout1 = `AdditionalPlots.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -552,15 +583,27 @@ File: ../../Draft/fig/Timing_dNdt_Comparison_50GeVe.eps Graphic file (type eps)
 <../../Draft/fig/Timing_dNdt_Comparison_50GeVe.eps>
 File: ../../Draft/fig/Timing_Energy_Comparison_ShortAsymRange.eps Graphic file (type eps)
 <../../Draft/fig/Timing_Energy_Comparison_ShortAsymRange.eps>
- [3] [4] (./AdditionalPlots.aux) )
+File: ../../Draft/fig/Timing_Radius_Comparison_ShortAsymRange_ShowerStart.eps Graphic file (type eps)
+<../../Draft/fig/Timing_Radius_Comparison_ShortAsymRange_ShowerStart.eps>
+File: ../../Draft/fig/Radius_ShowerStartTruth.eps Graphic file (type eps)
+<../../Draft/fig/Radius_ShowerStartTruth.eps>
+File: ../../Draft/fig/Timing_Radius_Comparison_ShortAsymRange_ShowerStart_FixedModule.eps Graphic file (type eps)
+<../../Draft/fig/Timing_Radius_Comparison_ShortAsymRange_ShowerStart_FixedModule.eps>
+File: ../../Draft/fig/Radius_ShowerStartTruth_FixedModule.eps Graphic file (type eps)
+<../../Draft/fig/Radius_ShowerStartTruth_FixedModule.eps>
+ [3] [4] [5] (./AdditionalPlots.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
  15873 strings out of 492933
  314606 string characters out of 6133145
- 328230 words of memory out of 5000000
+ 329269 words of memory out of 5000000
  19783 multiletter control sequences out of 15000+600000
  558959 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  42i,9n,40p,618b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on AdditionalPlots.xdv (4 pages, 7188 bytes).
+Output written on AdditionalPlots.xdv (5 pages, 8716 bytes).

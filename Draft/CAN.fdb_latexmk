@@ -1,23 +1,24 @@
 # Fdb version 3
-["bibtex CAN"] 1559835374 "CAN.aux" "CAN.bbl" "CAN" 1559836364
+["bibtex CAN"] 1560266922 "CAN.aux" "CAN.bbl" "CAN" 1560266937
   "./JHEP.bst" 1525875018 20366 831a28ea1bdab239787a5f8d5fe1ce22 ""
-  "CAN.aux" 1559836357 17375 4bcfa4a7f0a9e46b29855871c5d0ff62 ""
-  "biblio.bib" 1554738731 11866 5e8cd50f08745e2bd383f230bc447ac5 ""
+  "CAN.aux" 1560266924 17765 232c896c600b83be2acce494d81092a0 ""
+  "biblio.bib" 1560262947 12534 4c4edab07bf02169b343e5972a6d96e8 ""
   (generated)
   "CAN.bbl"
   "CAN.blg"
-["xdvipdfmx"] 1559836357 "CAN.xdv" "CAN.pdf" "CAN" 1559836364
-  "CAN.xdv" 1559836357 101444 e06414ad6d540f9e7440f815cc152a73 "xelatex"
+["xdvipdfmx"] 1560266925 "CAN.xdv" "CAN.pdf" "CAN" 1560266937
+  "CAN.xdv" 1560266924 104000 68694ed6f2f92f9737d850c50aa0e568 "xelatex"
   (generated)
   "CAN.pdf"
-["xelatex"] 1559836356 "CAN.tex" "CAN.xdv" "CAN" 1559836364
-  "/dev/null" 1559835909 0 d41d8cd98f00b204e9800998ecf8427e ""
+["xelatex"] 1560266922 "CAN.tex" "CAN.xdv" "CAN" 1560266937
+  "/dev/null" 1560266917 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm" 1480098688 1384 4632f5e54900a7dadbb83f555bc61e56 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm" 1480098688 6628 34c39492c0adc454c1c199922bba8363 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm" 1480098688 7040 b2bd27e2bfe6f6948cbc3239cae7444f ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm" 1480098689 6880 f19b8995b61c334d78fc734065f6b4d4 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm" 1480098689 1352 fa28a7e6d323c65ce7d13d5342ff6be2 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm" 1480098689 6672 e3ab9e37e925f3045c9005e6d1473d56 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm" 1480098689 16648 7e91c60ebf91b9c60e16ef52b3070f9c ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm" 1480098689 2288 f478fc8fed18759effb59f3dad7f3084 ""
@@ -95,6 +96,7 @@
   "/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1phv.fd" 1480098837 1488 9a55ac1cde6b4798a7f56844bb75a553 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ptm.fd" 1480098837 774 61d7da1e9f9e74989b196d147e623736 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/times.sty" 1480098837 857 6c716f26c5eadfb81029fcd6ce2d45e6 ""
+  "/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ts1ptm.fd" 1480098837 619 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg" 1520891397 4745 4153fed01bfa3d89ec4de9502b341d60 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx.sty" 1526677777 276785 6e39f76222b0ccef1eae562690ea396e ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty" 1546812253 12527 31ab547f6520657998ecf91709f950ac ""
@@ -104,11 +106,12 @@
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1544742277 35176 ce7fee66be1fb01dfc6b702a7dbfa0ea ""
   "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1550601710 3737826 764cb4c2f371f0ed3269baf6969906d8 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "CAN.aux" 1559836357 17375 4bcfa4a7f0a9e46b29855871c5d0ff62 ""
-  "CAN.bbl" 1559835375 4090 d143852e2036270ca25f8814bd02094c "bibtex CAN"
-  "CAN.tex" 1559836355 68437 90a8e3ab1e5aabaab76ecb75febc0dcf ""
-  "CAN.toc" 1559836357 1691 e930125dfd4f37d38992ee64e3f1020e ""
+  "CAN.aux" 1560266924 17765 232c896c600b83be2acce494d81092a0 ""
+  "CAN.bbl" 1560266922 4359 5facc4e60a792958a4b0db93668f4adb "bibtex CAN"
+  "CAN.tex" 1560266903 70008 9c8dff7846669b88f858bb47498a3ccd ""
+  "CAN.toc" 1560266924 1691 e930125dfd4f37d38992ee64e3f1020e ""
   "JINST.cls" 1525875018 64023 0e2effaabacc525d1bf75b5332bea0ce ""
+  "fig/AllExtractedOffsets.eps" 1560266512 13768 cfa2925c705bf39a8a90aa3ea3021142 ""
   "fig/CheckCorrection.eps" 1526725323 14173 e8b6bc244b32291588e6e98cae8c4530 ""
   "fig/ComparisonMCData_MIPPeak.eps" 1525875018 11625 dac301e8f5df84ddd27c5e1195139bab ""
   "fig/Comparison_MokkaDD4hepData_Muons_DD4heponly.eps" 1559727819 63265 33fe6cb8b333b2c05a1c5e40d8713dfa ""
@@ -119,7 +122,7 @@
   "fig/LinearityCorrection_Module09_Chip146_BXID0.eps" 1527007456 14564 247ba157effcea584e3443fa75e32263 ""
   "fig/NumberHits_Dependance_AllEnergies.eps" 1559725083 9922 88bc88e1d9cdf6cf8194d5da939ec744 ""
   "fig/ParametrisationPedestalShift_20GeV.eps" 1525875018 8247 0d517e74f2b9884457927a9e92823928 ""
-  "fig/ProfileMuons_Edep_DD4hep.eps" 1527607293 13676 4adce3f33962ea55488084e589dd3bcf ""
+  "fig/ProfileMuons_Edep_DD4hep.eps" 1560264863 13364 f8f83ce37211e40936d7c4471376166f ""
   "fig/Profiles_DeviationT0_12_14.eps" 1559831683 36081 a471c3bdf0378134a6415a9f2053728e ""
   "fig/Profiles_DeviationT0_12_14_Corrected.eps" 1559831687 34591 dc6fc3ba2240bedff9e59e871b791ad1 ""
   "fig/SlopesTDC.eps" 1525875018 8606 0eb869d7fa0de50c62cd0744c371d640 ""
@@ -138,6 +141,6 @@
   "fig/Timing_dNdt_Comparison.eps" 1559735888 67036 7344b8179af837de6e69e397865d4b7b ""
   (generated)
   "CAN.log"
-  "CAN.xdv"
-  "CAN.toc"
   "CAN.aux"
+  "CAN.toc"
+  "CAN.xdv"

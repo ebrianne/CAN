@@ -258,6 +258,8 @@ INPUT fig/T0ReferenceError.eps
 INPUT fig/T0ReferenceError.eps
 INPUT fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.eps
 INPUT fig/Timing_Chip236_Chn21_Mem01_BXID1_withOffset.eps
+INPUT fig/AllExtractedOffsets.eps
+INPUT fig/AllExtractedOffsets.eps
 INPUT fig/LinearityCorrection_Module09_Chip146_BXID0.eps
 INPUT fig/LinearityCorrection_Module09_Chip146_BXID0.eps
 INPUT fig/Timing_AHCAL_LinCorrection.eps
@@ -288,6 +290,11 @@ INPUT fig/Time_Radius_50GeV_SSF_DD4hep.eps
 INPUT fig/Time_Radius_50GeV_SSF_DD4hep.eps
 INPUT fig/Time_Radius_50GeV_BL_DD4hep.eps
 INPUT fig/Time_Radius_50GeV_BL_DD4hep.eps
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
 INPUT CAN.bbl
 INPUT CAN.bbl
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm

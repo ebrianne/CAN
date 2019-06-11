@@ -190,4 +190,8 @@ INPUT ../../Draft/fig/Timing_dNdt_Comparison_50GeVe.eps
 INPUT ../../Draft/fig/Timing_dNdt_Comparison_50GeVe.eps
 INPUT ../../Draft/fig/Timing_Energy_Comparison_ShortAsymRange.eps
 INPUT ../../Draft/fig/Timing_Energy_Comparison_ShortAsymRange.eps
+INPUT ../../Draft/fig/Timing_Radius_Comparison_ShortAsymRange_ShowerStart.eps
+INPUT ../../Draft/fig/Radius_ShowerStartTruth.eps
+INPUT ../../Draft/fig/Timing_Radius_Comparison_ShortAsymRange_ShowerStart_FixedModule.eps
+INPUT ../../Draft/fig/Radius_ShowerStartTruth_FixedModule.eps
 INPUT AdditionalPlots.aux

@@ -54,8 +54,6 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Overall view of the different steps performed for the AHCAL timing calibration. In total, more than 20000 constants are needed.\relax }}{8}\protected@file@percent }
 \newlabel{fig:CalibOverview}{{4}{8}}
 \citation{Brianne2012}
-\citation{Hartbrich2011}
-\citation{Brianne2012}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Slope and Pedestal extraction}{9}\protected@file@percent }
 \newlabel{eq:slope}{{5.2}{9}}
 \newlabel{fig:TDC_Spectrum}{{5a}{9}}
@@ -63,6 +61,8 @@
 \newlabel{fig:slopes}{{5b}{9}}
 \newlabel{sub@fig:slopes}{{b}{9}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \subref  {fig:TDC_Spectrum}) TDC spectrum of a typical chip. The vertical black lines indicate the fitted Max and Pedestal parameters for this chip. The horizontal red line represents the mean $\mu $ of the histogram on the y-axis used for the determination of the parameter $a$ as the value of the first bin above 30\% of $\mu $. The parameter $b$ is extracted as the value of the last bin above 50\% of the maximum bin. The extracted parameters are $1/s$ = 1.44 $\pm $ 0.01 ns/TDC, $a$ = 888 $\pm $ 5 TDC and $b$ = 3613 $\pm $ 8 TDC. \subref  {fig:slopes}) Distribution of the fitted slopes for even and odd bunch-crossing IDs. $\mu _{odd}$ = 1.564 ns/TDC, RMS$_{odd}$ = 0.121, $\mu _{even}$ = 1.556 ns/TDC, RMS$_{even}$ = 0.113. In total, 208 TDC slopes were extracted.\relax }}{9}\protected@file@percent }
+\citation{Hartbrich2011}
+\citation{Brianne2012}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Time reference calibration}{10}\protected@file@percent }
 \newlabel{subsec:TimeRefCalib}{{5.4}{10}}
 \newlabel{fig:T0PolyBefore}{{6a}{10}}
@@ -81,21 +81,21 @@
 \newlabel{sub@fig:TimeChnwithOffset}{{a}{11}}
 \newlabel{fig:AllExtractedOffsets}{{8b}{11}}
 \newlabel{sub@fig:AllExtractedOffsets}{{b}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \subref  {fig:TimeChnwithOffset}) Time of first hit distribution for a single channel (Chip 236, Chn 21, Mem 01, BXID 1). An offset of -165.3 ns is determined for this channel. \subref  {fig:AllExtractedOffsets}) Distribution of the time offsets extracted for all chips, channels, memory cells and bunch-crossing. The mean value is around the expected value of -150 ns considering cable length and trigger logic electronics.\relax }}{11}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \subref  {fig:TimeChnwithOffset}) Reconstructed time $t_0$ for a single channel (Chip 236, Chn 21, Mem 01, BXID 1) before correcting for the time offset. An offset of -165.3 ns is determined for this channel. \subref  {fig:AllExtractedOffsets}) Distribution of the time offsets extracted for all chips, channels, memory cells and bunch-crossing. The mean value is around the expected value of -150 ns considering cable length and trigger logic electronics.\relax }}{11}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Non-linearity correction}{12}\protected@file@percent }
 \newlabel{sec:Non-linCorr}{{5.6}{12}}
 \newlabel{fig:NLCorr}{{9a}{12}}
 \newlabel{sub@fig:NLCorr}{{a}{12}}
 \newlabel{fig:TimingNLCorr}{{9b}{12}}
 \newlabel{sub@fig:TimingNLCorr}{{b}{12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces \subref  {fig:NLCorr}) Dependence of the mean time of the first hit as a function of the raw hit time in TDC units for chip 146 (BXID even) on layer 9. The quadratic fit is slightly curved showing that this chip presents a non-linear TDC ramp. \subref  {fig:TimingNLCorr}) Time of the first hit distribution before and after the non-linearity correction.\relax }}{12}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces \subref  {fig:NLCorr}) Dependence of the mean time $t_1$ as a function of the raw hit time in TDC units for chip 146 (BXID even) on layer 9. The quadratic fit is slightly curved showing that this chip presents a non-linear TDC ramp. \subref  {fig:TimingNLCorr}) Time distribution before ($t_1$) and after ($t_2$) the non-linearity correction.\relax }}{12}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.7}Time-walk correction}{12}\protected@file@percent }
 \newlabel{sec:TWCorr}{{5.7}{12}}
 \newlabel{fig:time_walk}{{10a}{13}}
 \newlabel{sub@fig:time_walk}{{a}{13}}
 \newlabel{fig:Timing_AllCorr}{{10b}{13}}
 \newlabel{sub@fig:Timing_AllCorr}{{b}{13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces \subref  {fig:time_walk}) Time of first hit as a function of the hit energy. A difference up to 6 ns is seen between small and large amplitudes. Time-walk correction extracted from data. The fit function is of the form $f(E_{hit}) = \text  {A} \times e^{-\lambda {}E_{hit}} + \text  {B}$, where A is a normalization constant in ns, $\lambda $ a decay constant in MIP$^{-1}$ and B a time offset in ns. \subref  {fig:Timing_AllCorr}) Time of the first hit distribution before and after the time-walk correction. The correction results in an improvement of around 3\% on the RMS of the distribution.\relax }}{13}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces \subref  {fig:time_walk}) $t_{2}$ as a function of the hit energy. A difference up to 6 ns is seen between small and large amplitudes. Time-walk correction extracted from data. The fit function is of the form $f(E_{hit}) = \text  {A} \times e^{-\lambda {}E_{hit}} + \text  {B}$, where A is a normalization constant in ns, $\lambda $ a decay constant in MIP$^{-1}$ and B a time offset in ns. \subref  {fig:Timing_AllCorr}) Time distribution before ($t_1$ and $t_2$) and after ($t_3$) the time-walk correction. The correction results in an improvement of around 3\% on the RMS of the distribution.\relax }}{13}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.8}Triggered channel occupancy correction}{13}\protected@file@percent }
 \newlabel{sec:NumberTrigger}{{5.8}{13}}
 \global\@todotoctrue
@@ -103,8 +103,8 @@
 \newlabel{sub@fig:nhits_profile}{{a}{14}}
 \newlabel{fig:nhits_RMS_profile}{{11b}{14}}
 \newlabel{sub@fig:nhits_RMS_profile}{{b}{14}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces \subref  {fig:nhits_profile}) Mean time of the first hit as a function of the number of triggered channels above 0.5 MIP, $N_{trig/chip}$, in a chip. The mean time shift upwards with the increase of triggers leading to large tails in the time distribution. A second order polynomial fit is applied for the time correction shown by the red dashed line. \subref  {fig:nhits_RMS_profile}) RMS of the time distribution for 20 GeV electrons as a function of $N_{trig/chip}$.\relax }}{14}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Residuals of the mean time of the first hit as a function of the number of triggered channels above 0.5 MIP in a chip after correction. The correction has been applied to all electron samples separately to evaluate the systematic uncertainty. The vertical red lines delimit the three sections used for the systematic uncertainty.\relax }}{14}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces \subref  {fig:nhits_profile}) Mean time $t_3$ as a function of the number of triggered channels above 0.5 MIP, $N_{trig/chip}$, in a chip. The mean time shift upwards with the increase of triggers leading to large tails in the time distribution. A second order polynomial fit is applied for the time correction shown by the red dashed line. \subref  {fig:nhits_RMS_profile}) RMS of the time distribution for 20 GeV electrons as a function of $N_{trig/chip}$.\relax }}{14}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Residuals of the mean time $t_4$ as a function of the number of triggered channels above 0.5 MIP in a chip after correction. The correction has been applied to all electron samples separately to evaluate the systematic uncertainty. The vertical red lines delimit the three sections used for the systematic uncertainty.\relax }}{14}\protected@file@percent }
 \newlabel{fig:Nhit_residuals}{{12}{14}}
 \@writefile{toc}{\contentsline {section}{\numberline {6}Results}{15}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Systematic uncertainties}{15}\protected@file@percent }
